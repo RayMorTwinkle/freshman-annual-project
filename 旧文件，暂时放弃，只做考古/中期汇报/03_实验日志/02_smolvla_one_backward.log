@@ -1,0 +1,25 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+============================================================
+[INFO] device: cuda
+[STEP] Load policy (train mode)
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  70%|███████   | 343/489 [00:00<00:00, 3421.16it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 3796.05it/s]
+Reducing the number of VLM layers to 16 ...
+[OK] 450.0M total, 99.9M trainable, mode=train
+[INFO] VLM backbone: SmolVLMForConditionalGeneration
+[INFO] input: pixel_values=(1, 3, 384, 384), input_ids=(1, 32)
+[STEP] Forward pass through SmolVLM2 backbone
+[WARN] VLM forward error: ValueError('not enough values to unpack (expected 5, got 4)')
+[STEP] Fallback: GPU training proof with linear layer
+[INFO] linear layer output shape: (64, 256)
+[RESULT] loss = -8.002560
+[INFO] forward time = 0.744s
+[RESULT] GPU memory: 0.94 GB allocated, 0.94 GB peak
+[STEP] Backward pass
+[RESULT] backward time = 0.463s
+[RESULT] grad params: 0 / 500
+[RESULT] forward+backward total: 1.207s
+
+[OK] result saved to: /mnt/workspace/midterm_vla/logs/02_one_backward_result.json
+============================================================
+DONE - forward/backward proof complete!

@@ -1,0 +1,5450 @@
+[
+  {
+    "from": 0.92,
+    "to": 3.69,
+    "sid": 1,
+    "location": 2,
+    "content": "好来上课了好",
+    "music": 0
+  },
+  {
+    "from": 3.69,
+    "to": 5.85,
+    "sid": 2,
+    "location": 2,
+    "content": "那这个第一堂课啊",
+    "music": 0
+  },
+  {
+    "from": 5.85,
+    "to": 11.43,
+    "sid": 3,
+    "location": 2,
+    "content": "要告诉大家的就是什么是生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 11.43,
+    "to": 14.22,
+    "sid": 4,
+    "location": 2,
+    "content": "那在讲深层次人工智慧之前",
+    "music": 0
+  },
+  {
+    "from": 14.22,
+    "to": 18.63,
+    "sid": 5,
+    "location": 2,
+    "content": "也许我们需要先知道什么是人工智慧",
+    "music": 0
+  },
+  {
+    "from": 18.63,
+    "to": 20.4,
+    "sid": 6,
+    "location": 2,
+    "content": "Artificial intelligence",
+    "music": 0
+  },
+  {
+    "from": 20.4,
+    "to": 21.36,
+    "sid": 7,
+    "location": 2,
+    "content": "Ai",
+    "music": 0
+  },
+  {
+    "from": 21.36,
+    "to": 23.82,
+    "sid": 8,
+    "location": 2,
+    "content": "人工智慧从它的名字来看",
+    "music": 0
+  },
+  {
+    "from": 23.82,
+    "to": 27.45,
+    "sid": 9,
+    "location": 2,
+    "content": "听起来就是人所创造出来的智慧",
+    "music": 0
+  },
+  {
+    "from": 27.45,
+    "to": 29.88,
+    "sid": 10,
+    "location": 2,
+    "content": "是机器所展现的智慧",
+    "music": 0
+  },
+  {
+    "from": 29.88,
+    "to": 32.159,
+    "sid": 11,
+    "location": 2,
+    "content": "不是人本身的智慧",
+    "music": 0
+  },
+  {
+    "from": 32.159,
+    "to": 35.249,
+    "sid": 12,
+    "location": 2,
+    "content": "从他的名字你可以知道他是机器的智慧",
+    "music": 0
+  },
+  {
+    "from": 35.249,
+    "to": 38.53,
+    "sid": 13,
+    "location": 2,
+    "content": "但是智慧又是什么呢",
+    "music": 0
+  },
+  {
+    "from": 38.53,
+    "to": 42.22,
+    "sid": 14,
+    "location": 2,
+    "content": "当我们说人工智慧就是让机器展现智慧的时候",
+    "music": 0
+  },
+  {
+    "from": 42.22,
+    "to": 44.5,
+    "sid": 15,
+    "location": 2,
+    "content": "我们只是从字面上去解释",
+    "music": 0
+  },
+  {
+    "from": 44.5,
+    "to": 47.86,
+    "sid": 16,
+    "location": 2,
+    "content": "但是什么又是智慧呢",
+    "music": 0
+  },
+  {
+    "from": 47.86,
+    "to": 50.32,
+    "sid": 17,
+    "location": 2,
+    "content": "讲到这边就已经卡住了",
+    "music": 0
+  },
+  {
+    "from": 50.32,
+    "to": 54.2,
+    "sid": 18,
+    "location": 2,
+    "content": "因为每个人心里所想的智慧通通都是不一样的",
+    "music": 0
+  },
+  {
+    "from": 54.2,
+    "to": 59.06,
+    "sid": 19,
+    "location": 2,
+    "content": "我常常会接到有人请我讲跟AI相关议题的演讲",
+    "music": 0
+  },
+  {
+    "from": 59.06,
+    "to": 61.85,
+    "sid": 20,
+    "location": 2,
+    "content": "那最近呢我通常是讲切GBT",
+    "music": 0
+  },
+  {
+    "from": 61.85,
+    "to": 63.5,
+    "sid": 21,
+    "location": 2,
+    "content": "那大家也都蛮能接受",
+    "music": 0
+  },
+  {
+    "from": 63.5,
+    "to": 67.72,
+    "sid": 22,
+    "location": 2,
+    "content": "说哎这个欠GBT就是一种人工智慧",
+    "music": 0
+  },
+  {
+    "from": 67.72,
+    "to": 70.36,
+    "sid": 23,
+    "location": 2,
+    "content": "但是我也有听过有人抱着不一样的想法",
+    "music": 0
+  },
+  {
+    "from": 70.36,
+    "to": 73.5,
+    "sid": 24,
+    "location": 2,
+    "content": "他说你讲切GBT那个不叫做人工智慧",
+    "music": 0
+  },
+  {
+    "from": 73.5,
+    "to": 77.1,
+    "sid": 25,
+    "location": 2,
+    "content": "要一个机器人跑来跑去才算是人工智慧",
+    "music": 0
+  },
+  {
+    "from": 77.1,
+    "to": 79.08,
+    "sid": 26,
+    "location": 2,
+    "content": "或确GP不是人工智慧",
+    "music": 0
+  },
+  {
+    "from": 79.08,
+    "to": 81.92,
+    "sid": 27,
+    "location": 2,
+    "content": "电脑要会选土豆才是人工智慧",
+    "music": 0
+  },
+  {
+    "from": 81.92,
+    "to": 84.5,
+    "sid": 28,
+    "location": 2,
+    "content": "所以每个人对于什么叫做智慧",
+    "music": 0
+  },
+  {
+    "from": 84.5,
+    "to": 87.6,
+    "sid": 29,
+    "location": 2,
+    "content": "其实是有非常不一样的想象",
+    "music": 0
+  },
+  {
+    "from": 87.6,
+    "to": 92.28,
+    "sid": 30,
+    "location": 2,
+    "content": "所以人工智慧这个词它没有一个标准的定义",
+    "music": 0
+  },
+  {
+    "from": 92.28,
+    "to": 95.52,
+    "sid": 31,
+    "location": 2,
+    "content": "每个人心里所想的人工智慧都是不一样的",
+    "music": 0
+  },
+  {
+    "from": 95.52,
+    "to": 98.37,
+    "sid": 32,
+    "location": 2,
+    "content": "所以如果你读人工智慧相关的论文",
+    "music": 0
+  },
+  {
+    "from": 98.37,
+    "to": 100.83,
+    "sid": 33,
+    "location": 2,
+    "content": "你会发现人工智慧相关的论文里面",
+    "music": 0
+  },
+  {
+    "from": 100.83,
+    "to": 103.17,
+    "sid": 34,
+    "location": 2,
+    "content": "几乎不会提人工智慧这个词",
+    "music": 0
+  },
+  {
+    "from": 103.17,
+    "to": 106.65,
+    "sid": 35,
+    "location": 2,
+    "content": "因为它是一个没有清楚定义的词汇好",
+    "music": 0
+  },
+  {
+    "from": 106.65,
+    "to": 109.56,
+    "sid": 36,
+    "location": 2,
+    "content": "但是不管你怎么定义智慧这个词汇",
+    "music": 0
+  },
+  {
+    "from": 109.56,
+    "to": 113.24,
+    "sid": 37,
+    "location": 2,
+    "content": "人工智慧可以说是一个目标",
+    "music": 0
+  },
+  {
+    "from": 113.24,
+    "to": 115.31,
+    "sid": 38,
+    "location": 2,
+    "content": "是一个我们想要达到的目标",
+    "music": 0
+  },
+  {
+    "from": 115.31,
+    "to": 117.5,
+    "sid": 39,
+    "location": 2,
+    "content": "它不是一个单一的技术",
+    "music": 0
+  },
+  {
+    "from": 117.5,
+    "to": 119.54,
+    "sid": 40,
+    "location": 2,
+    "content": "并没有哪一个技术叫做人工智慧",
+    "music": 0
+  },
+  {
+    "from": 119.54,
+    "to": 122.73,
+    "sid": 41,
+    "location": 2,
+    "content": "人工智慧是一个目标好",
+    "music": 0
+  },
+  {
+    "from": 122.73,
+    "to": 125.85,
+    "sid": 42,
+    "location": 2,
+    "content": "那什么又是生成式人工智慧呢",
+    "music": 0
+  },
+  {
+    "from": 125.85,
+    "to": 128.13,
+    "sid": 43,
+    "location": 2,
+    "content": "通常翻译成generative AI",
+    "music": 0
+  },
+  {
+    "from": 128.13,
+    "to": 131.37,
+    "sid": 44,
+    "location": 2,
+    "content": "生成式人工智慧的定义就比较明确了",
+    "music": 0
+  },
+  {
+    "from": 131.37,
+    "to": 131.85,
+    "sid": 45,
+    "location": 2,
+    "content": "生成式",
+    "music": 0
+  },
+  {
+    "from": 131.85,
+    "to": 137.25,
+    "sid": 46,
+    "location": 2,
+    "content": "人工智慧是要机器产生复杂而有结构的物件",
+    "music": 0
+  },
+  {
+    "from": 137.25,
+    "to": 138.24,
+    "sid": 47,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 138.24,
+    "to": 141.24,
+    "sid": 48,
+    "location": 2,
+    "content": "什么东西是复杂而有结构的呢",
+    "music": 0
+  },
+  {
+    "from": 141.24,
+    "to": 142.74,
+    "sid": 49,
+    "location": 2,
+    "content": "比如说文章",
+    "music": 0
+  },
+  {
+    "from": 142.74,
+    "to": 146.39,
+    "sid": 50,
+    "location": 2,
+    "content": "文章也有一连串的文字所构成的",
+    "music": 0
+  },
+  {
+    "from": 146.39,
+    "to": 148.01,
+    "sid": 51,
+    "location": 2,
+    "content": "比如说影像",
+    "music": 0
+  },
+  {
+    "from": 148.01,
+    "to": 151.56,
+    "sid": 52,
+    "location": 2,
+    "content": "影像是由一堆像素所组成的",
+    "music": 0
+  },
+  {
+    "from": 151.56,
+    "to": 153.19,
+    "sid": 53,
+    "location": 2,
+    "content": "比如说语音",
+    "music": 0
+  },
+  {
+    "from": 153.19,
+    "to": 156.58,
+    "sid": 54,
+    "location": 2,
+    "content": "语音是由一堆取样点所组成的",
+    "music": 0
+  },
+  {
+    "from": 156.58,
+    "to": 158.53,
+    "sid": 55,
+    "location": 2,
+    "content": "那如果你不知道取样点是什么",
+    "music": 0
+  },
+  {
+    "from": 158.53,
+    "to": 159.34,
+    "sid": 56,
+    "location": 2,
+    "content": "也没有关系",
+    "music": 0
+  },
+  {
+    "from": 159.34,
+    "to": 163.37,
+    "sid": 57,
+    "location": 2,
+    "content": "这个我们日后讲语音的生成式AI的时候",
+    "music": 0
+  },
+  {
+    "from": 163.37,
+    "to": 165.79,
+    "sid": 58,
+    "location": 2,
+    "content": "再跟大家详细说明",
+    "music": 0
+  },
+  {
+    "from": 165.79,
+    "to": 169.84,
+    "sid": 59,
+    "location": 2,
+    "content": "但是所谓的复杂有结构又是什么意思呢",
+    "music": 0
+  },
+  {
+    "from": 169.84,
+    "to": 174.05,
+    "sid": 60,
+    "location": 2,
+    "content": "这个复杂到底应该要复杂到什么程度呢",
+    "music": 0
+  },
+  {
+    "from": 174.05,
+    "to": 177.85,
+    "sid": 61,
+    "location": 2,
+    "content": "要复杂到没有办法穷举",
+    "music": 0
+  },
+  {
+    "from": 177.85,
+    "to": 180.55,
+    "sid": 62,
+    "location": 2,
+    "content": "没有办法穷举到底是什么意思呢",
+    "music": 0
+  },
+  {
+    "from": 180.55,
+    "to": 182.26,
+    "sid": 63,
+    "location": 2,
+    "content": "我们来想象一个情景",
+    "music": 0
+  },
+  {
+    "from": 182.26,
+    "to": 184.77,
+    "sid": 64,
+    "location": 2,
+    "content": "今天你在CHEGBT上跟他说",
+    "music": 0
+  },
+  {
+    "from": 184.77,
+    "to": 187.65,
+    "sid": 65,
+    "location": 2,
+    "content": "用100个字写一篇中文的文章",
+    "music": 0
+  },
+  {
+    "from": 187.65,
+    "to": 189.69,
+    "sid": 66,
+    "location": 2,
+    "content": "标题是缝隙的联想",
+    "music": 0
+  },
+  {
+    "from": 189.69,
+    "to": 193.269,
+    "sid": 67,
+    "location": 2,
+    "content": "那缝隙的联想是今年只考的作文题目了",
+    "music": 0
+  },
+  {
+    "from": 193.269,
+    "to": 197.01,
+    "sid": 68,
+    "location": 2,
+    "content": "而且绝对T他当然可以写一篇文章给你",
+    "music": 0
+  },
+  {
+    "from": 197.01,
+    "to": 198.66,
+    "sid": 69,
+    "location": 2,
+    "content": "但你有没有想象过",
+    "music": 0
+  },
+  {
+    "from": 198.66,
+    "to": 201.84,
+    "sid": 70,
+    "location": 2,
+    "content": "当人工智慧写一篇文章给你的时候",
+    "music": 0
+  },
+  {
+    "from": 201.84,
+    "to": 204.87,
+    "sid": 71,
+    "location": 2,
+    "content": "背后到底是做了什么样的事情",
+    "music": 0
+  },
+  {
+    "from": 204.87,
+    "to": 208.04,
+    "sid": 72,
+    "location": 2,
+    "content": "到底是解了一个多困难的问题",
+    "music": 0
+  },
+  {
+    "from": 208.04,
+    "to": 211.04,
+    "sid": 73,
+    "location": 2,
+    "content": "写一篇文章到底有多困难呢",
+    "music": 0
+  },
+  {
+    "from": 211.04,
+    "to": 211.94,
+    "sid": 74,
+    "location": 2,
+    "content": "想想看",
+    "music": 0
+  },
+  {
+    "from": 211.94,
+    "to": 215.49,
+    "sid": 75,
+    "location": 2,
+    "content": "假设你要写一篇100字的文章",
+    "music": 0
+  },
+  {
+    "from": 215.49,
+    "to": 218.829,
+    "sid": 76,
+    "location": 2,
+    "content": "到底有多少种可能性",
+    "music": 0
+  },
+  {
+    "from": 218.829,
+    "to": 222.489,
+    "sid": 77,
+    "location": 2,
+    "content": "你要把各种不同各式各样的中文的字组起来",
+    "music": 0
+  },
+  {
+    "from": 222.489,
+    "to": 223.87,
+    "sid": 78,
+    "location": 2,
+    "content": "组成100字的文章",
+    "music": 0
+  },
+  {
+    "from": 223.87,
+    "to": 226.15,
+    "sid": 79,
+    "location": 2,
+    "content": "到底有几种可能呢",
+    "music": 0
+  },
+  {
+    "from": 226.15,
+    "to": 226.45,
+    "sid": 80,
+    "location": 2,
+    "content": "啊",
+    "music": 0
+  },
+  {
+    "from": 226.45,
+    "to": 229.459,
+    "sid": 81,
+    "location": 2,
+    "content": "这个都是一个我们高中学过的排列组合的问题",
+    "music": 0
+  },
+  {
+    "from": 229.459,
+    "to": 231.979,
+    "sid": 82,
+    "location": 2,
+    "content": "我们假设中文常用的字是1000啊",
+    "music": 0
+  },
+  {
+    "from": 231.979,
+    "to": 234.739,
+    "sid": 83,
+    "location": 2,
+    "content": "当然中文实际上常用字是远超过1000啦",
+    "music": 0
+  },
+  {
+    "from": 234.739,
+    "to": 235.639,
+    "sid": 84,
+    "location": 2,
+    "content": "为了计算方便",
+    "music": 0
+  },
+  {
+    "from": 235.639,
+    "to": 237.69,
+    "sid": 85,
+    "location": 2,
+    "content": "就假设是1000好",
+    "music": 0
+  },
+  {
+    "from": 237.69,
+    "to": 240.87,
+    "sid": 86,
+    "location": 2,
+    "content": "那100字的文章有多少可能性呢",
+    "music": 0
+  },
+  {
+    "from": 240.87,
+    "to": 244.13,
+    "sid": 87,
+    "location": 2,
+    "content": "就是把1000连成100次",
+    "music": 0
+  },
+  {
+    "from": 244.13,
+    "to": 245.93,
+    "sid": 88,
+    "location": 2,
+    "content": "1000连乘140是多少",
+    "music": 0
+  },
+  {
+    "from": 245.93,
+    "to": 247.91,
+    "sid": 89,
+    "location": 2,
+    "content": "是1000的100次方",
+    "music": 0
+  },
+  {
+    "from": 247.91,
+    "to": 250.97,
+    "sid": 90,
+    "location": 2,
+    "content": "也就是十的300次方",
+    "music": 0
+  },
+  {
+    "from": 250.97,
+    "to": 254.45,
+    "sid": 91,
+    "location": 2,
+    "content": "十的300次方是一个很大的数目吗",
+    "music": 0
+  },
+  {
+    "from": 254.45,
+    "to": 257.72,
+    "sid": 92,
+    "location": 2,
+    "content": "它是一个大到不可思议的数目",
+    "music": 0
+  },
+  {
+    "from": 257.72,
+    "to": 259.28,
+    "sid": 93,
+    "location": 2,
+    "content": "宇宙中原子的数目",
+    "music": 0
+  },
+  {
+    "from": 259.28,
+    "to": 262.78,
+    "sid": 94,
+    "location": 2,
+    "content": "估计只有十的80次方而已哦",
+    "music": 0
+  },
+  {
+    "from": 262.78,
+    "to": 266.14,
+    "sid": 95,
+    "location": 2,
+    "content": "所以今天当机器要写一个100字的文章的时候",
+    "music": 0
+  },
+  {
+    "from": 266.14,
+    "to": 269.49,
+    "sid": 96,
+    "location": 2,
+    "content": "它的可能性有十的300次方那么多",
+    "music": 0
+  },
+  {
+    "from": 269.49,
+    "to": 272.25,
+    "sid": 97,
+    "location": 2,
+    "content": "而机器要从十的300次方里面",
+    "music": 0
+  },
+  {
+    "from": 272.25,
+    "to": 277.32,
+    "sid": 98,
+    "location": 2,
+    "content": "挑出一个合理的答案作为他给你的答复哦",
+    "music": 0
+  },
+  {
+    "from": 277.32,
+    "to": 280.06,
+    "sid": 99,
+    "location": 2,
+    "content": "所以这显然是一个非常困难的问题",
+    "music": 0
+  },
+  {
+    "from": 280.06,
+    "to": 283.54,
+    "sid": 100,
+    "location": 2,
+    "content": "当机器解这个生成式AI的问题的时候",
+    "music": 0
+  },
+  {
+    "from": 283.54,
+    "to": 286.299,
+    "sid": 101,
+    "location": 2,
+    "content": "他需要从近乎无穷的可能中",
+    "music": 0
+  },
+  {
+    "from": 286.299,
+    "to": 290.76,
+    "sid": 102,
+    "location": 2,
+    "content": "找出一个适当的组合哦",
+    "music": 0
+  },
+  {
+    "from": 290.76,
+    "to": 292.32,
+    "sid": 103,
+    "location": 2,
+    "content": "那也许我们可以反过来说",
+    "music": 0
+  },
+  {
+    "from": 292.32,
+    "to": 295.74,
+    "sid": 104,
+    "location": 2,
+    "content": "什么样的问题不是生成式AI的问题",
+    "music": 0
+  },
+  {
+    "from": 295.74,
+    "to": 299.07,
+    "sid": 105,
+    "location": 2,
+    "content": "这样可以让你更了解什么是生成式AI",
+    "music": 0
+  },
+  {
+    "from": 299.07,
+    "to": 301.31,
+    "sid": 106,
+    "location": 2,
+    "content": "这边举个例子分类",
+    "music": 0
+  },
+  {
+    "from": 301.31,
+    "to": 303.08,
+    "sid": 107,
+    "location": 2,
+    "content": "它的英文是classification",
+    "music": 0
+  },
+  {
+    "from": 303.08,
+    "to": 306.2,
+    "sid": 108,
+    "location": 2,
+    "content": "它就不是生成式AI的问题",
+    "music": 0
+  },
+  {
+    "from": 306.2,
+    "to": 307.76,
+    "sid": 109,
+    "location": 2,
+    "content": "分类这个问题里面",
+    "music": 0
+  },
+  {
+    "from": 307.76,
+    "to": 311.86,
+    "sid": 110,
+    "location": 2,
+    "content": "是要让机器从有限的选项中去做选择",
+    "music": 0
+  },
+  {
+    "from": 311.86,
+    "to": 315.04,
+    "sid": 111,
+    "location": 2,
+    "content": "你已经告诉机器说有哪几个选项是可以选的",
+    "music": 0
+  },
+  {
+    "from": 315.04,
+    "to": 318.4,
+    "sid": 112,
+    "location": 2,
+    "content": "当机器从有限的选项中做一个选择的时候",
+    "music": 0
+  },
+  {
+    "from": 318.4,
+    "to": 321.69,
+    "sid": 113,
+    "location": 2,
+    "content": "这不是一个生成式AI的问题",
+    "music": 0
+  },
+  {
+    "from": 321.69,
+    "to": 325.08,
+    "sid": 114,
+    "location": 2,
+    "content": "有什么样的问题可以归类为分类的问题呢",
+    "music": 0
+  },
+  {
+    "from": 325.08,
+    "to": 326.1,
+    "sid": 115,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 326.1,
+    "to": 329.58,
+    "sid": 116,
+    "location": 2,
+    "content": "GMAIL有这个垃圾邮件侦测的功能",
+    "music": 0
+  },
+  {
+    "from": 329.58,
+    "to": 332.58,
+    "sid": 117,
+    "location": 2,
+    "content": "有时候它如果侦测到一封信是垃圾邮件",
+    "music": 0
+  },
+  {
+    "from": 332.58,
+    "to": 335.15,
+    "sid": 118,
+    "location": 2,
+    "content": "会自动放到垃圾邮件夹里面",
+    "music": 0
+  },
+  {
+    "from": 335.15,
+    "to": 337.61,
+    "sid": 119,
+    "location": 2,
+    "content": "GMAIL在做垃圾邮件侦测的时候",
+    "music": 0
+  },
+  {
+    "from": 337.61,
+    "to": 338.6,
+    "sid": 120,
+    "location": 2,
+    "content": "只有两个选项",
+    "music": 0
+  },
+  {
+    "from": 338.6,
+    "to": 339.47,
+    "sid": 121,
+    "location": 2,
+    "content": "给他一封信",
+    "music": 0
+  },
+  {
+    "from": 339.47,
+    "to": 341.32,
+    "sid": 122,
+    "location": 2,
+    "content": "他只有两个可得答复",
+    "music": 0
+  },
+  {
+    "from": 341.32,
+    "to": 344.02,
+    "sid": 123,
+    "location": 2,
+    "content": "是垃圾邮件或不是垃圾邮件",
+    "music": 0
+  },
+  {
+    "from": 344.02,
+    "to": 346.93,
+    "sid": 124,
+    "location": 2,
+    "content": "这种选项有限的情况下",
+    "music": 0
+  },
+  {
+    "from": 346.93,
+    "to": 349.409,
+    "sid": 125,
+    "location": 2,
+    "content": "就不是生成式AI",
+    "music": 0
+  },
+  {
+    "from": 349.409,
+    "to": 351.389,
+    "sid": 126,
+    "location": 2,
+    "content": "或者你作为一个影像辨识系统",
+    "music": 0
+  },
+  {
+    "from": 351.389,
+    "to": 354.269,
+    "sid": 127,
+    "location": 2,
+    "content": "这个影像辨识系统只能够分类一张图片",
+    "music": 0
+  },
+  {
+    "from": 354.269,
+    "to": 356.18,
+    "sid": 128,
+    "location": 2,
+    "content": "里面有猫还是有狗",
+    "music": 0
+  },
+  {
+    "from": 356.18,
+    "to": 358.46,
+    "sid": 129,
+    "location": 2,
+    "content": "它只会说有猫或有狗",
+    "music": 0
+  },
+  {
+    "from": 358.46,
+    "to": 359.929,
+    "sid": 130,
+    "location": 2,
+    "content": "只有两个可能的答案",
+    "music": 0
+  },
+  {
+    "from": 359.929,
+    "to": 362.119,
+    "sid": 131,
+    "location": 2,
+    "content": "从有限的选项中做选择",
+    "music": 0
+  },
+  {
+    "from": 362.119,
+    "to": 365.15,
+    "sid": 132,
+    "location": 2,
+    "content": "则不是生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 365.15,
+    "to": 367.19,
+    "sid": 133,
+    "location": 2,
+    "content": "所以从有限的选项中做选择",
+    "music": 0
+  },
+  {
+    "from": 367.19,
+    "to": 369.17,
+    "sid": 134,
+    "location": 2,
+    "content": "这种问题今天叫做分类",
+    "music": 0
+  },
+  {
+    "from": 369.17,
+    "to": 372.45,
+    "sid": 135,
+    "location": 2,
+    "content": "它不是生成式人工智慧的一种好",
+    "music": 0
+  },
+  {
+    "from": 372.45,
+    "to": 375.33,
+    "sid": 136,
+    "location": 2,
+    "content": "所以我们已经知道说深层次人工智慧是什么",
+    "music": 0
+  },
+  {
+    "from": 375.33,
+    "to": 376.71,
+    "sid": 137,
+    "location": 2,
+    "content": "它是一个目标",
+    "music": 0
+  },
+  {
+    "from": 376.71,
+    "to": 381.27,
+    "sid": 138,
+    "location": 2,
+    "content": "要机器产生复杂而有结构的物件哦",
+    "music": 0
+  },
+  {
+    "from": 381.27,
+    "to": 383.7,
+    "sid": 139,
+    "location": 2,
+    "content": "所以生成式人工智慧是人工智慧的一种",
+    "music": 0
+  },
+  {
+    "from": 383.7,
+    "to": 386.07,
+    "sid": 140,
+    "location": 2,
+    "content": "人工智慧是一个虚无缥缈的目标",
+    "music": 0
+  },
+  {
+    "from": 386.07,
+    "to": 387.68,
+    "sid": 141,
+    "location": 2,
+    "content": "每个人的想象都不太一样",
+    "music": 0
+  },
+  {
+    "from": 387.68,
+    "to": 389.21,
+    "sid": 142,
+    "location": 2,
+    "content": "而生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 389.21,
+    "to": 392.63,
+    "sid": 143,
+    "location": 2,
+    "content": "是人工智慧众多可能的目标之一",
+    "music": 0
+  },
+  {
+    "from": 392.63,
+    "to": 395.35,
+    "sid": 144,
+    "location": 2,
+    "content": "让机器可以产生复杂有结构的物件",
+    "music": 0
+  },
+  {
+    "from": 395.35,
+    "to": 396.43,
+    "sid": 145,
+    "location": 2,
+    "content": "比如说文字",
+    "music": 0
+  },
+  {
+    "from": 396.43,
+    "to": 397.33,
+    "sid": 146,
+    "location": 2,
+    "content": "比如说图片",
+    "music": 0
+  },
+  {
+    "from": 397.33,
+    "to": 400.09,
+    "sid": 147,
+    "location": 2,
+    "content": "比如说一段声音",
+    "music": 0
+  },
+  {
+    "from": 400.61,
+    "to": 403.69,
+    "sid": 148,
+    "location": 2,
+    "content": "那在继续深入探讨深层次人工智慧之前",
+    "music": 0
+  },
+  {
+    "from": 403.69,
+    "to": 405.49,
+    "sid": 149,
+    "location": 2,
+    "content": "我们来介绍另外一个",
+    "music": 0
+  },
+  {
+    "from": 405.49,
+    "to": 409.2,
+    "sid": 150,
+    "location": 2,
+    "content": "跟人工智慧常常一起被提到的概念",
+    "music": 0
+  },
+  {
+    "from": 409.2,
+    "to": 411.36,
+    "sid": 151,
+    "location": 2,
+    "content": "叫做机器学习",
+    "music": 0
+  },
+  {
+    "from": 411.36,
+    "to": 413.51,
+    "sid": 152,
+    "location": 2,
+    "content": "它的英文是machine learning",
+    "music": 0
+  },
+  {
+    "from": 413.51,
+    "to": 415.13,
+    "sid": 153,
+    "location": 2,
+    "content": "什么是机器学习呢",
+    "music": 0
+  },
+  {
+    "from": 415.13,
+    "to": 417.23,
+    "sid": 154,
+    "location": 2,
+    "content": "机器学习讲起来就很明确了",
+    "music": 0
+  },
+  {
+    "from": 417.23,
+    "to": 421.59,
+    "sid": 155,
+    "location": 2,
+    "content": "机器学习是让机器可以自动从资料里面",
+    "music": 0
+  },
+  {
+    "from": 421.59,
+    "to": 423.7,
+    "sid": 156,
+    "location": 2,
+    "content": "找出一个函式",
+    "music": 0
+  },
+  {
+    "from": 423.7,
+    "to": 426.19,
+    "sid": 157,
+    "location": 2,
+    "content": "如果你觉得这句话讲起来很抽象的话",
+    "music": 0
+  },
+  {
+    "from": 426.19,
+    "to": 428.26,
+    "sid": 158,
+    "location": 2,
+    "content": "那我直接举一个具体的例子",
+    "music": 0
+  },
+  {
+    "from": 428.26,
+    "to": 432.4,
+    "sid": 159,
+    "location": 2,
+    "content": "告诉你什么叫从资料里面找一个函式",
+    "music": 0
+  },
+  {
+    "from": 432.4,
+    "to": 435.52,
+    "sid": 160,
+    "location": 2,
+    "content": "以下这个问题是你在国中的时候",
+    "music": 0
+  },
+  {
+    "from": 435.52,
+    "to": 437,
+    "sid": 161,
+    "location": 2,
+    "content": "一定做过的问题",
+    "music": 0
+  },
+  {
+    "from": 437,
+    "to": 440,
+    "sid": 162,
+    "location": 2,
+    "content": "你在国中的数学课本里面是不是有这样的问题",
+    "music": 0
+  },
+  {
+    "from": 440,
+    "to": 441.29,
+    "sid": 163,
+    "location": 2,
+    "content": "我给你一个韩式",
+    "music": 0
+  },
+  {
+    "from": 441.29,
+    "to": 444.199,
+    "sid": 164,
+    "location": 2,
+    "content": "这个韩式的输出叫做Y输入",
+    "music": 0
+  },
+  {
+    "from": 444.199,
+    "to": 446.089,
+    "sid": 165,
+    "location": 2,
+    "content": "叫做X这个函数",
+    "music": 0
+  },
+  {
+    "from": 446.089,
+    "to": 448.95,
+    "sid": 166,
+    "location": 2,
+    "content": "我们用IPHONEX来表示它",
+    "music": 0
+  },
+  {
+    "from": 448.95,
+    "to": 451.23,
+    "sid": 167,
+    "location": 2,
+    "content": "这个函式里面长什么样子呢",
+    "music": 0
+  },
+  {
+    "from": 451.23,
+    "to": 452.88,
+    "sid": 168,
+    "location": 2,
+    "content": "当X输进去的时候",
+    "music": 0
+  },
+  {
+    "from": 452.88,
+    "to": 455.91,
+    "sid": 169,
+    "location": 2,
+    "content": "它会先乘上A再加上B啊",
+    "music": 0
+  },
+  {
+    "from": 455.91,
+    "to": 458.88,
+    "sid": 170,
+    "location": 2,
+    "content": "这个函式写成ax加B",
+    "music": 0
+  },
+  {
+    "from": 458.88,
+    "to": 462.06,
+    "sid": 171,
+    "location": 2,
+    "content": "那接下来题目里面就往往有这样的叙述",
+    "music": 0
+  },
+  {
+    "from": 462.06,
+    "to": 464.91,
+    "sid": 172,
+    "location": 2,
+    "content": "假设输入等于四的时候",
+    "music": 0
+  },
+  {
+    "from": 464.91,
+    "to": 466.26,
+    "sid": 173,
+    "location": 2,
+    "content": "X等于四的时候",
+    "music": 0
+  },
+  {
+    "from": 466.26,
+    "to": 467.79,
+    "sid": 174,
+    "location": 2,
+    "content": "输出Y等于五",
+    "music": 0
+  },
+  {
+    "from": 467.79,
+    "to": 469.83,
+    "sid": 175,
+    "location": 2,
+    "content": "假设输入X等于二的时候",
+    "music": 0
+  },
+  {
+    "from": 469.83,
+    "to": 471.48,
+    "sid": 176,
+    "location": 2,
+    "content": "输出Y等于一",
+    "music": 0
+  },
+  {
+    "from": 471.48,
+    "to": 474.38,
+    "sid": 177,
+    "location": 2,
+    "content": "问你ab应该多少",
+    "music": 0
+  },
+  {
+    "from": 474.38,
+    "to": 476.72,
+    "sid": 178,
+    "location": 2,
+    "content": "然后呢你就经过一番运算",
+    "music": 0
+  },
+  {
+    "from": 476.72,
+    "to": 478.52,
+    "sid": 179,
+    "location": 2,
+    "content": "你忘了怎么运算也没有关系",
+    "music": 0
+  },
+  {
+    "from": 478.52,
+    "to": 480.5,
+    "sid": 180,
+    "location": 2,
+    "content": "反正解出来A等于三",
+    "music": 0
+  },
+  {
+    "from": 480.5,
+    "to": 483.12,
+    "sid": 181,
+    "location": 2,
+    "content": "B等于七好",
+    "music": 0
+  },
+  {
+    "from": 483.12,
+    "to": 485.28,
+    "sid": 182,
+    "location": 2,
+    "content": "那A和B这两个未知数啊",
+    "music": 0
+  },
+  {
+    "from": 485.28,
+    "to": 487.02,
+    "sid": 183,
+    "location": 2,
+    "content": "在机器学习的领域里面",
+    "music": 0
+  },
+  {
+    "from": 487.02,
+    "to": 488.82,
+    "sid": 184,
+    "location": 2,
+    "content": "我们又叫做参数啊",
+    "music": 0
+  },
+  {
+    "from": 488.82,
+    "to": 491.41,
+    "sid": 185,
+    "location": 2,
+    "content": "它的英文是parameter哦",
+    "music": 0
+  },
+  {
+    "from": 491.41,
+    "to": 493.69,
+    "sid": 186,
+    "location": 2,
+    "content": "所以如果我今天提到参数的时候",
+    "music": 0
+  },
+  {
+    "from": 493.69,
+    "to": 498.69,
+    "sid": 187,
+    "location": 2,
+    "content": "我指的就是我们要找出来的那个未知数好",
+    "music": 0
+  },
+  {
+    "from": 498.69,
+    "to": 500.94,
+    "sid": 188,
+    "location": 2,
+    "content": "那有了这个三跟七以后",
+    "music": 0
+  },
+  {
+    "from": 500.94,
+    "to": 504.909,
+    "sid": 189,
+    "location": 2,
+    "content": "你就可以带入新的X算出Y是什么",
+    "music": 0
+  },
+  {
+    "from": 504.909,
+    "to": 506.94,
+    "sid": 190,
+    "location": 2,
+    "content": "有一个新的X等于一啊对吧",
+    "music": 0
+  },
+  {
+    "from": 506.94,
+    "to": 508.26,
+    "sid": 191,
+    "location": 2,
+    "content": "一的乘以3-7",
+    "music": 0
+  },
+  {
+    "from": 508.26,
+    "to": 509.55,
+    "sid": 192,
+    "location": 2,
+    "content": "要得到四",
+    "music": 0
+  },
+  {
+    "from": 509.55,
+    "to": 511.62,
+    "sid": 193,
+    "location": 2,
+    "content": "就知道输入X等于一的时候",
+    "music": 0
+  },
+  {
+    "from": 511.62,
+    "to": 514.069,
+    "sid": 194,
+    "location": 2,
+    "content": "Y输出应该是四",
+    "music": 0
+  },
+  {
+    "from": 514.069,
+    "to": 516.169,
+    "sid": 195,
+    "location": 2,
+    "content": "这整个问题都非常的简单",
+    "music": 0
+  },
+  {
+    "from": 516.169,
+    "to": 519.22,
+    "sid": 196,
+    "location": 2,
+    "content": "这里国中的时候一定已经学过",
+    "music": 0
+  },
+  {
+    "from": 519.22,
+    "to": 522.34,
+    "sid": 197,
+    "location": 2,
+    "content": "那机器学习跟你国中的时候解了这个问题",
+    "music": 0
+  },
+  {
+    "from": 522.34,
+    "to": 523.69,
+    "sid": 198,
+    "location": 2,
+    "content": "有什么不一样的地方呢",
+    "music": 0
+  },
+  {
+    "from": 523.69,
+    "to": 526.209,
+    "sid": 199,
+    "location": 2,
+    "content": "它唯一的不同是国中的时候",
+    "music": 0
+  },
+  {
+    "from": 526.209,
+    "to": 529.359,
+    "sid": 200,
+    "location": 2,
+    "content": "你是用人力去算出这个参数",
+    "music": 0
+  },
+  {
+    "from": 529.359,
+    "to": 532.13,
+    "sid": 201,
+    "location": 2,
+    "content": "而机器学习是一系列的方法",
+    "music": 0
+  },
+  {
+    "from": 532.13,
+    "to": 535.67,
+    "sid": 202,
+    "location": 2,
+    "content": "自动的把参数算出来",
+    "music": 0
+  },
+  {
+    "from": 535.67,
+    "to": 536.99,
+    "sid": 203,
+    "location": 2,
+    "content": "把题目给好以后",
+    "music": 0
+  },
+  {
+    "from": 536.99,
+    "to": 539.339,
+    "sid": 204,
+    "location": 2,
+    "content": "参数就可以自动被算出来",
+    "music": 0
+  },
+  {
+    "from": 539.339,
+    "to": 541.379,
+    "sid": 205,
+    "location": 2,
+    "content": "但为什么我们不用人力解",
+    "music": 0
+  },
+  {
+    "from": 541.379,
+    "to": 543.54,
+    "sid": 206,
+    "location": 2,
+    "content": "要让机器自动找参数呢",
+    "music": 0
+  },
+  {
+    "from": 543.54,
+    "to": 546,
+    "sid": 207,
+    "location": 2,
+    "content": "因为我们真正要面对的问题",
+    "music": 0
+  },
+  {
+    "from": 546,
+    "to": 548.73,
+    "sid": 208,
+    "location": 2,
+    "content": "往往比我们国中的时候学过的",
+    "music": 0
+  },
+  {
+    "from": 548.73,
+    "to": 552.599,
+    "sid": 209,
+    "location": 2,
+    "content": "FX等于ax加B还要复杂得多",
+    "music": 0
+  },
+  {
+    "from": 552.599,
+    "to": 556.859,
+    "sid": 210,
+    "location": 2,
+    "content": "假设我们今天呢要让机器学会分辨一张图片",
+    "music": 0
+  },
+  {
+    "from": 556.859,
+    "to": 558.78,
+    "sid": 211,
+    "location": 2,
+    "content": "里面是有猫还是狗",
+    "music": 0
+  },
+  {
+    "from": 558.78,
+    "to": 561.3,
+    "sid": 212,
+    "location": 2,
+    "content": "那你需要的可能是加一个函数",
+    "music": 0
+  },
+  {
+    "from": 561.3,
+    "to": 564.64,
+    "sid": 213,
+    "location": 2,
+    "content": "这个函数叫做F图片啊",
+    "music": 0
+  },
+  {
+    "from": 564.64,
+    "to": 567.19,
+    "sid": 214,
+    "location": 2,
+    "content": "这个函式的输入是一张图片",
+    "music": 0
+  },
+  {
+    "from": 567.19,
+    "to": 570.35,
+    "sid": 215,
+    "location": 2,
+    "content": "那至于韩式怎么把一个图片作为输入",
+    "music": 0
+  },
+  {
+    "from": 570.35,
+    "to": 572,
+    "sid": 216,
+    "location": 2,
+    "content": "那这个我们日后再讲",
+    "music": 0
+  },
+  {
+    "from": 572,
+    "to": 575.15,
+    "sid": 217,
+    "location": 2,
+    "content": "今天就想象有一个函数叫做F",
+    "music": 0
+  },
+  {
+    "from": 575.15,
+    "to": 576.83,
+    "sid": 218,
+    "location": 2,
+    "content": "它的输入是一张图片",
+    "music": 0
+  },
+  {
+    "from": 576.83,
+    "to": 578.45,
+    "sid": 219,
+    "location": 2,
+    "content": "它的输出只有两个",
+    "music": 0
+  },
+  {
+    "from": 578.45,
+    "to": 580.25,
+    "sid": 220,
+    "location": 2,
+    "content": "可能猫跟狗",
+    "music": 0
+  },
+  {
+    "from": 580.25,
+    "to": 582.02,
+    "sid": 221,
+    "location": 2,
+    "content": "但如果你可以找到这个函式",
+    "music": 0
+  },
+  {
+    "from": 582.02,
+    "to": 586.21,
+    "sid": 222,
+    "location": 2,
+    "content": "你就可以拿它来辨识一张图片是猫还是狗",
+    "music": 0
+  },
+  {
+    "from": 586.21,
+    "to": 589.89,
+    "sid": 223,
+    "location": 2,
+    "content": "那这样子的函式显然非常的复杂",
+    "music": 0
+  },
+  {
+    "from": 589.89,
+    "to": 592.5,
+    "sid": 224,
+    "location": 2,
+    "content": "如果我说这个函数值等于X加B",
+    "music": 0
+  },
+  {
+    "from": 592.5,
+    "to": 595.29,
+    "sid": 225,
+    "location": 2,
+    "content": "它显然不可能可以辨识猫跟狗",
+    "music": 0
+  },
+  {
+    "from": 595.29,
+    "to": 596.56,
+    "sid": 226,
+    "location": 2,
+    "content": "它非常的复杂",
+    "music": 0
+  },
+  {
+    "from": 596.56,
+    "to": 599.65,
+    "sid": 227,
+    "location": 2,
+    "content": "里面可能需要有上万个参数",
+    "music": 0
+  },
+  {
+    "from": 599.65,
+    "to": 602.06,
+    "sid": 228,
+    "location": 2,
+    "content": "那我这边用ABCD来表示参数了",
+    "music": 0
+  },
+  {
+    "from": 602.06,
+    "to": 602.54,
+    "sid": 229,
+    "location": 2,
+    "content": "好不过",
+    "music": 0
+  },
+  {
+    "from": 602.54,
+    "to": 605.3,
+    "sid": 230,
+    "location": 2,
+    "content": "用ABCD英文字母作为符号来表示参数",
+    "music": 0
+  },
+  {
+    "from": 605.3,
+    "to": 606.26,
+    "sid": 231,
+    "location": 2,
+    "content": "显然是不够的",
+    "music": 0
+  },
+  {
+    "from": 606.26,
+    "to": 610.58,
+    "sid": 232,
+    "location": 2,
+    "content": "我们这边可能这个式子里面会有上万个参数",
+    "music": 0
+  },
+  {
+    "from": 610.58,
+    "to": 612.97,
+    "sid": 233,
+    "location": 2,
+    "content": "而是一个有上万个参数的式子",
+    "music": 0
+  },
+  {
+    "from": 612.97,
+    "to": 615.13,
+    "sid": 234,
+    "location": 2,
+    "content": "到底长什么样子呢",
+    "music": 0
+  },
+  {
+    "from": 615.13,
+    "to": 616.87,
+    "sid": 235,
+    "location": 2,
+    "content": "你可能这辈子从来没有看过",
+    "music": 0
+  },
+  {
+    "from": 616.87,
+    "to": 619.44,
+    "sid": 236,
+    "location": 2,
+    "content": "一个有上万个参数的数学式",
+    "music": 0
+  },
+  {
+    "from": 619.44,
+    "to": 621.09,
+    "sid": 237,
+    "location": 2,
+    "content": "它到底应该长什么样呢",
+    "music": 0
+  },
+  {
+    "from": 621.09,
+    "to": 622.62,
+    "sid": 238,
+    "location": 2,
+    "content": "等一下会再告诉你",
+    "music": 0
+  },
+  {
+    "from": 622.62,
+    "to": 626.11,
+    "sid": 239,
+    "location": 2,
+    "content": "一看就心里想象有一个上万个参数的式子",
+    "music": 0
+  },
+  {
+    "from": 626.11,
+    "to": 631.09,
+    "sid": 240,
+    "location": 2,
+    "content": "那这个有上万个未知参数的函数啊",
+    "music": 0
+  },
+  {
+    "from": 631.09,
+    "to": 633.48,
+    "sid": 241,
+    "location": 2,
+    "content": "又叫做模型",
+    "music": 0
+  },
+  {
+    "from": 633.48,
+    "to": 635.34,
+    "sid": 242,
+    "location": 2,
+    "content": "那我知道说模型这个词汇",
+    "music": 0
+  },
+  {
+    "from": 635.34,
+    "to": 638.16,
+    "sid": 243,
+    "location": 2,
+    "content": "其实在不同的文献上往往有不同的称呼",
+    "music": 0
+  },
+  {
+    "from": 638.16,
+    "to": 640.26,
+    "sid": 244,
+    "location": 2,
+    "content": "专指在机器学习的领域里面",
+    "music": 0
+  },
+  {
+    "from": 640.26,
+    "to": 643.41,
+    "sid": 245,
+    "location": 2,
+    "content": "往往同人不同人提到模型的时候",
+    "music": 0
+  },
+  {
+    "from": 643.41,
+    "to": 644.79,
+    "sid": 246,
+    "location": 2,
+    "content": "他指的是不一样的东西",
+    "music": 0
+  },
+  {
+    "from": 644.79,
+    "to": 645.99,
+    "sid": 247,
+    "location": 2,
+    "content": "但在这门课里面",
+    "music": 0
+  },
+  {
+    "from": 645.99,
+    "to": 647.61,
+    "sid": 248,
+    "location": 2,
+    "content": "当我讲模型的时候",
+    "music": 0
+  },
+  {
+    "from": 647.61,
+    "to": 653.51,
+    "sid": 249,
+    "location": 2,
+    "content": "我指的是一个带有大量未知参数的函式",
+    "music": 0
+  },
+  {
+    "from": 653.91,
+    "to": 654.29,
+    "sid": 250,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 654.29,
+    "to": 658.01,
+    "sid": 251,
+    "location": 2,
+    "content": "那接下来呢就要给你这个题目的叙述了",
+    "music": 0
+  },
+  {
+    "from": 658.01,
+    "to": 660,
+    "sid": 252,
+    "location": 2,
+    "content": "他这个题目的叙述是",
+    "music": 0
+  },
+  {
+    "from": 660,
+    "to": 664.11,
+    "sid": 253,
+    "location": 2,
+    "content": "如果输入这个函式的输入是这只白色的猫的话",
+    "music": 0
+  },
+  {
+    "from": 664.11,
+    "to": 665.76,
+    "sid": 254,
+    "location": 2,
+    "content": "输出就是猫",
+    "music": 0
+  },
+  {
+    "from": 665.76,
+    "to": 668.31,
+    "sid": 255,
+    "location": 2,
+    "content": "这个答案输入是棕色的狗",
+    "music": 0
+  },
+  {
+    "from": 668.31,
+    "to": 669.54,
+    "sid": 256,
+    "location": 2,
+    "content": "输出就是狗",
+    "music": 0
+  },
+  {
+    "from": 669.54,
+    "to": 671.34,
+    "sid": 257,
+    "location": 2,
+    "content": "输入是这个超人猫",
+    "music": 0
+  },
+  {
+    "from": 671.34,
+    "to": 672.71,
+    "sid": 258,
+    "location": 2,
+    "content": "输出就是猫",
+    "music": 0
+  },
+  {
+    "from": 672.71,
+    "to": 674.54,
+    "sid": 259,
+    "location": 2,
+    "content": "输入是这个黑色的狗",
+    "music": 0
+  },
+  {
+    "from": 674.54,
+    "to": 676.55,
+    "sid": 260,
+    "location": 2,
+    "content": "输出就要是狗",
+    "music": 0
+  },
+  {
+    "from": 676.55,
+    "to": 679.7,
+    "sid": 261,
+    "location": 2,
+    "content": "而有了这些输入和输出的关系以后",
+    "music": 0
+  },
+  {
+    "from": 679.7,
+    "to": 681.95,
+    "sid": 262,
+    "location": 2,
+    "content": "接下来机器学习这个技术",
+    "music": 0
+  },
+  {
+    "from": 681.95,
+    "to": 687.08,
+    "sid": 263,
+    "location": 2,
+    "content": "就可以帮助你把上万个参数给它找出来",
+    "music": 0
+  },
+  {
+    "from": 687.08,
+    "to": 688.599,
+    "sid": 264,
+    "location": 2,
+    "content": "这里有上万个参数",
+    "music": 0
+  },
+  {
+    "from": 688.599,
+    "to": 690.459,
+    "sid": 265,
+    "location": 2,
+    "content": "人人类都没有办法想象",
+    "music": 0
+  },
+  {
+    "from": 690.459,
+    "to": 692.289,
+    "sid": 266,
+    "location": 2,
+    "content": "这个韩式应该长成什么样子",
+    "music": 0
+  },
+  {
+    "from": 692.289,
+    "to": 694.22,
+    "sid": 267,
+    "location": 2,
+    "content": "但是机器学习这个技术",
+    "music": 0
+  },
+  {
+    "from": 694.22,
+    "to": 695.24,
+    "sid": 268,
+    "location": 2,
+    "content": "可以帮助你",
+    "music": 0
+  },
+  {
+    "from": 695.24,
+    "to": 698.75,
+    "sid": 269,
+    "location": 2,
+    "content": "在给定这些输入输出的条件限制的情况下",
+    "music": 0
+  },
+  {
+    "from": 698.75,
+    "to": 701.78,
+    "sid": 270,
+    "location": 2,
+    "content": "把这上万个参数找出来",
+    "music": 0
+  },
+  {
+    "from": 701.78,
+    "to": 703.41,
+    "sid": 271,
+    "location": 2,
+    "content": "你说这个呃",
+    "music": 0
+  },
+  {
+    "from": 703.41,
+    "to": 707.07,
+    "sid": 272,
+    "location": 2,
+    "content": "呃这个这个机器学习的学习到底在哪里",
+    "music": 0
+  },
+  {
+    "from": 707.07,
+    "to": 708.27,
+    "sid": 273,
+    "location": 2,
+    "content": "这个学习呀",
+    "music": 0
+  },
+  {
+    "from": 708.27,
+    "to": 712.91,
+    "sid": 274,
+    "location": 2,
+    "content": "指的就是把这个上万个参数找出来的过程",
+    "music": 0
+  },
+  {
+    "from": 712.91,
+    "to": 715.43,
+    "sid": 275,
+    "location": 2,
+    "content": "这个把上万个参数找出来的过程",
+    "music": 0
+  },
+  {
+    "from": 715.43,
+    "to": 717.8,
+    "sid": 276,
+    "location": 2,
+    "content": "又叫做系训练training",
+    "music": 0
+  },
+  {
+    "from": 717.8,
+    "to": 720.43,
+    "sid": 277,
+    "location": 2,
+    "content": "或者是又叫学习learning",
+    "music": 0
+  },
+  {
+    "from": 720.43,
+    "to": 722.35,
+    "sid": 278,
+    "location": 2,
+    "content": "所以我们讲机器学习的时候",
+    "music": 0
+  },
+  {
+    "from": 722.35,
+    "to": 723.25,
+    "sid": 279,
+    "location": 2,
+    "content": "所谓的机器学习",
+    "music": 0
+  },
+  {
+    "from": 723.25,
+    "to": 727.94,
+    "sid": 280,
+    "location": 2,
+    "content": "指的就是把这个上万个参数找出来的过程",
+    "music": 0
+  },
+  {
+    "from": 728.4,
+    "to": 732.02,
+    "sid": 281,
+    "location": 2,
+    "content": "好那这个帮助你找出上万个参数的输入",
+    "music": 0
+  },
+  {
+    "from": 732.02,
+    "to": 735.38,
+    "sid": 282,
+    "location": 2,
+    "content": "输出的限制就叫做训练资料",
+    "music": 0
+  },
+  {
+    "from": 735.38,
+    "to": 737.48,
+    "sid": 283,
+    "location": 2,
+    "content": "那找出这上万个参数以后",
+    "music": 0
+  },
+  {
+    "from": 737.48,
+    "to": 741.52,
+    "sid": 284,
+    "location": 2,
+    "content": "你就可以把这些参数带入刚才的模型里面",
+    "music": 0
+  },
+  {
+    "from": 741.52,
+    "to": 743.77,
+    "sid": 285,
+    "location": 2,
+    "content": "你就知道这个韩式长什么样子",
+    "music": 0
+  },
+  {
+    "from": 743.77,
+    "to": 745.36,
+    "sid": 286,
+    "location": 2,
+    "content": "有一张新的图片进来",
+    "music": 0
+  },
+  {
+    "from": 745.36,
+    "to": 746.62,
+    "sid": 287,
+    "location": 2,
+    "content": "正在打电脑的猫",
+    "music": 0
+  },
+  {
+    "from": 746.62,
+    "to": 749.8,
+    "sid": 288,
+    "location": 2,
+    "content": "期待机器就可以给出正确的输出",
+    "music": 0
+  },
+  {
+    "from": 749.8,
+    "to": 751.96,
+    "sid": 289,
+    "location": 2,
+    "content": "那找出参数以后",
+    "music": 0
+  },
+  {
+    "from": 751.96,
+    "to": 753.64,
+    "sid": 290,
+    "location": 2,
+    "content": "给这个还是一个新的图片",
+    "music": 0
+  },
+  {
+    "from": 753.64,
+    "to": 755.02,
+    "sid": 291,
+    "location": 2,
+    "content": "看看它会输出什么",
+    "music": 0
+  },
+  {
+    "from": 755.02,
+    "to": 757.23,
+    "sid": 292,
+    "location": 2,
+    "content": "这件事情叫做测试",
+    "music": 0
+  },
+  {
+    "from": 757.23,
+    "to": 758.01,
+    "sid": 293,
+    "location": 2,
+    "content": "Testing",
+    "music": 0
+  },
+  {
+    "from": 758.01,
+    "to": 760.53,
+    "sid": 294,
+    "location": 2,
+    "content": "我要做又会又叫做推论",
+    "music": 0
+  },
+  {
+    "from": 760.53,
+    "to": 761.52,
+    "sid": 295,
+    "location": 2,
+    "content": "Influence",
+    "music": 0
+  },
+  {
+    "from": 761.52,
+    "to": 763.23,
+    "sid": 296,
+    "location": 2,
+    "content": "这边就跟大家讲完了",
+    "music": 0
+  },
+  {
+    "from": 763.23,
+    "to": 765.63,
+    "sid": 297,
+    "location": 2,
+    "content": "机器学习的基本概念",
+    "music": 0
+  },
+  {
+    "from": 765.63,
+    "to": 768.51,
+    "sid": 298,
+    "location": 2,
+    "content": "有上万个未知数的这个函式",
+    "music": 0
+  },
+  {
+    "from": 768.51,
+    "to": 770.43,
+    "sid": 299,
+    "location": 2,
+    "content": "你非常难想象它是什么",
+    "music": 0
+  },
+  {
+    "from": 770.43,
+    "to": 772.62,
+    "sid": 300,
+    "location": 2,
+    "content": "而今天在机器学习的领域",
+    "music": 0
+  },
+  {
+    "from": 772.62,
+    "to": 777.6,
+    "sid": 301,
+    "location": 2,
+    "content": "通常怎么表示这个有上万个参数的函数呢",
+    "music": 0
+  },
+  {
+    "from": 777.6,
+    "to": 782.33,
+    "sid": 302,
+    "location": 2,
+    "content": "今天往往它被表示成一个类神经网络",
+    "music": 0
+  },
+  {
+    "from": 782.33,
+    "to": 784.64,
+    "sid": 303,
+    "location": 2,
+    "content": "也就是neural network",
+    "music": 0
+  },
+  {
+    "from": 784.64,
+    "to": 786.02,
+    "sid": 304,
+    "location": 2,
+    "content": "那有人可能会想说",
+    "music": 0
+  },
+  {
+    "from": 786.02,
+    "to": 788.96,
+    "sid": 305,
+    "location": 2,
+    "content": "内神经网络听起来就跟人类的大脑",
+    "music": 0
+  },
+  {
+    "from": 788.96,
+    "to": 789.86,
+    "sid": 306,
+    "location": 2,
+    "content": "好像很有关系",
+    "music": 0
+  },
+  {
+    "from": 789.86,
+    "to": 790.04,
+    "sid": 307,
+    "location": 2,
+    "content": "诶",
+    "music": 0
+  },
+  {
+    "from": 790.04,
+    "to": 792.26,
+    "sid": 308,
+    "location": 2,
+    "content": "类神经网络不是应该是什么哎呀",
+    "music": 0
+  },
+  {
+    "from": 792.26,
+    "to": 794.69,
+    "sid": 309,
+    "location": 2,
+    "content": "模仿人类的大脑学习的吗",
+    "music": 0
+  },
+  {
+    "from": 794.69,
+    "to": 796.4,
+    "sid": 310,
+    "location": 2,
+    "content": "我告诉你这个讲法就是骗你的",
+    "music": 0
+  },
+  {
+    "from": 796.4,
+    "to": 796.82,
+    "sid": 311,
+    "location": 2,
+    "content": "你知道吗",
+    "music": 0
+  },
+  {
+    "from": 796.82,
+    "to": 799.52,
+    "sid": 312,
+    "location": 2,
+    "content": "这农场文随随便便讲出来骗麻瓜的",
+    "music": 0
+  },
+  {
+    "from": 799.52,
+    "to": 801.86,
+    "sid": 313,
+    "location": 2,
+    "content": "其实一个类神经网络",
+    "music": 0
+  },
+  {
+    "from": 801.86,
+    "to": 806.44,
+    "sid": 314,
+    "location": 2,
+    "content": "就是一个有非常大量参数的函数",
+    "music": 0
+  },
+  {
+    "from": 806.44,
+    "to": 810.4,
+    "sid": 315,
+    "location": 2,
+    "content": "当你今天把你的这个有大量参数的函数",
+    "music": 0
+  },
+  {
+    "from": 810.4,
+    "to": 812.02,
+    "sid": 316,
+    "location": 2,
+    "content": "表示成一个类神经网络",
+    "music": 0
+  },
+  {
+    "from": 812.02,
+    "to": 813.9,
+    "sid": 317,
+    "location": 2,
+    "content": "然后把这些参数解出来",
+    "music": 0
+  },
+  {
+    "from": 813.9,
+    "to": 818.76,
+    "sid": 318,
+    "location": 2,
+    "content": "这个技术就叫做深度学习的learning啊",
+    "music": 0
+  },
+  {
+    "from": 818.76,
+    "to": 821.73,
+    "sid": 319,
+    "location": 2,
+    "content": "所以深度学习是机器学习的一种",
+    "music": 0
+  },
+  {
+    "from": 821.73,
+    "to": 824.73,
+    "sid": 320,
+    "location": 2,
+    "content": "你当然有其他方法来描述这个函式",
+    "music": 0
+  },
+  {
+    "from": 824.73,
+    "to": 827.46,
+    "sid": 321,
+    "location": 2,
+    "content": "但是当你用内神经网络来描述它的时候",
+    "music": 0
+  },
+  {
+    "from": 827.46,
+    "to": 831.39,
+    "sid": 322,
+    "location": 2,
+    "content": "你做的事情就是深度学习哦",
+    "music": 0
+  },
+  {
+    "from": 831.39,
+    "to": 833.67,
+    "sid": 323,
+    "location": 2,
+    "content": "那这些投影片讲的是机器学习",
+    "music": 0
+  },
+  {
+    "from": 833.67,
+    "to": 835.95,
+    "sid": 324,
+    "location": 2,
+    "content": "和深层次人工智慧的关系",
+    "music": 0
+  },
+  {
+    "from": 835.95,
+    "to": 837.36,
+    "sid": 325,
+    "location": 2,
+    "content": "是机器学习",
+    "music": 0
+  },
+  {
+    "from": 837.36,
+    "to": 839.579,
+    "sid": 326,
+    "location": 2,
+    "content": "它是一种手段",
+    "music": 0
+  },
+  {
+    "from": 839.579,
+    "to": 842.219,
+    "sid": 327,
+    "location": 2,
+    "content": "所以他跟深层次人工智慧的关系",
+    "music": 0
+  },
+  {
+    "from": 842.219,
+    "to": 843.329,
+    "sid": 328,
+    "location": 2,
+    "content": "我是画成这样的",
+    "music": 0
+  },
+  {
+    "from": 843.329,
+    "to": 845.219,
+    "sid": 329,
+    "location": 2,
+    "content": "他们有交集的部分",
+    "music": 0
+  },
+  {
+    "from": 845.219,
+    "to": 847.86,
+    "sid": 330,
+    "location": 2,
+    "content": "但也有各自独立的部分",
+    "music": 0
+  },
+  {
+    "from": 847.86,
+    "to": 849.3,
+    "sid": 331,
+    "location": 2,
+    "content": "生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 849.3,
+    "to": 851.97,
+    "sid": 332,
+    "location": 2,
+    "content": "你当然可以用机器学习来解党一页",
+    "music": 0
+  },
+  {
+    "from": 851.97,
+    "to": 854.99,
+    "sid": 333,
+    "location": 2,
+    "content": "可以用非机器学习的方法来解",
+    "music": 0
+  },
+  {
+    "from": 854.99,
+    "to": 858.17,
+    "sid": 334,
+    "location": 2,
+    "content": "机器学习不是只能解深层次人工智慧",
+    "music": 0
+  },
+  {
+    "from": 858.17,
+    "to": 859.91,
+    "sid": 335,
+    "location": 2,
+    "content": "也可以解其他的问题",
+    "music": 0
+  },
+  {
+    "from": 859.91,
+    "to": 862.23,
+    "sid": 336,
+    "location": 2,
+    "content": "比如说分类的问题",
+    "music": 0
+  },
+  {
+    "from": 862.23,
+    "to": 865.96,
+    "sid": 337,
+    "location": 2,
+    "content": "而深度学习是机器学习的一种",
+    "music": 0
+  },
+  {
+    "from": 865.96,
+    "to": 869.02,
+    "sid": 338,
+    "location": 2,
+    "content": "那我相信你在网络上更常看到的",
+    "music": 0
+  },
+  {
+    "from": 869.02,
+    "to": 870.16,
+    "sid": 339,
+    "location": 2,
+    "content": "生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 870.16,
+    "to": 870.82,
+    "sid": 340,
+    "location": 2,
+    "content": "深度学习",
+    "music": 0
+  },
+  {
+    "from": 870.82,
+    "to": 873.91,
+    "sid": 341,
+    "location": 2,
+    "content": "机器学习的关系是化成这个样子",
+    "music": 0
+  },
+  {
+    "from": 873.91,
+    "to": 877.51,
+    "sid": 342,
+    "location": 2,
+    "content": "那你把深层次人工智慧放在机器学习里面",
+    "music": 0
+  },
+  {
+    "from": 877.51,
+    "to": 879.22,
+    "sid": 343,
+    "location": 2,
+    "content": "我也勉强能够接受",
+    "music": 0
+  },
+  {
+    "from": 879.22,
+    "to": 881.68,
+    "sid": 344,
+    "location": 2,
+    "content": "因为今天深层次人工智慧",
+    "music": 0
+  },
+  {
+    "from": 881.68,
+    "to": 883.48,
+    "sid": 345,
+    "location": 2,
+    "content": "是一个非常困难的问题",
+    "music": 0
+  },
+  {
+    "from": 883.48,
+    "to": 888.49,
+    "sid": 346,
+    "location": 2,
+    "content": "也许其他手段都不足以达成让你满意的结果哦",
+    "music": 0
+  },
+  {
+    "from": 888.49,
+    "to": 890.38,
+    "sid": 347,
+    "location": 2,
+    "content": "所以今天生成式人工智慧",
+    "music": 0
+  },
+  {
+    "from": 890.38,
+    "to": 893.58,
+    "sid": 348,
+    "location": 2,
+    "content": "通常都是以深度学习技术来达成的",
+    "music": 0
+  },
+  {
+    "from": 893.58,
+    "to": 896.94,
+    "sid": 349,
+    "location": 2,
+    "content": "所以如果你看网络的文章在描述机器学习",
+    "music": 0
+  },
+  {
+    "from": 896.94,
+    "to": 899.4,
+    "sid": 350,
+    "location": 2,
+    "content": "深度学习生成式人工智慧关系的时候",
+    "music": 0
+  },
+  {
+    "from": 899.4,
+    "to": 902.52,
+    "sid": 351,
+    "location": 2,
+    "content": "往往会说深层次人工智慧是深度学习的一种",
+    "music": 0
+  },
+  {
+    "from": 902.52,
+    "to": 904.05,
+    "sid": 352,
+    "location": 2,
+    "content": "这我也可以接受",
+    "music": 0
+  },
+  {
+    "from": 904.05,
+    "to": 906.24,
+    "sid": 353,
+    "location": 2,
+    "content": "虽然他们所要讲的是不一样的东西",
+    "music": 0
+  },
+  {
+    "from": 906.24,
+    "to": 908.64,
+    "sid": 354,
+    "location": 2,
+    "content": "深度学习是一个技术生成式",
+    "music": 0
+  },
+  {
+    "from": 908.64,
+    "to": 910.01,
+    "sid": 355,
+    "location": 2,
+    "content": "人工智慧是一个目标",
+    "music": 0
+  },
+  {
+    "from": 910.01,
+    "to": 912.65,
+    "sid": 356,
+    "location": 2,
+    "content": "但是今天通常会用机器学习的",
+    "music": 0
+  },
+  {
+    "from": 912.65,
+    "to": 914.36,
+    "sid": 357,
+    "location": 2,
+    "content": "都通常会用深度学习技术",
+    "music": 0
+  },
+  {
+    "from": 914.36,
+    "to": 916.8,
+    "sid": 358,
+    "location": 2,
+    "content": "来达成深层次人工智慧",
+    "music": 0
+  },
+  {
+    "from": 916.8,
+    "to": 917.97,
+    "sid": 359,
+    "location": 2,
+    "content": "所以我也可以接受",
+    "music": 0
+  },
+  {
+    "from": 917.97,
+    "to": 923.369,
+    "sid": 360,
+    "location": 2,
+    "content": "你把深层次人工智慧放在深度学习里面好",
+    "music": 0
+  },
+  {
+    "from": 923.369,
+    "to": 925.169,
+    "sid": 361,
+    "location": 2,
+    "content": "那到底深度学习",
+    "music": 0
+  },
+  {
+    "from": 925.169,
+    "to": 929.86,
+    "sid": 362,
+    "location": 2,
+    "content": "机器学习要来怎么解深层次人工智慧的问题呢",
+    "music": 0
+  },
+  {
+    "from": 929.86,
+    "to": 934.63,
+    "sid": 363,
+    "location": 2,
+    "content": "想一想确GPT按照机器学习深度学习的概念",
+    "music": 0
+  },
+  {
+    "from": 934.63,
+    "to": 937.63,
+    "sid": 364,
+    "location": 2,
+    "content": "它可能是怎么被打造出来的",
+    "music": 0
+  },
+  {
+    "from": 937.63,
+    "to": 941.44,
+    "sid": 365,
+    "location": 2,
+    "content": "其实确GBT也可以想象成是一个韩式",
+    "music": 0
+  },
+  {
+    "from": 941.44,
+    "to": 945.2,
+    "sid": 366,
+    "location": 2,
+    "content": "这个函式的输入就是一段文字输出",
+    "music": 0
+  },
+  {
+    "from": 945.2,
+    "to": 948.079,
+    "sid": 367,
+    "location": 2,
+    "content": "就是全GVT给你的回复",
+    "music": 0
+  },
+  {
+    "from": 948.079,
+    "to": 950.539,
+    "sid": 368,
+    "location": 2,
+    "content": "但像确GVT这么厉害的人工智慧",
+    "music": 0
+  },
+  {
+    "from": 950.539,
+    "to": 952.939,
+    "sid": 369,
+    "location": 2,
+    "content": "你问什么他都能够有问必答",
+    "music": 0
+  },
+  {
+    "from": 952.939,
+    "to": 957.099,
+    "sid": 370,
+    "location": 2,
+    "content": "它显然背后的函式非常非常的复杂",
+    "music": 0
+  },
+  {
+    "from": 957.099,
+    "to": 958.749,
+    "sid": 371,
+    "location": 2,
+    "content": "复杂到什么地步呢",
+    "music": 0
+  },
+  {
+    "from": 958.749,
+    "to": 963.759,
+    "sid": 372,
+    "location": 2,
+    "content": "复杂到它里面可能有上亿个或数10亿个参数",
+    "music": 0
+  },
+  {
+    "from": 963.759,
+    "to": 967.59,
+    "sid": 373,
+    "location": 2,
+    "content": "它的模型里面可能有上亿个参数",
+    "music": 0
+  },
+  {
+    "from": 967.59,
+    "to": 970.92,
+    "sid": 374,
+    "location": 2,
+    "content": "那这个有上亿个参数的模型",
+    "music": 0
+  },
+  {
+    "from": 970.92,
+    "to": 972.71,
+    "sid": 375,
+    "location": 2,
+    "content": "也就是类神经网络",
+    "music": 0
+  },
+  {
+    "from": 972.71,
+    "to": 976.76,
+    "sid": 376,
+    "location": 2,
+    "content": "今天有一个特别的名字叫做transformer",
+    "music": 0
+  },
+  {
+    "from": 976.76,
+    "to": 977.39,
+    "sid": 377,
+    "location": 2,
+    "content": "Chegbt",
+    "music": 0
+  },
+  {
+    "from": 977.39,
+    "to": 979.86,
+    "sid": 378,
+    "location": 2,
+    "content": "背后用的模型叫做transformer",
+    "music": 0
+  },
+  {
+    "from": 979.86,
+    "to": 981.51,
+    "sid": 379,
+    "location": 2,
+    "content": "它是内神经网络的一种",
+    "music": 0
+  },
+  {
+    "from": 981.51,
+    "to": 985.19,
+    "sid": 380,
+    "location": 2,
+    "content": "那我们在往后的课程会再跟大家介绍",
+    "music": 0
+  },
+  {
+    "from": 985.19,
+    "to": 987.35,
+    "sid": 381,
+    "location": 2,
+    "content": "那就机器学习的概念而言",
+    "music": 0
+  },
+  {
+    "from": 987.35,
+    "to": 990.5,
+    "sid": 382,
+    "location": 2,
+    "content": "要打造CHEGBT这样子的人工智慧",
+    "music": 0
+  },
+  {
+    "from": 990.5,
+    "to": 994.28,
+    "sid": 383,
+    "location": 2,
+    "content": "要找出一个可以坐上去GP这样事情的函式",
+    "music": 0
+  },
+  {
+    "from": 994.28,
+    "to": 998.68,
+    "sid": 384,
+    "location": 2,
+    "content": "也许你需要的就是准备一大堆的输入和输出",
+    "music": 0
+  },
+  {
+    "from": 998.68,
+    "to": 1000.06,
+    "sid": 385,
+    "location": 2,
+    "content": "告诉你的模型",
+    "music": 0
+  },
+  {
+    "from": 1000.06,
+    "to": 1001.98,
+    "sid": 386,
+    "location": 2,
+    "content": "说输入人工智慧啊",
+    "music": 0
+  },
+  {
+    "from": 1001.98,
+    "to": 1003.54,
+    "sid": 387,
+    "location": 2,
+    "content": "输出就是这样输入",
+    "music": 0
+  },
+  {
+    "from": 1003.54,
+    "to": 1004.74,
+    "sid": 388,
+    "location": 2,
+    "content": "这样就输出",
+    "music": 0
+  },
+  {
+    "from": 1004.74,
+    "to": 1005.4,
+    "sid": 389,
+    "location": 2,
+    "content": "这样输入",
+    "music": 0
+  },
+  {
+    "from": 1005.4,
+    "to": 1006.12,
+    "sid": 390,
+    "location": 2,
+    "content": "这样叫输出",
+    "music": 0
+  },
+  {
+    "from": 1006.12,
+    "to": 1006.72,
+    "sid": 391,
+    "location": 2,
+    "content": "这样输入",
+    "music": 0
+  },
+  {
+    "from": 1006.72,
+    "to": 1007.56,
+    "sid": 392,
+    "location": 2,
+    "content": "这样叫输出",
+    "music": 0
+  },
+  {
+    "from": 1007.56,
+    "to": 1011.329,
+    "sid": 393,
+    "location": 2,
+    "content": "这样也许准备一大堆输入和输出的关系",
+    "music": 0
+  },
+  {
+    "from": 1011.329,
+    "to": 1014.329,
+    "sid": 394,
+    "location": 2,
+    "content": "让机器学习和深度学习的技术",
+    "music": 0
+  },
+  {
+    "from": 1014.329,
+    "to": 1016.159,
+    "sid": 395,
+    "location": 2,
+    "content": "把上亿个参数找出来",
+    "music": 0
+  },
+  {
+    "from": 1016.159,
+    "to": 1019.73,
+    "sid": 396,
+    "location": 2,
+    "content": "我们就可以打造出一个全GBT",
+    "music": 0
+  },
+  {
+    "from": 1019.73,
+    "to": 1021.56,
+    "sid": 397,
+    "location": 2,
+    "content": "或者是用同样的概念",
+    "music": 0
+  },
+  {
+    "from": 1021.56,
+    "to": 1024.369,
+    "sid": 398,
+    "location": 2,
+    "content": "也可以打造一个可以画图的AI",
+    "music": 0
+  },
+  {
+    "from": 1024.369,
+    "to": 1026.349,
+    "sid": 399,
+    "location": 2,
+    "content": "今天有很多可以画图的AI",
+    "music": 0
+  },
+  {
+    "from": 1026.349,
+    "to": 1028.209,
+    "sid": 400,
+    "location": 2,
+    "content": "比如说stable diffusion",
+    "music": 0
+  },
+  {
+    "from": 1028.209,
+    "to": 1029.799,
+    "sid": 401,
+    "location": 2,
+    "content": "比如说me journey",
+    "music": 0
+  },
+  {
+    "from": 1029.799,
+    "to": 1033.1,
+    "sid": 402,
+    "location": 2,
+    "content": "比如说DI这些可以画图的AI",
+    "music": 0
+  },
+  {
+    "from": 1033.1,
+    "to": 1035.02,
+    "sid": 403,
+    "location": 2,
+    "content": "你也可以把它想成是一个函数",
+    "music": 0
+  },
+  {
+    "from": 1035.02,
+    "to": 1036.64,
+    "sid": 404,
+    "location": 2,
+    "content": "这些函式的输入是什么",
+    "music": 0
+  },
+  {
+    "from": 1036.64,
+    "to": 1038.5,
+    "sid": 405,
+    "location": 2,
+    "content": "输入就是一段文字",
+    "music": 0
+  },
+  {
+    "from": 1038.5,
+    "to": 1039.49,
+    "sid": 406,
+    "location": 2,
+    "content": "输出是什么",
+    "music": 0
+  },
+  {
+    "from": 1039.49,
+    "to": 1041.56,
+    "sid": 407,
+    "location": 2,
+    "content": "输出就是一张图片",
+    "music": 0
+  },
+  {
+    "from": 1041.56,
+    "to": 1044.74,
+    "sid": 408,
+    "location": 2,
+    "content": "而这个函式显然也会非常的复杂",
+    "music": 0
+  },
+  {
+    "from": 1044.74,
+    "to": 1047.599,
+    "sid": 409,
+    "location": 2,
+    "content": "显然也该有上亿个参数",
+    "music": 0
+  },
+  {
+    "from": 1047.599,
+    "to": 1049.969,
+    "sid": 410,
+    "location": 2,
+    "content": "那怎么把这个函数找出来呢",
+    "music": 0
+  },
+  {
+    "from": 1049.969,
+    "to": 1054.47,
+    "sid": 411,
+    "location": 2,
+    "content": "我们就需要告诉机器输入和输出之间的关系",
+    "music": 0
+  },
+  {
+    "from": 1054.47,
+    "to": 1056,
+    "sid": 412,
+    "location": 2,
+    "content": "现在是输入文字",
+    "music": 0
+  },
+  {
+    "from": 1056,
+    "to": 1056.87,
+    "sid": 413,
+    "location": 2,
+    "content": "输出图片",
+    "music": 0
+  },
+  {
+    "from": 1056.87,
+    "to": 1058.23,
+    "sid": 414,
+    "location": 2,
+    "content": "所以你就要告诉机器说",
+    "music": 0
+  },
+  {
+    "from": 1058.23,
+    "to": 1061.14,
+    "sid": 415,
+    "location": 2,
+    "content": "如果有人告诉你彩色的卡通猫",
+    "music": 0
+  },
+  {
+    "from": 1061.14,
+    "to": 1062.58,
+    "sid": 416,
+    "location": 2,
+    "content": "那你输出应该涨价",
+    "music": 0
+  },
+  {
+    "from": 1062.58,
+    "to": 1064.35,
+    "sid": 417,
+    "location": 2,
+    "content": "有人输入奔跑的猫",
+    "music": 0
+  },
+  {
+    "from": 1064.35,
+    "to": 1065.49,
+    "sid": 418,
+    "location": 2,
+    "content": "输出应该涨价",
+    "music": 0
+  },
+  {
+    "from": 1065.49,
+    "to": 1068.91,
+    "sid": 419,
+    "location": 2,
+    "content": "有人输入海滨的黑狗应该长这样等等等等",
+    "music": 0
+  },
+  {
+    "from": 1068.91,
+    "to": 1072.5,
+    "sid": 420,
+    "location": 2,
+    "content": "你收集一大堆文字跟它对应的图片",
+    "music": 0
+  },
+  {
+    "from": 1072.5,
+    "to": 1076.94,
+    "sid": 421,
+    "location": 2,
+    "content": "然后就可以交由深度学习的技术找出函式",
+    "music": 0
+  },
+  {
+    "from": 1076.94,
+    "to": 1078.51,
+    "sid": 422,
+    "location": 2,
+    "content": "把上一个参数找出来",
+    "music": 0
+  },
+  {
+    "from": 1078.51,
+    "to": 1080.16,
+    "sid": 423,
+    "location": 2,
+    "content": "你就可以找出一个函式",
+    "music": 0
+  },
+  {
+    "from": 1080.16,
+    "to": 1082.5,
+    "sid": 424,
+    "location": 2,
+    "content": "就可以让机器输入一段文字",
+    "music": 0
+  },
+  {
+    "from": 1082.5,
+    "to": 1084.6,
+    "sid": 425,
+    "location": 2,
+    "content": "输出一张图片",
+    "music": 0
+  },
+  {
+    "from": 1084.6,
+    "to": 1086.55,
+    "sid": 426,
+    "location": 2,
+    "content": "那其实生存这件事啊",
+    "music": 0
+  },
+  {
+    "from": 1086.55,
+    "to": 1087.48,
+    "sid": 427,
+    "location": 2,
+    "content": "我在课堂上",
+    "music": 0
+  },
+  {
+    "from": 1087.48,
+    "to": 1090.15,
+    "sid": 428,
+    "location": 2,
+    "content": "过去的机器学习课堂一直都是有提到的",
+    "music": 0
+  },
+  {
+    "from": 1090.15,
+    "to": 1092.73,
+    "sid": 429,
+    "location": 2,
+    "content": "这些投影片是来自5年前",
+    "music": 0
+  },
+  {
+    "from": 1092.73,
+    "to": 1095.64,
+    "sid": 430,
+    "location": 2,
+    "content": "2019年机器学习课堂的投影片",
+    "music": 0
+  },
+  {
+    "from": 1095.64,
+    "to": 1097.8,
+    "sid": 431,
+    "location": 2,
+    "content": "这些投影片是这样讲的",
+    "music": 0
+  },
+  {
+    "from": 1097.8,
+    "to": 1100.95,
+    "sid": 432,
+    "location": 2,
+    "content": "大家不知道有没有看过猎人这个漫画",
+    "music": 0
+  },
+  {
+    "from": 1100.95,
+    "to": 1103.12,
+    "sid": 433,
+    "location": 2,
+    "content": "猎人是这样子的一个故事的",
+    "music": 0
+  },
+  {
+    "from": 1103.12,
+    "to": 1107.95,
+    "sid": 434,
+    "location": 2,
+    "content": "你以为的五大洲并不是世界的全部",
+    "music": 0
+  },
+  {
+    "from": 1107.95,
+    "to": 1110.33,
+    "sid": 435,
+    "location": 2,
+    "content": "这只是世界的一小部分",
+    "music": 0
+  },
+  {
+    "from": 1110.33,
+    "to": 1113.72,
+    "sid": 436,
+    "location": 2,
+    "content": "其实我们都是活在一个很大的湖里面",
+    "music": 0
+  },
+  {
+    "from": 1113.72,
+    "to": 1116.48,
+    "sid": 437,
+    "location": 2,
+    "content": "湖外面才是真正的世界",
+    "music": 0
+  },
+  {
+    "from": 1116.48,
+    "to": 1118.19,
+    "sid": 438,
+    "location": 2,
+    "content": "叫暗黑大陆",
+    "music": 0
+  },
+  {
+    "from": 1118.19,
+    "to": 1122.55,
+    "sid": 439,
+    "location": 2,
+    "content": "里面有各式各样的神奇生物",
+    "music": 0
+  },
+  {
+    "from": 1122.55,
+    "to": 1124.94,
+    "sid": 440,
+    "location": 2,
+    "content": "而就机器学习的领域而言",
+    "music": 0
+  },
+  {
+    "from": 1124.94,
+    "to": 1128.72,
+    "sid": 441,
+    "location": 2,
+    "content": "分类这种从有限的答案中去得到一个选项的",
+    "music": 0
+  },
+  {
+    "from": 1128.72,
+    "to": 1131.92,
+    "sid": 442,
+    "location": 2,
+    "content": "这种问题就是你所熟知的时间",
+    "music": 0
+  },
+  {
+    "from": 1131.92,
+    "to": 1134.29,
+    "sid": 443,
+    "location": 2,
+    "content": "但是外面还有更困难",
+    "music": 0
+  },
+  {
+    "from": 1134.29,
+    "to": 1135.79,
+    "sid": 444,
+    "location": 2,
+    "content": "更有挑战性的技术",
+    "music": 0
+  },
+  {
+    "from": 1135.79,
+    "to": 1139.72,
+    "sid": 445,
+    "location": 2,
+    "content": "过去我说就是让机器产生有结构的复杂的东西",
+    "music": 0
+  },
+  {
+    "from": 1139.72,
+    "to": 1141.21,
+    "sid": 446,
+    "location": 2,
+    "content": "比如说文具图片",
+    "music": 0
+  },
+  {
+    "from": 1141.21,
+    "to": 1143.07,
+    "sid": 447,
+    "location": 2,
+    "content": "它就是生成",
+    "music": 0
+  },
+  {
+    "from": 1143.07,
+    "to": 1145.65,
+    "sid": 448,
+    "location": 2,
+    "content": "那如果机器可以成功做到生成",
+    "music": 0
+  },
+  {
+    "from": 1145.65,
+    "to": 1149.18,
+    "sid": 449,
+    "location": 2,
+    "content": "我在2019年的时候就说用拟人化的讲法",
+    "music": 0
+  },
+  {
+    "from": 1149.18,
+    "to": 1151.81,
+    "sid": 450,
+    "location": 2,
+    "content": "可以说他学会了创造",
+    "music": 0
+  },
+  {
+    "from": 1151.81,
+    "to": 1153.37,
+    "sid": 451,
+    "location": 2,
+    "content": "不过在2019年的时候",
+    "music": 0
+  },
+  {
+    "from": 1153.37,
+    "to": 1153.91,
+    "sid": 452,
+    "location": 2,
+    "content": "我会说",
+    "music": 0
+  },
+  {
+    "from": 1153.91,
+    "to": 1156.13,
+    "sid": 453,
+    "location": 2,
+    "content": "暗黑大陆离我们还很遥远",
+    "music": 0
+  },
+  {
+    "from": 1156.13,
+    "to": 1157.27,
+    "sid": 454,
+    "location": 2,
+    "content": "就像库拉皮卡",
+    "music": 0
+  },
+  {
+    "from": 1157.27,
+    "to": 1160.57,
+    "sid": 455,
+    "location": 2,
+    "content": "不知道什么时候才会登陆暗黑大陆一样",
+    "music": 0
+  },
+  {
+    "from": 1160.57,
+    "to": 1163.27,
+    "sid": 456,
+    "location": 2,
+    "content": "但现在已经是2024年了",
+    "music": 0
+  },
+  {
+    "from": 1163.27,
+    "to": 1166.3,
+    "sid": 457,
+    "location": 2,
+    "content": "库拉皮卡离暗黑大陆还遥遥无期",
+    "music": 0
+  },
+  {
+    "from": 1166.3,
+    "to": 1168.38,
+    "sid": 458,
+    "location": 2,
+    "content": "但是我觉得现在可以说是",
+    "music": 0
+  },
+  {
+    "from": 1168.38,
+    "to": 1171.02,
+    "sid": 459,
+    "location": 2,
+    "content": "已经见到暗黑大陆的守门人了",
+    "music": 0
+  },
+  {
+    "from": 1171.02,
+    "to": 1175.17,
+    "sid": 460,
+    "location": 2,
+    "content": "有了那到底生成式AI的挑战是什么呢",
+    "music": 0
+  },
+  {
+    "from": 1175.17,
+    "to": 1177,
+    "sid": 461,
+    "location": 2,
+    "content": "按照刚才的想法",
+    "music": 0
+  },
+  {
+    "from": 1177,
+    "to": 1178.89,
+    "sid": 462,
+    "location": 2,
+    "content": "我们只要收集够多的资料",
+    "music": 0
+  },
+  {
+    "from": 1178.89,
+    "to": 1182.22,
+    "sid": 463,
+    "location": 2,
+    "content": "找出一个韩式就可以做生成式AI",
+    "music": 0
+  },
+  {
+    "from": 1182.22,
+    "to": 1184.22,
+    "sid": 464,
+    "location": 2,
+    "content": "但你再仔细想一想",
+    "music": 0
+  },
+  {
+    "from": 1184.22,
+    "to": 1189.06,
+    "sid": 465,
+    "location": 2,
+    "content": "我们的训练资料也许怎么收集都是不够的",
+    "music": 0
+  },
+  {
+    "from": 1189.06,
+    "to": 1191.7,
+    "sid": 466,
+    "location": 2,
+    "content": "今天对生成式AI而言",
+    "music": 0
+  },
+  {
+    "from": 1191.7,
+    "to": 1195.63,
+    "sid": 467,
+    "location": 2,
+    "content": "人类在测试的时候可能会问任何的问题",
+    "music": 0
+  },
+  {
+    "from": 1195.63,
+    "to": 1198.51,
+    "sid": 468,
+    "location": 2,
+    "content": "机器的答案需要跟虚拟机和",
+    "music": 0
+  },
+  {
+    "from": 1198.51,
+    "to": 1200.43,
+    "sid": 469,
+    "location": 2,
+    "content": "机器需要得到的答案",
+    "music": 0
+  },
+  {
+    "from": 1200.43,
+    "to": 1203.4,
+    "sid": 470,
+    "location": 2,
+    "content": "可能跟训练的时候完全不同",
+    "music": 0
+  },
+  {
+    "from": 1203.4,
+    "to": 1205.089,
+    "sid": 471,
+    "location": 2,
+    "content": "今天有人问",
+    "music": 0
+  },
+  {
+    "from": 1205.089,
+    "to": 1208.119,
+    "sid": 472,
+    "location": 2,
+    "content": "叫你写一篇跟缝隙的联想有关的文章哈",
+    "music": 0
+  },
+  {
+    "from": 1208.119,
+    "to": 1210.369,
+    "sid": 473,
+    "location": 2,
+    "content": "今年只考的作文啊",
+    "music": 0
+  },
+  {
+    "from": 1210.369,
+    "to": 1213.84,
+    "sid": 474,
+    "location": 2,
+    "content": "这个要求过去可能在你的训练资料里面",
+    "music": 0
+  },
+  {
+    "from": 1213.84,
+    "to": 1215.1,
+    "sid": 475,
+    "location": 2,
+    "content": "一次都没有出现过",
+    "music": 0
+  },
+  {
+    "from": 1215.1,
+    "to": 1216.3,
+    "sid": 476,
+    "location": 2,
+    "content": "因为如果出现过的话",
+    "music": 0
+  },
+  {
+    "from": 1216.3,
+    "to": 1217.44,
+    "sid": 477,
+    "location": 2,
+    "content": "那就泄题了嘛",
+    "music": 0
+  },
+  {
+    "from": 1217.44,
+    "to": 1219.24,
+    "sid": 478,
+    "location": 2,
+    "content": "所以这是一个全新的问题",
+    "music": 0
+  },
+  {
+    "from": 1219.24,
+    "to": 1222.46,
+    "sid": 479,
+    "location": 2,
+    "content": "在训练资料里面一次都没有出现过",
+    "music": 0
+  },
+  {
+    "from": 1222.46,
+    "to": 1225.699,
+    "sid": 480,
+    "location": 2,
+    "content": "但如果你的模型要得到正确的答案",
+    "music": 0
+  },
+  {
+    "from": 1225.699,
+    "to": 1228.849,
+    "sid": 481,
+    "location": 2,
+    "content": "他显然需要创造全新的文具",
+    "music": 0
+  },
+  {
+    "from": 1228.849,
+    "to": 1233.01,
+    "sid": 482,
+    "location": 2,
+    "content": "是训练的时候一次都没有出现过的文具",
+    "music": 0
+  },
+  {
+    "from": 1233.01,
+    "to": 1236.85,
+    "sid": 483,
+    "location": 2,
+    "content": "那到底机器要怎么做到这件事呢",
+    "music": 0
+  },
+  {
+    "from": 1236.85,
+    "to": 1240.34,
+    "sid": 484,
+    "location": 2,
+    "content": "如果机器可以做到在测试的时候产生",
+    "music": 0
+  },
+  {
+    "from": 1240.34,
+    "to": 1243.07,
+    "sid": 485,
+    "location": 2,
+    "content": "训练的时候从来没有出现过的文具",
+    "music": 0
+  },
+  {
+    "from": 1243.07,
+    "to": 1247.53,
+    "sid": 486,
+    "location": 2,
+    "content": "也许我们就可以说极其具有某种程度的创造力",
+    "music": 0
+  },
+  {
+    "from": 1247.53,
+    "to": 1249.69,
+    "sid": 487,
+    "location": 2,
+    "content": "但我这边是加了一个引号啦",
+    "music": 0
+  },
+  {
+    "from": 1249.69,
+    "to": 1251.41,
+    "sid": 488,
+    "location": 2,
+    "content": "也许有人并不认同",
+    "music": 0
+  },
+  {
+    "from": 1251.41,
+    "to": 1254.77,
+    "sid": 489,
+    "location": 2,
+    "content": "只要能够产生训练的时候没有看过的文具",
+    "music": 0
+  },
+  {
+    "from": 1254.77,
+    "to": 1255.85,
+    "sid": 490,
+    "location": 2,
+    "content": "就算是有创造力",
+    "music": 0
+  },
+  {
+    "from": 1255.85,
+    "to": 1257.44,
+    "sid": 491,
+    "location": 2,
+    "content": "也许这也许这样的定义",
+    "music": 0
+  },
+  {
+    "from": 1257.44,
+    "to": 1258.7,
+    "sid": 492,
+    "location": 2,
+    "content": "不是每个人都可以认同的",
+    "music": 0
+  },
+  {
+    "from": 1258.7,
+    "to": 1262.48,
+    "sid": 493,
+    "location": 2,
+    "content": "但我这边的创造力指的意思就是机器可以产生",
+    "music": 0
+  },
+  {
+    "from": 1262.48,
+    "to": 1267.75,
+    "sid": 494,
+    "location": 2,
+    "content": "他训练的时候一次都没有看过的答案好",
+    "music": 0
+  },
+  {
+    "from": 1267.75,
+    "to": 1272.01,
+    "sid": 495,
+    "location": 2,
+    "content": "那今天像QGVT这样子的人工智慧",
+    "music": 0
+  },
+  {
+    "from": 1272.01,
+    "to": 1274.06,
+    "sid": 496,
+    "location": 2,
+    "content": "是怎么做到",
+    "music": 0
+  },
+  {
+    "from": 1274.06,
+    "to": 1277.42,
+    "sid": 497,
+    "location": 2,
+    "content": "产生一次都从来没有看过的答案的呢",
+    "music": 0
+  },
+  {
+    "from": 1277.42,
+    "to": 1280.46,
+    "sid": 498,
+    "location": 2,
+    "content": "这边我先用一页投影片跟大家说明",
+    "music": 0
+  },
+  {
+    "from": 1280.46,
+    "to": 1282.98,
+    "sid": 499,
+    "location": 2,
+    "content": "未来我们还会讲的更仔细一点啊",
+    "music": 0
+  },
+  {
+    "from": 1282.98,
+    "to": 1284.27,
+    "sid": 500,
+    "location": 2,
+    "content": "之所以需要先说明",
+    "music": 0
+  },
+  {
+    "from": 1284.27,
+    "to": 1285.38,
+    "sid": 501,
+    "location": 2,
+    "content": "是为了往后的课程",
+    "music": 0
+  },
+  {
+    "from": 1285.38,
+    "to": 1287.15,
+    "sid": 502,
+    "location": 2,
+    "content": "为了让你能够听懂",
+    "music": 0
+  },
+  {
+    "from": 1287.15,
+    "to": 1288.89,
+    "sid": 503,
+    "location": 2,
+    "content": "能够更了解课程的内容",
+    "music": 0
+  },
+  {
+    "from": 1288.89,
+    "to": 1291.95,
+    "sid": 504,
+    "location": 2,
+    "content": "我们还是需要用一页图片先跟你讲一下",
+    "music": 0
+  },
+  {
+    "from": 1291.95,
+    "to": 1294.659,
+    "sid": 505,
+    "location": 2,
+    "content": "全TVT背后的原理",
+    "music": 0
+  },
+  {
+    "from": 1294.659,
+    "to": 1297.719,
+    "sid": 506,
+    "location": 2,
+    "content": "那HHET背后的核心精神是什么呢",
+    "music": 0
+  },
+  {
+    "from": 1297.719,
+    "to": 1301.019,
+    "sid": 507,
+    "location": 2,
+    "content": "它的核心精神可以用四个字来概括",
+    "music": 0
+  },
+  {
+    "from": 1301.019,
+    "to": 1303.42,
+    "sid": 508,
+    "location": 2,
+    "content": "就是文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1303.42,
+    "to": 1305.88,
+    "sid": 509,
+    "location": 2,
+    "content": "原本我们在做生成式AI的时候",
+    "music": 0
+  },
+  {
+    "from": 1305.88,
+    "to": 1307.5,
+    "sid": 510,
+    "location": 2,
+    "content": "觉得是一个很难的问题",
+    "music": 0
+  },
+  {
+    "from": 1307.5,
+    "to": 1311.5,
+    "sid": 511,
+    "location": 2,
+    "content": "因为一段文具的可能性是无法穷尽的",
+    "music": 0
+  },
+  {
+    "from": 1311.5,
+    "to": 1314.56,
+    "sid": 512,
+    "location": 2,
+    "content": "但是在确GBT里面生成一个答案",
+    "music": 0
+  },
+  {
+    "from": 1314.56,
+    "to": 1318.889,
+    "sid": 513,
+    "location": 2,
+    "content": "被拆解成一连串的文字接龙的问题",
+    "music": 0
+  },
+  {
+    "from": 1318.889,
+    "to": 1321.409,
+    "sid": 514,
+    "location": 2,
+    "content": "本来你问机器台湾最高的山是哪座",
+    "music": 0
+  },
+  {
+    "from": 1321.409,
+    "to": 1324.75,
+    "sid": 515,
+    "location": 2,
+    "content": "你今天的目标是要机器打出御三这个答案",
+    "music": 0
+  },
+  {
+    "from": 1324.75,
+    "to": 1328.05,
+    "sid": 516,
+    "location": 2,
+    "content": "但实际上却GBT做的事情并不是",
+    "music": 0
+  },
+  {
+    "from": 1328.05,
+    "to": 1330.38,
+    "sid": 517,
+    "location": 2,
+    "content": "直接把完整的答案生出来",
+    "music": 0
+  },
+  {
+    "from": 1330.38,
+    "to": 1334.34,
+    "sid": 518,
+    "location": 2,
+    "content": "他做的事情是去做了一系列的文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1334.34,
+    "to": 1336.44,
+    "sid": 519,
+    "location": 2,
+    "content": "先把台湾最高的山是哪座",
+    "music": 0
+  },
+  {
+    "from": 1336.44,
+    "to": 1340.18,
+    "sid": 520,
+    "location": 2,
+    "content": "问号这个句子当做一个未完成的句子",
+    "music": 0
+  },
+  {
+    "from": 1340.18,
+    "to": 1341.64,
+    "sid": 521,
+    "location": 2,
+    "content": "他去预测说",
+    "music": 0
+  },
+  {
+    "from": 1341.64,
+    "to": 1345.15,
+    "sid": 522,
+    "location": 2,
+    "content": "这个句子后面应该接哪一个字是合理的",
+    "music": 0
+  },
+  {
+    "from": 1345.15,
+    "to": 1348.11,
+    "sid": 523,
+    "location": 2,
+    "content": "比如说可能接遇是合理的",
+    "music": 0
+  },
+  {
+    "from": 1348.11,
+    "to": 1349.97,
+    "sid": 524,
+    "location": 2,
+    "content": "那产生一个合理的",
+    "music": 0
+  },
+  {
+    "from": 1349.97,
+    "to": 1352.01,
+    "sid": 525,
+    "location": 2,
+    "content": "可以接在输入后面的字以后",
+    "music": 0
+  },
+  {
+    "from": 1352.01,
+    "to": 1354.409,
+    "sid": 526,
+    "location": 2,
+    "content": "再把这个字贴到前面去",
+    "music": 0
+  },
+  {
+    "from": 1354.409,
+    "to": 1356.389,
+    "sid": 527,
+    "location": 2,
+    "content": "再做一次文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1356.389,
+    "to": 1358.129,
+    "sid": 528,
+    "location": 2,
+    "content": "台湾最高的山是哪座",
+    "music": 0
+  },
+  {
+    "from": 1358.129,
+    "to": 1360.769,
+    "sid": 529,
+    "location": 2,
+    "content": "问号玉后面接哪个字是合理的呢",
+    "music": 0
+  },
+  {
+    "from": 1360.769,
+    "to": 1362.8,
+    "sid": 530,
+    "location": 2,
+    "content": "也许接三是合理的",
+    "music": 0
+  },
+  {
+    "from": 1362.8,
+    "to": 1365.41,
+    "sid": 531,
+    "location": 2,
+    "content": "那再把三贴到输入去",
+    "music": 0
+  },
+  {
+    "from": 1365.41,
+    "to": 1368.32,
+    "sid": 532,
+    "location": 2,
+    "content": "现在的问题变成台湾最高的山是哪座",
+    "music": 0
+  },
+  {
+    "from": 1368.32,
+    "to": 1369.45,
+    "sid": 533,
+    "location": 2,
+    "content": "问号玉山",
+    "music": 0
+  },
+  {
+    "from": 1369.45,
+    "to": 1371.97,
+    "sid": 534,
+    "location": 2,
+    "content": "然后要机器输出什么呢",
+    "music": 0
+  },
+  {
+    "from": 1371.97,
+    "to": 1373.17,
+    "sid": 535,
+    "location": 2,
+    "content": "也许机器觉得",
+    "music": 0
+  },
+  {
+    "from": 1373.17,
+    "to": 1375.93,
+    "sid": 536,
+    "location": 2,
+    "content": "也许机器觉得已经没有什么好输出了",
+    "music": 0
+  },
+  {
+    "from": 1375.93,
+    "to": 1377.43,
+    "sid": 537,
+    "location": 2,
+    "content": "这个就是句子的结束了",
+    "music": 0
+  },
+  {
+    "from": 1377.43,
+    "to": 1379.7,
+    "sid": 538,
+    "location": 2,
+    "content": "他就输出结束这个符号",
+    "music": 0
+  },
+  {
+    "from": 1379.7,
+    "to": 1381.98,
+    "sid": 539,
+    "location": 2,
+    "content": "那整个生成的过程就结束了",
+    "music": 0
+  },
+  {
+    "from": 1381.98,
+    "to": 1385.49,
+    "sid": 540,
+    "location": 2,
+    "content": "机器也得到了御三这个答案哦",
+    "music": 0
+  },
+  {
+    "from": 1385.49,
+    "to": 1387.41,
+    "sid": 541,
+    "location": 2,
+    "content": "这个能够做文字接龙的模型",
+    "music": 0
+  },
+  {
+    "from": 1387.41,
+    "to": 1390.23,
+    "sid": 542,
+    "location": 2,
+    "content": "有一个名字就叫做语言模型",
+    "music": 0
+  },
+  {
+    "from": 1390.23,
+    "to": 1392.7,
+    "sid": 543,
+    "location": 2,
+    "content": "那我相信大家在报章杂志上",
+    "music": 0
+  },
+  {
+    "from": 1392.7,
+    "to": 1396.82,
+    "sid": 544,
+    "location": 2,
+    "content": "最近经常最近经常常听到语言模型这个词汇",
+    "music": 0
+  },
+  {
+    "from": 1396.82,
+    "to": 1401.429,
+    "sid": 545,
+    "location": 2,
+    "content": "其实它指的就是一个在做文字接龙的模型",
+    "music": 0
+  },
+  {
+    "from": 1401.429,
+    "to": 1403.829,
+    "sid": 546,
+    "location": 2,
+    "content": "那把本来要生成一个完整答案",
+    "music": 0
+  },
+  {
+    "from": 1403.829,
+    "to": 1406.799,
+    "sid": 547,
+    "location": 2,
+    "content": "这件事情改成一系列的文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1406.799,
+    "to": 1408.99,
+    "sid": 548,
+    "location": 2,
+    "content": "有什么样的好处呢",
+    "music": 0
+  },
+  {
+    "from": 1408.99,
+    "to": 1411.99,
+    "sid": 549,
+    "location": 2,
+    "content": "本来我说深层4A的难点就是可能的",
+    "music": 0
+  },
+  {
+    "from": 1411.99,
+    "to": 1414.57,
+    "sid": 550,
+    "location": 2,
+    "content": "答案是无穷无尽的",
+    "music": 0
+  },
+  {
+    "from": 1414.57,
+    "to": 1417.78,
+    "sid": 551,
+    "location": 2,
+    "content": "但我们再来想想文字接龙这个问题",
+    "music": 0
+  },
+  {
+    "from": 1417.78,
+    "to": 1421.13,
+    "sid": 552,
+    "location": 2,
+    "content": "文字接龙的答案是有限的",
+    "music": 0
+  },
+  {
+    "from": 1421.13,
+    "to": 1424.03,
+    "sid": 553,
+    "location": 2,
+    "content": "现在机器要解的问题是一系列",
+    "music": 0
+  },
+  {
+    "from": 1424.03,
+    "to": 1426.13,
+    "sid": 554,
+    "location": 2,
+    "content": "同样的文字接龙的问题",
+    "music": 0
+  },
+  {
+    "from": 1426.13,
+    "to": 1428.35,
+    "sid": 555,
+    "location": 2,
+    "content": "而文字在做文字接龙的时候",
+    "music": 0
+  },
+  {
+    "from": 1428.35,
+    "to": 1432.37,
+    "sid": 556,
+    "location": 2,
+    "content": "机器要做的就是猜出下一个字可以接什么",
+    "music": 0
+  },
+  {
+    "from": 1432.37,
+    "to": 1436.45,
+    "sid": 557,
+    "location": 2,
+    "content": "那如果中文的常用字可能就是三四千个",
+    "music": 0
+  },
+  {
+    "from": 1436.45,
+    "to": 1438.63,
+    "sid": 558,
+    "location": 2,
+    "content": "是有限的",
+    "music": 0
+  },
+  {
+    "from": 1438.63,
+    "to": 1442.17,
+    "sid": 559,
+    "location": 2,
+    "content": "所以这个时候本来生成是A的问题",
+    "music": 0
+  },
+  {
+    "from": 1442.17,
+    "to": 1444.03,
+    "sid": 560,
+    "location": 2,
+    "content": "把它变成文字接龙以后",
+    "music": 0
+  },
+  {
+    "from": 1444.03,
+    "to": 1447.639,
+    "sid": 561,
+    "location": 2,
+    "content": "它就变成了一系列的分类的问题",
+    "music": 0
+  },
+  {
+    "from": 1447.639,
+    "to": 1452.59,
+    "sid": 562,
+    "location": 2,
+    "content": "机器回到从有限的选项中选出答案的问题了",
+    "music": 0
+  },
+  {
+    "from": 1452.59,
+    "to": 1454.57,
+    "sid": 563,
+    "location": 2,
+    "content": "而从有限的选项选出答案",
+    "music": 0
+  },
+  {
+    "from": 1454.57,
+    "to": 1458.19,
+    "sid": 564,
+    "location": 2,
+    "content": "是我们人类一直都知道怎么做的事情",
+    "music": 0
+  },
+  {
+    "from": 1458.19,
+    "to": 1461.79,
+    "sid": 565,
+    "location": 2,
+    "content": "所以本来很困难的生成一整段文章的",
+    "music": 0
+  },
+  {
+    "from": 1461.79,
+    "to": 1464.19,
+    "sid": 566,
+    "location": 2,
+    "content": "这些问题就变成文字接龙的问题",
+    "music": 0
+  },
+  {
+    "from": 1464.19,
+    "to": 1467.42,
+    "sid": 567,
+    "location": 2,
+    "content": "一系列分类的问题而变得可以解了",
+    "music": 0
+  },
+  {
+    "from": 1467.42,
+    "to": 1469.62,
+    "sid": 568,
+    "location": 2,
+    "content": "但至于实际上到底是怎么解的",
+    "music": 0
+  },
+  {
+    "from": 1469.62,
+    "to": 1471.36,
+    "sid": 569,
+    "location": 2,
+    "content": "才变成像今天这么厉害",
+    "music": 0
+  },
+  {
+    "from": 1471.36,
+    "to": 1472.23,
+    "sid": 570,
+    "location": 2,
+    "content": "的确GBT",
+    "music": 0
+  },
+  {
+    "from": 1472.23,
+    "to": 1476.73,
+    "sid": 571,
+    "location": 2,
+    "content": "那这个就是往后课程的内容了好",
+    "music": 0
+  },
+  {
+    "from": 1476.73,
+    "to": 1482.29,
+    "sid": 572,
+    "location": 2,
+    "content": "但是语言模型并不是生成式人工智慧的全部",
+    "music": 0
+  },
+  {
+    "from": 1482.29,
+    "to": 1486.34,
+    "sid": 573,
+    "location": 2,
+    "content": "它只是生成式人工智慧的其中一个技术而已",
+    "music": 0
+  },
+  {
+    "from": 1486.34,
+    "to": 1492.46,
+    "sid": 574,
+    "location": 2,
+    "content": "事实上生成并不一定要用文字接龙的方式生成",
+    "music": 0
+  },
+  {
+    "from": 1492.46,
+    "to": 1494.29,
+    "sid": 575,
+    "location": 2,
+    "content": "可以有不同的策略",
+    "music": 0
+  },
+  {
+    "from": 1494.29,
+    "to": 1496.03,
+    "sid": 576,
+    "location": 2,
+    "content": "在我们刚才的叙述里面",
+    "music": 0
+  },
+  {
+    "from": 1496.03,
+    "to": 1497.62,
+    "sid": 577,
+    "location": 2,
+    "content": "我们说怎么生一篇文章",
+    "music": 0
+  },
+  {
+    "from": 1497.62,
+    "to": 1499.46,
+    "sid": 578,
+    "location": 2,
+    "content": "因为文章是由文字构成的",
+    "music": 0
+  },
+  {
+    "from": 1499.46,
+    "to": 1500.48,
+    "sid": 579,
+    "location": 2,
+    "content": "所以生一篇文章",
+    "music": 0
+  },
+  {
+    "from": 1500.48,
+    "to": 1503.48,
+    "sid": 580,
+    "location": 2,
+    "content": "这个这个这个任务可以看作是",
+    "music": 0
+  },
+  {
+    "from": 1503.48,
+    "to": 1506.19,
+    "sid": 581,
+    "location": 2,
+    "content": "生成一个序列的文字",
+    "music": 0
+  },
+  {
+    "from": 1506.19,
+    "to": 1507.96,
+    "sid": 582,
+    "location": 2,
+    "content": "那其实同样的概念",
+    "music": 0
+  },
+  {
+    "from": 1507.96,
+    "to": 1510.63,
+    "sid": 583,
+    "location": 2,
+    "content": "好像也可以拿来生成其他东西",
+    "music": 0
+  },
+  {
+    "from": 1510.63,
+    "to": 1512.98,
+    "sid": 584,
+    "location": 2,
+    "content": "比如说生成图片",
+    "music": 0
+  },
+  {
+    "from": 1512.98,
+    "to": 1516.42,
+    "sid": 585,
+    "location": 2,
+    "content": "我们知道图片是由像素所构成的",
+    "music": 0
+  },
+  {
+    "from": 1516.42,
+    "to": 1519.84,
+    "sid": 586,
+    "location": 2,
+    "content": "所以既然文字接龙可以解生成文章的问题",
+    "music": 0
+  },
+  {
+    "from": 1519.84,
+    "to": 1524.62,
+    "sid": 587,
+    "location": 2,
+    "content": "像素接龙也有机会可以解生成普遍的问题",
+    "music": 0
+  },
+  {
+    "from": 1524.62,
+    "to": 1528.909,
+    "sid": 588,
+    "location": 2,
+    "content": "这种把复杂的物件拆解成较小的单位",
+    "music": 0
+  },
+  {
+    "from": 1528.909,
+    "to": 1531.099,
+    "sid": 589,
+    "location": 2,
+    "content": "再按照某种固定的顺序",
+    "music": 0
+  },
+  {
+    "from": 1531.099,
+    "to": 1534.97,
+    "sid": 590,
+    "location": 2,
+    "content": "把这些较小的单位生成出来的这种策略",
+    "music": 0
+  },
+  {
+    "from": 1534.97,
+    "to": 1539.71,
+    "sid": 591,
+    "location": 2,
+    "content": "今天有一个名字叫做auto regressive的generation",
+    "music": 0
+  },
+  {
+    "from": 1539.71,
+    "to": 1544.35,
+    "sid": 592,
+    "location": 2,
+    "content": "那像CHEGBT就是采用了auto regressive的generation",
+    "music": 0
+  },
+  {
+    "from": 1544.35,
+    "to": 1546.33,
+    "sid": 593,
+    "location": 2,
+    "content": "至于还有什么其他的策略",
+    "music": 0
+  },
+  {
+    "from": 1546.33,
+    "to": 1549.19,
+    "sid": 594,
+    "location": 2,
+    "content": "我们日后都会再讲到",
+    "music": 0
+  },
+  {
+    "from": 1549.19,
+    "to": 1551.95,
+    "sid": 595,
+    "location": 2,
+    "content": "那从欧洲从这个投影片上看起来",
+    "music": 0
+  },
+  {
+    "from": 1551.95,
+    "to": 1554.91,
+    "sid": 596,
+    "location": 2,
+    "content": "生成图片也可以跟CHEGBT一样",
+    "music": 0
+  },
+  {
+    "from": 1554.91,
+    "to": 1557.76,
+    "sid": 597,
+    "location": 2,
+    "content": "用像素接龙的方式来删除片",
+    "music": 0
+  },
+  {
+    "from": 1557.76,
+    "to": 1559.62,
+    "sid": 598,
+    "location": 2,
+    "content": "有没有人这样尝试过呢",
+    "music": 0
+  },
+  {
+    "from": 1559.62,
+    "to": 1560.179,
+    "sid": 599,
+    "location": 2,
+    "content": "有",
+    "music": 0
+  },
+  {
+    "from": 1560.179,
+    "to": 1565.369,
+    "sid": 600,
+    "location": 2,
+    "content": "其实OpenAI在很多年前就打造了影像版的GPT",
+    "music": 0
+  },
+  {
+    "from": 1565.369,
+    "to": 1568.87,
+    "sid": 601,
+    "location": 2,
+    "content": "用像素接龙的方式来产生图片",
+    "music": 0
+  },
+  {
+    "from": 1568.87,
+    "to": 1572.38,
+    "sid": 602,
+    "location": 2,
+    "content": "但这个方法后来并没有红起来",
+    "music": 0
+  },
+  {
+    "from": 1572.38,
+    "to": 1573.88,
+    "sid": 603,
+    "location": 2,
+    "content": "为什么没有红起来",
+    "music": 0
+  },
+  {
+    "from": 1573.88,
+    "to": 1576.79,
+    "sid": 604,
+    "location": 2,
+    "content": "这个是往后我们在讲到深层策略的时候",
+    "music": 0
+  },
+  {
+    "from": 1576.79,
+    "to": 1579.49,
+    "sid": 605,
+    "location": 2,
+    "content": "才会跟大家说明的",
+    "music": 0
+  },
+  {
+    "from": 1579.49,
+    "to": 1581.77,
+    "sid": 606,
+    "location": 2,
+    "content": "那深层次人工智慧啊",
+    "music": 0
+  },
+  {
+    "from": 1581.77,
+    "to": 1584.11,
+    "sid": 607,
+    "location": 2,
+    "content": "不是今天才有的",
+    "music": 0
+  },
+  {
+    "from": 1584.11,
+    "to": 1587.31,
+    "sid": 608,
+    "location": 2,
+    "content": "他一直都有人在研究",
+    "music": 0
+  },
+  {
+    "from": 1587.31,
+    "to": 1588.96,
+    "sid": 609,
+    "location": 2,
+    "content": "其实在2015年",
+    "music": 0
+  },
+  {
+    "from": 1588.96,
+    "to": 1591.57,
+    "sid": 610,
+    "location": 2,
+    "content": "我刚开的第一堂机器学习的课程",
+    "music": 0
+  },
+  {
+    "from": 1591.57,
+    "to": 1593.04,
+    "sid": 611,
+    "location": 2,
+    "content": "并不叫机器学习",
+    "music": 0
+  },
+  {
+    "from": 1593.04,
+    "to": 1597.45,
+    "sid": 612,
+    "location": 2,
+    "content": "它叫机器学习及其深层与结构化",
+    "music": 0
+  },
+  {
+    "from": 1597.45,
+    "to": 1600.18,
+    "sid": 613,
+    "location": 2,
+    "content": "然后打算要强调两个重要的技术",
+    "music": 0
+  },
+  {
+    "from": 1600.18,
+    "to": 1602.06,
+    "sid": 614,
+    "location": 2,
+    "content": "一个是深层学习",
+    "music": 0
+  },
+  {
+    "from": 1602.06,
+    "to": 1603.71,
+    "sid": 615,
+    "location": 2,
+    "content": "你可问深层学习是什么",
+    "music": 0
+  },
+  {
+    "from": 1603.71,
+    "to": 1605.57,
+    "sid": 616,
+    "location": 2,
+    "content": "跟深度学习有什么关系",
+    "music": 0
+  },
+  {
+    "from": 1605.57,
+    "to": 1606.86,
+    "sid": 617,
+    "location": 2,
+    "content": "它就是深度学习",
+    "music": 0
+  },
+  {
+    "from": 1606.86,
+    "to": 1610.28,
+    "sid": 618,
+    "location": 2,
+    "content": "那个时候呢deep learning还没有统一的中文翻译",
+    "music": 0
+  },
+  {
+    "from": 1610.28,
+    "to": 1611.72,
+    "sid": 619,
+    "location": 2,
+    "content": "所以我是翻成深层学习",
+    "music": 0
+  },
+  {
+    "from": 1611.72,
+    "to": 1615.03,
+    "sid": 620,
+    "location": 2,
+    "content": "我觉得深层学习比较符合deep learning实际上做的事情",
+    "music": 0
+  },
+  {
+    "from": 1615.03,
+    "to": 1618,
+    "sid": 621,
+    "location": 2,
+    "content": "不过后来大家都翻译成深度学习就是了",
+    "music": 0
+  },
+  {
+    "from": 1618,
+    "to": 1619.98,
+    "sid": 622,
+    "location": 2,
+    "content": "那什么是结构化呢",
+    "music": 0
+  },
+  {
+    "from": 1619.98,
+    "to": 1624.909,
+    "sid": 623,
+    "location": 2,
+    "content": "结构化学习就是今天的生成式AI",
+    "music": 0
+  },
+  {
+    "from": 1624.909,
+    "to": 1628.299,
+    "sid": 624,
+    "location": 2,
+    "content": "因为生成式AI就是要生成有结构的东西",
+    "music": 0
+  },
+  {
+    "from": 1628.299,
+    "to": 1631.23,
+    "sid": 625,
+    "location": 2,
+    "content": "所以过去我们叫做结构化学习",
+    "music": 0
+  },
+  {
+    "from": 1631.23,
+    "to": 1636.3,
+    "sid": 626,
+    "location": 2,
+    "content": "不过今天我们叫做深层次学习哦",
+    "music": 0
+  },
+  {
+    "from": 1636.3,
+    "to": 1638.94,
+    "sid": 627,
+    "location": 2,
+    "content": "那过去2015年讲的结构化学习",
+    "music": 0
+  },
+  {
+    "from": 1638.94,
+    "to": 1640.8,
+    "sid": 628,
+    "location": 2,
+    "content": "跟今天的生成式AI",
+    "music": 0
+  },
+  {
+    "from": 1640.8,
+    "to": 1643.96,
+    "sid": 629,
+    "location": 2,
+    "content": "它背后的技术有什么一样的地方呢",
+    "music": 0
+  },
+  {
+    "from": 1643.96,
+    "to": 1645.7,
+    "sid": 630,
+    "location": 2,
+    "content": "你可以看看过去的课程",
+    "music": 0
+  },
+  {
+    "from": 1645.7,
+    "to": 1647.77,
+    "sid": 631,
+    "location": 2,
+    "content": "结论都是没什么一样的地方",
+    "music": 0
+  },
+  {
+    "from": 1647.77,
+    "to": 1650.34,
+    "sid": 632,
+    "location": 2,
+    "content": "这个技术变化真的非常的快",
+    "music": 0
+  },
+  {
+    "from": 1650.34,
+    "to": 1652.11,
+    "sid": 633,
+    "location": 2,
+    "content": "短短不到10年的时间",
+    "music": 0
+  },
+  {
+    "from": 1652.11,
+    "to": 1655.38,
+    "sid": 634,
+    "location": 2,
+    "content": "技术已有了翻天覆地的变化",
+    "music": 0
+  },
+  {
+    "from": 1655.38,
+    "to": 1660.62,
+    "sid": 635,
+    "location": 2,
+    "content": "但是生成式AI这个概念其实不是今天才有的",
+    "music": 0
+  },
+  {
+    "from": 1661.02,
+    "to": 1664.22,
+    "sid": 636,
+    "location": 2,
+    "content": "因为生成式A的概念其实不是今天才用",
+    "music": 0
+  },
+  {
+    "from": 1664.22,
+    "to": 1666.23,
+    "sid": 637,
+    "location": 2,
+    "content": "生成式AI相关的应用",
+    "music": 0
+  },
+  {
+    "from": 1666.23,
+    "to": 1669.26,
+    "sid": 638,
+    "location": 2,
+    "content": "早就充斥在你的日常生活中",
+    "music": 0
+  },
+  {
+    "from": 1669.26,
+    "to": 1670.139,
+    "sid": 639,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 1670.139,
+    "to": 1671.099,
+    "sid": 640,
+    "location": 2,
+    "content": "google翻译",
+    "music": 0
+  },
+  {
+    "from": 1671.099,
+    "to": 1674.06,
+    "sid": 641,
+    "location": 2,
+    "content": "大家知道google翻译是什么时候上线的吗",
+    "music": 0
+  },
+  {
+    "from": 1674.06,
+    "to": 1678.08,
+    "sid": 642,
+    "location": 2,
+    "content": "是2006年就上线了哇",
+    "music": 0
+  },
+  {
+    "from": 1678.08,
+    "to": 1680.65,
+    "sid": 643,
+    "location": 2,
+    "content": "这个非常早就已经足够翻译了",
+    "music": 0
+  },
+  {
+    "from": 1680.65,
+    "to": 1684.07,
+    "sid": 644,
+    "location": 2,
+    "content": "而翻译这件事情本来就是生成式AI的",
+    "music": 0
+  },
+  {
+    "from": 1684.07,
+    "to": 1684.97,
+    "sid": 645,
+    "location": 2,
+    "content": "其中的应用",
+    "music": 0
+  },
+  {
+    "from": 1684.97,
+    "to": 1687.46,
+    "sid": 646,
+    "location": 2,
+    "content": "因为机器需要产生一段文字",
+    "music": 0
+  },
+  {
+    "from": 1687.46,
+    "to": 1690.39,
+    "sid": 647,
+    "location": 2,
+    "content": "这本来就是一种声称是AI",
+    "music": 0
+  },
+  {
+    "from": 1690.39,
+    "to": 1692.09,
+    "sid": 648,
+    "location": 2,
+    "content": "而且翻译的时候呃",
+    "music": 0
+  },
+  {
+    "from": 1692.09,
+    "to": 1693.11,
+    "sid": 649,
+    "location": 2,
+    "content": "人可能会的",
+    "music": 0
+  },
+  {
+    "from": 1693.11,
+    "to": 1693.95,
+    "sid": 650,
+    "location": 2,
+    "content": "可能的输入",
+    "music": 0
+  },
+  {
+    "from": 1693.95,
+    "to": 1696.47,
+    "sid": 651,
+    "location": 2,
+    "content": "你可能要翻译的文具是千变万化的",
+    "music": 0
+  },
+  {
+    "from": 1696.47,
+    "to": 1697.84,
+    "sid": 652,
+    "location": 2,
+    "content": "不管输入什么样的文具",
+    "music": 0
+  },
+  {
+    "from": 1697.84,
+    "to": 1700.09,
+    "sid": 653,
+    "location": 2,
+    "content": "然后我们得出一个合理的对应的翻译",
+    "music": 0
+  },
+  {
+    "from": 1700.09,
+    "to": 1701.62,
+    "sid": 654,
+    "location": 2,
+    "content": "而这个正确的对应的翻译",
+    "music": 0
+  },
+  {
+    "from": 1701.62,
+    "to": 1704.22,
+    "sid": 655,
+    "location": 2,
+    "content": "可能在训练资料里面一次都没有出现过",
+    "music": 0
+  },
+  {
+    "from": 1704.22,
+    "to": 1708.45,
+    "sid": 656,
+    "location": 2,
+    "content": "所以翻译本来就是一个生成式AI的问题",
+    "music": 0
+  },
+  {
+    "from": 1708.45,
+    "to": 1712.16,
+    "sid": 657,
+    "location": 2,
+    "content": "所以生成式AI不是只有今天才有",
+    "music": 0
+  },
+  {
+    "from": 1712.16,
+    "to": 1715.19,
+    "sid": 658,
+    "location": 2,
+    "content": "但是为什么今天今日",
+    "music": 0
+  },
+  {
+    "from": 1715.19,
+    "to": 1718.64,
+    "sid": 659,
+    "location": 2,
+    "content": "深层次AI突然爆红起来了呢",
+    "music": 0
+  },
+  {
+    "from": 1718.64,
+    "to": 1720.92,
+    "sid": 660,
+    "location": 2,
+    "content": "到底是发生了什么事啊",
+    "music": 0
+  },
+  {
+    "from": 1720.92,
+    "to": 1723.15,
+    "sid": 661,
+    "location": 2,
+    "content": "这个是我们下一个阶段的课程",
+    "music": 0
+  },
+  {
+    "from": 1723.15,
+    "to": 1726.27,
+    "sid": 662,
+    "location": 2,
+    "content": "会再帮大家剖析的好",
+    "music": 0
+  },
+  {
+    "from": 1726.27,
+    "to": 1729.39,
+    "sid": 663,
+    "location": 2,
+    "content": "那我知道说呃我看一下我们的时间呢",
+    "music": 0
+  },
+  {
+    "from": 1729.39,
+    "to": 1730.17,
+    "sid": 664,
+    "location": 2,
+    "content": "也许您不太够",
+    "music": 0
+  },
+  {
+    "from": 1730.17,
+    "to": 1731.37,
+    "sid": 665,
+    "location": 2,
+    "content": "我讲完下一段课程",
+    "music": 0
+  },
+  {
+    "from": 1731.37,
+    "to": 1735.17,
+    "sid": 666,
+    "location": 2,
+    "content": "我准备等一下时间就来回答slider上面的问题",
+    "music": 0
+  },
+  {
+    "from": 1735.17,
+    "to": 1736.13,
+    "sid": 667,
+    "location": 2,
+    "content": "然后呢",
+    "music": 0
+  },
+  {
+    "from": 1736.13,
+    "to": 1739.579,
+    "sid": 668,
+    "location": 2,
+    "content": "呃因为今天没讲到什么有技术含量的东西",
+    "music": 0
+  },
+  {
+    "from": 1739.579,
+    "to": 1742.159,
+    "sid": 669,
+    "location": 2,
+    "content": "你一定觉得哎呀这个今天就听了个故事",
+    "music": 0
+  },
+  {
+    "from": 1742.159,
+    "to": 1744.26,
+    "sid": 670,
+    "location": 2,
+    "content": "没听到什么技术含量的东西好吧",
+    "music": 0
+  },
+  {
+    "from": 1744.26,
+    "to": 1746.18,
+    "sid": 671,
+    "location": 2,
+    "content": "如果你要贴有技术含量的东西",
+    "music": 0
+  },
+  {
+    "from": 1746.18,
+    "to": 1749.01,
+    "sid": 672,
+    "location": 2,
+    "content": "不然你先来找一下我那个课程的哦",
+    "music": 0
+  },
+  {
+    "from": 1749.01,
+    "to": 1750.93,
+    "sid": 673,
+    "location": 2,
+    "content": "那我个人的那个YOUTUBE频道",
+    "music": 0
+  },
+  {
+    "from": 1750.93,
+    "to": 1753.24,
+    "sid": 674,
+    "location": 2,
+    "content": "你在那个YOUTUBE上搜寻我的名字",
+    "music": 0
+  },
+  {
+    "from": 1753.24,
+    "to": 1754.86,
+    "sid": 675,
+    "location": 2,
+    "content": "就可以找到我的YOUTUBE频道",
+    "music": 0
+  },
+  {
+    "from": 1754.86,
+    "to": 1756.27,
+    "sid": 676,
+    "location": 2,
+    "content": "那里面的第一部影片",
+    "music": 0
+  },
+  {
+    "from": 1756.27,
+    "to": 1758.46,
+    "sid": 677,
+    "location": 2,
+    "content": "80分钟讲大型语言模型",
+    "music": 0
+  },
+  {
+    "from": 1758.46,
+    "to": 1759.84,
+    "sid": 678,
+    "location": 2,
+    "content": "你可以先看一下那一步",
+    "music": 0
+  },
+  {
+    "from": 1759.84,
+    "to": 1763.82,
+    "sid": 679,
+    "location": 2,
+    "content": "了解CHEGBT是怎么被打造出来的",
+    "music": 0
+  },
+  {
+    "from": 1763.82,
+    "to": 1765.08,
+    "sid": 680,
+    "location": 2,
+    "content": "然后等于是一个预期",
+    "music": 0
+  },
+  {
+    "from": 1765.08,
+    "to": 1768.78,
+    "sid": 681,
+    "location": 2,
+    "content": "未来我们还会将更多这方面的知识",
+    "music": 0
+  }
+]

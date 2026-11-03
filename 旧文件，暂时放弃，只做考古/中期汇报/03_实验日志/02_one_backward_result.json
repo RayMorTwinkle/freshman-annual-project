@@ -1,0 +1,13 @@
+{
+  "model_id": "lerobot/smolvla_base",
+  "device": "cuda",
+  "params_M": 450.0,
+  "trainable_params_M": 99.9,
+  "loss": -8.00256,
+  "forward_time_s": 0.744,
+  "backward_time_s": 0.463,
+  "gpu_memory_GB": 0.94,
+  "gpu_peak_GB": 0.94,
+  "grad_params": 0,
+  "total_params": 500
+}

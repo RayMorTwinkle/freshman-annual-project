@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboTwin 2.0 复现指南：小白生存手册 (RTX 4060版)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Chosen Palette: Warm Neutrals & Calm Harmony */
+        :root {
+            --bg-main: #f5f5f0; /* Warm neutral background */
+            --bg-card: #ffffff;
+            --primary: #5c7c8a; /* Muted slate blue */
+            --secondary: #d4a373; /* Warm sand/accent */
+            --text-main: #2d3436;
+            --text-sub: #636e72;
+            --highlight: #e0f2f1;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+
+        .step-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .step-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .step-card.active {
+            border-left-color: var(--secondary);
+            background-color: #fffbf5;
+        }
+
+        /* Custom Scrollbar for code blocks */
+        .code-block::-webkit-scrollbar {
+            height: 8px;
+        }
+        .code-block::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        .code-block::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius: 4px;
+        }
+    </style>
+    <!-- Application Structure Plan: 
+         1. Dashboard Header: Immediate feasibility check for the RTX 4060 user.
+         2. Resource Estimator (Interactive): User inputs their commitment, App calculates time/storage.
+         3. The Roadmap (Phase-based Navigation): Breaking the scary paper into 4 logical phases (Env, Data, Train, Eval).
+         4. Milestone Reporting (The "When to ask teacher" feature): Checklist that triggers specific advice.
+         Rationale: The user is a self-declared beginner. They need reassurance (feasibility), concrete metrics (time/space), and social guidance (teacher interaction). 
+    -->
+    <!-- Visualization & Content Choices:
+         1. Doughnut Charts: To visualize the "Budget" of VRAM and Disk Space on a 4060 laptop.
+         2. Interactive Roadmap: Clickable phases to reveal detailed, non-overwhelming steps.
+         3. Dynamic Calculator: Simple JS math to estimate HDD usage based on "Episode Count".
+         4. Progress Bars: To verify "Am I ready for the next step?".
+         5. CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. All visuals are Canvas or HTML/CSS.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto space-y-8">
+        
+        <!-- Header Section -->
+        <header class="text-center space-y-2 mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800">RoboTwin 2.0 复现向导</h1>
+            <p class="text-lg text-gray-600">RTX 4060 笔记本专用版 | 给小白的生存指南</p>
+            <div class="p-4 bg-blue-50 rounded-lg inline-block text-sm text-blue-800 border border-blue-200 mt-2">
+                <i class="fas fa-info-circle mr-2"></i> 核心目标：在有限算力下，跑通双臂机器人操作的数据生成与策略训练。
+            </div>
+        </header>
+
+        <!-- Section 1: Feasibility & Hardware Reality Check -->
+        <section class="bg-white rounded-xl shadow-sm p-6">
+            <div class="mb-4">
+                <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2">1. 你的硬件够用吗？(4060 笔记本分析)</h2>
+                <p class="mt-2 text-gray-600">在开始之前，我们需要了解你的装备极限。RoboTwin 涉及仿真（吃CPU和显存）和训练（吃显存）。</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <!-- VRAM Chart -->
+                <div class="flex flex-col items-center">
+                    <h3 class="text-sm font-bold uppercase tracking-wide text-gray-500 mb-2">显存 (VRAM) 预算: 8GB</h3>
+                    <div class="chart-container">
+                        <canvas id="vramChart"></canvas>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-2 text-center">注意：如果你开着浏览器和IDE，可用显存会更少。</p>
+                </div>
+
+                <!-- Specs Breakdown -->
+                <div class="space-y-4">
+                    <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-100">
+                        <h4 class="font-bold text-yellow-800 mb-2"><i class="fas fa-exclamation-triangle"></i> 潜在风险点</h4>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                            <li><strong>显存溢出 (OOM):</strong> RoboTwin 如果并行环境开太多，8GB 显存会瞬间爆满。</li>
+                            <li><strong>散热降频:</strong> 笔记本长时间训练会过热，导致速度变慢。建议垫高电脑或使用散热架。</li>
+                            <li><strong>存储空间:</strong> 机器人数据非常占硬盘。</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Storage Calculator Interaction -->
+                    <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-gray-700 mb-2"><i class="fas fa-calculator"></i> 空间与时间估算器</h4>
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <label class="block text-gray-500">计划生成数据量 (条)</label>
+                                <input type="number" id="episodeInput" value="1000" class="w-full mt-1 p-2 border rounded" oninput="updateEstimates()">
+                            </div>
+                            <div>
+                                <label class="block text-gray-500">每天投入时间 (小时)</label>
+                                <input type="number" id="hoursInput" value="4" class="w-full mt-1 p-2 border rounded" oninput="updateEstimates()">
+                            </div>
+                        </div>
+                        <div class="mt-4 pt-4 border-t grid grid-cols-2 gap-4">
+                            <div>
+                                <div class="text-xs text-gray-500">预估硬盘占用</div>
+                                <div class="text-xl font-bold text-blue-600" id="storageResult">-- GB</div>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">预估复现周期</div>
+                                <div class="text-xl font-bold text-green-600" id="timeResult">-- 天</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: The Action Plan (Tabs) -->
+        <section>
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold text-gray-700">2. 复现路线图 (Step-by-Step)</h2>
+                <div class="text-sm text-gray-500 bg-white px-3 py-1 rounded shadow-sm">
+                    当前阶段: <span id="currentPhaseLabel" class="font-bold text-blue-600">环境配置</span>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <div class="flex flex-wrap gap-2 mb-6">
+                <button onclick="switchTab('env')" id="btn-env" class="px-4 py-2 rounded-lg bg-blue-600 text-white font-medium shadow-md transition-colors">第一步：环境搭建</button>
+                <button onclick="switchTab('data')" id="btn-data" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-600 hover:bg-gray-300 font-medium transition-colors">第二步：数据生成</button>
+                <button onclick="switchTab('train')" id="btn-train" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-600 hover:bg-gray-300 font-medium transition-colors">第三步：模型训练</button>
+                <button onclick="switchTab('eval')" id="btn-eval" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-600 hover:bg-gray-300 font-medium transition-colors">第四步：评估验证</button>
+            </div>
+
+            <!-- Tab Content Container -->
+            <div class="bg-white rounded-xl shadow-sm min-h-[400px]">
+                
+                <!-- PHASE 1: ENVIRONMENT -->
+                <div id="content-env" class="p-6 block animate-fade-in">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-100 p-3 rounded-full text-blue-600 shrink-0">
+                            <i class="fas fa-tools fa-lg"></i>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">搭建地基：环境配置 (预计 3-5 天)</h3>
+                            <p class="text-gray-600 mb-4">这是最容易放弃的阶段。你需要安装 Python, CUDA, 和仿真器。对于 4060 笔记本，建议使用 <strong>Conda</strong> 虚拟环境。</p>
+                            
+                            <div class="space-y-4">
+                                <div class="step-card bg-gray-50 p-4 rounded border">
+                                    <div class="font-bold text-gray-700">1. 显卡驱动与 CUDA</div>
+                                    <p class="text-sm text-gray-600">确保安装了 NVIDIA Driver 535+。安装 CUDA 11.8 或 12.1 (根据 PyTorch 版本决定，推荐 12.1)。</p>
+                                    <div class="text-xs bg-gray-800 text-green-400 p-2 mt-2 rounded code-block font-mono overflow-x-auto">
+                                        nvidia-smi  # 检查驱动是否正常<br>
+                                        nvcc -V     # 检查 CUDA 编译器版本
+                                    </div>
+                                </div>
+
+                                <div class="step-card bg-gray-50 p-4 rounded border">
+                                    <div class="font-bold text-gray-700">2. Conda 环境</div>
+                                    <p class="text-sm text-gray-600">不要污染本机环境！创建一个隔离的盒子。</p>
+                                    <div class="text-xs bg-gray-800 text-green-400 p-2 mt-2 rounded code-block font-mono overflow-x-auto">
+                                        conda create -n robotwin python=3.8<br>
+                                        conda activate robotwin<br>
+                                        pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+                                    </div>
+                                </div>
+
+                                <div class="step-card bg-gray-50 p-4 rounded border">
+                                    <div class="font-bold text-gray-700">3. 仿真器 (Isaac Sim / Isaac Gym)</div>
+                                    <p class="text-sm text-gray-600">RoboTwin 依赖 Omniverse Isaac Sim。你需要去 NVIDIA 官网注册下载 Launcher。</p>
+                                    <div class="mt-2 text-red-500 text-sm font-bold"><i class="fas fa-exclamation-circle"></i> 4060 注意：Isaac Sim 极其吃显存。启动时关掉所有其他软件。</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHASE 2: DATA GENERATION -->
+                <div id="content-data" class="p-6 hidden animate-fade-in">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-purple-100 p-3 rounded-full text-purple-600 shrink-0">
+                            <i class="fas fa-database fa-lg"></i>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">生成数据：让机器人自己玩 (预计 3-7 天)</h3>
+                            <p class="text-gray-600 mb-4">这是 RoboTwin 的核心。通过“数字孪生”生成双臂协作的演示数据。你的电脑需要长时间高负荷运行。</p>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="bg-gray-50 p-4 rounded border">
+                                    <h4 class="font-bold text-gray-700 mb-2">任务配置</h4>
+                                    <p class="text-sm text-gray-600">先从简单的任务开始，不要一上来就跑全量数据。</p>
+                                    <ul class="text-sm list-disc list-inside mt-2 text-gray-600">
+                                        <li>修改配置文件 `config/task/dual_arm_lift.yaml`</li>
+                                        <li>设置 `num_envs = 4` (默认可能是 64 或更多，4060 跑不动)</li>
+                                        <li>设置 `headless = True` (不渲染画面，节省大量显存)</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-gray-50 p-4 rounded border">
+                                    <h4 class="font-bold text-gray-700 mb-2">验证数据质量</h4>
+                                    <p class="text-sm text-gray-600">跑完10条数据后，必须通过可视化脚本检查。</p>
+                                    <div class="text-xs bg-gray-800 text-green-400 p-2 mt-2 rounded code-block font-mono overflow-x-auto">
+                                        python visualize_dataset.py --path ./data/demo_01<br>
+                                        # 观察机器人动作是否鬼畜，物体是否穿模
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded text-sm text-yellow-800">
+                                <strong>💡 省空间技巧：</strong> 即使是 hdf5 格式，图像数据也很大。如果你只复现状态(State-based)策略，可以在配置中关掉 RGB 摄像头渲染，只保存关节角度和物体位置，体积会缩小 100 倍。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHASE 3: TRAINING -->
+                <div id="content-train" class="p-6 hidden animate-fade-in">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-green-100 p-3 rounded-full text-green-600 shrink-0">
+                            <i class="fas fa-brain fa-lg"></i>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">炼丹时刻：模型训练 (预计 2 天/模型)</h3>
+                            <p class="text-gray-600 mb-4">我们将使用生成的演示数据训练模仿学习策略 (如 Diffusion Policy 或 ACT)。</p>
+                            
+                            <div class="space-y-4">
+                                <div class="bg-white border-l-4 border-green-500 shadow-sm p-4">
+                                    <h4 class="font-bold text-gray-800">Batch Size 是关键</h4>
+                                    <p class="text-sm text-gray-600 mt-1">4060 显存有限，默认的 Batch Size (通常 128 或 256) 肯定会报错。</p>
+                                    <ul class="mt-2 text-sm text-gray-700">
+                                        <li><strong>Action:</strong> 在训练脚本中找到 `batch_size`，改为 <strong>16</strong> 或 <strong>32</strong>。</li>
+                                        <li><strong>Result:</strong> 训练会变慢，但能跑通。</li>
+                                    </ul>
+                                </div>
+
+                                <div class="chart-container h-48 md:h-64">
+                                    <canvas id="lossChart"></canvas>
+                                </div>
+                                <p class="text-center text-xs text-gray-500">正常训练的 Loss 曲线示意图（你应该看到蓝线趋势）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHASE 4: EVALUATION -->
+                <div id="content-eval" class="p-6 hidden animate-fade-in">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-red-100 p-3 rounded-full text-red-600 shrink-0">
+                            <i class="fas fa-flag-checkered fa-lg"></i>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">期末考试：评估验证 (预计 1-2 天)</h3>
+                            <p class="text-gray-600 mb-4">模型训练好了，把它放回仿真环境中，看它能不能完成任务。</p>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                                <div class="p-4 border rounded hover:bg-gray-50">
+                                    <div class="text-2xl mb-2">👀</div>
+                                    <div class="font-bold text-sm">定性评估</div>
+                                    <div class="text-xs text-gray-500">开渲染看一眼，动作是否流畅，有没有卡死。</div>
+                                </div>
+                                <div class="p-4 border rounded hover:bg-gray-50">
+                                    <div class="text-2xl mb-2">📊</div>
+                                    <div class="font-bold text-sm">定量评估</div>
+                                    <div class="text-xs text-gray-500">跑 100 次任务，统计成功率 (Success Rate)。</div>
+                                </div>
+                                <div class="p-4 border rounded hover:bg-gray-50">
+                                    <div class="text-2xl mb-2">🛡️</div>
+                                    <div class="font-bold text-sm">鲁棒性测试</div>
+                                    <div class="text-xs text-gray-500">稍微改改物体位置，看模型会不会傻掉。</div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 bg-red-50 p-4 rounded text-sm text-red-800 border border-red-100">
+                                <strong>如果成功率为 0%：</strong> 不要慌。
+                                <ul class="list-disc list-inside mt-1 ml-2">
+                                    <li>检查数据是否归一化 (Normalization) 了？</li>
+                                    <li>检查观察空间 (Observation Space) 是否和训练时一致？</li>
+                                    <li>检查 Action 是否需要反归一化？</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: Communication & Milestone Manager -->
+        <section class="bg-indigo-50 rounded-xl shadow-sm p-6 border border-indigo-100">
+            <h2 class="text-2xl font-semibold text-indigo-900 mb-4">3. 什么时候找老师汇报？(进度检查表)</h2>
+            <p class="text-sm text-indigo-700 mb-6">不要等到最后才说话。按以下里程碑汇报，既能展示进度，又能及时获得算力支持。</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Milestones -->
+                <div class="space-y-3">
+                    <h3 class="font-bold text-gray-700">关键里程碑</h3>
+                    
+                    <div class="flex items-center gap-3 p-3 bg-white rounded border cursor-pointer hover:shadow-md transition-all" onclick="toggleCheck(this, 'msg-1')">
+                        <div class="w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-white check-circle"><i class="fas fa-check text-xs"></i></div>
+                        <div class="text-sm font-medium">环境跑通，能看到示例Demo</div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 bg-white rounded border cursor-pointer hover:shadow-md transition-all" onclick="toggleCheck(this, 'msg-2')">
+                        <div class="w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-white check-circle"><i class="fas fa-check text-xs"></i></div>
+                        <div class="text-sm font-medium">已生成小规模数据 (约100条)</div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 bg-white rounded border cursor-pointer hover:shadow-md transition-all" onclick="toggleCheck(this, 'msg-3')">
+                        <div class="w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-white check-circle"><i class="fas fa-check text-xs"></i></div>
+                        <div class="text-sm font-medium">模型 Loss 开始稳定下降</div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 bg-white rounded border cursor-pointer hover:shadow-md transition-all" onclick="toggleCheck(this, 'msg-4')">
+                        <div class="w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-white check-circle"><i class="fas fa-check text-xs"></i></div>
+                        <div class="text-sm font-medium">本地显存不够 / 训练太慢</div>
+                    </div>
+                </div>
+
+                <!-- Dynamic Feedback Box -->
+                <div class="bg-white p-5 rounded-lg border-2 border-dashed border-indigo-200 relative">
+                    <h3 class="font-bold text-gray-500 uppercase text-xs mb-2">汇报话术与行动建议</h3>
+                    <div id="feedback-area" class="text-gray-600 text-sm leading-relaxed">
+                        <p class="italic text-gray-400">点击左侧里程碑，查看对应的汇报策略...</p>
+                    </div>
+                    
+                    <!-- Hidden Messages -->
+                    <div id="msg-1" class="hidden">
+                        <strong class="text-green-600 block mb-1">✅ 汇报时机：本周组会 / 遇到报错超过2天</strong>
+                        <p>"老师，我已经配好了 RoboTwin 的环境，并且成功跑通了官方的 demo 脚本。目前 4060 显卡可以运行小规模仿真。" <br><span class="text-xs text-gray-500 mt-1 block">目的：证明你有动手能力，且第一阶段已完成。</span></p>
+                    </div>
+                    <div id="msg-2" class="hidden">
+                        <strong class="text-blue-600 block mb-1">✅ 汇报时机：开始大规模生成前</strong>
+                        <p>"我已经尝试生成了 100 条数据，并可视化检查过，质量没问题。现在准备开始挂机跑 1000 条数据，预计需要 3 天。" <br><span class="text-xs text-gray-500 mt-1 block">目的：管理预期，告诉老师这几天电脑在干活，不是你在摸鱼。</span></p>
+                    </div>
+                    <div id="msg-3" class="hidden">
+                        <strong class="text-purple-600 block mb-1">✅ 汇报时机：获得初步结果时</strong>
+                        <p>"基于小样本数据的初步训练结果出来了，Loss 曲线正常收敛。但是目前 Batch Size 只能开到 16，训练波动比较大。" <br><span class="text-xs text-gray-500 mt-1 block">目的：展示进展，暗示可能需要更好的硬件来优化结果。</span></p>
+                    </div>
+                    <div id="msg-4" class="hidden">
+                        <strong class="text-red-600 block mb-1">🚨 申请算力时机：OOM 报错无法解决时</strong>
+                        <p>"老师，我在尝试复现完整版论文参数时，4060 显存不足 (OOM)。我已经尝试过减小 Batch Size 和混合精度训练，但仍然受限。能否申请使用实验室服务器跑最终的训练？我可以把代码和数据整理好上传。" <br><span class="text-xs text-gray-500 mt-1 block">关键点：先说你做了哪些优化努力（减小BS、混合精度），再说硬件不行，老师才会痛快给算力。</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // --- 1. Chart.js Implementation for VRAM Budget ---
+        const ctxVram = document.getElementById('vramChart').getContext('2d');
+        const vramChart = new Chart(ctxVram, {
+            type: 'doughnut',
+            data: {
+                labels: ['系统预留/显示输出', 'RoboTwin 仿真环境', 'PyTorch 模型训练', '剩余/溢出风险'],
+                datasets: [{
+                    label: '显存占用 (GB)',
+                    data: [1.5, 3.5, 2.5, 0.5], // 模拟 8GB 分配
+                    backgroundColor: [
+                        '#e2e8f0', // Grey for system
+                        '#d4a373', // Sand for Sim
+                        '#5c7c8a', // Slate for Training
+                        '#ef4444'  // Red for risk
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { boxWidth: 12, font: { size: 10 } }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ~' + context.raw + ' GB';
+                            }
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'RTX 4060 (8GB) 典型负载分布',
+                        font: { size: 14 }
+                    }
+                },
+                cutout: '60%'
+            }
+        });
+
+        // --- 2. Static Loss Chart Implementation ---
+        const ctxLoss = document.getElementById('lossChart').getContext('2d');
+        
+        // Generate a synthetic "good" loss curve
+        const lossLabels = Array.from({length: 50}, (_, i) => i);
+        const lossData = lossLabels.map(i => 2.5 * Math.exp(-0.1 * i) + 0.2 + (Math.random() * 0.1));
+
+        new Chart(ctxLoss, {
+            type: 'line',
+            data: {
+                labels: lossLabels,
+                datasets: [{
+                    label: 'Training Loss (期望曲线)',
+                    data: lossData,
+                    borderColor: '#5c7c8a',
+                    backgroundColor: 'rgba(92, 124, 138, 0.1)',
+                    borderWidth: 2,
+                    pointRadius: 0,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { enabled: true, mode: 'index', intersect: false }
+                },
+                scales: {
+                    x: { display: false },
+                    y: { 
+                        title: { display: true, text: 'Loss' },
+                        grid: { borderDash: [5, 5] }
+                    }
+                }
+            }
+        });
+
+        // --- 3. Calculator Logic ---
+        function updateEstimates() {
+            const episodes = parseInt(document.getElementById('episodeInput').value) || 0;
+            const hoursPerDay = parseInt(document.getElementById('hoursInput').value) || 0;
+
+            // Assumptions for RoboTwin/Robotics data
+            // Image (2 cameras, 224x224, rgb) + State data approx size per episode
+            // Rough calc: 1 episode ~ 10-20MB (compressed) depending on length
+            const sizePerEpisodeMB = 15; 
+            const totalSizeGB = (episodes * sizePerEpisodeMB) / 1024;
+
+            // Assumptions for Time
+            // Sim speed: on 4060, maybe 20s per episode if parallel envs are low
+            // Setup time (fixed): 5 days
+            // Train time: 2 days
+            // Eval time: 1 day
+            const secondsPerEpisode = 30; // Conservative estimate for laptop
+            const generationHours = (episodes * secondsPerEpisode) / 3600;
+            const fixedOverheadDays = 8; // Setup + Debug + Train + Eval
+            
+            const daysForGen = generationHours / hoursPerDay;
+            const totalDays = fixedOverheadDays + daysForGen;
+
+            // Update DOM
+            document.getElementById('storageResult').innerText = totalSizeGB.toFixed(1) + " GB";
+            document.getElementById('timeResult').innerText = Math.ceil(totalDays) + " 天";
+            
+            // Color logic
+            const storeEl = document.getElementById('storageResult');
+            if(totalSizeGB > 100) { storeEl.className = "text-xl font-bold text-red-600"; }
+            else { storeEl.className = "text-xl font-bold text-blue-600"; }
+        }
+
+        // Initialize calc
+        updateEstimates();
+
+        // --- 4. Tab Switching Logic ---
+        function switchTab(tabId) {
+            // Hide all content
+            ['env', 'data', 'train', 'eval'].forEach(id => {
+                document.getElementById('content-' + id).classList.add('hidden');
+                document.getElementById('content-' + id).classList.remove('block');
+                
+                // Reset buttons
+                const btn = document.getElementById('btn-' + id);
+                btn.classList.remove('bg-blue-600', 'text-white');
+                btn.classList.add('bg-gray-200', 'text-gray-600');
+            });
+
+            // Show selected
+            const content = document.getElementById('content-' + tabId);
+            content.classList.remove('hidden');
+            content.classList.add('block');
+
+            // Highlight button
+            const activeBtn = document.getElementById('btn-' + tabId);
+            activeBtn.classList.remove('bg-gray-200', 'text-gray-600');
+            activeBtn.classList.add('bg-blue-600', 'text-white');
+
+            // Update Label
+            const labels = {
+                'env': '环境配置',
+                'data': '数据生成',
+                'train': '模型训练',
+                'eval': '评估验证'
+            };
+            document.getElementById('currentPhaseLabel').innerText = labels[tabId];
+        }
+
+        // --- 5. Milestone Interaction ---
+        function toggleCheck(element, msgId) {
+            // Visual toggle
+            const circle = element.querySelector('.check-circle');
+            const isChecked = circle.classList.contains('bg-green-500');
+
+            // Reset all others for clarity in this simple app
+            document.querySelectorAll('.check-circle').forEach(c => {
+                c.classList.remove('bg-green-500', 'border-transparent');
+                c.classList.add('border-gray-300');
+            });
+            document.querySelectorAll('.step-card').forEach(c => c.classList.remove('active'));
+
+            if (!isChecked) {
+                circle.classList.remove('border-gray-300');
+                circle.classList.add('bg-green-500', 'border-transparent');
+                
+                // Show message
+                const msgContent = document.getElementById(msgId).innerHTML;
+                const feedbackArea = document.getElementById('feedback-area');
+                feedbackArea.innerHTML = msgContent;
+                feedbackArea.classList.add('animate-pulse');
+                setTimeout(() => feedbackArea.classList.remove('animate-pulse'), 500);
+            }
+        }
+
+    </script>
+</body>
+</html>

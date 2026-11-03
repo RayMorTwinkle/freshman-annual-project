@@ -1,0 +1,18 @@
+[INFO] base image size: 640x480
+[OK] saved /mnt/workspace/midterm_vla/figs/domain_randomization_grid.png
+[INFO] grid size: (1920, 1524)
+
+[QUANT] Pixel difference vs original:
+  Augmentation                   Diff %
+  ----------------------------------------
+  Original                        0.00%
+  Brightness +50%                29.71%
+  Brightness -45%                27.87%
+  Contrast +80%                   4.66%
+  Contrast -45%                   3.33%
+  Gaussian noise                  7.80%
+  Occlusion                       0.18%
+  Background tint                 6.11%
+  Mixed random                   14.79%
+[OK] saved /mnt/workspace/midterm_vla/figs/language_randomization_examples.txt (16 variants)
+DONE

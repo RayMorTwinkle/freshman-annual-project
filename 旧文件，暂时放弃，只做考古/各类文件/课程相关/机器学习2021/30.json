@@ -1,0 +1,8090 @@
+[
+  {
+    "from": 0.04,
+    "to": 1.19,
+    "location": 2,
+    "content": "Linear 的 Model"
+  },
+  {
+    "from": 1.19,
+    "to": 3.86,
+    "location": 2,
+    "content": "也許太過簡單了"
+  },
+  {
+    "from": 4.48,
+    "to": 7,
+    "location": 2,
+    "content": "怎麼說它太過簡單呢"
+  },
+  {
+    "from": 7.33,
+    "to": 9.12,
+    "location": 2,
+    "content": "怎麼說它太過簡單呢"
+  },
+  {
+    "from": 10.28,
+    "to": 12.98,
+    "location": 2,
+    "content": "我們可以想像說 x1 跟 y"
+  },
+  {
+    "from": 13.34,
+    "to": 16.49,
+    "location": 2,
+    "content": "也許它中間有比較複雜的關係"
+  },
+  {
+    "from": 16.82,
+    "to": 18.79,
+    "location": 2,
+    "content": "但是對 Linear Model 而言"
+  },
+  {
+    "from": 18.79,
+    "to": 20.79,
+    "location": 2,
+    "content": "對 Linear 的 Model 來說"
+  },
+  {
+    "from": 20.79,
+    "to": 24.54,
+    "location": 2,
+    "content": "x1 跟 y 的關係就是一條直線"
+  },
+  {
+    "from": 24.54,
+    "to": 26.4,
+    "location": 2,
+    "content": "隨著 x1 越來越高"
+  },
+  {
+    "from": 26.4,
+    "to": 28.16,
+    "location": 2,
+    "content": "y 就應該越來越大"
+  },
+  {
+    "from": 28.75,
+    "to": 30.53,
+    "location": 2,
+    "content": "你可以設定不同的 w"
+  },
+  {
+    "from": 30.53,
+    "to": 32.39,
+    "location": 2,
+    "content": "改變這條線的斜率"
+  },
+  {
+    "from": 32.39,
+    "to": 34.82,
+    "location": 2,
+    "content": "你可以設定不同的 b"
+  },
+  {
+    "from": 34.82,
+    "to": 37.43,
+    "location": 2,
+    "content": "改變這一條藍色的直線"
+  },
+  {
+    "from": 37.43,
+    "to": 39.76,
+    "location": 2,
+    "content": "跟 y 軸的交叉點"
+  },
+  {
+    "from": 40.24,
+    "to": 42.64,
+    "location": 2,
+    "content": "但是無論你怎麼改 w 跟 b"
+  },
+  {
+    "from": 44.02,
+    "to": 46.22,
+    "location": 2,
+    "content": "它永遠都是一條直線"
+  },
+  {
+    "from": 46.22,
+    "to": 48.44,
+    "location": 2,
+    "content": "永遠都是 x1 越大"
+  },
+  {
+    "from": 48.44,
+    "to": 49.82,
+    "location": 2,
+    "content": "y 就越大"
+  },
+  {
+    "from": 49.82,
+    "to": 51.94,
+    "location": 2,
+    "content": "前一天觀看的人數越多"
+  },
+  {
+    "from": 51.94,
+    "to": 54.28,
+    "location": 2,
+    "content": "隔天的觀看人數就越多"
+  },
+  {
+    "from": 54.86,
+    "to": 57.26,
+    "location": 2,
+    "content": "但也許現實並不是這個樣子啊"
+  },
+  {
+    "from": 57.59,
+    "to": 60.87,
+    "location": 2,
+    "content": "也許在 x1 小於某一個數值的時候"
+  },
+  {
+    "from": 61.2,
+    "to": 65.04,
+    "location": 2,
+    "content": "前一天的觀看人數跟隔天的觀看人數是成正比"
+  },
+  {
+    "from": 65.92,
+    "to": 68.23,
+    "location": 2,
+    "content": "那也許當 x1 大於一個數值的時候"
+  },
+  {
+    "from": 68.23,
+    "to": 70.2,
+    "location": 2,
+    "content": "這個物極必反"
+  },
+  {
+    "from": 70.55,
+    "to": 72.12,
+    "location": 2,
+    "content": "過了一個峰值以後"
+  },
+  {
+    "from": 72.12,
+    "to": 74.52,
+    "location": 2,
+    "content": "過了一個假設 x1 太大"
+  },
+  {
+    "from": 74.52,
+    "to": 76.22,
+    "location": 2,
+    "content": "前天觀看的人數太高"
+  },
+  {
+    "from": 76.22,
+    "to": 79.01,
+    "location": 2,
+    "content": "那隔天觀看人數就會變少"
+  },
+  {
+    "from": 79.01,
+    "to": 79.95,
+    "location": 2,
+    "content": "也說不定啊"
+  },
+  {
+    "from": 80.36,
+    "to": 82.66,
+    "location": 2,
+    "content": "也許 x1 跟 y 中間"
+  },
+  {
+    "from": 82.66,
+    "to": 84.24,
+    "location": 2,
+    "content": "有一個比較複雜的"
+  },
+  {
+    "from": 84.24,
+    "to": 86.55,
+    "location": 2,
+    "content": "像這個紅色線一樣的關係"
+  },
+  {
+    "from": 87.06,
+    "to": 89.59,
+    "location": 2,
+    "content": "但你不管怎麼擺弄你的 w 跟 b"
+  },
+  {
+    "from": 89.59,
+    "to": 93.21,
+    "location": 2,
+    "content": "你永遠製造不出紅色那一條線"
+  },
+  {
+    "from": 93.21,
+    "to": 95.19,
+    "location": 2,
+    "content": "你永遠無法用 Linear 的 Model"
+  },
+  {
+    "from": 95.19,
+    "to": 97.27,
+    "location": 2,
+    "content": "製造紅色這一條線"
+  },
+  {
+    "from": 97.27,
+    "to": 99.05,
+    "location": 2,
+    "content": "所以怎麼辦呢"
+  },
+  {
+    "from": 99.05,
+    "to": 102.76,
+    "location": 2,
+    "content": "顯然 Linear 的 Model 有很大的限制"
+  },
+  {
+    "from": 103.24,
+    "to": 106.51,
+    "location": 2,
+    "content": "這一種來自於 Model 的限制"
+  },
+  {
+    "from": 106.51,
+    "to": 109.65,
+    "location": 2,
+    "content": "叫做 Model 的 Bias"
+  },
+  {
+    "from": 109.65,
+    "to": 112.7,
+    "location": 2,
+    "content": "那其實我們剛才在課堂一開始的時候也叫做"
+  },
+  {
+    "from": 112.7,
+    "to": 114.22,
+    "location": 2,
+    "content": "也說 b 叫做 Bias"
+  },
+  {
+    "from": 114.22,
+    "to": 115.54,
+    "location": 2,
+    "content": "那這個地方有一點"
+  },
+  {
+    "from": 116.04,
+    "to": 118.43,
+    "location": 2,
+    "content": "在用詞上有一點 Ambiguous"
+  },
+  {
+    "from": 120.14,
+    "to": 121.81,
+    "location": 2,
+    "content": "所以這邊特別強調說呢"
+  },
+  {
+    "from": 121.81,
+    "to": 124.52,
+    "location": 2,
+    "content": "這個東西叫做 Model 的 Bias"
+  },
+  {
+    "from": 124.52,
+    "to": 126.78,
+    "location": 2,
+    "content": "它跟 b 的這個 Bias 不太一樣"
+  },
+  {
+    "from": 126.78,
+    "to": 128.18,
+    "location": 2,
+    "content": "它指的意思是說"
+  },
+  {
+    "from": 128.18,
+    "to": 129.28,
+    "location": 2,
+    "content": "我們今天的這個（00：02：08）"
+  },
+  {
+    "from": 129.28,
+    "to": 133.16,
+    "location": 2,
+    "content": "所以它沒有辦法模擬真實的狀況"
+  },
+  {
+    "from": 133.81,
+    "to": 134.86,
+    "location": 2,
+    "content": "所以怎麼辦呢"
+  },
+  {
+    "from": 134.86,
+    "to": 138.02,
+    "location": 2,
+    "content": "我們需要寫一個更複雜的"
+  },
+  {
+    "from": 138.02,
+    "to": 139.88,
+    "location": 2,
+    "content": "更有彈性的"
+  },
+  {
+    "from": 139.88,
+    "to": 142.64,
+    "location": 2,
+    "content": "有未知參數的 Function"
+  },
+  {
+    "from": 142.64,
+    "to": 146.11,
+    "location": 2,
+    "content": "Linear 的 Model 顯然是不夠的"
+  },
+  {
+    "from": 147.38,
+    "to": 148.32,
+    "location": 2,
+    "content": "那怎麼辦呢"
+  },
+  {
+    "from": 148.32,
+    "to": 151.2,
+    "location": 2,
+    "content": "怎麼寫出一個更複雜的"
+  },
+  {
+    "from": 151.62,
+    "to": 153.96,
+    "location": 2,
+    "content": "有未知參數的 Function 呢"
+  },
+  {
+    "from": 154.33,
+    "to": 158.56,
+    "location": 2,
+    "content": "我們可以觀察一下紅色的這一條曲線"
+  },
+  {
+    "from": 159.19,
+    "to": 161.04,
+    "location": 2,
+    "content": "紅色的這條曲線啊"
+  },
+  {
+    "from": 161.04,
+    "to": 163.96,
+    "location": 2,
+    "content": "它可以看作是一個常數"
+  },
+  {
+    "from": 164.35,
+    "to": 169.46,
+    "location": 2,
+    "content": "再加上一群藍色的這樣子的 Function"
+  },
+  {
+    "from": 169.96,
+    "to": 171.46,
+    "location": 2,
+    "content": "那這個藍色的 Function"
+  },
+  {
+    "from": 171.46,
+    "to": 172.92,
+    "location": 2,
+    "content": "它的特性是這個樣子的"
+  },
+  {
+    "from": 173.84,
+    "to": 176.57,
+    "location": 2,
+    "content": "當輸入的值"
+  },
+  {
+    "from": 176.57,
+    "to": 182.38,
+    "location": 2,
+    "content": "當 x 軸的值小於某一個這個 Flash Hold 的時候"
+  },
+  {
+    "from": 182.38,
+    "to": 183.61,
+    "location": 2,
+    "content": "它是某一個定值"
+  },
+  {
+    "from": 184.38,
+    "to": 186.42,
+    "location": 2,
+    "content": "大於另外一個 Flash Hold 的時候"
+  },
+  {
+    "from": 186.42,
+    "to": 187.88,
+    "location": 2,
+    "content": "又是另外一個定值"
+  },
+  {
+    "from": 188.28,
+    "to": 190.71,
+    "location": 2,
+    "content": "那中間呢 有一個斜坡"
+  },
+  {
+    "from": 190.71,
+    "to": 192.13,
+    "location": 2,
+    "content": "所以它是先水平的"
+  },
+  {
+    "from": 192.13,
+    "to": 193.22,
+    "location": 2,
+    "content": "然後再斜坡"
+  },
+  {
+    "from": 193.22,
+    "to": 194.62,
+    "location": 2,
+    "content": "然後再水平的"
+  },
+  {
+    "from": 194.62,
+    "to": 196.44,
+    "location": 2,
+    "content": "那它其實有名字"
+  },
+  {
+    "from": 196.44,
+    "to": 197.98,
+    "location": 2,
+    "content": "它的名字我們等一下再講"
+  },
+  {
+    "from": 197.98,
+    "to": 200.48,
+    "location": 2,
+    "content": "這邊我們因為它是藍色的 Function"
+  },
+  {
+    "from": 200.84,
+    "to": 202.99,
+    "location": 2,
+    "content": "我們就先叫它藍方吧 這樣子"
+  },
+  {
+    "from": 204.38,
+    "to": 206.57,
+    "location": 2,
+    "content": "好 那所以呢 這個紅色的線啊"
+  },
+  {
+    "from": 206.57,
+    "to": 211.42,
+    "location": 2,
+    "content": "它可以看作是一個常數項加一大堆的藍方"
+  },
+  {
+    "from": 212.38,
+    "to": 214.28,
+    "location": 2,
+    "content": "好 那這個常數項"
+  },
+  {
+    "from": 214.28,
+    "to": 216.18,
+    "location": 2,
+    "content": "它的值應該要有多大呢"
+  },
+  {
+    "from": 216.18,
+    "to": 218.1,
+    "location": 2,
+    "content": "你就看這一條紅色的線啊"
+  },
+  {
+    "from": 218.5,
+    "to": 221.56,
+    "location": 2,
+    "content": "它跟 x 軸的交點在哪裡"
+  },
+  {
+    "from": 221.96,
+    "to": 223.28,
+    "location": 2,
+    "content": "好 那這個常數項呢"
+  },
+  {
+    "from": 223.28,
+    "to": 225.84,
+    "location": 2,
+    "content": "就設跟 x 軸的交點一樣大"
+  },
+  {
+    "from": 226.63,
+    "to": 229.81,
+    "location": 2,
+    "content": "那怎麼加上這個藍色的 Function 以後"
+  },
+  {
+    "from": 229.81,
+    "to": 232.33,
+    "location": 2,
+    "content": "變成紅色的這一條線呢"
+  },
+  {
+    "from": 232.33,
+    "to": 234.06,
+    "location": 2,
+    "content": "你就這樣子加"
+  },
+  {
+    "from": 234.52,
+    "to": 236.08,
+    "location": 2,
+    "content": "這個藍色 Function 啊"
+  },
+  {
+    "from": 236.08,
+    "to": 239.86,
+    "location": 2,
+    "content": "它的這個這個坡度啊"
+  },
+  {
+    "from": 239.86,
+    "to": 241.4,
+    "location": 2,
+    "content": "這個斜坡的起點"
+  },
+  {
+    "from": 241.96,
+    "to": 246,
+    "location": 2,
+    "content": "設在紅色 Function 的起始的地方"
+  },
+  {
+    "from": 246.55,
+    "to": 247.58,
+    "location": 2,
+    "content": "然後第二個"
+  },
+  {
+    "from": 247.58,
+    "to": 252.06,
+    "location": 2,
+    "content": "斜坡的終點設在第一個轉角處"
+  },
+  {
+    "from": 252.06,
+    "to": 254.32,
+    "location": 2,
+    "content": "所以這邊紅色方向有一個轉角"
+  },
+  {
+    "from": 254.32,
+    "to": 256.46,
+    "location": 2,
+    "content": "那你就有一個藍色的 Function"
+  },
+  {
+    "from": 256.46,
+    "to": 260.32,
+    "location": 2,
+    "content": "它的斜坡的終點設在紅色 Function 的第一個轉角"
+  },
+  {
+    "from": 260.86,
+    "to": 261.57,
+    "location": 2,
+    "content": "然後呢"
+  },
+  {
+    "from": 261.57,
+    "to": 265.16,
+    "location": 2,
+    "content": "你刻意讓這邊這個藍色 Function 的斜坡"
+  },
+  {
+    "from": 265.16,
+    "to": 268,
+    "location": 2,
+    "content": "跟這個紅色 Function 的斜坡"
+  },
+  {
+    "from": 268,
+    "to": 270.04,
+    "location": 2,
+    "content": "它們的斜率是一樣的"
+  },
+  {
+    "from": 270.59,
+    "to": 273.74,
+    "location": 2,
+    "content": "這個時候如果你把 0 加上 1"
+  },
+  {
+    "from": 273.74,
+    "to": 277.76,
+    "location": 2,
+    "content": "你就可以得到紅色曲線 紅色這個線段的"
+  },
+  {
+    "from": 278.12,
+    "to": 280.1,
+    "location": 2,
+    "content": "第一個這個到這個"
+  },
+  {
+    "from": 280.1,
+    "to": 282.56,
+    "location": 2,
+    "content": "第一個轉折點之前的數值"
+  },
+  {
+    "from": 282.88,
+    "to": 284.15,
+    "location": 2,
+    "content": "所以 0 加上 1"
+  },
+  {
+    "from": 284.15,
+    "to": 289.01,
+    "location": 2,
+    "content": "可以得到紅色線段第一個轉折點之前的部分"
+  },
+  {
+    "from": 289.64,
+    "to": 290.54,
+    "location": 2,
+    "content": "然後接下來"
+  },
+  {
+    "from": 290.94,
+    "to": 293.83,
+    "location": 2,
+    "content": "再加第二個藍色的 Function"
+  },
+  {
+    "from": 293.83,
+    "to": 294.89,
+    "location": 2,
+    "content": "怎麼加呢"
+  },
+  {
+    "from": 294.89,
+    "to": 296.88,
+    "location": 2,
+    "content": "你就看紅色這個線"
+  },
+  {
+    "from": 297.21,
+    "to": 303.72,
+    "location": 2,
+    "content": "第二個轉折點出現在哪裡"
+  },
+  {
+    "from": 304.08,
+    "to": 306.44,
+    "location": 2,
+    "content": "好 所以第二個藍色 Function"
+  },
+  {
+    "from": 306.79,
+    "to": 311.08,
+    "location": 2,
+    "content": "它的斜坡就在紅色 Function 的第一個轉折點"
+  },
+  {
+    "from": 311.08,
+    "to": 312.76,
+    "location": 2,
+    "content": "到第二個轉折點之間"
+  },
+  {
+    "from": 312.76,
+    "to": 315.08,
+    "location": 2,
+    "content": "第一個轉折點到第二個轉折點之間"
+  },
+  {
+    "from": 315.08,
+    "to": 318.43,
+    "location": 2,
+    "content": "那你刻意讓這邊的斜率跟這邊的斜率一樣"
+  },
+  {
+    "from": 318.74,
+    "to": 321.95,
+    "location": 2,
+    "content": "這個時候你把 0加 1+2"
+  },
+  {
+    "from": 322.36,
+    "to": 325.83,
+    "location": 2,
+    "content": "你就可以得到兩個轉折點這邊的線段"
+  },
+  {
+    "from": 325.83,
+    "to": 329.07,
+    "location": 2,
+    "content": "就可以得到紅色的這一條線 這邊的部分"
+  },
+  {
+    "from": 329.89,
+    "to": 331.61,
+    "location": 2,
+    "content": "然後接下來第三個部分"
+  },
+  {
+    "from": 331.61,
+    "to": 334.56,
+    "location": 2,
+    "content": "第二個轉折點之後的部分 怎麼產生呢"
+  },
+  {
+    "from": 334.56,
+    "to": 336.63,
+    "location": 2,
+    "content": "你就加第三個藍色的 Function"
+  },
+  {
+    "from": 337,
+    "to": 338.49,
+    "location": 2,
+    "content": "第三個藍色的 Function"
+  },
+  {
+    "from": 338.49,
+    "to": 340.02,
+    "location": 2,
+    "content": "它這個坡度的起始點"
+  },
+  {
+    "from": 340.02,
+    "to": 341.92,
+    "location": 2,
+    "content": "故意設的跟這個轉折點一樣"
+  },
+  {
+    "from": 341.92,
+    "to": 342.95,
+    "location": 2,
+    "content": "這邊的斜率"
+  },
+  {
+    "from": 342.95,
+    "to": 344.69,
+    "location": 2,
+    "content": "故意設的跟這邊的斜率一樣"
+  },
+  {
+    "from": 345.16,
+    "to": 350.68,
+    "location": 2,
+    "content": "好 接下來你把 0加 1+2+3 全部加起來"
+  },
+  {
+    "from": 351.08,
+    "to": 353.35,
+    "location": 2,
+    "content": "你就得到紅色的這個線"
+  },
+  {
+    "from": 353.35,
+    "to": 354.98,
+    "location": 2,
+    "content": "你就得到紅色這個線"
+  },
+  {
+    "from": 355.5,
+    "to": 356.72,
+    "location": 2,
+    "content": "所以紅色這個線"
+  },
+  {
+    "from": 356.72,
+    "to": 359.26,
+    "location": 2,
+    "content": "可以看作是一個常數"
+  },
+  {
+    "from": 359.26,
+    "to": 362.54,
+    "location": 2,
+    "content": "再加上一堆藍色的 Function"
+  },
+  {
+    "from": 363.24,
+    "to": 365.55,
+    "location": 2,
+    "content": "那你仔細想一下就會發現說"
+  },
+  {
+    "from": 365.55,
+    "to": 371.44,
+    "location": 2,
+    "content": "不管我畫什麼樣的 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 371.44,
+    "to": 374.13,
+    "location": 2,
+    "content": "什麼叫做 Piecewise Linear 的 Curves 呢"
+  },
+  {
+    "from": 374.13,
+    "to": 376.08,
+    "location": 2,
+    "content": "就是你現在這個 Curves 啊"
+  },
+  {
+    "from": 376.08,
+    "to": 378.56,
+    "location": 2,
+    "content": "它是有很多線段所組成的"
+  },
+  {
+    "from": 378.56,
+    "to": 381.14,
+    "location": 2,
+    "content": "它是有很多鋸齒狀的線段所組成的"
+  },
+  {
+    "from": 381.49,
+    "to": 384.04,
+    "location": 2,
+    "content": "這個叫做 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 384.35,
+    "to": 387.46,
+    "location": 2,
+    "content": "那你會發現說這些 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 387.82,
+    "to": 389.79,
+    "location": 2,
+    "content": "你有辦法用常數項"
+  },
+  {
+    "from": 389.79,
+    "to": 392.67,
+    "location": 2,
+    "content": "加一大堆的藍色 Function 組合出來"
+  },
+  {
+    "from": 392.67,
+    "to": 396.11,
+    "location": 2,
+    "content": "只是他們用的藍色 Function 不見得一樣"
+  },
+  {
+    "from": 396.11,
+    "to": 398.28,
+    "location": 2,
+    "content": "你要有很多不一樣的藍色 Function"
+  },
+  {
+    "from": 398.8,
+    "to": 400.41,
+    "location": 2,
+    "content": "加上一個常數以後"
+  },
+  {
+    "from": 400.41,
+    "to": 404.28,
+    "location": 2,
+    "content": "你就可以組出這些 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 404.75,
+    "to": 407.94,
+    "location": 2,
+    "content": "那如果你今天 Piecewise Linear 的 Curves 越複雜"
+  },
+  {
+    "from": 407.94,
+    "to": 410.16,
+    "location": 2,
+    "content": "也就是這個轉折的點越多啊"
+  },
+  {
+    "from": 410.16,
+    "to": 414.48,
+    "location": 2,
+    "content": "那你需要的這個藍色的 Function 就越多"
+  },
+  {
+    "from": 415.16,
+    "to": 416.06,
+    "location": 2,
+    "content": "所以呢"
+  },
+  {
+    "from": 416.9,
+    "to": 419.16,
+    "location": 2,
+    "content": "那講到這邊有人可能會說"
+  },
+  {
+    "from": 419.16,
+    "to": 423.08,
+    "location": 2,
+    "content": "那也許我們今天要考慮的 x 跟 y 的關係"
+  },
+  {
+    "from": 423.08,
+    "to": 426.24,
+    "location": 2,
+    "content": "不是 Piecewise Linear 的 Curves 啊"
+  },
+  {
+    "from": 426.24,
+    "to": 429.48,
+    "location": 2,
+    "content": "也許它是這樣子的曲線"
+  },
+  {
+    "from": 430.04,
+    "to": 431.95,
+    "location": 2,
+    "content": "那就算是這樣的曲線"
+  },
+  {
+    "from": 431.95,
+    "to": 432.88,
+    "location": 2,
+    "content": "也無所謂"
+  },
+  {
+    "from": 432.88,
+    "to": 434.73,
+    "location": 2,
+    "content": "我們可以在這樣的曲線上面"
+  },
+  {
+    "from": 434.73,
+    "to": 436.16,
+    "location": 2,
+    "content": "先取一些點"
+  },
+  {
+    "from": 436.82,
+    "to": 438.64,
+    "location": 2,
+    "content": "再把這些點 點起來"
+  },
+  {
+    "from": 439,
+    "to": 441.39,
+    "location": 2,
+    "content": "變成一個 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 442.1,
+    "to": 445.14,
+    "location": 2,
+    "content": "而這個 Piecewise Linear 的 Curves 跟原來的曲線"
+  },
+  {
+    "from": 445.14,
+    "to": 447.07,
+    "location": 2,
+    "content": "它會非常接近"
+  },
+  {
+    "from": 447.07,
+    "to": 449.12,
+    "location": 2,
+    "content": "如果你今天點取的夠多"
+  },
+  {
+    "from": 449.12,
+    "to": 451.37,
+    "location": 2,
+    "content": "或你點取的位置適當的話"
+  },
+  {
+    "from": 451.37,
+    "to": 452.68,
+    "location": 2,
+    "content": "你點取的夠多"
+  },
+  {
+    "from": 452.68,
+    "to": 454.49,
+    "location": 2,
+    "content": "這個 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 454.49,
+    "to": 456.22,
+    "location": 2,
+    "content": "就可以逼近這一個"
+  },
+  {
+    "from": 456.83,
+    "to": 458.41,
+    "location": 2,
+    "content": "連續的這一個曲線"
+  },
+  {
+    "from": 458.41,
+    "to": 461.23,
+    "location": 2,
+    "content": "就可以逼近這一個不是 Piecewise Linear"
+  },
+  {
+    "from": 461.23,
+    "to": 464.24,
+    "location": 2,
+    "content": "它是有角度的 有弧度的這一條曲線"
+  },
+  {
+    "from": 464.83,
+    "to": 467.05,
+    "location": 2,
+    "content": "所以我們今天知道一件事情"
+  },
+  {
+    "from": 467.05,
+    "to": 469.33,
+    "location": 2,
+    "content": "你可以用 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 469.33,
+    "to": 472.64,
+    "location": 2,
+    "content": "去逼近任何的連續的曲線"
+  },
+  {
+    "from": 473.2,
+    "to": 475.89,
+    "location": 2,
+    "content": "而每一個 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 475.89,
+    "to": 480.33,
+    "location": 2,
+    "content": "又都可以用一大堆藍色的 Function 組合起來"
+  },
+  {
+    "from": 480.33,
+    "to": 481.34,
+    "location": 2,
+    "content": "也就是說"
+  },
+  {
+    "from": 481.34,
+    "to": 485.01,
+    "location": 2,
+    "content": "我只要有足夠的藍色 Function 把它加起來"
+  },
+  {
+    "from": 485.01,
+    "to": 490.08,
+    "location": 2,
+    "content": "我也許就可以變成任何連續的曲線"
+  },
+  {
+    "from": 490.96,
+    "to": 491.95,
+    "location": 2,
+    "content": "所以今天"
+  },
+  {
+    "from": 491.95,
+    "to": 494.76,
+    "location": 2,
+    "content": "假設我們的 x 跟 y 的關係"
+  },
+  {
+    "from": 494.76,
+    "to": 496.61,
+    "location": 2,
+    "content": "它也許非常地複雜"
+  },
+  {
+    "from": 496.61,
+    "to": 497.75,
+    "location": 2,
+    "content": "那也沒關係"
+  },
+  {
+    "from": 497.75,
+    "to": 501.88,
+    "location": 2,
+    "content": "我們就想辦法寫一個帶有未知數的 Function"
+  },
+  {
+    "from": 502.26,
+    "to": 504.83,
+    "location": 2,
+    "content": "這個帶有未知數的 Function 它表示的"
+  },
+  {
+    "from": 504.83,
+    "to": 506.87,
+    "location": 2,
+    "content": "就是一堆藍色的 Function"
+  },
+  {
+    "from": 506.87,
+    "to": 508.48,
+    "location": 2,
+    "content": "加上一個 Constant"
+  },
+  {
+    "from": 509,
+    "to": 510.9,
+    "location": 2,
+    "content": "那我們接下來要問的問題就是"
+  },
+  {
+    "from": 510.9,
+    "to": 512.68,
+    "location": 2,
+    "content": "這一個藍色 Function"
+  },
+  {
+    "from": 512.68,
+    "to": 517.43,
+    "location": 2,
+    "content": "它的式子應該要怎麼把它寫出來呢"
+  },
+  {
+    "from": 517.43,
+    "to": 521.26,
+    "location": 2,
+    "content": "怎麼把這個藍色 Function 的式子寫出來呢"
+  },
+  {
+    "from": 521.82,
+    "to": 525.34,
+    "location": 2,
+    "content": "也許你要直接寫出它 沒有那麼容易"
+  },
+  {
+    "from": 525.34,
+    "to": 528.76,
+    "location": 2,
+    "content": "但是你可以用一條曲線來理解它"
+  },
+  {
+    "from": 529.14,
+    "to": 531.34,
+    "location": 2,
+    "content": "用什麼樣的曲線來逼近它呢"
+  },
+  {
+    "from": 531.34,
+    "to": 533.58,
+    "location": 2,
+    "content": "用一個 Sigmoid 的 Function"
+  },
+  {
+    "from": 533.58,
+    "to": 536.38,
+    "location": 2,
+    "content": "來逼近這一個藍色的 Function"
+  },
+  {
+    "from": 536.81,
+    "to": 538.1,
+    "location": 2,
+    "content": "那 Sigmoid Function"
+  },
+  {
+    "from": 538.1,
+    "to": 540.04,
+    "location": 2,
+    "content": "它的式子長的是這個樣子的"
+  },
+  {
+    "from": 540.04,
+    "to": 542.52,
+    "location": 2,
+    "content": "它的橫軸輸入是 x1"
+  },
+  {
+    "from": 542.83,
+    "to": 543.85,
+    "location": 2,
+    "content": "輸出是 y"
+  },
+  {
+    "from": 543.85,
+    "to": 545.09,
+    "location": 2,
+    "content": "輸入的 x1"
+  },
+  {
+    "from": 545.09,
+    "to": 547.53,
+    "location": 2,
+    "content": "我們先乘上一個 w"
+  },
+  {
+    "from": 547.53,
+    "to": 549.54,
+    "location": 2,
+    "content": "再加上一個 b"
+  },
+  {
+    "from": 549.54,
+    "to": 551.09,
+    "location": 2,
+    "content": "再取一個負號"
+  },
+  {
+    "from": 551.09,
+    "to": 552.44,
+    "location": 2,
+    "content": "再取 Exponential"
+  },
+  {
+    "from": 552.44,
+    "to": 553.26,
+    "location": 2,
+    "content": "再加 1"
+  },
+  {
+    "from": 553.26,
+    "to": 555.2,
+    "location": 2,
+    "content": "這一串被放在分放在"
+  },
+  {
+    "from": 555.67,
+    "to": 557.2,
+    "location": 2,
+    "content": "放在分母的地方"
+  },
+  {
+    "from": 557.2,
+    "to": 562.16,
+    "location": 2,
+    "content": "把 1 除以 1 加上 Exponential -b+wx1"
+  },
+  {
+    "from": 562.16,
+    "to": 566.29,
+    "location": 2,
+    "content": "前面 你可以乘上一個 Constant 叫做 c"
+  },
+  {
+    "from": 567.21,
+    "to": 569.9,
+    "location": 2,
+    "content": "好 那如果你今天輸入的這個 x1 的值啊"
+  },
+  {
+    "from": 569.9,
+    "to": 572.03,
+    "location": 2,
+    "content": "趨近於無窮大的時候"
+  },
+  {
+    "from": 572.03,
+    "to": 573.24,
+    "location": 2,
+    "content": "會發生什麼事呢"
+  },
+  {
+    "from": 573.24,
+    "to": 575.48,
+    "location": 2,
+    "content": "如果這一項趨近於無窮大"
+  },
+  {
+    "from": 575.48,
+    "to": 578,
+    "location": 2,
+    "content": "那 Exponential 這一項就會消失"
+  },
+  {
+    "from": 578,
+    "to": 580.9,
+    "location": 2,
+    "content": "那當 x1 非常大的時候"
+  },
+  {
+    "from": 580.9,
+    "to": 585.04,
+    "location": 2,
+    "content": "這一條這邊就會收斂在這個高度是 c 的地方"
+  },
+  {
+    "from": 585.54,
+    "to": 588,
+    "location": 2,
+    "content": "那如果今天 x1 負的非常大的時候"
+  },
+  {
+    "from": 588,
+    "to": 589.13,
+    "location": 2,
+    "content": "會發生什麼事呢"
+  },
+  {
+    "from": 589.13,
+    "to": 591.31,
+    "location": 2,
+    "content": "如果 x1 負的非常大的時候"
+  },
+  {
+    "from": 591.31,
+    "to": 593.27,
+    "location": 2,
+    "content": "分母的地方就會非常大"
+  },
+  {
+    "from": 593.27,
+    "to": 595.88,
+    "location": 2,
+    "content": "那 y 的值就會趨近於 0"
+  },
+  {
+    "from": 596.36,
+    "to": 599.06,
+    "location": 2,
+    "content": "所以你可以用這樣子的一個 Function"
+  },
+  {
+    "from": 599.06,
+    "to": 602.18,
+    "location": 2,
+    "content": "來試著畫出這一條曲線"
+  },
+  {
+    "from": 602.18,
+    "to": 606.1,
+    "location": 2,
+    "content": "用這一條曲線來逼近這一個藍色的 Function"
+  },
+  {
+    "from": 606.74,
+    "to": 610.73,
+    "location": 2,
+    "content": "那這個東西它的名字叫做 Sigmoid"
+  },
+  {
+    "from": 610.73,
+    "to": 612.5,
+    "location": 2,
+    "content": "Sigmoid 是什麼意思呢"
+  },
+  {
+    "from": 612.5,
+    "to": 613.5,
+    "location": 2,
+    "content": "Sigmoid"
+  },
+  {
+    "from": 614.28,
+    "to": 616.57,
+    "location": 2,
+    "content": "如果你要 硬要翻成中文的話"
+  },
+  {
+    "from": 616.57,
+    "to": 618.68,
+    "location": 2,
+    "content": "可以翻成 S 型的"
+  },
+  {
+    "from": 618.68,
+    "to": 621.76,
+    "location": 2,
+    "content": "所以 Sigmoid Function 就是 S 型的 Function"
+  },
+  {
+    "from": 621.76,
+    "to": 624,
+    "location": 2,
+    "content": "因為它長得是 有點像是 S 型的哦"
+  },
+  {
+    "from": 624,
+    "to": 625.71,
+    "location": 2,
+    "content": "所以叫它 Sigmoid Function"
+  },
+  {
+    "from": 625.71,
+    "to": 629.23,
+    "location": 2,
+    "content": "那這邊我們之後都懶得把 Exponential 寫出來"
+  },
+  {
+    "from": 629.23,
+    "to": 631.16,
+    "location": 2,
+    "content": "我們就直接寫成這個樣子"
+  },
+  {
+    "from": 631.16,
+    "to": 634.17,
+    "location": 2,
+    "content": "就是 y 等於 c 倍的 Sigmoid"
+  },
+  {
+    "from": 634.17,
+    "to": 637.97,
+    "location": 2,
+    "content": "然後這個括號裡面放 b+w 乘以 x1"
+  },
+  {
+    "from": 637.97,
+    "to": 639.65,
+    "location": 2,
+    "content": "然後這個 b+wx1"
+  },
+  {
+    "from": 639.65,
+    "to": 640.98,
+    "location": 2,
+    "content": "實際上做的事情"
+  },
+  {
+    "from": 640.98,
+    "to": 643.83,
+    "location": 2,
+    "content": "就是把它放在 Exponential 的指數下"
+  },
+  {
+    "from": 643.83,
+    "to": 644.7,
+    "location": 2,
+    "content": "前面加一個負號"
+  },
+  {
+    "from": 644.7,
+    "to": 646.4,
+    "location": 2,
+    "content": "然後 1+Exponential 的負"
+  },
+  {
+    "from": 646.4,
+    "to": 648.92,
+    "location": 2,
+    "content": "b+wx1 放在分母的地方"
+  },
+  {
+    "from": 648.92,
+    "to": 649.86,
+    "location": 2,
+    "content": "然後前面乘上 c"
+  },
+  {
+    "from": 649.86,
+    "to": 651.41,
+    "location": 2,
+    "content": "就等於 y"
+  },
+  {
+    "from": 651.88,
+    "to": 653.88,
+    "location": 2,
+    "content": "好 所以我們可以用這個 Sigmoid Function"
+  },
+  {
+    "from": 654.26,
+    "to": 656.91,
+    "location": 2,
+    "content": "去逼近一個藍色的 Function"
+  },
+  {
+    "from": 656.91,
+    "to": 658.16,
+    "location": 2,
+    "content": "那其實這個藍色的 Function"
+  },
+  {
+    "from": 658.16,
+    "to": 659.98,
+    "location": 2,
+    "content": "比較常見的名字就叫做"
+  },
+  {
+    "from": 659.98,
+    "to": 661.99,
+    "location": 2,
+    "content": "Hard 的 Sigmoid 啦"
+  },
+  {
+    "from": 661.99,
+    "to": 663.68,
+    "location": 2,
+    "content": "只是我本來是想說一開始"
+  },
+  {
+    "from": 663.68,
+    "to": 665.57,
+    "location": 2,
+    "content": "我們是先介紹藍色的 Function"
+  },
+  {
+    "from": 665.57,
+    "to": 666.6,
+    "location": 2,
+    "content": "才介紹 Sigmoid"
+  },
+  {
+    "from": 666.6,
+    "to": 669.03,
+    "location": 2,
+    "content": "所以一開始說它叫做 Hard Sigmoid"
+  },
+  {
+    "from": 669.03,
+    "to": 670.28,
+    "location": 2,
+    "content": "有一點奇怪"
+  },
+  {
+    "from": 670.28,
+    "to": 671.55,
+    "location": 2,
+    "content": "所以我們先告訴你說"
+  },
+  {
+    "from": 671.55,
+    "to": 673.03,
+    "location": 2,
+    "content": "有一個 Sigmoid Function"
+  },
+  {
+    "from": 673.03,
+    "to": 674.6,
+    "location": 2,
+    "content": "它可以逼近這個藍色的 Function"
+  },
+  {
+    "from": 674.6,
+    "to": 675.76,
+    "location": 2,
+    "content": "那這個藍色的 Function"
+  },
+  {
+    "from": 675.76,
+    "to": 678.74,
+    "location": 2,
+    "content": "其實通常就叫做 Hard 的 Sigmoid"
+  },
+  {
+    "from": 679.82,
+    "to": 683.32,
+    "location": 2,
+    "content": "那我們今天我們需要各式各樣不同的"
+  },
+  {
+    "from": 683.32,
+    "to": 684.61,
+    "location": 2,
+    "content": "藍色的 Function"
+  },
+  {
+    "from": 684.61,
+    "to": 685.25,
+    "location": 2,
+    "content": "還記得嗎"
+  },
+  {
+    "from": 685.25,
+    "to": 687.51,
+    "location": 2,
+    "content": "我們要組出各種不同的曲線"
+  },
+  {
+    "from": 687.51,
+    "to": 691.6,
+    "location": 2,
+    "content": "那我們就需要各式各樣合適的藍色的 Function"
+  },
+  {
+    "from": 691.94,
+    "to": 695.8,
+    "location": 2,
+    "content": "而這個合適的藍色的 Function 怎麼製造出來呢"
+  },
+  {
+    "from": 695.8,
+    "to": 700.36,
+    "location": 2,
+    "content": "我們就需要調整這裡的 b 跟 w 跟 c"
+  },
+  {
+    "from": 700.88,
+    "to": 702.99,
+    "location": 2,
+    "content": "你可以調整 b 跟 w 跟 c"
+  },
+  {
+    "from": 702.99,
+    "to": 706.18,
+    "location": 2,
+    "content": "你就可以製造各種不同形狀的 Sigmoid Function"
+  },
+  {
+    "from": 706.18,
+    "to": 708.59,
+    "location": 2,
+    "content": "用各種不同形狀的 Sigmoid Function"
+  },
+  {
+    "from": 708.59,
+    "to": 711.33,
+    "location": 2,
+    "content": "去逼近這個藍色的 Function"
+  },
+  {
+    "from": 711.64,
+    "to": 712.7,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 713.32,
+    "to": 716.47,
+    "location": 2,
+    "content": "如果你今天改 w 會發生什麼事呢"
+  },
+  {
+    "from": 716.47,
+    "to": 719.3,
+    "location": 2,
+    "content": "你就會改變斜率"
+  },
+  {
+    "from": 719.3,
+    "to": 721.87,
+    "location": 2,
+    "content": "你就會改變這個斜坡的坡度"
+  },
+  {
+    "from": 721.87,
+    "to": 724.03,
+    "location": 2,
+    "content": "你就會改變斜坡的坡度"
+  },
+  {
+    "from": 724.7,
+    "to": 726.9,
+    "location": 2,
+    "content": "如果你動了 b 會發生什麼事呢"
+  },
+  {
+    "from": 726.9,
+    "to": 730.7,
+    "location": 2,
+    "content": "你就可以把這一個 Sigmoid Function 左右移動"
+  },
+  {
+    "from": 730.7,
+    "to": 732.6,
+    "location": 2,
+    "content": "那就可以把它左右移動"
+  },
+  {
+    "from": 733.22,
+    "to": 735.34,
+    "location": 2,
+    "content": "如果你改 c 會發生什麼事呢"
+  },
+  {
+    "from": 735.34,
+    "to": 738.28,
+    "location": 2,
+    "content": "你就可以改變它的高度"
+  },
+  {
+    "from": 738.59,
+    "to": 742.02,
+    "location": 2,
+    "content": "所以你只要有不同的 w 不同的 b 不同的 c"
+  },
+  {
+    "from": 742.34,
+    "to": 744.72,
+    "location": 2,
+    "content": "你就可以製造出不同的 Sigmoid Function"
+  },
+  {
+    "from": 744.72,
+    "to": 747.39,
+    "location": 2,
+    "content": "把不同的 Sigmoid Function 疊起來以後"
+  },
+  {
+    "from": 747.39,
+    "to": 750.55,
+    "location": 2,
+    "content": "你就可以疊出各種不同的"
+  },
+  {
+    "from": 750.55,
+    "to": 752.6,
+    "location": 2,
+    "content": "你就可以去逼近各種不同的"
+  },
+  {
+    "from": 752.6,
+    "to": 754.24,
+    "location": 2,
+    "content": "Piecewise Linear 的 Function"
+  },
+  {
+    "from": 754.24,
+    "to": 755.88,
+    "location": 2,
+    "content": "然後 Piecewise Linear 的 Function"
+  },
+  {
+    "from": 755.88,
+    "to": 760.5,
+    "location": 2,
+    "content": "可以拿來近似各種不同的 Continuous 的 Function"
+  },
+  {
+    "from": 761.12,
+    "to": 762.75,
+    "location": 2,
+    "content": "所以今天啊"
+  },
+  {
+    "from": 762.75,
+    "to": 765.96,
+    "location": 2,
+    "content": "假設我們要把紅色的這條線"
+  },
+  {
+    "from": 766.37,
+    "to": 769.03,
+    "location": 2,
+    "content": "它的函數寫出來的話"
+  },
+  {
+    "from": 769.03,
+    "to": 771.01,
+    "location": 2,
+    "content": "那可能長什麼樣子呢"
+  },
+  {
+    "from": 771.01,
+    "to": 775.27,
+    "location": 2,
+    "content": "我們知道說紅色這條線 就是 0加 1+2+3"
+  },
+  {
+    "from": 775.69,
+    "to": 777.29,
+    "location": 2,
+    "content": "而這個 123 啊"
+  },
+  {
+    "from": 777.29,
+    "to": 778.99,
+    "location": 2,
+    "content": "它們都是藍色的 Function"
+  },
+  {
+    "from": 778.99,
+    "to": 781.86,
+    "location": 2,
+    "content": "所以它們的函式 就是有一個固定的樣子"
+  },
+  {
+    "from": 781.86,
+    "to": 786.34,
+    "location": 2,
+    "content": "它們都寫做 x1 乘上 w 再加上 b"
+  },
+  {
+    "from": 786.34,
+    "to": 789.66,
+    "location": 2,
+    "content": "去做 Sigmoid 再乘上 c1"
+  },
+  {
+    "from": 789.66,
+    "to": 792.04,
+    "location": 2,
+    "content": "只是 1 跟 2 跟 3"
+  },
+  {
+    "from": 792.04,
+    "to": 794.21,
+    "location": 2,
+    "content": "它們的 w 不一樣"
+  },
+  {
+    "from": 794.21,
+    "to": 795.84,
+    "location": 2,
+    "content": "它們的 b 不一樣"
+  },
+  {
+    "from": 795.84,
+    "to": 797.52,
+    "location": 2,
+    "content": "它們的 c 不一樣"
+  },
+  {
+    "from": 798.01,
+    "to": 802.32,
+    "location": 2,
+    "content": "如果是第一個藍色 Function"
+  },
+  {
+    "from": 802.32,
+    "to": 805.01,
+    "location": 2,
+    "content": "它就是 w1 b1 c1"
+  },
+  {
+    "from": 805.61,
+    "to": 807.54,
+    "location": 2,
+    "content": "第二個藍色 Function"
+  },
+  {
+    "from": 807.54,
+    "to": 808.65,
+    "location": 2,
+    "content": "我們就說它的"
+  },
+  {
+    "from": 808.65,
+    "to": 811.06,
+    "location": 2,
+    "content": "它用的是 w2 b2 c2"
+  },
+  {
+    "from": 811.06,
+    "to": 812.54,
+    "location": 2,
+    "content": "第三個藍色 Function"
+  },
+  {
+    "from": 812.54,
+    "to": 816.56,
+    "location": 2,
+    "content": "我們就說它用的是 w3 b3 c3"
+  },
+  {
+    "from": 817.29,
+    "to": 818.68,
+    "location": 2,
+    "content": "好 那我們接下來呢"
+  },
+  {
+    "from": 818.68,
+    "to": 824.39,
+    "location": 2,
+    "content": "就是把 0 跟 123 全部加起來以後"
+  },
+  {
+    "from": 824.39,
+    "to": 826.45,
+    "location": 2,
+    "content": "我們得到的函式"
+  },
+  {
+    "from": 826.45,
+    "to": 828.64,
+    "location": 2,
+    "content": "就長這一個樣子"
+  },
+  {
+    "from": 828.64,
+    "to": 832.72,
+    "location": 2,
+    "content": "我們把 1+2+3 加起來"
+  },
+  {
+    "from": 832.72,
+    "to": 835.19,
+    "location": 2,
+    "content": "這邊就是 Summation Over i"
+  },
+  {
+    "from": 835.19,
+    "to": 838.12,
+    "location": 2,
+    "content": "我們的 i 呢 等於 1 或 2 或 3"
+  },
+  {
+    "from": 838.48,
+    "to": 839.86,
+    "location": 2,
+    "content": "然後 Summation 裡面呢"
+  },
+  {
+    "from": 839.86,
+    "to": 841.56,
+    "location": 2,
+    "content": "就是 ci 乘上 Sigmoid"
+  },
+  {
+    "from": 841.56,
+    "to": 844.08,
+    "location": 2,
+    "content": "bi+wi 乘上 x1"
+  },
+  {
+    "from": 844.08,
+    "to": 846.11,
+    "location": 2,
+    "content": "所以這邊每一個式子"
+  },
+  {
+    "from": 846.11,
+    "to": 848.03,
+    "location": 2,
+    "content": "都代表了一個不同藍色的 Function"
+  },
+  {
+    "from": 848.03,
+    "to": 849.17,
+    "location": 2,
+    "content": "Summation 的意思"
+  },
+  {
+    "from": 849.17,
+    "to": 852.32,
+    "location": 2,
+    "content": "就是把不同的藍色的 Function 給它加起來"
+  },
+  {
+    "from": 852.32,
+    "to": 854.22,
+    "location": 2,
+    "content": "就是這邊 Summation 的意思"
+  },
+  {
+    "from": 854.22,
+    "to": 855.01,
+    "location": 2,
+    "content": "然後呢"
+  },
+  {
+    "from": 855.01,
+    "to": 858.78,
+    "location": 2,
+    "content": "別忘了加一個 Constant"
+  },
+  {
+    "from": 858.78,
+    "to": 861.97,
+    "location": 2,
+    "content": "這邊用 b 呢 來表示這個 Constant"
+  },
+  {
+    "from": 862.64,
+    "to": 865.31,
+    "location": 2,
+    "content": "所以今天啊 我們有一個"
+  },
+  {
+    "from": 865.31,
+    "to": 866.23,
+    "location": 2,
+    "content": "如果我們假"
+  },
+  {
+    "from": 866.23,
+    "to": 868.82,
+    "location": 2,
+    "content": "我們今天就寫出了一個這樣子的 Function"
+  },
+  {
+    "from": 869.2,
+    "to": 872.51,
+    "location": 2,
+    "content": "如果我們假設裡面的 b 跟 w 跟 c"
+  },
+  {
+    "from": 872.51,
+    "to": 874.16,
+    "location": 2,
+    "content": "它是未知的"
+  },
+  {
+    "from": 874.16,
+    "to": 875.92,
+    "location": 2,
+    "content": "它是我們未知的參數"
+  },
+  {
+    "from": 875.92,
+    "to": 878.87,
+    "location": 2,
+    "content": "那我們就可以設定不同的 b 跟 w 跟 c"
+  },
+  {
+    "from": 879.24,
+    "to": 880.88,
+    "location": 2,
+    "content": "設定不同的 b 跟 w 跟 c"
+  },
+  {
+    "from": 880.88,
+    "to": 882.96,
+    "location": 2,
+    "content": "我們就可以製造不同的藍色的 Function"
+  },
+  {
+    "from": 882.96,
+    "to": 885.05,
+    "location": 2,
+    "content": "製造不同的藍色的 Function 疊起來以後"
+  },
+  {
+    "from": 885.05,
+    "to": 887.84,
+    "location": 2,
+    "content": "就可以製造出不同的紅色的 Curves"
+  },
+  {
+    "from": 887.84,
+    "to": 889.45,
+    "location": 2,
+    "content": "製造出不同的紅色的 Curves"
+  },
+  {
+    "from": 889.45,
+    "to": 891.76,
+    "location": 2,
+    "content": "就可以製造出不同的 Piecewise Linear 的 Curves"
+  },
+  {
+    "from": 891.76,
+    "to": 893.16,
+    "location": 2,
+    "content": "就可以去逼近"
+  },
+  {
+    "from": 893.16,
+    "to": 896.02,
+    "location": 2,
+    "content": "各式各樣不同的 Continuous 的 Function"
+  },
+  {
+    "from": 896.38,
+    "to": 899.33,
+    "location": 2,
+    "content": "所以我們其實有辦法寫出一個"
+  },
+  {
+    "from": 899.33,
+    "to": 901.56,
+    "location": 2,
+    "content": "這個非常有彈性的"
+  },
+  {
+    "from": 901.56,
+    "to": 904.64,
+    "location": 2,
+    "content": "有未知參數的 Function"
+  },
+  {
+    "from": 905.16,
+    "to": 908.56,
+    "location": 2,
+    "content": "它長這個樣子就是 Summation 一堆 Sigmoid"
+  },
+  {
+    "from": 908.56,
+    "to": 912.28,
+    "location": 2,
+    "content": "但它們有不同的 c 不同的 b 不同的 w"
+  },
+  {
+    "from": 913.62,
+    "to": 916.45,
+    "location": 2,
+    "content": "好 那所以本來我們是 Linear 的 Model"
+  },
+  {
+    "from": 916.45,
+    "to": 918.83,
+    "location": 2,
+    "content": "y 等於 b+w 乘上 x1"
+  },
+  {
+    "from": 918.83,
+    "to": 920.47,
+    "location": 2,
+    "content": "它有非常大的限制"
+  },
+  {
+    "from": 920.47,
+    "to": 923.12,
+    "location": 2,
+    "content": "這個限制叫做 Model 的 Bias"
+  },
+  {
+    "from": 923.76,
+    "to": 926.4,
+    "location": 2,
+    "content": "那我們要如何減少 Model 的 Bias 呢"
+  },
+  {
+    "from": 926.4,
+    "to": 929.5,
+    "location": 2,
+    "content": "我們可以寫一個更有彈性的"
+  },
+  {
+    "from": 929.5,
+    "to": 931.52,
+    "location": 2,
+    "content": "有未知參數的 Function"
+  },
+  {
+    "from": 931.52,
+    "to": 934.34,
+    "location": 2,
+    "content": "它叫做 y 等於 b+Summation"
+  },
+  {
+    "from": 934.34,
+    "to": 937.59,
+    "location": 2,
+    "content": "ci Sigmoid bi+wix1"
+  },
+  {
+    "from": 937.59,
+    "to": 939.69,
+    "location": 2,
+    "content": "就本來這邊是 b+wx1"
+  },
+  {
+    "from": 939.69,
+    "to": 943.09,
+    "location": 2,
+    "content": "這邊變成 bi+wix1"
+  },
+  {
+    "from": 943.09,
+    "to": 945.54,
+    "location": 2,
+    "content": "然後我們有很多不同的 bi"
+  },
+  {
+    "from": 945.54,
+    "to": 947.62,
+    "location": 2,
+    "content": "有很多不同的 wi"
+  },
+  {
+    "from": 947.62,
+    "to": 949.97,
+    "location": 2,
+    "content": "它們都通過 Sigmoid 都乘上 ci"
+  },
+  {
+    "from": 949.97,
+    "to": 951.87,
+    "location": 2,
+    "content": "把它統統加起來再加 b 等於 y"
+  },
+  {
+    "from": 951.87,
+    "to": 954.79,
+    "location": 2,
+    "content": "我們只要帶入不同的 c 不同的 b 不同的 w"
+  },
+  {
+    "from": 954.79,
+    "to": 956.75,
+    "location": 2,
+    "content": "我們就可以變出各式各樣"
+  },
+  {
+    "from": 956.75,
+    "to": 959.92,
+    "location": 2,
+    "content": "就可以組合出各式各樣不同的 Function"
+  },
+  {
+    "from": 960.55,
+    "to": 962.75,
+    "location": 2,
+    "content": "好 那我們剛才其實已經進化到"
+  },
+  {
+    "from": 962.75,
+    "to": 964.24,
+    "location": 2,
+    "content": "不是只用一個 Feature 啊"
+  },
+  {
+    "from": 964.24,
+    "to": 966.08,
+    "location": 2,
+    "content": "我們可以用多個 Feature"
+  },
+  {
+    "from": 966.08,
+    "to": 967.42,
+    "location": 2,
+    "content": "我們這邊用 j 呢"
+  },
+  {
+    "from": 967.42,
+    "to": 969.7,
+    "location": 2,
+    "content": "來代表 Feature 的編號"
+  },
+  {
+    "from": 969.7,
+    "to": 972.44,
+    "location": 2,
+    "content": "舉例來說剛才如果要考慮前 28 天的話"
+  },
+  {
+    "from": 972.44,
+    "to": 974.1,
+    "location": 2,
+    "content": "j 就是 1 到 28"
+  },
+  {
+    "from": 974.1,
+    "to": 975.66,
+    "location": 2,
+    "content": "考慮前 56 天的話"
+  },
+  {
+    "from": 975.66,
+    "to": 977.88,
+    "location": 2,
+    "content": "j 就是 1 到 56"
+  },
+  {
+    "from": 978.29,
+    "to": 980.24,
+    "location": 2,
+    "content": "那如果把這個 Function"
+  },
+  {
+    "from": 980.24,
+    "to": 983.06,
+    "location": 2,
+    "content": "再擴展成我們剛才講的上面這個"
+  },
+  {
+    "from": 983.06,
+    "to": 986.32,
+    "location": 2,
+    "content": "比較有彈性的 Function 的話那也很簡單"
+  },
+  {
+    "from": 986.32,
+    "to": 988.62,
+    "location": 2,
+    "content": "我們就把 Sigmoid 裡面的東西換掉"
+  },
+  {
+    "from": 988.62,
+    "to": 993.01,
+    "location": 2,
+    "content": "本來這邊是 b+Summation Over j wj xj"
+  },
+  {
+    "from": 993.41,
+    "to": 994.24,
+    "location": 2,
+    "content": "那這邊呢"
+  },
+  {
+    "from": 994.24,
+    "to": 997.67,
+    "location": 2,
+    "content": "就把這一項放到這個括號裡面"
+  },
+  {
+    "from": 997.67,
+    "to": 1002.88,
+    "location": 2,
+    "content": "改成 bi+Summation Over j wij xj"
+  },
+  {
+    "from": 1002.88,
+    "to": 1007.52,
+    "location": 2,
+    "content": "把本來放在這邊的東西放到 Sigmoid 裡面"
+  },
+  {
+    "from": 1007.52,
+    "to": 1010.8,
+    "location": 2,
+    "content": "然後呢這個每一個 Sigmoid 的 Function 裡面呢"
+  },
+  {
+    "from": 1010.8,
+    "to": 1013.55,
+    "location": 2,
+    "content": "都有不同的 bi 不同的 wij"
+  },
+  {
+    "from": 1013.55,
+    "to": 1016.44,
+    "location": 2,
+    "content": "然後取 Sigmoid 以後乘上 ci 就全部加起來"
+  },
+  {
+    "from": 1016.44,
+    "to": 1019.1,
+    "location": 2,
+    "content": "再加上 b 就得到 y"
+  },
+  {
+    "from": 1019.1,
+    "to": 1022.37,
+    "location": 2,
+    "content": "我們只要這邊 ci bi 跟 wij 在放不同的值"
+  },
+  {
+    "from": 1022.37,
+    "to": 1025.43,
+    "location": 2,
+    "content": "就可以變成不同的 Function"
+  },
+  {
+    "from": 1027.49,
+    "to": 1031.62,
+    "location": 2,
+    "content": "好 那如果講到這邊你還是覺得有點抽象的話"
+  },
+  {
+    "from": 1031.62,
+    "to": 1033.86,
+    "location": 2,
+    "content": "如果你看這個式子覺得有點頭痛的話"
+  },
+  {
+    "from": 1033.86,
+    "to": 1035.7,
+    "location": 2,
+    "content": "那我們用比較直觀的方式"
+  },
+  {
+    "from": 1035.7,
+    "to": 1039.48,
+    "location": 2,
+    "content": "把這個式子實際上做的事把它畫出來"
+  },
+  {
+    "from": 1039.48,
+    "to": 1042.58,
+    "location": 2,
+    "content": "它畫出來看起來像是這個樣子"
+  },
+  {
+    "from": 1043.22,
+    "to": 1046.75,
+    "location": 2,
+    "content": "好 我們先考慮一下 j 就是 1 2 3 的狀況"
+  },
+  {
+    "from": 1046.75,
+    "to": 1048.98,
+    "location": 2,
+    "content": "就是我們只考慮三個 Feature"
+  },
+  {
+    "from": 1049.44,
+    "to": 1051.78,
+    "location": 2,
+    "content": "舉例來說 我們只考慮前一天 前兩天"
+  },
+  {
+    "from": 1051.78,
+    "to": 1053.24,
+    "location": 2,
+    "content": "跟前三天的 Case"
+  },
+  {
+    "from": 1053.24,
+    "to": 1055.64,
+    "location": 2,
+    "content": "所以 j 等於 1 2 3"
+  },
+  {
+    "from": 1056.51,
+    "to": 1060.71,
+    "location": 2,
+    "content": "好 那所以輸入就是 x1 代表前一天的觀看人數"
+  },
+  {
+    "from": 1060.71,
+    "to": 1062.19,
+    "location": 2,
+    "content": "x2 兩天前觀看人數"
+  },
+  {
+    "from": 1062.19,
+    "to": 1064.32,
+    "location": 2,
+    "content": "x3 三天前的觀看人數"
+  },
+  {
+    "from": 1064.32,
+    "to": 1065.36,
+    "location": 2,
+    "content": "i 是什麼"
+  },
+  {
+    "from": 1065.36,
+    "to": 1071.33,
+    "location": 2,
+    "content": "i 是每一個 i 就代表了一個藍色的 Function"
+  },
+  {
+    "from": 1071.33,
+    "to": 1072.81,
+    "location": 2,
+    "content": "只是我們現在每一個藍色的 Function"
+  },
+  {
+    "from": 1072.81,
+    "to": 1076.23,
+    "location": 2,
+    "content": "都用一個 Sigmoid Function 來比近似它"
+  },
+  {
+    "from": 1076.23,
+    "to": 1079.21,
+    "location": 2,
+    "content": "所以每一個 i 就代表了一個 Sigmoid Function"
+  },
+  {
+    "from": 1079.21,
+    "to": 1081.6,
+    "location": 2,
+    "content": "或者是代表了一個藍色的 Function"
+  },
+  {
+    "from": 1082.69,
+    "to": 1084.98,
+    "location": 2,
+    "content": "好 那這邊呢"
+  },
+  {
+    "from": 1084.98,
+    "to": 1088.95,
+    "location": 2,
+    "content": "這個 1 2 3 就代表我們有三個 Sigmoid Function"
+  },
+  {
+    "from": 1088.95,
+    "to": 1090.26,
+    "location": 2,
+    "content": "那我們先來看一下"
+  },
+  {
+    "from": 1090.26,
+    "to": 1092.4,
+    "location": 2,
+    "content": "這個括號裡面做的事情是什麼"
+  },
+  {
+    "from": 1092.9,
+    "to": 1095.44,
+    "location": 2,
+    "content": "每一個 Sigmoid 都有一個括號"
+  },
+  {
+    "from": 1095.44,
+    "to": 1097.97,
+    "location": 2,
+    "content": "這個括號裡面做的事情是什麼呢"
+  },
+  {
+    "from": 1098.4,
+    "to": 1101.24,
+    "location": 2,
+    "content": "好 第一個 Sigmoid i 等於 1 的 Case 啊"
+  },
+  {
+    "from": 1101.24,
+    "to": 1105.73,
+    "location": 2,
+    "content": "就是把 x1 乘上一個 Weight 叫 w11"
+  },
+  {
+    "from": 1105.73,
+    "to": 1109.41,
+    "location": 2,
+    "content": "x2 乘上另外一個 Weight 叫 w12"
+  },
+  {
+    "from": 1109.41,
+    "to": 1113.19,
+    "location": 2,
+    "content": "x3 再乘上一個 Weight 叫做 w13"
+  },
+  {
+    "from": 1113.55,
+    "to": 1115,
+    "location": 2,
+    "content": "全部把它加起來"
+  },
+  {
+    "from": 1115,
+    "to": 1116.64,
+    "location": 2,
+    "content": "不要忘了再加一個 b"
+  },
+  {
+    "from": 1116.64,
+    "to": 1118.08,
+    "location": 2,
+    "content": "然後把 b 加起來"
+  },
+  {
+    "from": 1118.08,
+    "to": 1122.2,
+    "location": 2,
+    "content": "然後呢 這個得到的式子就是這個樣子"
+  },
+  {
+    "from": 1122.2,
+    "to": 1124.97,
+    "location": 2,
+    "content": "所以這邊我們用 wij 呢"
+  },
+  {
+    "from": 1124.97,
+    "to": 1129.58,
+    "location": 2,
+    "content": "來代表在第 i 個 Sigmoid 裡面"
+  },
+  {
+    "from": 1129.58,
+    "to": 1132.78,
+    "location": 2,
+    "content": "乘給第 j 個 Feature 的 Weight"
+  },
+  {
+    "from": 1133.43,
+    "to": 1136.29,
+    "location": 2,
+    "content": "第一個 Feature 它就是 w11"
+  },
+  {
+    "from": 1136.29,
+    "to": 1138.59,
+    "location": 2,
+    "content": "第二個 Features 就是乘 w12"
+  },
+  {
+    "from": 1138.59,
+    "to": 1141.17,
+    "location": 2,
+    "content": "第三個 Feature 都是乘 w13"
+  },
+  {
+    "from": 1141.17,
+    "to": 1142.82,
+    "location": 2,
+    "content": "所以三個 Features1 2 3"
+  },
+  {
+    "from": 1142.82,
+    "to": 1145.37,
+    "location": 2,
+    "content": "這個 w 的第二個下標就是 123"
+  },
+  {
+    "from": 1145.37,
+    "to": 1147.92,
+    "location": 2,
+    "content": "w 的第一個下標呢代表是"
+  },
+  {
+    "from": 1147.92,
+    "to": 1150.8,
+    "location": 2,
+    "content": "現在在考慮的是第一個 Sigmoid Function"
+  },
+  {
+    "from": 1150.8,
+    "to": 1152.72,
+    "location": 2,
+    "content": "那我們有三個 Sigmoid Function"
+  },
+  {
+    "from": 1153.36,
+    "to": 1155.31,
+    "location": 2,
+    "content": "好 那第二個 Sigmoid Function 呢"
+  },
+  {
+    "from": 1155.31,
+    "to": 1157.79,
+    "location": 2,
+    "content": "我們就不把它的 w 寫出來了"
+  },
+  {
+    "from": 1157.79,
+    "to": 1160.61,
+    "location": 2,
+    "content": "我們就不把它的 w 放在這個箭頭旁邊"
+  },
+  {
+    "from": 1160.61,
+    "to": 1161.52,
+    "location": 2,
+    "content": "不然會太擠"
+  },
+  {
+    "from": 1162.63,
+    "to": 1164.09,
+    "location": 2,
+    "content": "那第二個 Sigmoid Function"
+  },
+  {
+    "from": 1164.09,
+    "to": 1166.5,
+    "location": 2,
+    "content": "它的在括號裡面做的事情是什麼呢"
+  },
+  {
+    "from": 1166.5,
+    "to": 1171.57,
+    "location": 2,
+    "content": "它在括號裡面做的事情就是把 x1 x1 乘上 w21"
+  },
+  {
+    "from": 1171.57,
+    "to": 1174.53,
+    "location": 2,
+    "content": "把 x2 x2 乘上 w22"
+  },
+  {
+    "from": 1174.53,
+    "to": 1177.22,
+    "location": 2,
+    "content": "把 x3 x3 乘上 w23"
+  },
+  {
+    "from": 1177.22,
+    "to": 1179.24,
+    "location": 2,
+    "content": "統統加起來再加 b2"
+  },
+  {
+    "from": 1179.8,
+    "to": 1181.3,
+    "location": 2,
+    "content": "第三個 Sigmoid 呢"
+  },
+  {
+    "from": 1181.3,
+    "to": 1183.92,
+    "location": 2,
+    "content": "第三個 Sigmoid 在括號裡面做的事情"
+  },
+  {
+    "from": 1183.92,
+    "to": 1188.48,
+    "location": 2,
+    "content": "就是把 1 2 3 1 2 3 x1 x2 x3"
+  },
+  {
+    "from": 1188.48,
+    "to": 1193.16,
+    "location": 2,
+    "content": "分別乘上 w31 w32 跟 w33 再加上 b3"
+  },
+  {
+    "from": 1193.86,
+    "to": 1196.05,
+    "location": 2,
+    "content": "好 那我們現在為了簡化起見"
+  },
+  {
+    "from": 1196.05,
+    "to": 1197.94,
+    "location": 2,
+    "content": "我們把括弧裡面的數字啊"
+  },
+  {
+    "from": 1197.94,
+    "to": 1199.78,
+    "location": 2,
+    "content": "用一個比較簡單的符號來表示"
+  },
+  {
+    "from": 1199.78,
+    "to": 1203,
+    "location": 2,
+    "content": "所以這一串東西我們當作 r1"
+  },
+  {
+    "from": 1203,
+    "to": 1206.47,
+    "location": 2,
+    "content": "這一串東西我們當作 r2"
+  },
+  {
+    "from": 1206.47,
+    "to": 1210.86,
+    "location": 2,
+    "content": "這一串東西我們當作 我們叫它 r3"
+  },
+  {
+    "from": 1211.31,
+    "to": 1216.14,
+    "location": 2,
+    "content": "那這個 x1 x2 跟 x3 和 r1 r2 r3"
+  },
+  {
+    "from": 1216.14,
+    "to": 1217.76,
+    "location": 2,
+    "content": "中間的關係是什麼呢"
+  },
+  {
+    "from": 1217.76,
+    "to": 1221.64,
+    "location": 2,
+    "content": "你可以用矩陣跟向量相乘的方法"
+  },
+  {
+    "from": 1221.64,
+    "to": 1225.44,
+    "location": 2,
+    "content": "寫一個比較簡單的 簡潔的寫法"
+  },
+  {
+    "from": 1225.44,
+    "to": 1228.58,
+    "location": 2,
+    "content": "我們剛才已經知道說 r1 r2 r3"
+  },
+  {
+    "from": 1228.58,
+    "to": 1231.22,
+    "location": 2,
+    "content": "也就是括弧裡面算完的結果啊"
+  },
+  {
+    "from": 1231.22,
+    "to": 1233.24,
+    "location": 2,
+    "content": "三個 Sigmoid 括弧裡面算完的結果"
+  },
+  {
+    "from": 1233.24,
+    "to": 1237.37,
+    "location": 2,
+    "content": "r1 r2 r3 跟輸入的三個 Feature x1 x2 x3"
+  },
+  {
+    "from": 1237.37,
+    "to": 1238.67,
+    "location": 2,
+    "content": "它們中間的關係就是這樣"
+  },
+  {
+    "from": 1238.67,
+    "to": 1241.28,
+    "location": 2,
+    "content": "把 x1 x2 x3 乘上不同的 Weight"
+  },
+  {
+    "from": 1241.28,
+    "to": 1242.91,
+    "location": 2,
+    "content": "加上不同的 Bias"
+  },
+  {
+    "from": 1242.91,
+    "to": 1245.94,
+    "location": 2,
+    "content": "也就是不同的 b 會得到不同的 r"
+  },
+  {
+    "from": 1245.94,
+    "to": 1248.96,
+    "location": 2,
+    "content": "那這三個式子 這一連串的運算啊"
+  },
+  {
+    "from": 1248.96,
+    "to": 1252.13,
+    "location": 2,
+    "content": "其實我們可以把它簡化"
+  },
+  {
+    "from": 1252.13,
+    "to": 1254.16,
+    "location": 2,
+    "content": "就如果你熟悉線性代數的話"
+  },
+  {
+    "from": 1254.16,
+    "to": 1257.44,
+    "location": 2,
+    "content": "簡化成矩陣跟向量的相乘"
+  },
+  {
+    "from": 1257.81,
+    "to": 1261.36,
+    "location": 2,
+    "content": "把 x1 x2 x3 拼在一起變成一個向量"
+  },
+  {
+    "from": 1261.76,
+    "to": 1266.78,
+    "location": 2,
+    "content": "把這邊所有的 w 統統放在一起變成一個矩陣"
+  },
+  {
+    "from": 1266.78,
+    "to": 1269.32,
+    "location": 2,
+    "content": "把 b1 b2 b3 拼起來變成一個向量"
+  },
+  {
+    "from": 1269.32,
+    "to": 1271.78,
+    "location": 2,
+    "content": "把 r1 r2 r3 拼起來變成一個向量"
+  },
+  {
+    "from": 1271.78,
+    "to": 1273.49,
+    "location": 2,
+    "content": "那這是三個式子"
+  },
+  {
+    "from": 1273.49,
+    "to": 1275.04,
+    "location": 2,
+    "content": "你就可以簡寫成"
+  },
+  {
+    "from": 1275.04,
+    "to": 1276.71,
+    "location": 2,
+    "content": "有一個向量叫做 x"
+  },
+  {
+    "from": 1277.14,
+    "to": 1279.49,
+    "location": 2,
+    "content": "這個 x 乘 3 個矩陣叫做 w"
+  },
+  {
+    "from": 1279.49,
+    "to": 1283.97,
+    "location": 2,
+    "content": "這個 w 裡面有 9 個數值就是這邊的 9 個 w"
+  },
+  {
+    "from": 1283.97,
+    "to": 1285.47,
+    "location": 2,
+    "content": "就是這邊的 9 個 Weight"
+  },
+  {
+    "from": 1286.27,
+    "to": 1291.82,
+    "location": 2,
+    "content": "x 先乘上 w 以後再加上 b 就得到 r 這個向量"
+  },
+  {
+    "from": 1291.82,
+    "to": 1296.65,
+    "location": 2,
+    "content": "那這邊做的事情跟這邊做的事情是一模一樣的"
+  },
+  {
+    "from": 1296.65,
+    "to": 1298.24,
+    "location": 2,
+    "content": "沒有半毛錢的不同"
+  },
+  {
+    "from": 1298.24,
+    "to": 1301.2,
+    "location": 2,
+    "content": "只是表示的方式不一樣而已"
+  },
+  {
+    "from": 1301.2,
+    "to": 1305.28,
+    "location": 2,
+    "content": "只是本來寫三個數字裡面有一堆加加減減"
+  },
+  {
+    "from": 1305.28,
+    "to": 1306.67,
+    "location": 2,
+    "content": "有一堆還有什麼上標"
+  },
+  {
+    "from": 1306.67,
+    "to": 1309.51,
+    "location": 2,
+    "content": "結果還有什麼兩個下標什麼看起來就讓人頭大"
+  },
+  {
+    "from": 1309.51,
+    "to": 1312.68,
+    "location": 2,
+    "content": "那把它改成線性代數比較常用的表示方式"
+  },
+  {
+    "from": 1312.68,
+    "to": 1316.1,
+    "location": 2,
+    "content": "x 乘上矩陣 w 再加上向量 b"
+  },
+  {
+    "from": 1316.1,
+    "to": 1318.27,
+    "location": 2,
+    "content": "會得到一個向量叫做 r"
+  },
+  {
+    "from": 1319.88,
+    "to": 1322.37,
+    "location": 2,
+    "content": "好 那所以這邊這件事情哪"
+  },
+  {
+    "from": 1322.37,
+    "to": 1326.5,
+    "location": 2,
+    "content": "在這個括號裡面做的事情哪就是這麼一回事"
+  },
+  {
+    "from": 1326.87,
+    "to": 1330.49,
+    "location": 2,
+    "content": "把 x 乘上 w 加上 b 等於 r"
+  },
+  {
+    "from": 1330.88,
+    "to": 1334.22,
+    "location": 2,
+    "content": "r 呢就是這邊的 r1 r2 r3"
+  },
+  {
+    "from": 1334.22,
+    "to": 1336.55,
+    "location": 2,
+    "content": "我的電腦有點卡 微卡這樣子"
+  },
+  {
+    "from": 1336.55,
+    "to": 1338.02,
+    "location": 2,
+    "content": "沒辦法控制那個滑鼠"
+  },
+  {
+    "from": 1338.02,
+    "to": 1340.07,
+    "location": 2,
+    "content": "沒關係 我可以控制 控制了"
+  },
+  {
+    "from": 1340.07,
+    "to": 1342.02,
+    "location": 2,
+    "content": "這是 r1 r2 r3"
+  },
+  {
+    "from": 1342.36,
+    "to": 1344.62,
+    "location": 2,
+    "content": "好 那接下來這個 r1 r2 r3 哪"
+  },
+  {
+    "from": 1344.62,
+    "to": 1347.56,
+    "location": 2,
+    "content": "就要分別通過 Sigmoid Function"
+  },
+  {
+    "from": 1347.56,
+    "to": 1349.97,
+    "location": 2,
+    "content": "好 分別通過 Sigmoid Function"
+  },
+  {
+    "from": 1349.97,
+    "to": 1351.68,
+    "location": 2,
+    "content": "因為我們實際上做的值就是"
+  },
+  {
+    "from": 1351.68,
+    "to": 1355.44,
+    "location": 2,
+    "content": "做的事情就是把 r1 取一個負號"
+  },
+  {
+    "from": 1355.44,
+    "to": 1358.66,
+    "location": 2,
+    "content": "再乘 再做 Exponential 再加 1"
+  },
+  {
+    "from": 1358.66,
+    "to": 1360.39,
+    "location": 2,
+    "content": "然後把它放到分母的地方"
+  },
+  {
+    "from": 1360.39,
+    "to": 1363.65,
+    "location": 2,
+    "content": "1 除以 1+Exponential 負 r1 等於 a1"
+  },
+  {
+    "from": 1363.65,
+    "to": 1367.36,
+    "location": 2,
+    "content": "然後同樣的方法由 r2 去得到 a2"
+  },
+  {
+    "from": 1367.36,
+    "to": 1370.5,
+    "location": 2,
+    "content": "把 r3 透過 Sigmoid Function 得到 a3"
+  },
+  {
+    "from": 1370.5,
+    "to": 1374.66,
+    "location": 2,
+    "content": "所以這邊這個藍色的虛線框框裡面做的事情"
+  },
+  {
+    "from": 1374.66,
+    "to": 1379.05,
+    "location": 2,
+    "content": "就是從 x1 x2 x3 得到了 a1 a2 a3"
+  },
+  {
+    "from": 1379.62,
+    "to": 1380.9,
+    "location": 2,
+    "content": "好 接下來呢"
+  },
+  {
+    "from": 1380.9,
+    "to": 1384.52,
+    "location": 2,
+    "content": "我們這邊呢有一個簡潔的表示方法"
+  },
+  {
+    "from": 1384.52,
+    "to": 1386.78,
+    "location": 2,
+    "content": "是我們用 r 通過一個"
+  },
+  {
+    "from": 1386.78,
+    "to": 1389.04,
+    "location": 2,
+    "content": "叫做這個 Sigmoid 的 Function"
+  },
+  {
+    "from": 1389.04,
+    "to": 1390.86,
+    "location": 2,
+    "content": "我們用這個東西"
+  },
+  {
+    "from": 1390.86,
+    "to": 1392.66,
+    "location": 2,
+    "content": "我們這邊呢用這個符號呢"
+  },
+  {
+    "from": 1392.66,
+    "to": 1395.08,
+    "location": 2,
+    "content": "來代表通過這個 Sigmoid 的 Function"
+  },
+  {
+    "from": 1395.08,
+    "to": 1398.72,
+    "location": 2,
+    "content": "然後呢 所以我們得到了 a 這個向量"
+  },
+  {
+    "from": 1398.72,
+    "to": 1402.29,
+    "location": 2,
+    "content": "就把 r1 r2 r3 分別通過 Sigmoid Function"
+  },
+  {
+    "from": 1402.29,
+    "to": 1404.34,
+    "location": 2,
+    "content": "但我們直接用這個符號來表示它"
+  },
+  {
+    "from": 1404.34,
+    "to": 1406.13,
+    "location": 2,
+    "content": "然後得到 a1 a2 a3"
+  },
+  {
+    "from": 1406.53,
+    "to": 1407.92,
+    "location": 2,
+    "content": "然後接下來呢"
+  },
+  {
+    "from": 1407.92,
+    "to": 1410.45,
+    "location": 2,
+    "content": "接下來我們這個 Sigmoid 的輸出"
+  },
+  {
+    "from": 1410.45,
+    "to": 1413.94,
+    "location": 2,
+    "content": "還要乘上 ci 然後還要再加上 b"
+  },
+  {
+    "from": 1413.94,
+    "to": 1415.65,
+    "location": 2,
+    "content": "那我們這邊做的事情就是"
+  },
+  {
+    "from": 1415.65,
+    "to": 1419.84,
+    "location": 2,
+    "content": "把 a1 乘 c1 a2 乘 c2 a3 乘 c3"
+  },
+  {
+    "from": 1419.84,
+    "to": 1422.25,
+    "location": 2,
+    "content": "通通加起來再加上 b"
+  },
+  {
+    "from": 1422.25,
+    "to": 1426.96,
+    "location": 2,
+    "content": "最終就得到了 y"
+  },
+  {
+    "from": 1427.5,
+    "to": 1430.06,
+    "location": 2,
+    "content": "好 那這邊呢 如果你要用向量來表示的話"
+  },
+  {
+    "from": 1430.06,
+    "to": 1433.41,
+    "location": 2,
+    "content": "a1 a2 a3 拼起來叫這個向量 a"
+  },
+  {
+    "from": 1433.41,
+    "to": 1436.8,
+    "location": 2,
+    "content": "c1 c2 c3 拼起來叫一個向量 c"
+  },
+  {
+    "from": 1436.8,
+    "to": 1438.16,
+    "location": 2,
+    "content": "那我們可以把這個 c 呢"
+  },
+  {
+    "from": 1438.16,
+    "to": 1441.15,
+    "location": 2,
+    "content": "作 Transpose 作 Transpose"
+  },
+  {
+    "from": 1441.15,
+    "to": 1445.07,
+    "location": 2,
+    "content": "好 那 a 呢 乘上 c 的 Transpose 再加上 b"
+  },
+  {
+    "from": 1445.07,
+    "to": 1448.29,
+    "location": 2,
+    "content": "好再加上 b 我們就得到了 y"
+  },
+  {
+    "from": 1448.87,
+    "to": 1450.85,
+    "location": 2,
+    "content": "所以這一連串的運算哪"
+  },
+  {
+    "from": 1450.85,
+    "to": 1454.64,
+    "location": 2,
+    "content": "剛才寫的那一個我們說比較有彈性的式子"
+  },
+  {
+    "from": 1454.64,
+    "to": 1458.62,
+    "location": 2,
+    "content": "它整體而言做的事情就是 x 輸入是 x"
+  },
+  {
+    "from": 1458.62,
+    "to": 1460.51,
+    "location": 2,
+    "content": "我們的 Feature 是 x 這個向量"
+  },
+  {
+    "from": 1460.51,
+    "to": 1465.2,
+    "location": 2,
+    "content": "x 乘上矩陣 w 加上向量 b 得到向量 r"
+  },
+  {
+    "from": 1465.2,
+    "to": 1469.1,
+    "location": 2,
+    "content": "再把向量 r 透過 Sigmoid Function得 到向量 a"
+  },
+  {
+    "from": 1469.1,
+    "to": 1474.29,
+    "location": 2,
+    "content": "再把向量 a 跟乘上 c 的 Transpose 加上 b 就得到 y"
+  },
+  {
+    "from": 1474.29,
+    "to": 1476.77,
+    "location": 2,
+    "content": "所以這是上面這件事情"
+  },
+  {
+    "from": 1476.77,
+    "to": 1480.16,
+    "location": 2,
+    "content": "如果你想要用線性代數的方法來表示它"
+  },
+  {
+    "from": 1480.16,
+    "to": 1483.11,
+    "location": 2,
+    "content": "用向量矩陣相乘方法來表示它"
+  },
+  {
+    "from": 1483.11,
+    "to": 1485.59,
+    "location": 2,
+    "content": "欸 就長得一副這個樣子"
+  },
+  {
+    "from": 1485.59,
+    "to": 1488.19,
+    "location": 2,
+    "content": "那這邊的這個 r 就是這邊的 r"
+  },
+  {
+    "from": 1488.19,
+    "to": 1489.5,
+    "location": 2,
+    "content": "這邊的 a 就這邊的 a"
+  },
+  {
+    "from": 1489.5,
+    "to": 1491.71,
+    "location": 2,
+    "content": "所以我們可以把這一串東西"
+  },
+  {
+    "from": 1491.71,
+    "to": 1493.36,
+    "location": 2,
+    "content": "放到這個括號裡面"
+  },
+  {
+    "from": 1493.81,
+    "to": 1496.44,
+    "location": 2,
+    "content": "再把這個 a 呢 放到這裡來"
+  },
+  {
+    "from": 1496.44,
+    "to": 1499.32,
+    "location": 2,
+    "content": "所以把相同的東西併起來以後"
+  },
+  {
+    "from": 1499.32,
+    "to": 1501.36,
+    "location": 2,
+    "content": "整體而言就是長這個樣子"
+  },
+  {
+    "from": 1501.36,
+    "to": 1502.84,
+    "location": 2,
+    "content": "上面這一串東西"
+  },
+  {
+    "from": 1502.84,
+    "to": 1504.75,
+    "location": 2,
+    "content": "我們覺得比較這個"
+  },
+  {
+    "from": 1504.75,
+    "to": 1506.61,
+    "location": 2,
+    "content": "比較有彈性的這個 Function"
+  },
+  {
+    "from": 1506.61,
+    "to": 1508.58,
+    "location": 2,
+    "content": "如果你要線性代數來表示它的話"
+  },
+  {
+    "from": 1508.58,
+    "to": 1510.42,
+    "location": 2,
+    "content": "就是下面這個式子啦"
+  },
+  {
+    "from": 1510.42,
+    "to": 1513.36,
+    "location": 2,
+    "content": "x 乘上 w 再加上 b 通過 Sigmoid Function"
+  },
+  {
+    "from": 1513.36,
+    "to": 1516.08,
+    "location": 2,
+    "content": "乘上 c 的 Transpose 加 b 就得到 y"
+  },
+  {
+    "from": 1516.08,
+    "to": 1518.18,
+    "location": 2,
+    "content": "上面這一串就是下面這一串"
+  },
+  {
+    "from": 1518.18,
+    "to": 1520.53,
+    "location": 2,
+    "content": "就是我剛才寫的那個比較彈性的 Function"
+  },
+  {
+    "from": 1520.53,
+    "to": 1522.58,
+    "location": 2,
+    "content": "講來講去都是一樣的東西"
+  },
+  {
+    "from": 1522.58,
+    "to": 1524.5,
+    "location": 2,
+    "content": "只是不同的表示方式而已"
+  },
+  {
+    "from": 1524.5,
+    "to": 1526.56,
+    "location": 2,
+    "content": "上面這個是圖示化的表示方式"
+  },
+  {
+    "from": 1526.56,
+    "to": 1528.97,
+    "location": 2,
+    "content": "下面這個是線性代數的表示方式"
+  },
+  {
+    "from": 1528.97,
+    "to": 1531.78,
+    "location": 2,
+    "content": "其實都在講同一件事情"
+  },
+  {
+    "from": 1533.19,
+    "to": 1536.28,
+    "location": 2,
+    "content": "好 那接下來啊 接下來啊"
+  },
+  {
+    "from": 1536.28,
+    "to": 1538.02,
+    "location": 2,
+    "content": "在我們繼續講說"
+  },
+  {
+    "from": 1538.02,
+    "to": 1541.41,
+    "location": 2,
+    "content": "要怎麼把這些未知的參數找出來之前"
+  },
+  {
+    "from": 1541.41,
+    "to": 1546.32,
+    "location": 2,
+    "content": "我們先再稍微重新定義一下我們的符號"
+  },
+  {
+    "from": 1546.73,
+    "to": 1549.26,
+    "location": 2,
+    "content": "這邊的這個 x 是 Feature"
+  },
+  {
+    "from": 1549.61,
+    "to": 1553.57,
+    "location": 2,
+    "content": "這邊的 w b c 跟 b"
+  },
+  {
+    "from": 1553.57,
+    "to": 1554.62,
+    "location": 2,
+    "content": "這邊有兩個 b 啊"
+  },
+  {
+    "from": 1554.62,
+    "to": 1556.8,
+    "location": 2,
+    "content": "但是這兩個 b 是不一樣的"
+  },
+  {
+    "from": 1556.8,
+    "to": 1558.26,
+    "location": 2,
+    "content": "這邊這一個是一個向量"
+  },
+  {
+    "from": 1558.26,
+    "to": 1560.79,
+    "location": 2,
+    "content": "這邊是一個數值"
+  },
+  {
+    "from": 1560.79,
+    "to": 1562.8,
+    "location": 2,
+    "content": "然後你看它們的這個底色是不一樣的"
+  },
+  {
+    "from": 1562.8,
+    "to": 1563.97,
+    "location": 2,
+    "content": "這個是綠色 這個是灰色"
+  },
+  {
+    "from": 1563.97,
+    "to": 1565.71,
+    "location": 2,
+    "content": "顯示它們是不一樣的東西"
+  },
+  {
+    "from": 1565.71,
+    "to": 1569.33,
+    "location": 2,
+    "content": "我們把這個黃色的這個 w"
+  },
+  {
+    "from": 1569.33,
+    "to": 1572.98,
+    "location": 2,
+    "content": "把這個 b 把這個 c 把這個 b 統統拿出來"
+  },
+  {
+    "from": 1572.98,
+    "to": 1573.84,
+    "location": 2,
+    "content": "集合在這邊"
+  },
+  {
+    "from": 1573.84,
+    "to": 1577.04,
+    "location": 2,
+    "content": "它們就是我們的 Unknow 的 Parameters"
+  },
+  {
+    "from": 1577.04,
+    "to": 1579.12,
+    "location": 2,
+    "content": "就是我們的未知的參數"
+  },
+  {
+    "from": 1579.63,
+    "to": 1583.83,
+    "location": 2,
+    "content": "那我們把這些東西通通拉直"
+  },
+  {
+    "from": 1583.83,
+    "to": 1587.02,
+    "location": 2,
+    "content": "拼成一個很長的向量"
+  },
+  {
+    "from": 1587.02,
+    "to": 1590.4,
+    "location": 2,
+    "content": "我們把 w 的每一個 Row"
+  },
+  {
+    "from": 1590.4,
+    "to": 1593.03,
+    "location": 2,
+    "content": "或者是每一個 Column 拿出來"
+  },
+  {
+    "from": 1593.03,
+    "to": 1595.15,
+    "location": 2,
+    "content": "今天不管你是拿過 Row 或拿 Column 都可以啦"
+  },
+  {
+    "from": 1595.15,
+    "to": 1596.09,
+    "location": 2,
+    "content": "意思是一樣啦"
+  },
+  {
+    "from": 1596.09,
+    "to": 1599.22,
+    "location": 2,
+    "content": "你就把 w 的每一個 Column 或每一個 Row 拿出來"
+  },
+  {
+    "from": 1599.22,
+    "to": 1601.21,
+    "location": 2,
+    "content": "拼成一個長的向量"
+  },
+  {
+    "from": 1601.21,
+    "to": 1605.39,
+    "location": 2,
+    "content": "把 b 拼上來 把 c 拼上來 把 b 拼上來"
+  },
+  {
+    "from": 1605.39,
+    "to": 1606.65,
+    "location": 2,
+    "content": "這個長的向量"
+  },
+  {
+    "from": 1606.65,
+    "to": 1609.73,
+    "location": 2,
+    "content": "我們直接用一個符號叫做 θ 來表示它"
+  },
+  {
+    "from": 1609.73,
+    "to": 1611.55,
+    "location": 2,
+    "content": "θ 是一個很長的向量"
+  },
+  {
+    "from": 1611.55,
+    "to": 1613.68,
+    "location": 2,
+    "content": "裡面的第一個數值我們叫 θ1"
+  },
+  {
+    "from": 1613.68,
+    "to": 1615.5,
+    "location": 2,
+    "content": "第二個叫 θ2 這個叫 θ3"
+  },
+  {
+    "from": 1615.5,
+    "to": 1616.58,
+    "location": 2,
+    "content": "那 θ 裡面"
+  },
+  {
+    "from": 1616.58,
+    "to": 1620.64,
+    "location": 2,
+    "content": "這個向量裡面有一些數值是來自於這個矩陣"
+  },
+  {
+    "from": 1620.64,
+    "to": 1622.32,
+    "location": 2,
+    "content": "有些數值是來自於 b"
+  },
+  {
+    "from": 1622.32,
+    "to": 1623.68,
+    "location": 2,
+    "content": "有些數值來自於 c"
+  },
+  {
+    "from": 1623.68,
+    "to": 1625.73,
+    "location": 2,
+    "content": "有些數值來自於這邊這個 b"
+  },
+  {
+    "from": 1625.73,
+    "to": 1626.74,
+    "location": 2,
+    "content": "那我們就不分了"
+  },
+  {
+    "from": 1626.74,
+    "to": 1631.88,
+    "location": 2,
+    "content": "反正 θ 它統稱我們所有的未知的參數"
+  },
+  {
+    "from": 1631.88,
+    "to": 1634.48,
+    "location": 2,
+    "content": "我們就一律統稱 θ"
+  },
+  {
+    "from": 1635.83,
+    "to": 1639.5,
+    "location": 2,
+    "content": "好 那這邊我們就是換了一個新的"
+  },
+  {
+    "from": 1639.5,
+    "to": 1642.27,
+    "location": 2,
+    "content": "我們就重新改寫了機器學習的第一步"
+  },
+  {
+    "from": 1642.27,
+    "to": 1645.72,
+    "location": 2,
+    "content": "重新定了一個有未知參數的 Function"
+  },
+  {
+    "from": 1645.72,
+    "to": 1648.91,
+    "location": 2,
+    "content": "那接下來我們就要進入第二步跟第三步"
+  },
+  {
+    "from": 1648.91,
+    "to": 1650.32,
+    "location": 2,
+    "content": "那在我們進入之前"
+  },
+  {
+    "from": 1650.32,
+    "to": 1652.29,
+    "location": 2,
+    "content": "我們來看大家有沒有問題想要問的"
+  },
+  {
+    "from": 1655.19,
+    "to": 1657.24,
+    "location": 2,
+    "content": "好 那也看看線上人有要問問題嗎"
+  },
+  {
+    "from": 1674.4,
+    "to": 1677.22,
+    "location": 2,
+    "content": "嗯 好 我試著回答看看"
+  },
+  {
+    "from": 1677.22,
+    "to": 1678.69,
+    "location": 2,
+    "content": "我猜他的問題是說"
+  },
+  {
+    "from": 1678.69,
+    "to": 1681.44,
+    "location": 2,
+    "content": "我們其實要做 Optimization 這件事"
+  },
+  {
+    "from": 1681.44,
+    "to": 1683.68,
+    "location": 2,
+    "content": "找一個可以讓 Loss 最小的參數"
+  },
+  {
+    "from": 1683.68,
+    "to": 1685.7,
+    "location": 2,
+    "content": "有一個最暴力的方法就是"
+  },
+  {
+    "from": 1685.7,
+    "to": 1690.8,
+    "location": 2,
+    "content": "爆收所有可能的未知參數的值對不對"
+  },
+  {
+    "from": 1690.8,
+    "to": 1693.86,
+    "location": 2,
+    "content": "像我們剛才在只有 w 跟 b 兩個參數的前提之下"
+  },
+  {
+    "from": 1693.86,
+    "to": 1697.2,
+    "location": 2,
+    "content": "我根本就可以爆收所有可能的 w 跟 b 的值嘛"
+  },
+  {
+    "from": 1697.2,
+    "to": 1700.13,
+    "location": 2,
+    "content": "所以在參數很少的情況下"
+  },
+  {
+    "from": 1700.13,
+    "to": 1702.92,
+    "location": 2,
+    "content": "你不 甚至你有可能不用 Gradient Descent"
+  },
+  {
+    "from": 1702.92,
+    "to": 1705.62,
+    "location": 2,
+    "content": "不需要什麼 Optimization 的技巧"
+  },
+  {
+    "from": 1705.62,
+    "to": 1709.42,
+    "location": 2,
+    "content": "但是我們今天參數很快就會變得非常多"
+  },
+  {
+    "from": 1709.42,
+    "to": 1711.72,
+    "location": 2,
+    "content": "像在這個例子裡面參數有一大把"
+  },
+  {
+    "from": 1711.72,
+    "to": 1714.45,
+    "location": 2,
+    "content": "有 w b 有 c 跟 b 串起來"
+  },
+  {
+    "from": 1714.45,
+    "to": 1716.48,
+    "location": 2,
+    "content": "變成一個很長的向量叫 θ"
+  },
+  {
+    "from": 1716.48,
+    "to": 1719.77,
+    "location": 2,
+    "content": "那這個時候你就不能夠用爆收的方法了"
+  },
+  {
+    "from": 1719.77,
+    "to": 1722,
+    "location": 2,
+    "content": "你需要 Gradient Descent 這樣的方法"
+  },
+  {
+    "from": 1722,
+    "to": 1725.98,
+    "location": 2,
+    "content": "來找出可以讓 Loss 最低的參數"
+  },
+  {
+    "from": 1725.98,
+    "to": 1728,
+    "location": 2,
+    "content": "好 希望這樣回答到他的問題"
+  },
+  {
+    "from": 1728,
+    "to": 1730.72,
+    "location": 2,
+    "content": "好 在座還有同學有問題嗎"
+  },
+  {
+    "from": 1730.72,
+    "to": 1731.84,
+    "location": 2,
+    "content": "來 請說"
+  },
+  {
+    "from": 1740.87,
+    "to": 1742.32,
+    "location": 2,
+    "content": "可以非常 這是一個"
+  },
+  {
+    "from": 1742.32,
+    "to": 1743.94,
+    "location": 2,
+    "content": "欸 這位同學的問題是說"
+  },
+  {
+    "from": 1743.94,
+    "to": 1746.66,
+    "location": 2,
+    "content": "剛才的例子裡面有三個 Sigmoid"
+  },
+  {
+    "from": 1746.66,
+    "to": 1747.84,
+    "location": 2,
+    "content": "那為什麼是三個呢"
+  },
+  {
+    "from": 1747.84,
+    "to": 1749.74,
+    "location": 2,
+    "content": "能不能夠四個 五個 六個呢"
+  },
+  {
+    "from": 1749.74,
+    "to": 1754.1,
+    "location": 2,
+    "content": "可以 Sigmoid 的數目是你自己決定的"
+  },
+  {
+    "from": 1754.1,
+    "to": 1756.58,
+    "location": 2,
+    "content": "而且 Sigmoid 的數目越多"
+  },
+  {
+    "from": 1756.58,
+    "to": 1758.52,
+    "location": 2,
+    "content": "你可以產生出來的"
+  },
+  {
+    "from": 1758.52,
+    "to": 1760.85,
+    "location": 2,
+    "content": "Piecewise Linear 的 Function 就越複雜"
+  },
+  {
+    "from": 1760.85,
+    "to": 1762.52,
+    "location": 2,
+    "content": "就是假設你只有三個 Sigmoid"
+  },
+  {
+    "from": 1762.52,
+    "to": 1765.01,
+    "location": 2,
+    "content": "意味著你只能產生三個線段"
+  },
+  {
+    "from": 1765.01,
+    "to": 1767.06,
+    "location": 2,
+    "content": "但是假設你有越多 Sigmoid"
+  },
+  {
+    "from": 1767.06,
+    "to": 1769.57,
+    "location": 2,
+    "content": "你就可以產生有越多段線的"
+  },
+  {
+    "from": 1769.57,
+    "to": 1770.96,
+    "location": 2,
+    "content": "Piecewise Linear 的 Function"
+  },
+  {
+    "from": 1770.96,
+    "to": 1773.32,
+    "location": 2,
+    "content": "你就可以逼近越複雜的 Function"
+  },
+  {
+    "from": 1773.32,
+    "to": 1775.24,
+    "location": 2,
+    "content": "但是至於要幾個 Sigmoid"
+  },
+  {
+    "from": 1775.24,
+    "to": 1777.88,
+    "location": 2,
+    "content": "這個又是另外一個 Hyper Parameter"
+  },
+  {
+    "from": 1777.88,
+    "to": 1779.49,
+    "location": 2,
+    "content": "這個你要自己決定"
+  },
+  {
+    "from": 1779.49,
+    "to": 1781.29,
+    "location": 2,
+    "content": "我們在剛才例子裡面舉三個"
+  },
+  {
+    "from": 1781.29,
+    "to": 1782.3,
+    "location": 2,
+    "content": "那只是一個例子"
+  },
+  {
+    "from": 1782.3,
+    "to": 1783.74,
+    "location": 2,
+    "content": "也許我以後不應該舉三個"
+  },
+  {
+    "from": 1783.74,
+    "to": 1785.14,
+    "location": 2,
+    "content": "因為這樣會讓你誤以為說"
+  },
+  {
+    "from": 1785.14,
+    "to": 1786.17,
+    "location": 2,
+    "content": "Input Feature 是三個"
+  },
+  {
+    "from": 1786.17,
+    "to": 1786.92,
+    "location": 2,
+    "content": "Sigmoid也是三個"
+  },
+  {
+    "from": 1786.92,
+    "to": 1788.04,
+    "location": 2,
+    "content": "不是就是說"
+  },
+  {
+    "from": 1788.04,
+    "to": 1789.8,
+    "location": 2,
+    "content": "Sigmoid 幾個可以自己決定"
+  },
+  {
+    "from": 1790.83,
+    "to": 1791.84,
+    "location": 2,
+    "content": "好 這樣回"
+  },
+  {
+    "from": 1791.84,
+    "to": 1793.54,
+    "location": 2,
+    "content": "這樣大家還有問題想問嗎"
+  },
+  {
+    "from": 1793.54,
+    "to": 1794.83,
+    "location": 2,
+    "content": "欸 請說"
+  },
+  {
+    "from": 1798.85,
+    "to": 1800.06,
+    "location": 2,
+    "content": "跟什麼 Sigmoid"
+  },
+  {
+    "from": 1804.64,
+    "to": 1806.58,
+    "location": 2,
+    "content": "Hard 的 Sigmoid"
+  },
+  {
+    "from": 1808.19,
+    "to": 1811.68,
+    "location": 2,
+    "content": "首先它的 Function 你寫出來可能會比較複雜"
+  },
+  {
+    "from": 1811.68,
+    "to": 1813.15,
+    "location": 2,
+    "content": "你一下子寫不出它的 Function"
+  },
+  {
+    "from": 1813.15,
+    "to": 1815.86,
+    "location": 2,
+    "content": "但如果你可以寫得出它的 Function 的話"
+  },
+  {
+    "from": 1815.86,
+    "to": 1820.43,
+    "location": 2,
+    "content": "你其實也可以用 Hard Sigmoid"
+  },
+  {
+    "from": 1820.43,
+    "to": 1821.46,
+    "location": 2,
+    "content": "你想要用也可以"
+  },
+  {
+    "from": 1821.46,
+    "to": 1823.73,
+    "location": 2,
+    "content": "所以不是一定只能夠用"
+  },
+  {
+    "from": 1824.56,
+    "to": 1827.47,
+    "location": 2,
+    "content": "剛才那個 Sigmoid 去逼近那個 Hard Sigmoid"
+  },
+  {
+    "from": 1827.47,
+    "to": 1828.7,
+    "location": 2,
+    "content": "完全有別的做法"
+  },
+  {
+    "from": 1828.7,
+    "to": 1830.25,
+    "location": 2,
+    "content": "等一下我們就會講別的做法"
+  },
+  {
+    "from": 1831.09,
+    "to": 1831.55,
+    "location": 2,
+    "content": "好"
+  },
+  {
+    "from": 1833.12,
+    "to": 1834.57,
+    "location": 2,
+    "content": "大家還有問題想要問嗎"
+  },
+  {
+    "from": 1836.74,
+    "to": 1839.24,
+    "location": 2,
+    "content": "好 如果目前暫時沒有的話"
+  },
+  {
+    "from": 1839.24,
+    "to": 1841.47,
+    "location": 2,
+    "content": "就請容我繼續講下去"
+  },
+  {
+    "from": 1841.47,
+    "to": 1844.32,
+    "location": 2,
+    "content": "那你知道這門課是 6:20 才下課"
+  },
+  {
+    "from": 1844.32,
+    "to": 1847.24,
+    "location": 2,
+    "content": "所以只要講到 6:20 前都是可以的"
+  },
+  {
+    "from": 1847.24,
+    "to": 1849.2,
+    "location": 2,
+    "content": "那如果你有事想要早點離開"
+  },
+  {
+    "from": 1849.2,
+    "to": 1851.62,
+    "location": 2,
+    "content": "也沒有問題 我們課程都是有錄影"
+  },
+  {
+    "from": 1852.83,
+    "to": 1854.88,
+    "location": 2,
+    "content": "好 那接下來進入第二步了"
+  },
+  {
+    "from": 1854.88,
+    "to": 1856.59,
+    "location": 2,
+    "content": "我們要定 Loss"
+  },
+  {
+    "from": 1856.92,
+    "to": 1860.3,
+    "location": 2,
+    "content": "有了新的這個 Model 以後"
+  },
+  {
+    "from": 1860.3,
+    "to": 1862.78,
+    "location": 2,
+    "content": "我們 Loss 會不會有什麼不同"
+  },
+  {
+    "from": 1862.78,
+    "to": 1866.12,
+    "location": 2,
+    "content": "沒有什麼不同 定義的方法是一樣的"
+  },
+  {
+    "from": 1866.12,
+    "to": 1868.25,
+    "location": 2,
+    "content": "只是我們的符號改了一下"
+  },
+  {
+    "from": 1868.25,
+    "to": 1871.15,
+    "location": 2,
+    "content": "之前是 L ( w 跟 b )"
+  },
+  {
+    "from": 1871.15,
+    "to": 1872.83,
+    "location": 2,
+    "content": "因為 w 跟 b 是未知的"
+  },
+  {
+    "from": 1872.83,
+    "to": 1876,
+    "location": 2,
+    "content": "那我們現在接下來的未知的參數很多了"
+  },
+  {
+    "from": 1876,
+    "to": 1877.79,
+    "location": 2,
+    "content": "你再把它一個一個列出來"
+  },
+  {
+    "from": 1877.79,
+    "to": 1878.71,
+    "location": 2,
+    "content": "太累了"
+  },
+  {
+    "from": 1878.71,
+    "to": 1883.18,
+    "location": 2,
+    "content": "所以我們直接用 θ 來統設所有的參數"
+  },
+  {
+    "from": 1883.18,
+    "to": 1885.81,
+    "location": 2,
+    "content": "用 θ 來代表所有未知的參數"
+  },
+  {
+    "from": 1885.81,
+    "to": 1889.44,
+    "location": 2,
+    "content": "所以我們現在的 Loss Function 就變成 L( θ )"
+  },
+  {
+    "from": 1889.44,
+    "to": 1891.39,
+    "location": 2,
+    "content": "這個 Loss Function 要問的就是"
+  },
+  {
+    "from": 1891.39,
+    "to": 1894.69,
+    "location": 2,
+    "content": "這個 θ 如果它是某一組數值的話"
+  },
+  {
+    "from": 1894.69,
+    "to": 1896.95,
+    "location": 2,
+    "content": "會有多不好或有多好"
+  },
+  {
+    "from": 1897.63,
+    "to": 1899,
+    "location": 2,
+    "content": "那計算的方法"
+  },
+  {
+    "from": 1899,
+    "to": 1901.75,
+    "location": 2,
+    "content": "跟剛才只有兩個參數的時候"
+  },
+  {
+    "from": 1901.75,
+    "to": 1903.3,
+    "location": 2,
+    "content": "其實是一模一樣的"
+  },
+  {
+    "from": 1903.3,
+    "to": 1907.92,
+    "location": 2,
+    "content": "就你先給定某一組 w b ct 跟 b 的值"
+  },
+  {
+    "from": 1908.24,
+    "to": 1909.8,
+    "location": 2,
+    "content": "你先給定某一組 θ 的值"
+  },
+  {
+    "from": 1909.8,
+    "to": 1912.32,
+    "location": 2,
+    "content": "假設你知道 w 的值是多少"
+  },
+  {
+    "from": 1912.32,
+    "to": 1914.83,
+    "location": 2,
+    "content": "把 w 的值寫進去 b 的值寫進去"
+  },
+  {
+    "from": 1914.83,
+    "to": 1916.59,
+    "location": 2,
+    "content": "c 的值寫進去 b 的值寫進去"
+  },
+  {
+    "from": 1917.34,
+    "to": 1921.06,
+    "location": 2,
+    "content": "然後呢你把一種 Feature x 帶進去"
+  },
+  {
+    "from": 1921.06,
+    "to": 1923.14,
+    "location": 2,
+    "content": "然後看看你估測出來的 y 是多少"
+  },
+  {
+    "from": 1923.14,
+    "to": 1928.78,
+    "location": 2,
+    "content": "再計算一下跟真實的 Label 之間的差距"
+  },
+  {
+    "from": 1928.78,
+    "to": 1929.89,
+    "location": 2,
+    "content": "你得到一個 e"
+  },
+  {
+    "from": 1929.89,
+    "to": 1932.79,
+    "location": 2,
+    "content": "把所有的誤差通通加起來"
+  },
+  {
+    "from": 1932.79,
+    "to": 1934.68,
+    "location": 2,
+    "content": "你就得到你的 Loss"
+  },
+  {
+    "from": 1934.68,
+    "to": 1936.64,
+    "location": 2,
+    "content": "接下來下一步就是 Optimization"
+  },
+  {
+    "from": 1936.64,
+    "to": 1940.14,
+    "location": 2,
+    "content": "Optimization （00：32：17）跟前面講的有沒有什麼不同呢"
+  },
+  {
+    "from": 1940.14,
+    "to": 1943.05,
+    "location": 2,
+    "content": "沒有什麼不同 還是一樣的"
+  },
+  {
+    "from": 1943.05,
+    "to": 1945.35,
+    "location": 2,
+    "content": "所以就算我們換了一個新的模型"
+  },
+  {
+    "from": 1945.83,
+    "to": 1947.83,
+    "location": 2,
+    "content": "這個 Optimization 的步驟"
+  },
+  {
+    "from": 1947.83,
+    "to": 1951.27,
+    "location": 2,
+    "content": "Optimization 的演算法還是（00：32：29）"
+  },
+  {
+    "from": 1951.27,
+    "to": 1955.48,
+    "location": 2,
+    "content": "看起來其實沒有真的太多的差別"
+  },
+  {
+    "from": 1955.48,
+    "to": 1959.3,
+    "location": 2,
+    "content": "我們現在的 θ 它是一個很長的向量"
+  },
+  {
+    "from": 1959.3,
+    "to": 1963.66,
+    "location": 2,
+    "content": "我們把它表示成 θ1 θ2 θ3 等等等"
+  },
+  {
+    "from": 1964.21,
+    "to": 1966.12,
+    "location": 2,
+    "content": "我們現在就是要找一組 θ"
+  },
+  {
+    "from": 1966.12,
+    "to": 1969.45,
+    "location": 2,
+    "content": "這個 θ 可以讓我們的 Loss 越小越好"
+  },
+  {
+    "from": 1969.88,
+    "to": 1971.84,
+    "location": 2,
+    "content": "可以讓 Loss 最小的那一組 θ"
+  },
+  {
+    "from": 1971.84,
+    "to": 1974.83,
+    "location": 2,
+    "content": "我們叫做 θ 的 Start"
+  },
+  {
+    "from": 1975.9,
+    "to": 1978.66,
+    "location": 2,
+    "content": "好 那怎麼找出那個 θ 的 Start 呢"
+  },
+  {
+    "from": 1978.66,
+    "to": 1983.15,
+    "location": 2,
+    "content": "我們一開始要隨機選一個初始的數值"
+  },
+  {
+    "from": 1983.15,
+    "to": 1985.73,
+    "location": 2,
+    "content": "這邊叫做 θ0"
+  },
+  {
+    "from": 1985.73,
+    "to": 1986.99,
+    "location": 2,
+    "content": "你可以隨機選"
+  },
+  {
+    "from": 1986.99,
+    "to": 1988.5,
+    "location": 2,
+    "content": "那之後也可能會講"
+  },
+  {
+    "from": 1988.5,
+    "to": 1992.75,
+    "location": 2,
+    "content": "也會講到更好的找初始值的方法"
+  },
+  {
+    "from": 1992.75,
+    "to": 1994.9,
+    "location": 2,
+    "content": "我們現在先隨機選就好"
+  },
+  {
+    "from": 1995.72,
+    "to": 1999.02,
+    "location": 2,
+    "content": "好 那接下來呢你要計算微分"
+  },
+  {
+    "from": 1999.34,
+    "to": 2002.56,
+    "location": 2,
+    "content": "你要對每一個未知的參數"
+  },
+  {
+    "from": 2002.56,
+    "to": 2005.19,
+    "location": 2,
+    "content": "這邊用 θ1 θ2 θ3 來表示"
+  },
+  {
+    "from": 2005.52,
+    "to": 2007.64,
+    "location": 2,
+    "content": "你要為每一個未知的參數"
+  },
+  {
+    "from": 2007.64,
+    "to": 2011.38,
+    "location": 2,
+    "content": "都去計算它對 L 的微分"
+  },
+  {
+    "from": 2012.35,
+    "to": 2016.69,
+    "location": 2,
+    "content": "那把每一個參數都拿去計算對 L 的微分以後"
+  },
+  {
+    "from": 2016.69,
+    "to": 2019.84,
+    "location": 2,
+    "content": "集合起來它就是一個向量"
+  },
+  {
+    "from": 2020.19,
+    "to": 2022.96,
+    "location": 2,
+    "content": "那個向量我們用 g 來表示它"
+  },
+  {
+    "from": 2022.96,
+    "to": 2025.06,
+    "location": 2,
+    "content": "這邊假設有 1000 個參數"
+  },
+  {
+    "from": 2025.53,
+    "to": 2028.34,
+    "location": 2,
+    "content": "這個向量的長度就是 1000"
+  },
+  {
+    "from": 2028.34,
+    "to": 2031.13,
+    "location": 2,
+    "content": "這個向量裡面就有 1000 個數字"
+  },
+  {
+    "from": 2031.72,
+    "to": 2033.22,
+    "location": 2,
+    "content": "這個東西有一個名字"
+  },
+  {
+    "from": 2033.22,
+    "to": 2038.37,
+    "location": 2,
+    "content": "就我們把每一個參數對 L 的微分集合起來以後"
+  },
+  {
+    "from": 2038.37,
+    "to": 2039.44,
+    "location": 2,
+    "content": "它有一個名字"
+  },
+  {
+    "from": 2039.44,
+    "to": 2042.23,
+    "location": 2,
+    "content": "這個向量有一個名字叫做 Gradient"
+  },
+  {
+    "from": 2042.97,
+    "to": 2044.58,
+    "location": 2,
+    "content": "那很多時候你會看到"
+  },
+  {
+    "from": 2044.58,
+    "to": 2046.71,
+    "location": 2,
+    "content": "Gradient 的表示方法是這個樣子的"
+  },
+  {
+    "from": 2046.71,
+    "to": 2050.68,
+    "location": 2,
+    "content": "你把 L 前面放了一個倒三角形"
+  },
+  {
+    "from": 2050.68,
+    "to": 2053.56,
+    "location": 2,
+    "content": "這個就代表了 Gradient"
+  },
+  {
+    "from": 2053.56,
+    "to": 2055.39,
+    "location": 2,
+    "content": "這是一個 Gradient 的簡寫的方法"
+  },
+  {
+    "from": 2055.39,
+    "to": 2057.69,
+    "location": 2,
+    "content": "那其實我要表示的就是這個向量"
+  },
+  {
+    "from": 2057.69,
+    "to": 2060.16,
+    "location": 2,
+    "content": "L 前面放一個倒三角形的意思就是"
+  },
+  {
+    "from": 2060.16,
+    "to": 2063.6,
+    "location": 2,
+    "content": "把所有的參數 θ1 θ2 θ3"
+  },
+  {
+    "from": 2063.6,
+    "to": 2065.87,
+    "location": 2,
+    "content": "通通拿去對 L 作微分"
+  },
+  {
+    "from": 2065.87,
+    "to": 2068.42,
+    "location": 2,
+    "content": "就是這個 L 倒三角形的意思"
+  },
+  {
+    "from": 2068.42,
+    "to": 2070.37,
+    "location": 2,
+    "content": "那後面放 θ0 的意思是說"
+  },
+  {
+    "from": 2070.37,
+    "to": 2072.24,
+    "location": 2,
+    "content": "我們這個算微分的位置"
+  },
+  {
+    "from": 2072.24,
+    "to": 2074.55,
+    "location": 2,
+    "content": "是在 θ 等於 θ0 的地方"
+  },
+  {
+    "from": 2074.55,
+    "to": 2076.46,
+    "location": 2,
+    "content": "在 θ 等於 θ0 的地方"
+  },
+  {
+    "from": 2077.07,
+    "to": 2078.33,
+    "location": 2,
+    "content": "我們算出這個 Gradient"
+  },
+  {
+    "from": 2078.33,
+    "to": 2079.53,
+    "location": 2,
+    "content": "算出這個 g 以後"
+  },
+  {
+    "from": 2079.53,
+    "to": 2083.11,
+    "location": 2,
+    "content": "接下來呢我們 Update 我們的參數了"
+  },
+  {
+    "from": 2083.11,
+    "to": 2084.46,
+    "location": 2,
+    "content": "要更新我們的參數了"
+  },
+  {
+    "from": 2084.84,
+    "to": 2085.62,
+    "location": 2,
+    "content": "更新的方法"
+  },
+  {
+    "from": 2085.62,
+    "to": 2088.57,
+    "location": 2,
+    "content": "跟剛才只有兩個參數的狀況是一模一樣的"
+  },
+  {
+    "from": 2088.57,
+    "to": 2090.05,
+    "location": 2,
+    "content": "只是從更新兩個參數"
+  },
+  {
+    "from": 2090.05,
+    "to": 2092.39,
+    "location": 2,
+    "content": "可能換成更新成 1000 個參數"
+  },
+  {
+    "from": 2092.39,
+    "to": 2094.4,
+    "location": 2,
+    "content": "但更新的方法是一樣的"
+  },
+  {
+    "from": 2094.79,
+    "to": 2097.31,
+    "location": 2,
+    "content": "本來有一個參數叫 θ1"
+  },
+  {
+    "from": 2097.64,
+    "to": 2101.64,
+    "location": 2,
+    "content": "上標 0 代表它是一個起始的值"
+  },
+  {
+    "from": 2101.64,
+    "to": 2103.76,
+    "location": 2,
+    "content": "它是一個隨機選的起始的值"
+  },
+  {
+    "from": 2104.54,
+    "to": 2109.09,
+    "location": 2,
+    "content": "把這個 θ10 減掉 η 乘上微分的值"
+  },
+  {
+    "from": 2109.09,
+    "to": 2110.58,
+    "location": 2,
+    "content": "得到 θ11"
+  },
+  {
+    "from": 2110.58,
+    "to": 2112.63,
+    "location": 2,
+    "content": "代表 θ1 更新過一次的結果"
+  },
+  {
+    "from": 2113.23,
+    "to": 2115.55,
+    "location": 2,
+    "content": "θ60 減掉微分乘以"
+  },
+  {
+    "from": 2115.55,
+    "to": 2118.04,
+    "location": 2,
+    "content": "減掉 η 乘上微分的值"
+  },
+  {
+    "from": 2118.04,
+    "to": 2119.47,
+    "location": 2,
+    "content": "得到 θ21"
+  },
+  {
+    "from": 2120.18,
+    "to": 2120.96,
+    "location": 2,
+    "content": "以此類推"
+  },
+  {
+    "from": 2120.96,
+    "to": 2124.21,
+    "location": 2,
+    "content": "你就可以把那 1000 個參數統統都更新了"
+  },
+  {
+    "from": 2124.59,
+    "to": 2126.55,
+    "location": 2,
+    "content": "那這邊有一個簡寫"
+  },
+  {
+    "from": 2126.55,
+    "to": 2130.07,
+    "location": 2,
+    "content": "就是你會把這邊所有的 θ 合起來當做一個向量"
+  },
+  {
+    "from": 2130.07,
+    "to": 2131.33,
+    "location": 2,
+    "content": "我們用 θ0 來表示"
+  },
+  {
+    "from": 2132.11,
+    "to": 2134.75,
+    "location": 2,
+    "content": "這邊呢你可以把 η 提出來"
+  },
+  {
+    "from": 2134.75,
+    "to": 2136.74,
+    "location": 2,
+    "content": "那剩下的部分 微分的部分"
+  },
+  {
+    "from": 2136.74,
+    "to": 2138.63,
+    "location": 2,
+    "content": "每一個參數對 L 微分的部分"
+  },
+  {
+    "from": 2138.63,
+    "to": 2140.08,
+    "location": 2,
+    "content": "叫做 Gradient 叫做 g"
+  },
+  {
+    "from": 2140.08,
+    "to": 2143.49,
+    "location": 2,
+    "content": "所以 θ0 減掉 η 乘上 g"
+  },
+  {
+    "from": 2143.49,
+    "to": 2145.14,
+    "location": 2,
+    "content": "就得到 θ1"
+  },
+  {
+    "from": 2145.14,
+    "to": 2149.08,
+    "location": 2,
+    "content": "把這邊的所有的這個 θ 通通集合起來"
+  },
+  {
+    "from": 2149.08,
+    "to": 2150.6,
+    "location": 2,
+    "content": "把這邊所謂 θ 通通集合起來"
+  },
+  {
+    "from": 2150.6,
+    "to": 2151.75,
+    "location": 2,
+    "content": "就叫做 θ1"
+  },
+  {
+    "from": 2151.75,
+    "to": 2154.59,
+    "location": 2,
+    "content": "θ0 減掉 θ0 這個向量"
+  },
+  {
+    "from": 2154.59,
+    "to": 2156.38,
+    "location": 2,
+    "content": "減掉 η 乘上 g"
+  },
+  {
+    "from": 2156.38,
+    "to": 2158.93,
+    "location": 2,
+    "content": "g 也是一個向量會得到 θ1"
+  },
+  {
+    "from": 2158.93,
+    "to": 2161,
+    "location": 2,
+    "content": "那假設你這邊參數有 1000 個"
+  },
+  {
+    "from": 2161,
+    "to": 2163.25,
+    "location": 2,
+    "content": "那 θ0 就是 1000 個數值"
+  },
+  {
+    "from": 2163.25,
+    "to": 2164.47,
+    "location": 2,
+    "content": "1000 微的向量"
+  },
+  {
+    "from": 2164.47,
+    "to": 2166.17,
+    "location": 2,
+    "content": "g 是1000 微的向量"
+  },
+  {
+    "from": 2166.17,
+    "to": 2168.43,
+    "location": 2,
+    "content": "θ1 也是 1000 微的向量"
+  },
+  {
+    "from": 2169.65,
+    "to": 2171.33,
+    "location": 2,
+    "content": "好 那整個操作就是這樣了"
+  },
+  {
+    "from": 2171.33,
+    "to": 2174.54,
+    "location": 2,
+    "content": "就是由 θ0 算 Gradient"
+  },
+  {
+    "from": 2174.94,
+    "to": 2178.74,
+    "location": 2,
+    "content": "根據 Gradient 去把 θ0 更新成 θ1"
+  },
+  {
+    "from": 2179.33,
+    "to": 2181.29,
+    "location": 2,
+    "content": "然後呢再算一次 Gradient"
+  },
+  {
+    "from": 2181.72,
+    "to": 2185.58,
+    "location": 2,
+    "content": "然後呢根據 Gradient 把 θ1 再更新成 θ2"
+  },
+  {
+    "from": 2185.58,
+    "to": 2189.48,
+    "location": 2,
+    "content": "再算一次 Gradient 把 θ2 更新成 θ3"
+  },
+  {
+    "from": 2189.48,
+    "to": 2191.81,
+    "location": 2,
+    "content": "以此類推直到你不想做"
+  },
+  {
+    "from": 2191.81,
+    "to": 2194.01,
+    "location": 2,
+    "content": "或者是你算出來的這個 Gradient"
+  },
+  {
+    "from": 2194.01,
+    "to": 2196.48,
+    "location": 2,
+    "content": "是 0 向量 是 Zero Vector"
+  },
+  {
+    "from": 2196.48,
+    "to": 2198.81,
+    "location": 2,
+    "content": "導致你沒有辦法再更新參數為止"
+  },
+  {
+    "from": 2198.81,
+    "to": 2201.15,
+    "location": 2,
+    "content": "不過在實作上你幾乎不太可能"
+  },
+  {
+    "from": 2201.15,
+    "to": 2203.34,
+    "location": 2,
+    "content": "作出 Gradient 是 0 向量的結果"
+  },
+  {
+    "from": 2203.34,
+    "to": 2206.07,
+    "location": 2,
+    "content": "通常你會停下來就是你不想做了"
+  },
+  {
+    "from": 2207.47,
+    "to": 2209.21,
+    "location": 2,
+    "content": "好 那但是實作上"
+  },
+  {
+    "from": 2209.93,
+    "to": 2212.14,
+    "location": 2,
+    "content": "那這邊是一個實作的 Detail 的 Issue"
+  },
+  {
+    "from": 2212.14,
+    "to": 2213.61,
+    "location": 2,
+    "content": "之所以會在這邊就提它"
+  },
+  {
+    "from": 2213.61,
+    "to": 2215.66,
+    "location": 2,
+    "content": "是因為助教的程式裡面有這一段"
+  },
+  {
+    "from": 2215.66,
+    "to": 2217.24,
+    "location": 2,
+    "content": "所以我們必須要講一下"
+  },
+  {
+    "from": 2217.24,
+    "to": 2219.64,
+    "location": 2,
+    "content": "免得去看助教的程式的時候覺得有點困惑"
+  },
+  {
+    "from": 2219.64,
+    "to": 2223.49,
+    "location": 2,
+    "content": "實際上我們在做 Gradient（00：37：01）的時候"
+  },
+  {
+    "from": 2223.49,
+    "to": 2224.96,
+    "location": 2,
+    "content": "我們會這麼做"
+  },
+  {
+    "from": 2224.96,
+    "to": 2227.07,
+    "location": 2,
+    "content": "我們這邊有大 N 筆資料"
+  },
+  {
+    "from": 2227.48,
+    "to": 2232.88,
+    "location": 2,
+    "content": "我們會把這大 N 筆資料分成一個一個的 Batch"
+  },
+  {
+    "from": 2232.88,
+    "to": 2235.51,
+    "location": 2,
+    "content": "就是一包一包的東西 一組一組的"
+  },
+  {
+    "from": 2235.51,
+    "to": 2236.36,
+    "location": 2,
+    "content": "怎麼分"
+  },
+  {
+    "from": 2236.36,
+    "to": 2238.83,
+    "location": 2,
+    "content": "隨機分就好"
+  },
+  {
+    "from": 2239.78,
+    "to": 2243.77,
+    "location": 2,
+    "content": "好 所以每個 Batch 裡面有大 B 筆資料"
+  },
+  {
+    "from": 2243.77,
+    "to": 2245.75,
+    "location": 2,
+    "content": "所以本來全部有大 N 筆資料"
+  },
+  {
+    "from": 2245.75,
+    "to": 2249.21,
+    "location": 2,
+    "content": "現在大 B 筆資料一組 大 B 筆資料一組"
+  },
+  {
+    "from": 2249.21,
+    "to": 2250.79,
+    "location": 2,
+    "content": "一組叫做 Batch"
+  },
+  {
+    "from": 2250.79,
+    "to": 2251.75,
+    "location": 2,
+    "content": "怎麼分組"
+  },
+  {
+    "from": 2251.75,
+    "to": 2253.13,
+    "location": 2,
+    "content": "隨便分就好"
+  },
+  {
+    "from": 2253.66,
+    "to": 2254.66,
+    "location": 2,
+    "content": "隨便分就好"
+  },
+  {
+    "from": 2255.48,
+    "to": 2260.42,
+    "location": 2,
+    "content": "那本來我們是把所有的 Data 拿出來算一個 Loss"
+  },
+  {
+    "from": 2260.85,
+    "to": 2262.71,
+    "location": 2,
+    "content": "那現在我們不這麼做"
+  },
+  {
+    "from": 2262.71,
+    "to": 2265.57,
+    "location": 2,
+    "content": "我們只拿一個 Batch 裡面的 Data"
+  },
+  {
+    "from": 2265.57,
+    "to": 2268.63,
+    "location": 2,
+    "content": "只拿第一筆 Data 出來算一個 Loss"
+  },
+  {
+    "from": 2268.63,
+    "to": 2270.19,
+    "location": 2,
+    "content": "我們這邊把它叫 L1"
+  },
+  {
+    "from": 2270.19,
+    "to": 2272.38,
+    "location": 2,
+    "content": "那跟這個 L 呢以示區別"
+  },
+  {
+    "from": 2272.38,
+    "to": 2274.32,
+    "location": 2,
+    "content": "因為你把全部的資料拿出來算 Loss"
+  },
+  {
+    "from": 2274.32,
+    "to": 2276,
+    "location": 2,
+    "content": "跟只拿一個 Batch 拿出來"
+  },
+  {
+    "from": 2276,
+    "to": 2277.17,
+    "location": 2,
+    "content": "的資料拿出來算 Loss"
+  },
+  {
+    "from": 2277.17,
+    "to": 2278.1,
+    "location": 2,
+    "content": "它不會一樣嘛"
+  },
+  {
+    "from": 2278.1,
+    "to": 2280.88,
+    "location": 2,
+    "content": "所以這邊用 L1 來表示它"
+  },
+  {
+    "from": 2280.88,
+    "to": 2283.39,
+    "location": 2,
+    "content": "但是你可以想像說假設這個 B 夠大"
+  },
+  {
+    "from": 2283.39,
+    "to": 2286.67,
+    "location": 2,
+    "content": "也許 L 跟 L1 會很接近 也說不定"
+  },
+  {
+    "from": 2287.18,
+    "to": 2288.63,
+    "location": 2,
+    "content": "所以實作上的時候"
+  },
+  {
+    "from": 2288.63,
+    "to": 2290.78,
+    "location": 2,
+    "content": "每次我們會先選一個 Batch"
+  },
+  {
+    "from": 2290.78,
+    "to": 2292.42,
+    "location": 2,
+    "content": "用這個 Batch 來算 L"
+  },
+  {
+    "from": 2292.91,
+    "to": 2295.5,
+    "location": 2,
+    "content": "根據這個 L1 來算 Gradient"
+  },
+  {
+    "from": 2295.5,
+    "to": 2297.71,
+    "location": 2,
+    "content": "用這個 Gradient 來更新參數"
+  },
+  {
+    "from": 2298.05,
+    "to": 2301.01,
+    "location": 2,
+    "content": "接下來再選下一個 Batch 算出 L2"
+  },
+  {
+    "from": 2301.01,
+    "to": 2302.97,
+    "location": 2,
+    "content": "根據 L2 算出 Gradient"
+  },
+  {
+    "from": 2302.97,
+    "to": 2304.9,
+    "location": 2,
+    "content": "然後再更新參數"
+  },
+  {
+    "from": 2305.35,
+    "to": 2307.32,
+    "location": 2,
+    "content": "再取下一個 Batch 算出 L3"
+  },
+  {
+    "from": 2307.32,
+    "to": 2309.24,
+    "location": 2,
+    "content": "根據 L3 算出 Gradient"
+  },
+  {
+    "from": 2309.24,
+    "to": 2312.57,
+    "location": 2,
+    "content": "再用 L3 算出來的 Gradient 來更新參數"
+  },
+  {
+    "from": 2312.57,
+    "to": 2315.72,
+    "location": 2,
+    "content": "所以我們並不是拿大 L 來算 Gradient"
+  },
+  {
+    "from": 2315.72,
+    "to": 2319.47,
+    "location": 2,
+    "content": "實際上我們是拿一個 Batch 算出來的 L1 L2 L3"
+  },
+  {
+    "from": 2319.47,
+    "to": 2321.18,
+    "location": 2,
+    "content": "來計算 Gradient"
+  },
+  {
+    "from": 2321.8,
+    "to": 2324.81,
+    "location": 2,
+    "content": "那把所有的 Batch 都看過一次"
+  },
+  {
+    "from": 2324.81,
+    "to": 2327.35,
+    "location": 2,
+    "content": "叫做一個 Epoch"
+  },
+  {
+    "from": 2328.02,
+    "to": 2331.86,
+    "location": 2,
+    "content": "每一次更新參數叫做一次 Update"
+  },
+  {
+    "from": 2331.86,
+    "to": 2332.77,
+    "location": 2,
+    "content": "所以你在文獻上"
+  },
+  {
+    "from": 2332.77,
+    "to": 2335.21,
+    "location": 2,
+    "content": "常常會有人聽到 Update 這個詞彙"
+  },
+  {
+    "from": 2335.21,
+    "to": 2337.54,
+    "location": 2,
+    "content": "常常有人聽到 Epoch 這個詞彙"
+  },
+  {
+    "from": 2337.54,
+    "to": 2340.72,
+    "location": 2,
+    "content": "那 Update 跟 Epoch 是不一樣的東西"
+  },
+  {
+    "from": 2340.72,
+    "to": 2344.65,
+    "location": 2,
+    "content": "每次更新一次參數叫做一次 Update"
+  },
+  {
+    "from": 2345.18,
+    "to": 2347.48,
+    "location": 2,
+    "content": "把所有的 Batch 都看過一遍"
+  },
+  {
+    "from": 2347.48,
+    "to": 2349.91,
+    "location": 2,
+    "content": "叫做一個 Epoch"
+  },
+  {
+    "from": 2350.61,
+    "to": 2352.08,
+    "location": 2,
+    "content": "為了要讓為了要"
+  },
+  {
+    "from": 2352.08,
+    "to": 2354.33,
+    "location": 2,
+    "content": "那至於為什麼要分一個一個 Batch"
+  },
+  {
+    "from": 2354.33,
+    "to": 2356.31,
+    "location": 2,
+    "content": "那這個我們下週再講"
+  },
+  {
+    "from": 2357.44,
+    "to": 2359.73,
+    "location": 2,
+    "content": "但是為了讓大家更清楚認識"
+  },
+  {
+    "from": 2359.73,
+    "to": 2361.51,
+    "location": 2,
+    "content": "Update 跟 Epoch 的差別"
+  },
+  {
+    "from": 2361.51,
+    "to": 2362.67,
+    "location": 2,
+    "content": "這邊就舉一個例子"
+  },
+  {
+    "from": 2362.67,
+    "to": 2364.87,
+    "location": 2,
+    "content": "假設我們有 10000 筆 Data"
+  },
+  {
+    "from": 2364.87,
+    "to": 2366.55,
+    "location": 2,
+    "content": "也就是大 N 等於 10000"
+  },
+  {
+    "from": 2366.9,
+    "to": 2368.99,
+    "location": 2,
+    "content": "假設我們的 Batch 的大小是設 10"
+  },
+  {
+    "from": 2368.99,
+    "to": 2370.31,
+    "location": 2,
+    "content": "也就大 B 等於10"
+  },
+  {
+    "from": 2370.64,
+    "to": 2371.55,
+    "location": 2,
+    "content": "接下來問你"
+  },
+  {
+    "from": 2371.88,
+    "to": 2374.3,
+    "location": 2,
+    "content": "我們在一個 Epoch 中"
+  },
+  {
+    "from": 2374.3,
+    "to": 2377.03,
+    "location": 2,
+    "content": "總共 Update 了幾次參數呢"
+  },
+  {
+    "from": 2377.03,
+    "to": 2380.9,
+    "location": 2,
+    "content": "那你就算一下這個大 N 個 Example"
+  },
+  {
+    "from": 2380.9,
+    "to": 2382.3,
+    "location": 2,
+    "content": "10000 筆 Example"
+  },
+  {
+    "from": 2382.3,
+    "to": 2384.76,
+    "location": 2,
+    "content": "總共形成了幾個 Batch"
+  },
+  {
+    "from": 2384.76,
+    "to": 2387.06,
+    "location": 2,
+    "content": "總共形成了 10000 除以 10"
+  },
+  {
+    "from": 2387.06,
+    "to": 2388.53,
+    "location": 2,
+    "content": "也就是 1000 個 Batch"
+  },
+  {
+    "from": 2388.53,
+    "to": 2390.18,
+    "location": 2,
+    "content": "所以在一個 Epoch 裡面"
+  },
+  {
+    "from": 2390.18,
+    "to": 2393.64,
+    "location": 2,
+    "content": "你其實已經更新了參數 1000 次"
+  },
+  {
+    "from": 2393.64,
+    "to": 2396.86,
+    "location": 2,
+    "content": "所以一個 Epoch 並不是更新參數一次"
+  },
+  {
+    "from": 2396.86,
+    "to": 2399.01,
+    "location": 2,
+    "content": "在這個例子裡面一個 Epoch"
+  },
+  {
+    "from": 2399.01,
+    "to": 2401.91,
+    "location": 2,
+    "content": "已經更新了參數 1000 次了"
+  },
+  {
+    "from": 2402.76,
+    "to": 2403.72,
+    "location": 2,
+    "content": "那第二個例子"
+  },
+  {
+    "from": 2404.45,
+    "to": 2406.87,
+    "location": 2,
+    "content": "就是假設有 1000 個資料"
+  },
+  {
+    "from": 2406.87,
+    "to": 2408.49,
+    "location": 2,
+    "content": "Batch Size 設 100"
+  },
+  {
+    "from": 2408.49,
+    "to": 2412.13,
+    "location": 2,
+    "content": "那其實 Batch Size 的大小也是你自己決定的"
+  },
+  {
+    "from": 2412.13,
+    "to": 2415.67,
+    "location": 2,
+    "content": "所以這邊我們又多了一個 HyperParameter"
+  },
+  {
+    "from": 2416.09,
+    "to": 2418.11,
+    "location": 2,
+    "content": "所謂 HyperParameter 剛才講過"
+  },
+  {
+    "from": 2418.11,
+    "to": 2419.83,
+    "location": 2,
+    "content": "就是你自己決定的東西"
+  },
+  {
+    "from": 2419.83,
+    "to": 2422.87,
+    "location": 2,
+    "content": "人所設的東西不是 機器自己找出來的"
+  },
+  {
+    "from": 2422.87,
+    "to": 2424.61,
+    "location": 2,
+    "content": "叫做 HyperParameter"
+  },
+  {
+    "from": 2425.46,
+    "to": 2426.84,
+    "location": 2,
+    "content": "我們今天已經聽到了"
+  },
+  {
+    "from": 2426.84,
+    "to": 2428.9,
+    "location": 2,
+    "content": "（00：40：26）是個 HyperParameter"
+  },
+  {
+    "from": 2428.9,
+    "to": 2431.37,
+    "location": 2,
+    "content": "幾個 Sigmoid 也是一個 HyperParameters"
+  },
+  {
+    "from": 2431.8,
+    "to": 2435.51,
+    "location": 2,
+    "content": "Batch Size 也是一個 HyperParameter"
+  },
+  {
+    "from": 2436.14,
+    "to": 2437.75,
+    "location": 2,
+    "content": "好 1000 個 Example"
+  },
+  {
+    "from": 2437.75,
+    "to": 2438.95,
+    "location": 2,
+    "content": "Batch Size 設 100"
+  },
+  {
+    "from": 2438.95,
+    "to": 2442.27,
+    "location": 2,
+    "content": "那1個 Epoch 總共更新幾次參數呢"
+  },
+  {
+    "from": 2442.27,
+    "to": 2443.18,
+    "location": 2,
+    "content": "是 10 次"
+  },
+  {
+    "from": 2443.18,
+    "to": 2444.46,
+    "location": 2,
+    "content": "所以有人跟你說"
+  },
+  {
+    "from": 2444.46,
+    "to": 2446.7,
+    "location": 2,
+    "content": "我做了一個 Epoch 的訓練"
+  },
+  {
+    "from": 2447.09,
+    "to": 2449.54,
+    "location": 2,
+    "content": "那你其實不知道它更新了幾次參數"
+  },
+  {
+    "from": 2449.54,
+    "to": 2450.83,
+    "location": 2,
+    "content": "有可能 1000 次"
+  },
+  {
+    "from": 2450.83,
+    "to": 2451.94,
+    "location": 2,
+    "content": "也有可能 10 次"
+  },
+  {
+    "from": 2451.94,
+    "to": 2454.91,
+    "location": 2,
+    "content": "取決於它的 Batch Size 有多大"
+  },
+  {
+    "from": 2456.66,
+    "to": 2462.55,
+    "location": 2,
+    "content": "好 那我們其實還可以對模型做更多的變形"
+  },
+  {
+    "from": 2462.95,
+    "to": 2464.63,
+    "location": 2,
+    "content": "剛才有同學問到說"
+  },
+  {
+    "from": 2464.63,
+    "to": 2469.55,
+    "location": 2,
+    "content": "咦 這個 Hard Sigmoid 不好嗎"
+  },
+  {
+    "from": 2469.55,
+    "to": 2474.57,
+    "location": 2,
+    "content": "為什麼我們一定要把它換成 Soft 的 Sigmoid"
+  },
+  {
+    "from": 2475.62,
+    "to": 2478.31,
+    "location": 2,
+    "content": "你確實可以不一定要換成 Soft 的 Sigmoid"
+  },
+  {
+    "from": 2478.31,
+    "to": 2480.17,
+    "location": 2,
+    "content": "有其他的做法"
+  },
+  {
+    "from": 2480.17,
+    "to": 2482.99,
+    "location": 2,
+    "content": "舉例來說這個 Hard 的 Sigmoid"
+  },
+  {
+    "from": 2482.99,
+    "to": 2486.17,
+    "location": 2,
+    "content": "我剛才說它的函式有點難寫出來"
+  },
+  {
+    "from": 2486.17,
+    "to": 2487.57,
+    "location": 2,
+    "content": "其實也沒有那麼難寫出來"
+  },
+  {
+    "from": 2487.57,
+    "to": 2493.7,
+    "location": 2,
+    "content": "它可以看作是兩個 Rectified Linear Unit 的加總"
+  },
+  {
+    "from": 2493.7,
+    "to": 2497.12,
+    "location": 2,
+    "content": "所謂 Rectified Linear Unit 它就是長這個樣"
+  },
+  {
+    "from": 2497.12,
+    "to": 2499.41,
+    "location": 2,
+    "content": "就是它有一個水平的線"
+  },
+  {
+    "from": 2499.76,
+    "to": 2502.85,
+    "location": 2,
+    "content": "走到某個地方有一個轉折的點"
+  },
+  {
+    "from": 2502.85,
+    "to": 2504.99,
+    "location": 2,
+    "content": "然後變成一個斜坡"
+  },
+  {
+    "from": 2505.47,
+    "to": 2507.09,
+    "location": 2,
+    "content": "那這種 Function 它的式子"
+  },
+  {
+    "from": 2507.09,
+    "to": 2511.45,
+    "location": 2,
+    "content": "寫成 c 乘上 max(0, b + wx1)"
+  },
+  {
+    "from": 2511.85,
+    "to": 2514.67,
+    "location": 2,
+    "content": "這個 max(0, b + wx1) 的意思就是"
+  },
+  {
+    "from": 2514.67,
+    "to": 2517.66,
+    "location": 2,
+    "content": "看 0 跟 b + wx1 誰比較大"
+  },
+  {
+    "from": 2518.08,
+    "to": 2521.32,
+    "location": 2,
+    "content": "比較大的那一個就會被當做輸出"
+  },
+  {
+    "from": 2521.32,
+    "to": 2523.34,
+    "location": 2,
+    "content": "所以如果 b + wx1 小於 0"
+  },
+  {
+    "from": 2523.34,
+    "to": 2524.27,
+    "location": 2,
+    "content": "那輸出就是0"
+  },
+  {
+    "from": 2524.27,
+    "to": 2526.75,
+    "location": 2,
+    "content": "如果 b + wx1 大於 0"
+  },
+  {
+    "from": 2526.75,
+    "to": 2528.48,
+    "location": 2,
+    "content": "輸出就是 b + wx1"
+  },
+  {
+    "from": 2528.88,
+    "to": 2530.85,
+    "location": 2,
+    "content": "那總之這一條線"
+  },
+  {
+    "from": 2530.85,
+    "to": 2534.15,
+    "location": 2,
+    "content": "可以寫成 c max(0, b + wx1)"
+  },
+  {
+    "from": 2534.15,
+    "to": 2537.46,
+    "location": 2,
+    "content": "每條不同的 w 不同的 b 不同的 c"
+  },
+  {
+    "from": 2537.46,
+    "to": 2539.12,
+    "location": 2,
+    "content": "你就可以挪動它的位置"
+  },
+  {
+    "from": 2539.12,
+    "to": 2540.91,
+    "location": 2,
+    "content": "你就可以改變這條線的斜率"
+  },
+  {
+    "from": 2540.91,
+    "to": 2544.12,
+    "location": 2,
+    "content": "那這種線呢在機器學習裡面"
+  },
+  {
+    "from": 2544.12,
+    "to": 2547.17,
+    "location": 2,
+    "content": "我們叫做 Rectified Linear Unit"
+  },
+  {
+    "from": 2547.17,
+    "to": 2549.72,
+    "location": 2,
+    "content": "它的縮寫叫做 ReLU"
+  },
+  {
+    "from": 2549.72,
+    "to": 2551.05,
+    "location": 2,
+    "content": "名字念起來蠻有趣的"
+  },
+  {
+    "from": 2551.05,
+    "to": 2552.82,
+    "location": 2,
+    "content": "它真的就唸ReLU"
+  },
+  {
+    "from": 2553.39,
+    "to": 2555.83,
+    "location": 2,
+    "content": "那你把兩個 ReLU 疊起來"
+  },
+  {
+    "from": 2555.83,
+    "to": 2558.96,
+    "location": 2,
+    "content": "就可以變成 Hard 的 Sigmoid"
+  },
+  {
+    "from": 2559.31,
+    "to": 2559.93,
+    "location": 2,
+    "content": "對不對"
+  },
+  {
+    "from": 2559.93,
+    "to": 2562.56,
+    "location": 2,
+    "content": "我們把這樣子的一個 ReLU"
+  },
+  {
+    "from": 2562.88,
+    "to": 2564.89,
+    "location": 2,
+    "content": "疊這樣子的一個 ReLU"
+  },
+  {
+    "from": 2564.89,
+    "to": 2569.52,
+    "location": 2,
+    "content": "把他們加起來 它就變成 Hard Sigmoid"
+  },
+  {
+    "from": 2570.35,
+    "to": 2572.23,
+    "location": 2,
+    "content": "所以我們能不能用 ReLU 呢"
+  },
+  {
+    "from": 2572.23,
+    "to": 2573.16,
+    "location": 2,
+    "content": "可以"
+  },
+  {
+    "from": 2573.16,
+    "to": 2575.33,
+    "location": 2,
+    "content": "所以如果我們不要用 Sigmoid"
+  },
+  {
+    "from": 2575.33,
+    "to": 2576.65,
+    "location": 2,
+    "content": "你想要用 ReLU 的話"
+  },
+  {
+    "from": 2576.65,
+    "to": 2578.25,
+    "location": 2,
+    "content": "就把 Sigmoid 的地方"
+  },
+  {
+    "from": 2578.25,
+    "to": 2583.43,
+    "location": 2,
+    "content": "換成 max(0, bi +（00：43：00）wijxi)"
+  },
+  {
+    "from": 2583.79,
+    "to": 2586.08,
+    "location": 2,
+    "content": "那本來這邊只有 i 個 Sigmoid"
+  },
+  {
+    "from": 2586.08,
+    "to": 2588.05,
+    "location": 2,
+    "content": "但我想說你要 2 個 ReLU"
+  },
+  {
+    "from": 2588.05,
+    "to": 2589.95,
+    "location": 2,
+    "content": "才能夠合成一個 Hard Sigmoid 嘛"
+  },
+  {
+    "from": 2589.95,
+    "to": 2592.22,
+    "location": 2,
+    "content": "所以這邊有 i 個 Sigmoid"
+  },
+  {
+    "from": 2592.22,
+    "to": 2594.21,
+    "location": 2,
+    "content": "那如果 ReLU 要做到一樣的事情"
+  },
+  {
+    "from": 2594.21,
+    "to": 2596.49,
+    "location": 2,
+    "content": "那你可能需要 2 倍的 ReLU"
+  },
+  {
+    "from": 2596.49,
+    "to": 2597.73,
+    "location": 2,
+    "content": "因為 2 個 ReLU 合起來"
+  },
+  {
+    "from": 2597.73,
+    "to": 2600.03,
+    "location": 2,
+    "content": "才是一個 Hard Sigmoid"
+  },
+  {
+    "from": 2600.03,
+    "to": 2602.1,
+    "location": 2,
+    "content": "所以要 2 倍的 ReLU"
+  },
+  {
+    "from": 2602.1,
+    "to": 2605.44,
+    "location": 2,
+    "content": "所以我們把 Sigmoid 換成 ReLU"
+  },
+  {
+    "from": 2605.77,
+    "to": 2607.13,
+    "location": 2,
+    "content": "這邊就是把一個式子換了"
+  },
+  {
+    "from": 2607.13,
+    "to": 2610.71,
+    "location": 2,
+    "content": "因為要表示一個 Hard 的 Sigmoid"
+  },
+  {
+    "from": 2610.71,
+    "to": 2612.82,
+    "location": 2,
+    "content": "表示那個藍色的 Function 不是只有一種做法"
+  },
+  {
+    "from": 2612.82,
+    "to": 2614.33,
+    "location": 2,
+    "content": "你完全可以用其他的做法"
+  },
+  {
+    "from": 2615.48,
+    "to": 2617.45,
+    "location": 2,
+    "content": "好 那這個 Sigmoid 或是 ReLU"
+  },
+  {
+    "from": 2617.45,
+    "to": 2619.01,
+    "location": 2,
+    "content": "他們在機器學習裡面"
+  },
+  {
+    "from": 2619.01,
+    "to": 2622.12,
+    "location": 2,
+    "content": "我們就叫它 Activation Function"
+  },
+  {
+    "from": 2622.12,
+    "to": 2623.05,
+    "location": 2,
+    "content": "他們是有名字的"
+  },
+  {
+    "from": 2623.05,
+    "to": 2625.5,
+    "location": 2,
+    "content": "他們統稱為 Activation Function"
+  },
+  {
+    "from": 2625.5,
+    "to": 2627.09,
+    "location": 2,
+    "content": "當然還有其他常見的"
+  },
+  {
+    "from": 2627.09,
+    "to": 2628.84,
+    "location": 2,
+    "content": "還有其他的 Activation Function"
+  },
+  {
+    "from": 2628.84,
+    "to": 2630.6,
+    "location": 2,
+    "content": "但 Sigmoid 跟 ReLU"
+  },
+  {
+    "from": 2630.6,
+    "to": 2633.68,
+    "location": 2,
+    "content": "應該是今天最常見的 Activation Function"
+  },
+  {
+    "from": 2634.17,
+    "to": 2636.93,
+    "location": 2,
+    "content": "那哪一種比較好呢"
+  },
+  {
+    "from": 2636.93,
+    "to": 2638.76,
+    "location": 2,
+    "content": "這個我們下次再講"
+  },
+  {
+    "from": 2638.76,
+    "to": 2640.08,
+    "location": 2,
+    "content": "哪一種比較好呢"
+  },
+  {
+    "from": 2641.02,
+    "to": 2644.08,
+    "location": 2,
+    "content": "我接下來的實驗都選擇用了 ReLU"
+  },
+  {
+    "from": 2644.08,
+    "to": 2645.25,
+    "location": 2,
+    "content": "顯然 ReLU 比較好"
+  },
+  {
+    "from": 2645.25,
+    "to": 2646.51,
+    "location": 2,
+    "content": "至於它為什麼比較好"
+  },
+  {
+    "from": 2646.51,
+    "to": 2648.43,
+    "location": 2,
+    "content": "那就是下週的事情了"
+  },
+  {
+    "from": 2648.91,
+    "to": 2651.61,
+    "location": 2,
+    "content": "好 接下來呢就真的做了這個實驗"
+  },
+  {
+    "from": 2651.61,
+    "to": 2653.68,
+    "location": 2,
+    "content": "這個都是真實的數據 你知道嗎"
+  },
+  {
+    "from": 2653.68,
+    "to": 2654.88,
+    "location": 2,
+    "content": "真的做了這個實驗"
+  },
+  {
+    "from": 2654.88,
+    "to": 2656.69,
+    "location": 2,
+    "content": "好 如果是 Linear 的 Model"
+  },
+  {
+    "from": 2656.69,
+    "to": 2658.69,
+    "location": 2,
+    "content": "我們現在考慮 56 天"
+  },
+  {
+    "from": 2658.69,
+    "to": 2662.37,
+    "location": 2,
+    "content": "訓練資料上面的 Loss 是 0.32k"
+  },
+  {
+    "from": 2662.37,
+    "to": 2665.8,
+    "location": 2,
+    "content": "沒看過的資料 2021 年資料是 0.46k"
+  },
+  {
+    "from": 2666.41,
+    "to": 2668,
+    "location": 2,
+    "content": "如果用 10 個 ReLU"
+  },
+  {
+    "from": 2668,
+    "to": 2669.67,
+    "location": 2,
+    "content": "好像沒有進步太多"
+  },
+  {
+    "from": 2669.67,
+    "to": 2673.3,
+    "location": 2,
+    "content": "這邊跟用 Linear 是差不多的"
+  },
+  {
+    "from": 2673.3,
+    "to": 2675.5,
+    "location": 2,
+    "content": "所以看起來 10 個 ReLU 不太夠"
+  },
+  {
+    "from": 2675.9,
+    "to": 2678.7,
+    "location": 2,
+    "content": "100 個 ReLU 就有顯著的差別了"
+  },
+  {
+    "from": 2678.7,
+    "to": 2681.21,
+    "location": 2,
+    "content": "100 個 ReLU 在訓練資料上的 Loss"
+  },
+  {
+    "from": 2681.21,
+    "to": 2684.72,
+    "location": 2,
+    "content": "就可以從 0.32k 降到 0.28k"
+  },
+  {
+    "from": 2684.72,
+    "to": 2685.9,
+    "location": 2,
+    "content": "有 100 個 ReLU"
+  },
+  {
+    "from": 2685.9,
+    "to": 2690.13,
+    "location": 2,
+    "content": "我們就可以製造比較複雜的曲線"
+  },
+  {
+    "from": 2690.13,
+    "to": 2691.64,
+    "location": 2,
+    "content": "本來 Linear 就是一直線"
+  },
+  {
+    "from": 2691.64,
+    "to": 2693.94,
+    "location": 2,
+    "content": "但是 100 個 ReLU 我們就可以產生 100 個"
+  },
+  {
+    "from": 2693.94,
+    "to": 2697.08,
+    "location": 2,
+    "content": "有 100 個折線的（00：44：54）Function"
+  },
+  {
+    "from": 2697.08,
+    "to": 2700.02,
+    "location": 2,
+    "content": "在測試資料上也好了一些"
+  },
+  {
+    "from": 2700.41,
+    "to": 2702.67,
+    "location": 2,
+    "content": "接下來換 1000 個 ReLU"
+  },
+  {
+    "from": 2702.67,
+    "to": 2703.75,
+    "location": 2,
+    "content": "1000 個 ReLU"
+  },
+  {
+    "from": 2703.75,
+    "to": 2707.05,
+    "location": 2,
+    "content": "在訓練資料上 Loss 更低了一些"
+  },
+  {
+    "from": 2707.05,
+    "to": 2708.78,
+    "location": 2,
+    "content": "但是在沒看過的資料上"
+  },
+  {
+    "from": 2708.78,
+    "to": 2711.56,
+    "location": 2,
+    "content": "看起來也沒有太大的進步"
+  },
+  {
+    "from": 2712.57,
+    "to": 2714.62,
+    "location": 2,
+    "content": "好 接下來還可以做什麼呢"
+  },
+  {
+    "from": 2714.62,
+    "to": 2718.62,
+    "location": 2,
+    "content": "我們還可以繼續改我們的模型"
+  },
+  {
+    "from": 2719.13,
+    "to": 2720.27,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 2720.27,
+    "to": 2723.52,
+    "location": 2,
+    "content": "剛才我們說從 x 到 a 做的事情是什麼"
+  },
+  {
+    "from": 2723.52,
+    "to": 2726.83,
+    "location": 2,
+    "content": "是把 x 乘上 w 加 b"
+  },
+  {
+    "from": 2726.83,
+    "to": 2728.18,
+    "location": 2,
+    "content": "再通過 Sigmoid Function"
+  },
+  {
+    "from": 2728.18,
+    "to": 2729.08,
+    "location": 2,
+    "content": "不過我們現在已經知道說"
+  },
+  {
+    "from": 2729.08,
+    "to": 2730.63,
+    "location": 2,
+    "content": "不一定要通過 Sigmoid Function"
+  },
+  {
+    "from": 2730.63,
+    "to": 2732.09,
+    "location": 2,
+    "content": "通過 ReLU 也可以"
+  },
+  {
+    "from": 2732.09,
+    "to": 2733.14,
+    "location": 2,
+    "content": "然後得到 a"
+  },
+  {
+    "from": 2733.95,
+    "to": 2735.9,
+    "location": 2,
+    "content": "我們可以把這個同樣的事情"
+  },
+  {
+    "from": 2735.9,
+    "to": 2739.05,
+    "location": 2,
+    "content": "再反覆地多做幾次"
+  },
+  {
+    "from": 2739.42,
+    "to": 2742.57,
+    "location": 2,
+    "content": "剛才我們把 w x 乘上 w 加 b"
+  },
+  {
+    "from": 2742.57,
+    "to": 2745.15,
+    "location": 2,
+    "content": "通過 Sigmoid Function 得到 a"
+  },
+  {
+    "from": 2745.15,
+    "to": 2747.85,
+    "location": 2,
+    "content": "我們可以把 a 再乘上另外一個 w’"
+  },
+  {
+    "from": 2748.21,
+    "to": 2750.05,
+    "location": 2,
+    "content": "再加上另外一個 b’"
+  },
+  {
+    "from": 2750.05,
+    "to": 2752.06,
+    "location": 2,
+    "content": "再通過 Sigmoid Function"
+  },
+  {
+    "from": 2752.06,
+    "to": 2752.89,
+    "location": 2,
+    "content": "或 RuLU Function"
+  },
+  {
+    "from": 2753.2,
+    "to": 2754.44,
+    "location": 2,
+    "content": "得到 a’"
+  },
+  {
+    "from": 2754.44,
+    "to": 2756.18,
+    "location": 2,
+    "content": "所以我們可以把 x"
+  },
+  {
+    "from": 2756.18,
+    "to": 2758.68,
+    "location": 2,
+    "content": "做這一連串的運算產生 a"
+  },
+  {
+    "from": 2758.68,
+    "to": 2763.34,
+    "location": 2,
+    "content": "接下來把 a 做這一連串的運算產生 a’"
+  },
+  {
+    "from": 2763.34,
+    "to": 2765.59,
+    "location": 2,
+    "content": "那我們可以反覆地多做幾次"
+  },
+  {
+    "from": 2765.59,
+    "to": 2766.92,
+    "location": 2,
+    "content": "那要做幾次"
+  },
+  {
+    "from": 2766.92,
+    "to": 2770.16,
+    "location": 2,
+    "content": "欸 這個又是另外一個 Hyper Parameter"
+  },
+  {
+    "from": 2770.16,
+    "to": 2772.39,
+    "location": 2,
+    "content": "這是另外一個你要自己決定的事情"
+  },
+  {
+    "from": 2772.39,
+    "to": 2775.6,
+    "location": 2,
+    "content": "你要做兩次嗎 三次嗎 四次嗎 一百次嗎"
+  },
+  {
+    "from": 2775.6,
+    "to": 2777.42,
+    "location": 2,
+    "content": "這個你自己決定"
+  },
+  {
+    "from": 2777.87,
+    "to": 2780.19,
+    "location": 2,
+    "content": "不過這邊的 w 跟這邊的 w’"
+  },
+  {
+    "from": 2780.19,
+    "to": 2782.11,
+    "location": 2,
+    "content": "它們不是同一個參數喔"
+  },
+  {
+    "from": 2782.11,
+    "to": 2783.4,
+    "location": 2,
+    "content": "這個 b 跟這邊的 b’"
+  },
+  {
+    "from": 2783.4,
+    "to": 2784.71,
+    "location": 2,
+    "content": "它們不是同一個參數喔"
+  },
+  {
+    "from": 2784.71,
+    "to": 2788.28,
+    "location": 2,
+    "content": "是增加了更多的未知的參數"
+  },
+  {
+    "from": 2789.19,
+    "to": 2791.67,
+    "location": 2,
+    "content": "好 那就是接下來就真的做了實驗了"
+  },
+  {
+    "from": 2791.67,
+    "to": 2795.33,
+    "location": 2,
+    "content": "我們就是每次都加 100 個 ReLU"
+  },
+  {
+    "from": 2795.33,
+    "to": 2796.72,
+    "location": 2,
+    "content": "那我們就是 Imput Features"
+  },
+  {
+    "from": 2796.72,
+    "to": 2800.39,
+    "location": 2,
+    "content": "就是 56 天前的資料"
+  },
+  {
+    "from": 2800.39,
+    "to": 2803.7,
+    "location": 2,
+    "content": "如果是只做一次 只做一次"
+  },
+  {
+    "from": 2803.7,
+    "to": 2805.79,
+    "location": 2,
+    "content": "就那個乘上 w 再加 b"
+  },
+  {
+    "from": 2805.79,
+    "to": 2807.63,
+    "location": 2,
+    "content": "再通過 ReLU 或 Sigmoid"
+  },
+  {
+    "from": 2807.63,
+    "to": 2809.18,
+    "location": 2,
+    "content": "這件事只做一次的話"
+  },
+  {
+    "from": 2809.18,
+    "to": 2810.8,
+    "location": 2,
+    "content": "這是我們剛才看到的結果"
+  },
+  {
+    "from": 2811.49,
+    "to": 2814.62,
+    "location": 2,
+    "content": "兩次 哇 這個 Loss 降低很多啊"
+  },
+  {
+    "from": 2814.62,
+    "to": 2817.94,
+    "location": 2,
+    "content": "0.28k 降到 0.18k"
+  },
+  {
+    "from": 2818.36,
+    "to": 2820.35,
+    "location": 2,
+    "content": "沒看過的資料上也好了一些"
+  },
+  {
+    "from": 2820.88,
+    "to": 2822.98,
+    "location": 2,
+    "content": "三層 哇 又有進步"
+  },
+  {
+    "from": 2822.98,
+    "to": 2825.95,
+    "location": 2,
+    "content": "從 0.18k 降到 0.14k"
+  },
+  {
+    "from": 2826.96,
+    "to": 2831.16,
+    "location": 2,
+    "content": "所以從一層到 從就是乘一次 w"
+  },
+  {
+    "from": 2831.87,
+    "to": 2833.49,
+    "location": 2,
+    "content": "到通過一次 ReLU"
+  },
+  {
+    "from": 2833.49,
+    "to": 2835.36,
+    "location": 2,
+    "content": "到通過三次 ReLU"
+  },
+  {
+    "from": 2835.36,
+    "to": 2838.71,
+    "location": 2,
+    "content": "我們可以從 0.28k 到 0.14k"
+  },
+  {
+    "from": 2838.71,
+    "to": 2839.78,
+    "location": 2,
+    "content": "在訓練資料上"
+  },
+  {
+    "from": 2840.39,
+    "to": 2841.4,
+    "location": 2,
+    "content": "在沒看過的資料上"
+  },
+  {
+    "from": 2841.4,
+    "to": 2845.24,
+    "location": 2,
+    "content": "從 0.43k 降到了 0.38k"
+  },
+  {
+    "from": 2845.24,
+    "to": 2847.84,
+    "location": 2,
+    "content": "看起來也是有一點進步的"
+  },
+  {
+    "from": 2849.3,
+    "to": 2853.19,
+    "location": 2,
+    "content": "好 那這個是那個真實的實驗結果啦"
+  },
+  {
+    "from": 2853.19,
+    "to": 2854.31,
+    "location": 2,
+    "content": "就我們來看一下"
+  },
+  {
+    "from": 2854.31,
+    "to": 2857.36,
+    "location": 2,
+    "content": "今天有做通過三次 ReLU 的時候"
+  },
+  {
+    "from": 2857.36,
+    "to": 2858.94,
+    "location": 2,
+    "content": "做出來的結果怎麼樣"
+  },
+  {
+    "from": 2858.94,
+    "to": 2860.54,
+    "location": 2,
+    "content": "那橫軸剛才已經看過了"
+  },
+  {
+    "from": 2860.54,
+    "to": 2862.3,
+    "location": 2,
+    "content": "就是時間 就是日子"
+  },
+  {
+    "from": 2862.3,
+    "to": 2866.21,
+    "location": 2,
+    "content": "縱軸是觀看的人次 是千人"
+  },
+  {
+    "from": 2866.21,
+    "to": 2869.5,
+    "location": 2,
+    "content": "紅色的線代表的是真實的數據"
+  },
+  {
+    "from": 2869.5,
+    "to": 2873.12,
+    "location": 2,
+    "content": "藍色的線是預測出來的數據"
+  },
+  {
+    "from": 2873.63,
+    "to": 2874.88,
+    "location": 2,
+    "content": "那你會發現說"
+  },
+  {
+    "from": 2874.88,
+    "to": 2877.08,
+    "location": 2,
+    "content": "欸 在這種低點的地方啊"
+  },
+  {
+    "from": 2877.08,
+    "to": 2879.12,
+    "location": 2,
+    "content": "你看紅色的數據是每隔一段時間"
+  },
+  {
+    "from": 2879.12,
+    "to": 2881.69,
+    "location": 2,
+    "content": "就會有兩天的低點"
+  },
+  {
+    "from": 2882.09,
+    "to": 2883.34,
+    "location": 2,
+    "content": "在低點的地方"
+  },
+  {
+    "from": 2883.95,
+    "to": 2886.97,
+    "location": 2,
+    "content": "機器的預測還算是蠻準確的"
+  },
+  {
+    "from": 2886.97,
+    "to": 2888.97,
+    "location": 2,
+    "content": "它都準確抓到說這兩天就是低的"
+  },
+  {
+    "from": 2888.97,
+    "to": 2890.08,
+    "location": 2,
+    "content": "這兩天都是低的"
+  },
+  {
+    "from": 2890.08,
+    "to": 2891.2,
+    "location": 2,
+    "content": "這兩天就是低的"
+  },
+  {
+    "from": 2891.2,
+    "to": 2892.12,
+    "location": 2,
+    "content": "這兩天就是低"
+  },
+  {
+    "from": 2893.02,
+    "to": 2895.23,
+    "location": 2,
+    "content": "那這邊有一個神奇的事情"
+  },
+  {
+    "from": 2895.97,
+    "to": 2900.36,
+    "location": 2,
+    "content": "這個機器高估了真實的觀看人次"
+  },
+  {
+    "from": 2900.36,
+    "to": 2901.45,
+    "location": 2,
+    "content": "尤其是在這一天"
+  },
+  {
+    "from": 2901.79,
+    "to": 2904.16,
+    "location": 2,
+    "content": "這一天有一個很明顯的低谷"
+  },
+  {
+    "from": 2904.16,
+    "to": 2907.2,
+    "location": 2,
+    "content": "但是機器沒有預測到這一天有明顯的低谷"
+  },
+  {
+    "from": 2907.2,
+    "to": 2911.01,
+    "location": 2,
+    "content": "它是晚一天才預測出低谷"
+  },
+  {
+    "from": 2911.31,
+    "to": 2912.74,
+    "location": 2,
+    "content": "那你知道是怎麼回事嗎"
+  },
+  {
+    "from": 2917.39,
+    "to": 2918.76,
+    "location": 2,
+    "content": "閏年 不是"
+  },
+  {
+    "from": 2918.76,
+    "to": 2920.33,
+    "location": 2,
+    "content": "因為還沒有到 2 月 28 號啊"
+  },
+  {
+    "from": 2922.76,
+    "to": 2924.23,
+    "location": 2,
+    "content": "欸 大家有什麼想法嗎"
+  },
+  {
+    "from": 2928.24,
+    "to": 2930.26,
+    "location": 2,
+    "content": "對 過年啊"
+  },
+  {
+    "from": 2930.26,
+    "to": 2931.86,
+    "location": 2,
+    "content": "這一天最低點是什麼"
+  },
+  {
+    "from": 2931.86,
+    "to": 2933.44,
+    "location": 2,
+    "content": "這天最低點就是除夕啊"
+  },
+  {
+    "from": 2933.44,
+    "to": 2935.58,
+    "location": 2,
+    "content": "誰除夕還學機器學習 對不對"
+  },
+  {
+    "from": 2937.13,
+    "to": 2938.94,
+    "location": 2,
+    "content": "好 所以當然對機器來說"
+  },
+  {
+    "from": 2938.94,
+    "to": 2939.64,
+    "location": 2,
+    "content": "你不能怪它"
+  },
+  {
+    "from": 2939.64,
+    "to": 2940.91,
+    "location": 2,
+    "content": "它根本不知道除夕是什麼"
+  },
+  {
+    "from": 2940.91,
+    "to": 2943.46,
+    "location": 2,
+    "content": "它只知道看前 56 天的值"
+  },
+  {
+    "from": 2943.46,
+    "to": 2945.51,
+    "location": 2,
+    "content": "來預測下一天會發生什麼事"
+  },
+  {
+    "from": 2945.51,
+    "to": 2947.38,
+    "location": 2,
+    "content": "所以它不知道那一天是除夕"
+  },
+  {
+    "from": 2947.38,
+    "to": 2949.66,
+    "location": 2,
+    "content": "所以你不能怪它預測地不準"
+  },
+  {
+    "from": 2949.98,
+    "to": 2951.81,
+    "location": 2,
+    "content": "這一天就是除夕"
+  },
+  {
+    "from": 2953.58,
+    "to": 2955.32,
+    "location": 2,
+    "content": "好 那到目前為止"
+  },
+  {
+    "from": 2955.32,
+    "to": 2957.66,
+    "location": 2,
+    "content": "我們講了很多各式各樣的模型"
+  },
+  {
+    "from": 2958.04,
+    "to": 2960.2,
+    "location": 2,
+    "content": "那我們現在還缺了一個東西"
+  },
+  {
+    "from": 2960.2,
+    "to": 2961.28,
+    "location": 2,
+    "content": "你知道缺什麼東西嗎"
+  },
+  {
+    "from": 2961.97,
+    "to": 2963.22,
+    "location": 2,
+    "content": "缺一個好名字"
+  },
+  {
+    "from": 2963.62,
+    "to": 2966.77,
+    "location": 2,
+    "content": "你知道這個外表啊是很重要的"
+  },
+  {
+    "from": 2966.77,
+    "to": 2970.35,
+    "location": 2,
+    "content": "一個死臭酸宅穿上西裝以後就潮了起來"
+  },
+  {
+    "from": 2970.67,
+    "to": 2972.25,
+    "location": 2,
+    "content": "或者是隻鞋半縷的"
+  },
+  {
+    "from": 2972.25,
+    "to": 2975.59,
+    "location": 2,
+    "content": "說他是漢左將軍宜城亭侯中山靖王之後"
+  },
+  {
+    "from": 2975.59,
+    "to": 2977.64,
+    "location": 2,
+    "content": "也就潮了起來 對不對"
+  },
+  {
+    "from": 2977.64,
+    "to": 2981.53,
+    "location": 2,
+    "content": "所以我們的模型也需要一個好名字"
+  },
+  {
+    "from": 2982.21,
+    "to": 2983.89,
+    "location": 2,
+    "content": "所以它叫做什麼名字呢"
+  },
+  {
+    "from": 2984.25,
+    "to": 2987.11,
+    "location": 2,
+    "content": "這些 Sigmoid 或 ReLU 啊"
+  },
+  {
+    "from": 2987.11,
+    "to": 2988.97,
+    "location": 2,
+    "content": "它們叫做 Neuron"
+  },
+  {
+    "from": 2989.43,
+    "to": 2991.13,
+    "location": 2,
+    "content": "我們這邊有很多的 Neuron"
+  },
+  {
+    "from": 2991.13,
+    "to": 2992.6,
+    "location": 2,
+    "content": "很多的 Neuron 叫什麼"
+  },
+  {
+    "from": 2992.6,
+    "to": 2995.84,
+    "location": 2,
+    "content": "很多的 Neuron 就叫做 Neural Network"
+  },
+  {
+    "from": 2996.17,
+    "to": 2997.05,
+    "location": 2,
+    "content": "Neuron 是什麼"
+  },
+  {
+    "from": 2997.05,
+    "to": 2998.9,
+    "location": 2,
+    "content": "Neuron 就是神經元"
+  },
+  {
+    "from": 2998.9,
+    "to": 3001.8,
+    "location": 2,
+    "content": "人腦中就是有很多神經元"
+  },
+  {
+    "from": 3001.8,
+    "to": 3004.96,
+    "location": 2,
+    "content": "很多神經元串起來就是一個神經網路"
+  },
+  {
+    "from": 3004.96,
+    "to": 3006.38,
+    "location": 2,
+    "content": "跟你的腦是一樣的"
+  },
+  {
+    "from": 3006.38,
+    "to": 3008.59,
+    "location": 2,
+    "content": "接下來你就可以到處騙麻瓜說"
+  },
+  {
+    "from": 3008.59,
+    "to": 3012.38,
+    "location": 2,
+    "content": "看到沒有 這個模型就是在模擬人們腦 知道嗎"
+  },
+  {
+    "from": 3012.38,
+    "to": 3014.03,
+    "location": 2,
+    "content": "這個就是在模擬人腦"
+  },
+  {
+    "from": 3014.03,
+    "to": 3015.71,
+    "location": 2,
+    "content": "這個就是人工智慧"
+  },
+  {
+    "from": 3015.71,
+    "to": 3017.6,
+    "location": 2,
+    "content": "然後麻瓜就會嚇得把錢掏出來"
+  },
+  {
+    "from": 3020.8,
+    "to": 3025.98,
+    "location": 2,
+    "content": "但是啊 這個把戲在 80 90 年代的時候"
+  },
+  {
+    "from": 3025.98,
+    "to": 3027.63,
+    "location": 2,
+    "content": "已經玩過了這樣"
+  },
+  {
+    "from": 3028.14,
+    "to": 3030.22,
+    "location": 2,
+    "content": "Neural Network 不是什麼新的技術"
+  },
+  {
+    "from": 3030.22,
+    "to": 3032.76,
+    "location": 2,
+    "content": "80 90 年代就已經用過了"
+  },
+  {
+    "from": 3032.76,
+    "to": 3037.66,
+    "location": 2,
+    "content": "當時已經把這個技術的名字搞到臭掉了"
+  },
+  {
+    "from": 3037.98,
+    "to": 3041.08,
+    "location": 2,
+    "content": "Neural Network 因為之前吹捧得太過浮誇"
+  },
+  {
+    "from": 3041.08,
+    "to": 3044.14,
+    "location": 2,
+    "content": "所以後來大家對 Neural Network 這個名字"
+  },
+  {
+    "from": 3044.14,
+    "to": 3045.23,
+    "location": 2,
+    "content": "都非常地感冒"
+  },
+  {
+    "from": 3045.23,
+    "to": 3046.77,
+    "location": 2,
+    "content": "它就像是個髒話一樣"
+  },
+  {
+    "from": 3046.77,
+    "to": 3049.25,
+    "location": 2,
+    "content": "寫在 Paper 上面都註定會被"
+  },
+  {
+    "from": 3049.25,
+    "to": 3051.18,
+    "location": 2,
+    "content": "就會註定害你的 Paper 被拒絕"
+  },
+  {
+    "from": 3051.58,
+    "to": 3055.68,
+    "location": 2,
+    "content": "所以後來為了要重振 Neural Network 的雄風"
+  },
+  {
+    "from": 3055.68,
+    "to": 3056.8,
+    "location": 2,
+    "content": "所以怎麼辦呢"
+  },
+  {
+    "from": 3056.8,
+    "to": 3058.66,
+    "location": 2,
+    "content": "需要新的名字"
+  },
+  {
+    "from": 3058.66,
+    "to": 3060.49,
+    "location": 2,
+    "content": "怎麼樣新的名字呢"
+  },
+  {
+    "from": 3060.49,
+    "to": 3062.89,
+    "location": 2,
+    "content": "這邊有很多的 Neural"
+  },
+  {
+    "from": 3062.89,
+    "to": 3066.46,
+    "location": 2,
+    "content": "每一排 Neural 我們就叫它一個 Layer"
+  },
+  {
+    "from": 3066.46,
+    "to": 3068.16,
+    "location": 2,
+    "content": "它們叫 Hidden Layer"
+  },
+  {
+    "from": 3068.52,
+    "to": 3071.66,
+    "location": 2,
+    "content": "有很多的 Hidden Layer 就叫做 Deep"
+  },
+  {
+    "from": 3071.66,
+    "to": 3075.16,
+    "location": 2,
+    "content": "這整套技術就叫做 Deep Learning"
+  },
+  {
+    "from": 3075.62,
+    "to": 3078.29,
+    "location": 2,
+    "content": "好 我們就把 Deep Learning 講完了"
+  },
+  {
+    "from": 3078.29,
+    "to": 3080.72,
+    "location": 2,
+    "content": "就是這麼 就是這麼回事"
+  },
+  {
+    "from": 3080.72,
+    "to": 3081.83,
+    "location": 2,
+    "content": "就是這樣來的"
+  },
+  {
+    "from": 3082.77,
+    "to": 3084.35,
+    "location": 2,
+    "content": "好 所以人們就開始"
+  },
+  {
+    "from": 3084.35,
+    "to": 3088.43,
+    "location": 2,
+    "content": "把類神經網路越疊越多 越疊越深"
+  },
+  {
+    "from": 3088.86,
+    "to": 3091.27,
+    "location": 2,
+    "content": "12 年的時候有一個 AlexNet"
+  },
+  {
+    "from": 3091.27,
+    "to": 3095.32,
+    "location": 2,
+    "content": "它有 8 層 它的錯誤率是 16.4%"
+  },
+  {
+    "from": 3095.95,
+    "to": 3098.4,
+    "location": 2,
+    "content": "兩年之後 VGG 19層"
+  },
+  {
+    "from": 3098.4,
+    "to": 3102.23,
+    "location": 2,
+    "content": "錯誤率在影像辨識上進步到 7.3 %"
+  },
+  {
+    "from": 3102.23,
+    "to": 3105.01,
+    "location": 2,
+    "content": "這個都是在影像辨識上一個"
+  },
+  {
+    "from": 3105.01,
+    "to": 3108.01,
+    "location": 2,
+    "content": "這個基準的資料庫上面的結果"
+  },
+  {
+    "from": 3108.36,
+    "to": 3112.05,
+    "location": 2,
+    "content": "後來 GoogleNet 有錯誤率降到 6.7%"
+  },
+  {
+    "from": 3112.05,
+    "to": 3113.25,
+    "location": 2,
+    "content": "有 22 層"
+  },
+  {
+    "from": 3113.8,
+    "to": 3116.91,
+    "location": 2,
+    "content": "但這些都不算是什麼"
+  },
+  {
+    "from": 3116.91,
+    "to": 3119.73,
+    "location": 2,
+    "content": "Residual Net 有 152 層啊"
+  },
+  {
+    "from": 3119.73,
+    "to": 3121.98,
+    "location": 2,
+    "content": "它比 101 還要高啊"
+  },
+  {
+    "from": 3125.18,
+    "to": 3126.8,
+    "location": 2,
+    "content": "但是這個 Residual Net 啊"
+  },
+  {
+    "from": 3127.13,
+    "to": 3131.07,
+    "location": 2,
+    "content": "其實要訓練這麼深的 Network 是有訣竅的"
+  },
+  {
+    "from": 3131.07,
+    "to": 3132.66,
+    "location": 2,
+    "content": "這個我們之後再講"
+  },
+  {
+    "from": 3133.29,
+    "to": 3135.1,
+    "location": 2,
+    "content": "但是講到這邊"
+  },
+  {
+    "from": 3135.42,
+    "to": 3137.26,
+    "location": 2,
+    "content": "如果你仔細思考一下"
+  },
+  {
+    "from": 3137.26,
+    "to": 3139.16,
+    "location": 2,
+    "content": "我們一路的講法的話"
+  },
+  {
+    "from": 3139.16,
+    "to": 3142.91,
+    "location": 2,
+    "content": "你有沒有發現一個奇妙的違和的地方"
+  },
+  {
+    "from": 3143.3,
+    "to": 3144.44,
+    "location": 2,
+    "content": "不知道大家有沒有發現"
+  },
+  {
+    "from": 3144.44,
+    "to": 3145.96,
+    "location": 2,
+    "content": "什麼樣違和的地方呢"
+  },
+  {
+    "from": 3146.48,
+    "to": 3147.71,
+    "location": 2,
+    "content": "我們一開始說"
+  },
+  {
+    "from": 3147.71,
+    "to": 3150.26,
+    "location": 2,
+    "content": "我們想要用 ReLU 或者是 Sigmoid"
+  },
+  {
+    "from": 3150.26,
+    "to": 3153,
+    "location": 2,
+    "content": "去逼近一個複雜的 Function"
+  },
+  {
+    "from": 3153.65,
+    "to": 3158.2,
+    "location": 2,
+    "content": "實際上只要夠多的 ReLU 夠多的 Sigmoid"
+  },
+  {
+    "from": 3158.2,
+    "to": 3163.04,
+    "location": 2,
+    "content": "就可以逼近任何的 連續的 Function 對不對"
+  },
+  {
+    "from": 3163.04,
+    "to": 3164.32,
+    "location": 2,
+    "content": "我們只要有夠多的 Sigmoid"
+  },
+  {
+    "from": 3164.32,
+    "to": 3166.13,
+    "location": 2,
+    "content": "就可以知道夠複雜的線段"
+  },
+  {
+    "from": 3166.13,
+    "to": 3168.48,
+    "location": 2,
+    "content": "就可以逼近任何的 Continuous 的 Function"
+  },
+  {
+    "from": 3168.88,
+    "to": 3171.16,
+    "location": 2,
+    "content": "所以我們只要一排 ReLU 一排 Sigmoid"
+  },
+  {
+    "from": 3171.16,
+    "to": 3173,
+    "location": 2,
+    "content": "夠多就足夠了"
+  },
+  {
+    "from": 3173,
+    "to": 3176.25,
+    "location": 2,
+    "content": "那升的意義到底何在呢"
+  },
+  {
+    "from": 3176.25,
+    "to": 3178.88,
+    "location": 2,
+    "content": "把 ReLU Sigmoid Function 反覆用"
+  },
+  {
+    "from": 3178.88,
+    "to": 3179.96,
+    "location": 2,
+    "content": "到底有什麼好處呢"
+  },
+  {
+    "from": 3179.96,
+    "to": 3181.67,
+    "location": 2,
+    "content": "為什麼不把它們直接排一排呢"
+  },
+  {
+    "from": 3181.99,
+    "to": 3184.38,
+    "location": 2,
+    "content": "直接排一排也可以表示任何 Function 啊"
+  },
+  {
+    "from": 3184.38,
+    "to": 3187.34,
+    "location": 2,
+    "content": "所以把它反覆用沒什麼道理啊"
+  },
+  {
+    "from": 3187.34,
+    "to": 3189.82,
+    "location": 2,
+    "content": "所以有人就說把 Deep Learning"
+  },
+  {
+    "from": 3189.82,
+    "to": 3191.44,
+    "location": 2,
+    "content": "把 ReLU Sigmoid 反覆用"
+  },
+  {
+    "from": 3191.44,
+    "to": 3192.86,
+    "location": 2,
+    "content": "不過是個噱頭"
+  },
+  {
+    "from": 3192.86,
+    "to": 3194.22,
+    "location": 2,
+    "content": "你之所以喜歡 Deep Learning"
+  },
+  {
+    "from": 3194.22,
+    "to": 3196.21,
+    "location": 2,
+    "content": "只是因為 Deep 這個它名字好聽啦"
+  },
+  {
+    "from": 3196.21,
+    "to": 3197.78,
+    "location": 2,
+    "content": "ReLU Sigmoid 排成一排"
+  },
+  {
+    "from": 3197.78,
+    "to": 3199.73,
+    "location": 2,
+    "content": "你只可以製造一個肥胖的 Network"
+  },
+  {
+    "from": 3199.73,
+    "to": 3200.86,
+    "location": 2,
+    "content": "Fat Neural Network"
+  },
+  {
+    "from": 3200.86,
+    "to": 3202.26,
+    "location": 2,
+    "content": "跟 Deep Neural Network 聽起來"
+  },
+  {
+    "from": 3202.26,
+    "to": 3203.31,
+    "location": 2,
+    "content": "量級就不太一樣"
+  },
+  {
+    "from": 3203.31,
+    "to": 3204.74,
+    "location": 2,
+    "content": "Deep 聽起來就比較厲害啦"
+  },
+  {
+    "from": 3204.74,
+    "to": 3206.9,
+    "location": 2,
+    "content": "Fat Neural Network 還以為是死肥宅 Network"
+  },
+  {
+    "from": 3206.9,
+    "to": 3208.99,
+    "location": 2,
+    "content": "就不不不不厲害這樣子"
+  },
+  {
+    "from": 3210.31,
+    "to": 3212.36,
+    "location": 2,
+    "content": "那到底 Deep 的理由"
+  },
+  {
+    "from": 3212.36,
+    "to": 3214.63,
+    "location": 2,
+    "content": "為什麼我們不把 Network 變胖"
+  },
+  {
+    "from": 3214.63,
+    "to": 3216.84,
+    "location": 2,
+    "content": "只把 Network 變深呢"
+  },
+  {
+    "from": 3216.84,
+    "to": 3219.69,
+    "location": 2,
+    "content": "這個是我們日後要再講的話題"
+  },
+  {
+    "from": 3221.11,
+    "to": 3222.66,
+    "location": 2,
+    "content": "好 那有人就說"
+  },
+  {
+    "from": 3222.66,
+    "to": 3224.06,
+    "location": 2,
+    "content": "那怎麼不變得更深呢"
+  },
+  {
+    "from": 3224.06,
+    "to": 3225.44,
+    "location": 2,
+    "content": "剛才只做到 3 層"
+  },
+  {
+    "from": 3225.44,
+    "to": 3227.25,
+    "location": 2,
+    "content": "應該要做得更深嘛"
+  },
+  {
+    "from": 3227.25,
+    "to": 3229.06,
+    "location": 2,
+    "content": "現在 Network 都是疊幾百層的啊"
+  },
+  {
+    "from": 3229.06,
+    "to": 3230.47,
+    "location": 2,
+    "content": "沒幾百層都不好意思說"
+  },
+  {
+    "from": 3230.47,
+    "to": 3232.57,
+    "location": 2,
+    "content": "你在叫做 Deep Learning 對不對"
+  },
+  {
+    "from": 3232.57,
+    "to": 3233.83,
+    "location": 2,
+    "content": "好 所以要做更深"
+  },
+  {
+    "from": 3233.83,
+    "to": 3235.6,
+    "location": 2,
+    "content": "所以確實做得更深 做 4 層"
+  },
+  {
+    "from": 3236.28,
+    "to": 3239,
+    "location": 2,
+    "content": "4 層在訓練資料上"
+  },
+  {
+    "from": 3239.49,
+    "to": 3241.55,
+    "location": 2,
+    "content": "它的 Loss 是 0.1k"
+  },
+  {
+    "from": 3242.03,
+    "to": 3245.26,
+    "location": 2,
+    "content": "在沒有看過 2021 年的資料上"
+  },
+  {
+    "from": 3245.26,
+    "to": 3248.62,
+    "location": 2,
+    "content": "是如何呢 是 0.44k"
+  },
+  {
+    "from": 3249.06,
+    "to": 3251.02,
+    "location": 2,
+    "content": "慘掉了 欸 怎麼會這樣子呢"
+  },
+  {
+    "from": 3251.02,
+    "to": 3252.37,
+    "location": 2,
+    "content": "在訓練資料上"
+  },
+  {
+    "from": 3252.75,
+    "to": 3254.69,
+    "location": 2,
+    "content": "3 層比 4 層差"
+  },
+  {
+    "from": 3254.69,
+    "to": 3255.83,
+    "location": 2,
+    "content": "4 層比 3 層好"
+  },
+  {
+    "from": 3256.15,
+    "to": 3257.92,
+    "location": 2,
+    "content": "但是在沒看過的資料上"
+  },
+  {
+    "from": 3257.92,
+    "to": 3259.71,
+    "location": 2,
+    "content": "4 層比較差"
+  },
+  {
+    "from": 3260.06,
+    "to": 3261.53,
+    "location": 2,
+    "content": "3 層比較好"
+  },
+  {
+    "from": 3261.92,
+    "to": 3263.12,
+    "location": 2,
+    "content": "在有看過的資料上"
+  },
+  {
+    "from": 3263.12,
+    "to": 3264.24,
+    "location": 2,
+    "content": "在訓練資料上"
+  },
+  {
+    "from": 3264.24,
+    "to": 3265.89,
+    "location": 2,
+    "content": "跟沒看過的資料上"
+  },
+  {
+    "from": 3265.89,
+    "to": 3268,
+    "location": 2,
+    "content": "它的結果是不一致的"
+  },
+  {
+    "from": 3268.62,
+    "to": 3270.14,
+    "location": 2,
+    "content": "這種訓練資料跟測試"
+  },
+  {
+    "from": 3270.14,
+    "to": 3272.24,
+    "location": 2,
+    "content": "這種訓練資料跟沒看過的資料"
+  },
+  {
+    "from": 3272.24,
+    "to": 3274.06,
+    "location": 2,
+    "content": "它的結果是不一致的狀況"
+  },
+  {
+    "from": 3274.4,
+    "to": 3277.74,
+    "location": 2,
+    "content": "這個狀況叫做 Overfitting"
+  },
+  {
+    "from": 3277.74,
+    "to": 3278.81,
+    "location": 2,
+    "content": "那你常常聽到有人說"
+  },
+  {
+    "from": 3278.81,
+    "to": 3280.99,
+    "location": 2,
+    "content": "機器學習會發生 Overfitting 的問題"
+  },
+  {
+    "from": 3280.99,
+    "to": 3283.69,
+    "location": 2,
+    "content": "指的就是在訓練資料上有變好"
+  },
+  {
+    "from": 3284,
+    "to": 3288.11,
+    "location": 2,
+    "content": "但是在沒看過的資料上沒有變好這件事情"
+  },
+  {
+    "from": 3288.98,
+    "to": 3290.34,
+    "location": 2,
+    "content": "但是做到目前為止"
+  },
+  {
+    "from": 3290.66,
+    "to": 3294.61,
+    "location": 2,
+    "content": "我們都還沒有真的發揮這個模型的力量"
+  },
+  {
+    "from": 3294.96,
+    "to": 3296.79,
+    "location": 2,
+    "content": "你知道我們要發揮這個模型的力量"
+  },
+  {
+    "from": 3296.79,
+    "to": 3300.78,
+    "location": 2,
+    "content": "和 2021 的資料到 2 月 14 號之前的資料"
+  },
+  {
+    "from": 3301.11,
+    "to": 3303.4,
+    "location": 2,
+    "content": "我們也都已經手上有了"
+  },
+  {
+    "from": 3303.87,
+    "to": 3305.67,
+    "location": 2,
+    "content": "所以我們要真正做的事情是什麼"
+  },
+  {
+    "from": 3305.67,
+    "to": 3309.89,
+    "location": 2,
+    "content": "我們要做的事情就是預測未知的資料"
+  },
+  {
+    "from": 3310.66,
+    "to": 3312.78,
+    "location": 2,
+    "content": "但是如果我們要預測未知的資料"
+  },
+  {
+    "from": 3312.78,
+    "to": 3315.38,
+    "location": 2,
+    "content": "我們應該選 3 層的 Network"
+  },
+  {
+    "from": 3315.38,
+    "to": 3317.07,
+    "location": 2,
+    "content": "還是 4 層的 Network 呢"
+  },
+  {
+    "from": 3317.07,
+    "to": 3319.84,
+    "location": 2,
+    "content": "舉例來說 今天是 2 月 26 號"
+  },
+  {
+    "from": 3320.32,
+    "to": 3322.75,
+    "location": 2,
+    "content": "今天的觀看人數我們還不知道"
+  },
+  {
+    "from": 3323.13,
+    "to": 3325.06,
+    "location": 2,
+    "content": "如果我們要用一個 Neural Network"
+  },
+  {
+    "from": 3325.06,
+    "to": 3327.24,
+    "location": 2,
+    "content": "用我們已經訓練出來的 Neural Network"
+  },
+  {
+    "from": 3327.24,
+    "to": 3328.96,
+    "location": 2,
+    "content": "去預測今天的觀看人數"
+  },
+  {
+    "from": 3329.32,
+    "to": 3331.71,
+    "location": 2,
+    "content": "你覺得應該要選 3 層的"
+  },
+  {
+    "from": 3332.1,
+    "to": 3334.63,
+    "location": 2,
+    "content": "還是選 4 層的呢"
+  },
+  {
+    "from": 3335.24,
+    "to": 3337.21,
+    "location": 2,
+    "content": "好 這個我們來問一下大家的意見吧"
+  },
+  {
+    "from": 3337.21,
+    "to": 3339.72,
+    "location": 2,
+    "content": "你覺得應該選 3 層的同學舉手一下"
+  },
+  {
+    "from": 3340.66,
+    "to": 3342.03,
+    "location": 2,
+    "content": "好 手放下"
+  },
+  {
+    "from": 3342.03,
+    "to": 3344.35,
+    "location": 2,
+    "content": "好 覺得應該選 4 層的同學舉手一下"
+  },
+  {
+    "from": 3345.41,
+    "to": 3346.7,
+    "location": 2,
+    "content": "好 比較少"
+  },
+  {
+    "from": 3347.09,
+    "to": 3348.71,
+    "location": 2,
+    "content": "好 至於怎麼選模型"
+  },
+  {
+    "from": 3348.71,
+    "to": 3351.01,
+    "location": 2,
+    "content": "這個是下週會講的問題"
+  },
+  {
+    "from": 3351.01,
+    "to": 3353.13,
+    "location": 2,
+    "content": "大家 但是大家都非常有 Sense"
+  },
+  {
+    "from": 3353.13,
+    "to": 3355.22,
+    "location": 2,
+    "content": "知道我們要選 3 層的"
+  },
+  {
+    "from": 3355.22,
+    "to": 3357.7,
+    "location": 2,
+    "content": "多數人都決定要選 3 層的"
+  },
+  {
+    "from": 3357.7,
+    "to": 3359.49,
+    "location": 2,
+    "content": "你可能會說 我怎麼不選 4 層呢"
+  },
+  {
+    "from": 3359.49,
+    "to": 3361.93,
+    "location": 2,
+    "content": "4 層在訓練資料上的結果比較好啊"
+  },
+  {
+    "from": 3361.93,
+    "to": 3364.55,
+    "location": 2,
+    "content": "可是我們並不在意訓練資料的結果啊"
+  },
+  {
+    "from": 3364.55,
+    "to": 3367.21,
+    "location": 2,
+    "content": "我們在意的是沒有看過的資料"
+  },
+  {
+    "from": 3367.53,
+    "to": 3370.59,
+    "location": 2,
+    "content": "而 2 月 26 號是沒有看過的資料"
+  },
+  {
+    "from": 3370.59,
+    "to": 3372.89,
+    "location": 2,
+    "content": "我們應該選一個在訓練的時候"
+  },
+  {
+    "from": 3372.89,
+    "to": 3375.57,
+    "location": 2,
+    "content": "沒有看過的資料上表現會好的模型"
+  },
+  {
+    "from": 3375.57,
+    "to": 3378.19,
+    "location": 2,
+    "content": "所以我們應該選 3 層的 Network"
+  },
+  {
+    "from": 3378.63,
+    "to": 3381.59,
+    "location": 2,
+    "content": "那你可能以為這門課就到這邊結束了"
+  },
+  {
+    "from": 3381.59,
+    "to": 3384.4,
+    "location": 2,
+    "content": "其實不是 我們真的來預測一下"
+  },
+  {
+    "from": 3384.4,
+    "to": 3388.71,
+    "location": 2,
+    "content": "2 月 26 號應該要有的觀看次數是多少"
+  },
+  {
+    "from": 3389.35,
+    "to": 3391.42,
+    "location": 2,
+    "content": "但是因為其實 YouTube 的統計"
+  },
+  {
+    "from": 3391.42,
+    "to": 3392.56,
+    "location": 2,
+    "content": "它沒有那麼及時"
+  },
+  {
+    "from": 3392.56,
+    "to": 3395.23,
+    "location": 2,
+    "content": "所以它現在只統計到 2 月 24 號"
+  },
+  {
+    "from": 3395.23,
+    "to": 3399.21,
+    "location": 2,
+    "content": "沒關係 我們先計算一下 2 月 25 號的"
+  },
+  {
+    "from": 3399.21,
+    "to": 3400.53,
+    "location": 2,
+    "content": "觀看人數是多少"
+  },
+  {
+    "from": 3400.53,
+    "to": 3402.71,
+    "location": 2,
+    "content": "這個 3 層的 Network 告訴我說"
+  },
+  {
+    "from": 3402.71,
+    "to": 3406.04,
+    "location": 2,
+    "content": "2 月 25 號這個頻道的總觀看人次"
+  },
+  {
+    "from": 3406.04,
+    "to": 3408.6,
+    "location": 2,
+    "content": "應該是 5250 人"
+  },
+  {
+    "from": 3408.92,
+    "to": 3411.32,
+    "location": 2,
+    "content": "那我們先假設 2 月 25 號是對的"
+  },
+  {
+    "from": 3411.32,
+    "to": 3413.33,
+    "location": 2,
+    "content": "但實際上我還不知道 2 月 25 號對不對"
+  },
+  {
+    "from": 3413.33,
+    "to": 3415.81,
+    "location": 2,
+    "content": "因為 YouTube 後台統計的數據還沒有出來啊"
+  },
+  {
+    "from": 3415.81,
+    "to": 3417.75,
+    "location": 2,
+    "content": "但我們先假設這一天都是對的"
+  },
+  {
+    "from": 3417.75,
+    "to": 3421.73,
+    "location": 2,
+    "content": "然後再給我們的模型去預測 2 月 26 號的數字"
+  },
+  {
+    "from": 3422.05,
+    "to": 3428.06,
+    "location": 2,
+    "content": "得到的結果是 3.96k 有 3960 次"
+  },
+  {
+    "from": 3428.06,
+    "to": 3429.36,
+    "location": 2,
+    "content": "那它為什麼這邊特別低"
+  },
+  {
+    "from": 3429.36,
+    "to": 3430.51,
+    "location": 2,
+    "content": "因為模型知道說"
+  },
+  {
+    "from": 3430.83,
+    "to": 3432.49,
+    "location": 2,
+    "content": "這個禮拜五觀看的人數"
+  },
+  {
+    "from": 3432.49,
+    "to": 3434.2,
+    "location": 2,
+    "content": "就是比較少啊"
+  },
+  {
+    "from": 3434.2,
+    "to": 3435.62,
+    "location": 2,
+    "content": "所以它預測特別低"
+  },
+  {
+    "from": 3435.62,
+    "to": 3437.48,
+    "location": 2,
+    "content": "聽起來也是合理的"
+  },
+  {
+    "from": 3438.14,
+    "to": 3440.52,
+    "location": 2,
+    "content": "但是你覺得這個預測"
+  },
+  {
+    "from": 3440.93,
+    "to": 3444.24,
+    "location": 2,
+    "content": "跟這邊的 0.38k 比起來"
+  },
+  {
+    "from": 3445.07,
+    "to": 3448.17,
+    "location": 2,
+    "content": "哪一個會比較準確呢"
+  },
+  {
+    "from": 3448.75,
+    "to": 3450.98,
+    "location": 2,
+    "content": "你覺得 你覺得我們"
+  },
+  {
+    "from": 3450.98,
+    "to": 3452.26,
+    "location": 2,
+    "content": "我們下週來看看"
+  },
+  {
+    "from": 3452.26,
+    "to": 3455.86,
+    "location": 2,
+    "content": "2 月 26 號實際的值是多少"
+  },
+  {
+    "from": 3455.86,
+    "to": 3458.11,
+    "location": 2,
+    "content": "但是你覺得這個值"
+  },
+  {
+    "from": 3458.11,
+    "to": 3459.83,
+    "location": 2,
+    "content": "它跟真實值的誤差"
+  },
+  {
+    "from": 3459.83,
+    "to": 3463.2,
+    "location": 2,
+    "content": "會小於 0.38k 的同學舉手一下"
+  },
+  {
+    "from": 3464.5,
+    "to": 3467.03,
+    "location": 2,
+    "content": "覺得大於 0.38k 的同學舉手一下"
+  },
+  {
+    "from": 3467.03,
+    "to": 3468.04,
+    "location": 2,
+    "content": "哇 好 手放下"
+  },
+  {
+    "from": 3468.04,
+    "to": 3469.77,
+    "location": 2,
+    "content": "大家都對我這麼沒有信心這樣"
+  },
+  {
+    "from": 3471.08,
+    "to": 3473.29,
+    "location": 2,
+    "content": "好 我們就來看看這個"
+  },
+  {
+    "from": 3473.29,
+    "to": 3476.05,
+    "location": 2,
+    "content": "下一週誤差會有多少"
+  },
+  {
+    "from": 3476.05,
+    "to": 3477.57,
+    "location": 2,
+    "content": "當然我想應該是不會準啦"
+  },
+  {
+    "from": 3477.57,
+    "to": 3479.38,
+    "location": 2,
+    "content": "因為看這麼多人都覺得誤差會大"
+  },
+  {
+    "from": 3479.38,
+    "to": 3481.39,
+    "location": 2,
+    "content": "你們回去每個人都去點那個影片的話"
+  },
+  {
+    "from": 3481.39,
+    "to": 3482.88,
+    "location": 2,
+    "content": "哇 誤差就大了啊"
+  },
+  {
+    "from": 3483.26,
+    "to": 3484.08,
+    "location": 2,
+    "content": "今天講這麼久"
+  },
+  {
+    "from": 3484.08,
+    "to": 3486.49,
+    "location": 2,
+    "content": "其實就是騙大家去點影片而已啦"
+  },
+  {
+    "from": 3489.09,
+    "to": 3491.79,
+    "location": 2,
+    "content": "好 那今天其實就講了深度學習"
+  },
+  {
+    "from": 3491.79,
+    "to": 3493.67,
+    "location": 2,
+    "content": "那今天講的不是一般的介紹方式"
+  },
+  {
+    "from": 3493.67,
+    "to": 3495.11,
+    "location": 2,
+    "content": "如果你想要聽一般的介紹方式"
+  },
+  {
+    "from": 3495.11,
+    "to": 3496.55,
+    "location": 2,
+    "content": "過去的課程影片也是有的"
+  },
+  {
+    "from": 3496.55,
+    "to": 3498.05,
+    "location": 2,
+    "content": "我就把連結附在這邊"
+  },
+  {
+    "from": 3498.05,
+    "to": 3499.56,
+    "location": 2,
+    "content": "然後深度學習的訓練"
+  },
+  {
+    "from": 3499.56,
+    "to": 3501.41,
+    "location": 2,
+    "content": "會用到一個東西叫 Backpropagation"
+  },
+  {
+    "from": 3501.41,
+    "to": 3503.63,
+    "location": 2,
+    "content": "其實它就是比較有效率"
+  },
+  {
+    "from": 3503.63,
+    "to": 3504.69,
+    "location": 2,
+    "content": "算 Gradients 的方法"
+  },
+  {
+    "from": 3504.69,
+    "to": 3506.91,
+    "location": 2,
+    "content": "跟我們今天講的東西沒有什麼不同"
+  },
+  {
+    "from": 3506.91,
+    "to": 3508.47,
+    "location": 2,
+    "content": "但如果你真的很想知道"
+  },
+  {
+    "from": 3508.47,
+    "to": 3509.87,
+    "location": 2,
+    "content": "Backpropagation 是什麼的話"
+  },
+  {
+    "from": 3509.87,
+    "to": 3512.03,
+    "location": 2,
+    "content": "影片連結也附在這邊"
+  },
+  {
+    "from": 3512.03,
+    "to": 3513.54,
+    "location": 2,
+    "content": "好 今天上課就上到這邊"
+  }
+]

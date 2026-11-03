@@ -1,0 +1,8156 @@
+[
+  {
+    "from": 20,
+    "to": 22.2,
+    "location": 2,
+    "content": "我們已經看了作業一了"
+  },
+  {
+    "from": 22.29,
+    "to": 24.6,
+    "location": 2,
+    "content": "其實之後好幾個作業"
+  },
+  {
+    "from": 24.77,
+    "to": 26.36,
+    "location": 2,
+    "content": "它看起來的樣子"
+  },
+  {
+    "from": 26.48,
+    "to": 28.36,
+    "location": 2,
+    "content": "基本上都是大同小異"
+  },
+  {
+    "from": 28.67,
+    "to": 31.45,
+    "location": 2,
+    "content": "就是你會有一堆訓練的資料"
+  },
+  {
+    "from": 31.65,
+    "to": 33.45,
+    "location": 2,
+    "content": "這些訓練資料裡面"
+  },
+  {
+    "from": 33.72,
+    "to": 37.06,
+    "location": 2,
+    "content": "會包含了x跟y的hat"
+  },
+  {
+    "from": 37.28,
+    "to": 40.05,
+    "location": 2,
+    "content": "會有x¹ 和跟它對應的ŷ¹"
+  },
+  {
+    "from": 40.05,
+    "to": 41.73,
+    "location": 2,
+    "content": "x² 跟它對應的ŷ²"
+  },
+  {
+    "from": 41.73,
+    "to": 44.01,
+    "location": 2,
+    "content": "一直到xⁿ 還有它對應的ŷⁿ"
+  },
+  {
+    "from": 44.4,
+    "to": 45.87,
+    "location": 2,
+    "content": "測試資料"
+  },
+  {
+    "from": 45.87,
+    "to": 48.89,
+    "location": 2,
+    "content": "測試資料就是你只有x沒有y"
+  },
+  {
+    "from": 49.29,
+    "to": 52.09,
+    "location": 2,
+    "content": "剛才大家已經看了作業一了"
+  },
+  {
+    "from": 52.24,
+    "to": 54.26,
+    "location": 2,
+    "content": "其實在之後每一個作業"
+  },
+  {
+    "from": 54.4,
+    "to": 56.88,
+    "location": 2,
+    "content": "看起來都是非常類似的格式"
+  },
+  {
+    "from": 56.88,
+    "to": 58.04,
+    "location": 2,
+    "content": "比如說作業二"
+  },
+  {
+    "from": 58.04,
+    "to": 60.2,
+    "location": 2,
+    "content": "其實是做語音辨識"
+  },
+  {
+    "from": 60.2,
+    "to": 64.24,
+    "location": 2,
+    "content": "我們的x就是非常小的一段聲音訊號"
+  },
+  {
+    "from": 64.24,
+    "to": 65.57,
+    "location": 2,
+    "content": "其實這個不是真正的"
+  },
+  {
+    "from": 65.57,
+    "to": 66.96,
+    "location": 2,
+    "content": "完整的語音辨識系統"
+  },
+  {
+    "from": 66.96,
+    "to": 70.58,
+    "location": 2,
+    "content": "它是語音辨識系統的一個閹割版"
+  },
+  {
+    "from": 70.58,
+    "to": 72.58,
+    "location": 2,
+    "content": "x是一小段訊號"
+  },
+  {
+    "from": 72.73,
+    "to": 76.4,
+    "location": 2,
+    "content": "ŷ是要去預測 是要去判斷說"
+  },
+  {
+    "from": 76.53,
+    "to": 78,
+    "location": 2,
+    "content": "這一小段聲音訊號"
+  },
+  {
+    "from": 78.17,
+    "to": 80.31,
+    "location": 2,
+    "content": "它對應到哪一個phoneme"
+  },
+  {
+    "from": 80.31,
+    "to": 82.13,
+    "location": 2,
+    "content": "你不知道phoneme是什麼沒有關係"
+  },
+  {
+    "from": 82.24,
+    "to": 85,
+    "location": 2,
+    "content": "你就把它想成是kk音標就可以了"
+  },
+  {
+    "from": 85.71,
+    "to": 88.34,
+    "location": 2,
+    "content": "作業三叫做影象辨識"
+  },
+  {
+    "from": 88.34,
+    "to": 91.64,
+    "location": 2,
+    "content": "這個時候我們的x是一張圖片"
+  },
+  {
+    "from": 92.12,
+    "to": 95.62,
+    "location": 2,
+    "content": "ŷ是機器要判斷說這張圖片裡面"
+  },
+  {
+    "from": 95.79,
+    "to": 97.62,
+    "location": 2,
+    "content": "有什麼樣的東西"
+  },
+  {
+    "from": 98.14,
+    "to": 101.24,
+    "location": 2,
+    "content": "作業四是語者辨識"
+  },
+  {
+    "from": 101.4,
+    "to": 103.64,
+    "location": 2,
+    "content": "語者辨識是要做什麼事情呢"
+  },
+  {
+    "from": 103.64,
+    "to": 105.42,
+    "location": 2,
+    "content": "語者辨識要做的事情是"
+  },
+  {
+    "from": 105.93,
+    "to": 108.55,
+    "location": 2,
+    "content": "這個x也是一段聲音訊號"
+  },
+  {
+    "from": 108.66,
+    "to": 111.62,
+    "location": 2,
+    "content": "ŷ現在不是phoneme"
+  },
+  {
+    "from": 111.72,
+    "to": 115.39,
+    "location": 2,
+    "content": "ŷ是現在是哪一個人在說話"
+  },
+  {
+    "from": 115.39,
+    "to": 116.73,
+    "location": 2,
+    "content": "你可以想像說這樣的系統"
+  },
+  {
+    "from": 116.73,
+    "to": 118.73,
+    "location": 2,
+    "content": "現在其實非常的有用"
+  },
+  {
+    "from": 118.73,
+    "to": 121.08,
+    "location": 2,
+    "content": "如果你打電話去銀行的客服"
+  },
+  {
+    "from": 121.19,
+    "to": 123.75,
+    "location": 2,
+    "content": "現在都有自動的語者辨認系統"
+  },
+  {
+    "from": 123.92,
+    "to": 126.15,
+    "location": 2,
+    "content": "它會聽說現在打電話進來的人"
+  },
+  {
+    "from": 126.28,
+    "to": 127.84,
+    "location": 2,
+    "content": "是不是客戶本人"
+  },
+  {
+    "from": 127.98,
+    "to": 133.08,
+    "location": 2,
+    "content": "就少了客服人員問你身份驗證的時間"
+  },
+  {
+    "from": 133.98,
+    "to": 137.69,
+    "location": 2,
+    "content": "作業五是做那個Machine Tanslation"
+  },
+  {
+    "from": 137.69,
+    "to": 139.2,
+    "location": 2,
+    "content": "是做機器翻譯"
+  },
+  {
+    "from": 139.32,
+    "to": 140.91,
+    "location": 2,
+    "content": "x就是某一個語言"
+  },
+  {
+    "from": 140.91,
+    "to": 141.53,
+    "location": 2,
+    "content": "比如說"
+  },
+  {
+    "from": 141.63,
+    "to": 143.53,
+    "location": 2,
+    "content": "這是我唯一會的一句日文"
+  },
+  {
+    "from": 143.75,
+    "to": 145.05,
+    "location": 2,
+    "content": "痛みを知れ"
+  },
+  {
+    "from": 145.93,
+    "to": 148.48,
+    "location": 2,
+    "content": "它的ŷ就是另外一句話這樣"
+  },
+  {
+    "from": 151.42,
+    "to": 151.78,
+    "location": 2,
+    "content": "好 再來"
+  },
+  {
+    "from": 151.78,
+    "to": 152.76,
+    "location": 2,
+    "content": "現在你在留言區裡面"
+  },
+  {
+    "from": 152.76,
+    "to": 154.97,
+    "location": 2,
+    "content": "就可以洗一些???(02:13)之類的"
+  },
+  {
+    "from": 158.08,
+    "to": 160.57,
+    "location": 2,
+    "content": "訓練資料拿來做什麼呢"
+  },
+  {
+    "from": 160.57,
+    "to": 163.73,
+    "location": 2,
+    "content": "訓練資料就要拿來訓練我們的Model"
+  },
+  {
+    "from": 163.83,
+    "to": 167.4,
+    "location": 2,
+    "content": "訓練Model的過程上週已經講過了"
+  },
+  {
+    "from": 167.4,
+    "to": 170,
+    "location": 2,
+    "content": "訓練的過程就是三個步驟"
+  },
+  {
+    "from": 170.32,
+    "to": 171.34,
+    "location": 2,
+    "content": "第一個步驟"
+  },
+  {
+    "from": 171.49,
+    "to": 175.75,
+    "location": 2,
+    "content": "你要先寫出一個有未知數的function"
+  },
+  {
+    "from": 176.32,
+    "to": 177.75,
+    "location": 2,
+    "content": "這個未知數"
+  },
+  {
+    "from": 178.12,
+    "to": 180.61,
+    "location": 2,
+    "content": "以後我們都用θ來代表"
+  },
+  {
+    "from": 180.61,
+    "to": 184.04,
+    "location": 2,
+    "content": "一個Model裡面所有的未知函數"
+  },
+  {
+    "from": 184.33,
+    "to": 186.95,
+    "location": 2,
+    "content": "所以fθ(x)的意思就是說"
+  },
+  {
+    "from": 186.95,
+    "to": 189.65,
+    "location": 2,
+    "content": "我現在有一個function叫f(x)"
+  },
+  {
+    "from": 189.77,
+    "to": 191.65,
+    "location": 2,
+    "content": "它裡面有一些未知的參數"
+  },
+  {
+    "from": 191.89,
+    "to": 193.97,
+    "location": 2,
+    "content": "這些未知的參數表示成θ"
+  },
+  {
+    "from": 194.19,
+    "to": 195.97,
+    "location": 2,
+    "content": "它的input叫做x"
+  },
+  {
+    "from": 196.13,
+    "to": 198.36,
+    "location": 2,
+    "content": "這個input叫做feature"
+  },
+  {
+    "from": 199.12,
+    "to": 202.37,
+    "location": 2,
+    "content": "而接下來你要定一個東西叫做loss"
+  },
+  {
+    "from": 202.52,
+    "to": 203.73,
+    "location": 2,
+    "content": "loss是一個function"
+  },
+  {
+    "from": 203.73,
+    "to": 206.7,
+    "location": 2,
+    "content": "這個loss的輸入就是一組參數"
+  },
+  {
+    "from": 206.7,
+    "to": 209.88,
+    "location": 2,
+    "content": "去判斷說這一組參數是好還是不好"
+  },
+  {
+    "from": 210.23,
+    "to": 211.57,
+    "location": 2,
+    "content": "接下來你要解一個"
+  },
+  {
+    "from": 211.57,
+    "to": 212.86,
+    "location": 2,
+    "content": "Optimization的problem"
+  },
+  {
+    "from": 212.86,
+    "to": 214.25,
+    "location": 2,
+    "content": "你要去找一個θ"
+  },
+  {
+    "from": 214.4,
+    "to": 217.63,
+    "location": 2,
+    "content": "這個θ 可以讓loss的值越小越好"
+  },
+  {
+    "from": 218.05,
+    "to": 220.12,
+    "location": 2,
+    "content": "可以讓loss的值 最小的那個θ"
+  },
+  {
+    "from": 220.34,
+    "to": 222.67,
+    "location": 2,
+    "content": "我們叫做θ*"
+  },
+  {
+    "from": 223.67,
+    "to": 225.53,
+    "location": 2,
+    "content": "有了θ*以後"
+  },
+  {
+    "from": 225.64,
+    "to": 228.99,
+    "location": 2,
+    "content": "那你就把它拿來用在測試資料上"
+  },
+  {
+    "from": 229.26,
+    "to": 233.52,
+    "location": 2,
+    "content": "也就是你把θ* 帶入這些未知的參數"
+  },
+  {
+    "from": 233.66,
+    "to": 236.52,
+    "location": 2,
+    "content": "本來fθ(x)裡面有一些未知的參數"
+  },
+  {
+    "from": 236.52,
+    "to": 239.86,
+    "location": 2,
+    "content": "現在這個θ 用θ*來取代"
+  },
+  {
+    "from": 239.86,
+    "to": 241.22,
+    "location": 2,
+    "content": "用θ*來取代"
+  },
+  {
+    "from": 241.44,
+    "to": 244.44,
+    "location": 2,
+    "content": "它的輸入就是你現在的測試資料"
+  },
+  {
+    "from": 244.98,
+    "to": 247.69,
+    "location": 2,
+    "content": "輸出的結果 你就把它存起來"
+  },
+  {
+    "from": 247.85,
+    "to": 250.58,
+    "location": 2,
+    "content": "然後上傳到Kaggle就結束了"
+  },
+  {
+    "from": 251.24,
+    "to": 252.94,
+    "location": 2,
+    "content": "接下來你就會遇到一個問題"
+  },
+  {
+    "from": 253.82,
+    "to": 255.6,
+    "location": 2,
+    "content": "直接執行助教的sample code"
+  },
+  {
+    "from": 255.68,
+    "to": 259.61,
+    "location": 2,
+    "content": "往往只能夠給你???simple baseline的結果而已"
+  },
+  {
+    "from": 260.02,
+    "to": 261.61,
+    "location": 2,
+    "content": "如果你想要做得更好"
+  },
+  {
+    "from": 261.91,
+    "to": 264.13,
+    "location": 2,
+    "content": "那應該要怎麼辦"
+  },
+  {
+    "from": 264.62,
+    "to": 269.2,
+    "location": 2,
+    "content": "以下就是如何讓你做得更好的攻略"
+  },
+  {
+    "from": 269.37,
+    "to": 271.86,
+    "location": 2,
+    "content": "它適用於前期所有的作業"
+  },
+  {
+    "from": 271.86,
+    "to": 273.86,
+    "location": 2,
+    "content": "這個就跟魔關羽一樣你知道嗎"
+  },
+  {
+    "from": 273.86,
+    "to": 274.9,
+    "location": 2,
+    "content": "開局就送"
+  },
+  {
+    "from": 275.09,
+    "to": 277.93,
+    "location": 2,
+    "content": "可以幫助你打贏前期所有的副本"
+  },
+  {
+    "from": 279.53,
+    "to": 281.32,
+    "location": 2,
+    "content": "這個攻略是怎麼走的呢"
+  },
+  {
+    "from": 281.32,
+    "to": 283.32,
+    "location": 2,
+    "content": "從最上面開始走起"
+  },
+  {
+    "from": 283.71,
+    "to": 287.42,
+    "location": 2,
+    "content": "第一個是你今天如果你覺得"
+  },
+  {
+    "from": 287.42,
+    "to": 290.41,
+    "location": 2,
+    "content": "你在Kaggle上的結果不滿意的話"
+  },
+  {
+    "from": 290.93,
+    "to": 292.96,
+    "location": 2,
+    "content": "第一件事情你要做的事情是什麼"
+  },
+  {
+    "from": 293.36,
+    "to": 296.42,
+    "location": 2,
+    "content": "檢查你的training data的loss"
+  },
+  {
+    "from": 296.7,
+    "to": 299.32,
+    "location": 2,
+    "content": "有人說 我在意的不是應該是"
+  },
+  {
+    "from": 299.32,
+    "to": 300.84,
+    "location": 2,
+    "content": "testing data的loss嗎"
+  },
+  {
+    "from": 300.99,
+    "to": 302.28,
+    "location": 2,
+    "content": "因為Kaggle上面的結果"
+  },
+  {
+    "from": 302.28,
+    "to": 304.49,
+    "location": 2,
+    "content": "呈現的是testing data的結果"
+  },
+  {
+    "from": 304.96,
+    "to": 308.18,
+    "location": 2,
+    "content": "但是你要先檢查你的training data"
+  },
+  {
+    "from": 308.29,
+    "to": 310.45,
+    "location": 2,
+    "content": "看看你的model在training data上面"
+  },
+  {
+    "from": 310.78,
+    "to": 312.11,
+    "location": 2,
+    "content": "有沒有學起來"
+  },
+  {
+    "from": 312.26,
+    "to": 313.88,
+    "location": 2,
+    "content": "再去看testing的結果"
+  },
+  {
+    "from": 314.32,
+    "to": 316.02,
+    "location": 2,
+    "content": "所以你要先檢查一下"
+  },
+  {
+    "from": 316.31,
+    "to": 317.51,
+    "location": 2,
+    "content": "training data的loss"
+  },
+  {
+    "from": 318.2,
+    "to": 318.98,
+    "location": 2,
+    "content": "如果你發現"
+  },
+  {
+    "from": 318.98,
+    "to": 320.98,
+    "location": 2,
+    "content": "你的training data的loss很大"
+  },
+  {
+    "from": 321.3,
+    "to": 324.31,
+    "location": 2,
+    "content": "顯然它在訓練資料上面也沒有學好"
+  },
+  {
+    "from": 324.58,
+    "to": 326.31,
+    "location": 2,
+    "content": "接下來你要分析一下"
+  },
+  {
+    "from": 326.45,
+    "to": 328.71,
+    "location": 2,
+    "content": "在訓練資料上面沒有學好"
+  },
+  {
+    "from": 328.92,
+    "to": 330.59,
+    "location": 2,
+    "content": "是什麼樣的原因"
+  },
+  {
+    "from": 331.14,
+    "to": 333.08,
+    "location": 2,
+    "content": "這邊有兩個可能"
+  },
+  {
+    "from": 333.26,
+    "to": 336.09,
+    "location": 2,
+    "content": "第一個可能是model的bias"
+  },
+  {
+    "from": 336.31,
+    "to": 338.29,
+    "location": 2,
+    "content": "model的bias這件事情"
+  },
+  {
+    "from": 338.43,
+    "to": 340.8,
+    "location": 2,
+    "content": "我們在上週已經跟大家講過了"
+  },
+  {
+    "from": 340.8,
+    "to": 342.66,
+    "location": 2,
+    "content": "所謂model bias的意思是說"
+  },
+  {
+    "from": 342.79,
+    "to": 344.76,
+    "location": 2,
+    "content": "假設你的model太過簡單"
+  },
+  {
+    "from": 344.99,
+    "to": 345.97,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 346.06,
+    "to": 348.21,
+    "location": 2,
+    "content": "我們現在寫了一個有未知"
+  },
+  {
+    "from": 348.74,
+    "to": 350.21,
+    "location": 2,
+    "content": "parameter的function"
+  },
+  {
+    "from": 350.46,
+    "to": 351.9,
+    "location": 2,
+    "content": "這個未知的parameter"
+  },
+  {
+    "from": 351.9,
+    "to": 353.9,
+    "location": 2,
+    "content": "我們可以代各種不同的數字"
+  },
+  {
+    "from": 354.3,
+    "to": 356.03,
+    "location": 2,
+    "content": "你代θ¹ 得到一個function"
+  },
+  {
+    "from": 356.1,
+    "to": 358.03,
+    "location": 2,
+    "content": "我們把那個function用這個"
+  },
+  {
+    "from": 358.03,
+    "to": 359.17,
+    "location": 2,
+    "content": "一個點來表示"
+  },
+  {
+    "from": 359.17,
+    "to": 361.46,
+    "location": 2,
+    "content": "θ² 得到另一個function"
+  },
+  {
+    "from": 361.64,
+    "to": 363.76,
+    "location": 2,
+    "content": "你把所有的function集合起來"
+  },
+  {
+    "from": 363.76,
+    "to": 365.37,
+    "location": 2,
+    "content": "得到一個function的set"
+  },
+  {
+    "from": 365.9,
+    "to": 367.97,
+    "location": 2,
+    "content": "但是這個function的set它太小了"
+  },
+  {
+    "from": 368.24,
+    "to": 369.63,
+    "location": 2,
+    "content": "這個function的set裡面"
+  },
+  {
+    "from": 369.73,
+    "to": 371.58,
+    "location": 2,
+    "content": "沒有包含任何一個function"
+  },
+  {
+    "from": 371.9,
+    "to": 373.95,
+    "location": 2,
+    "content": "可以讓我們的loss變低"
+  },
+  {
+    "from": 374.59,
+    "to": 376.19,
+    "location": 2,
+    "content": "可以讓loss變低的function"
+  },
+  {
+    "from": 376.54,
+    "to": 380.91,
+    "location": 2,
+    "content": "不在你的model可以描述的範圍內"
+  },
+  {
+    "from": 381.04,
+    "to": 382.59,
+    "location": 2,
+    "content": "你的model裡面有未知的參數"
+  },
+  {
+    "from": 382.59,
+    "to": 384.39,
+    "location": 2,
+    "content": "未知參數可以代任何的數值"
+  },
+  {
+    "from": 384.49,
+    "to": 385.91,
+    "location": 2,
+    "content": "把這些數值代進去以後"
+  },
+  {
+    "from": 385.91,
+    "to": 387.4,
+    "location": 2,
+    "content": "你得到了一個function的set"
+  },
+  {
+    "from": 387.51,
+    "to": 389.4,
+    "location": 2,
+    "content": "代入不同的數值得到不同的function"
+  },
+  {
+    "from": 389.58,
+    "to": 390.89,
+    "location": 2,
+    "content": "把所有function集合起來"
+  },
+  {
+    "from": 390.89,
+    "to": 392.01,
+    "location": 2,
+    "content": "你得到一個function的set"
+  },
+  {
+    "from": 392.25,
+    "to": 393.34,
+    "location": 2,
+    "content": "在這個set裡面"
+  },
+  {
+    "from": 393.55,
+    "to": 395.66,
+    "location": 2,
+    "content": "沒有任何一個function"
+  },
+  {
+    "from": 395.9,
+    "to": 397.14,
+    "location": 2,
+    "content": "可以讓你的loss變低"
+  },
+  {
+    "from": 397.46,
+    "to": 398.58,
+    "location": 2,
+    "content": "在這個情況下"
+  },
+  {
+    "from": 398.79,
+    "to": 400.84,
+    "location": 2,
+    "content": "就算你找出了一個θ*"
+  },
+  {
+    "from": 401.01,
+    "to": 402.84,
+    "location": 2,
+    "content": "它是這些藍色的function裡面"
+  },
+  {
+    "from": 402.84,
+    "to": 404,
+    "location": 2,
+    "content": "最好的那一個"
+  },
+  {
+    "from": 404.23,
+    "to": 405.6,
+    "location": 2,
+    "content": "它是那個藍色的function裡面"
+  },
+  {
+    "from": 405.6,
+    "to": 407.11,
+    "location": 2,
+    "content": "可以讓loss最低的那一個"
+  },
+  {
+    "from": 407.41,
+    "to": 409.75,
+    "location": 2,
+    "content": "也無濟於事了"
+  },
+  {
+    "from": 409.75,
+    "to": 410.9,
+    "location": 2,
+    "content": "這些都是魯蛇"
+  },
+  {
+    "from": 411.02,
+    "to": 412.45,
+    "location": 2,
+    "content": "它只是魯蛇裡面的霸主"
+  },
+  {
+    "from": 412.55,
+    "to": 413.56,
+    "location": 2,
+    "content": "就還是一個魯蛇"
+  },
+  {
+    "from": 413.86,
+    "to": 416.08,
+    "location": 2,
+    "content": "那個loss還是不夠低"
+  },
+  {
+    "from": 416.83,
+    "to": 420.98,
+    "location": 2,
+    "content": "這個狀況就是你想要在大海裡面撈針"
+  },
+  {
+    "from": 421.09,
+    "to": 423.15,
+    "location": 2,
+    "content": "這個針指的是一個loss低的function"
+  },
+  {
+    "from": 423.42,
+    "to": 425.92,
+    "location": 2,
+    "content": "結果針根本就不在海裡"
+  },
+  {
+    "from": 425.92,
+    "to": 426.84,
+    "location": 2,
+    "content": "白忙一場"
+  },
+  {
+    "from": 426.98,
+    "to": 428.84,
+    "location": 2,
+    "content": "你怎麼撈都撈不出針"
+  },
+  {
+    "from": 428.84,
+    "to": 430.59,
+    "location": 2,
+    "content": "因為針根本就不在你的"
+  },
+  {
+    "from": 430.83,
+    "to": 432.09,
+    "location": 2,
+    "content": "這個function set裡面"
+  },
+  {
+    "from": 432.15,
+    "to": 433.71,
+    "location": 2,
+    "content": "不在你的這個大海裡面"
+  },
+  {
+    "from": 434.23,
+    "to": 434.99,
+    "location": 2,
+    "content": "所以怎麼辦"
+  },
+  {
+    "from": 434.99,
+    "to": 437.9,
+    "location": 2,
+    "content": "這個時候重新設計一個model"
+  },
+  {
+    "from": 438.2,
+    "to": 439.31,
+    "location": 2,
+    "content": "怎麼重新設計"
+  },
+  {
+    "from": 439.49,
+    "to": 441.85,
+    "location": 2,
+    "content": "給你的model更大的彈性"
+  },
+  {
+    "from": 441.95,
+    "to": 443.58,
+    "location": 2,
+    "content": "我們上週已經示範過"
+  },
+  {
+    "from": 443.72,
+    "to": 444.54,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 444.67,
+    "to": 447.62,
+    "location": 2,
+    "content": "你可以增加你輸入的features"
+  },
+  {
+    "from": 447.77,
+    "to": 448.71,
+    "location": 2,
+    "content": "我們上週說"
+  },
+  {
+    "from": 448.85,
+    "to": 450.25,
+    "location": 2,
+    "content": "本來我們輸入的features"
+  },
+  {
+    "from": 450.37,
+    "to": 451.72,
+    "location": 2,
+    "content": "只有前一天的資訊"
+  },
+  {
+    "from": 451.72,
+    "to": 454.06,
+    "location": 2,
+    "content": "假設我們要預測接下來的這個"
+  },
+  {
+    "from": 454.06,
+    "to": 455.22,
+    "location": 2,
+    "content": "觀看人數的話"
+  },
+  {
+    "from": 455.37,
+    "to": 457.1,
+    "location": 2,
+    "content": "我們用前一天的資訊"
+  },
+  {
+    "from": 457.49,
+    "to": 458.13,
+    "location": 2,
+    "content": "不夠多"
+  },
+  {
+    "from": 458.26,
+    "to": 459.94,
+    "location": 2,
+    "content": "那用56天前的資訊"
+  },
+  {
+    "from": 460.1,
+    "to": 462.91,
+    "location": 2,
+    "content": "那model的彈性就比較大了"
+  },
+  {
+    "from": 463.22,
+    "to": 465.04,
+    "location": 2,
+    "content": "你也可以用Deep Learning"
+  },
+  {
+    "from": 465.27,
+    "to": 467.11,
+    "location": 2,
+    "content": "增加更多的彈性"
+  },
+  {
+    "from": 467.25,
+    "to": 468.41,
+    "location": 2,
+    "content": "所以如果你覺得"
+  },
+  {
+    "from": 468.55,
+    "to": 470.77,
+    "location": 2,
+    "content": "你的model的彈性不夠大"
+  },
+  {
+    "from": 470.97,
+    "to": 472.53,
+    "location": 2,
+    "content": "那你可以增加更多features"
+  },
+  {
+    "from": 472.83,
+    "to": 475.16,
+    "location": 2,
+    "content": "可以設一個更大的model"
+  },
+  {
+    "from": 475.16,
+    "to": 476.03,
+    "location": 2,
+    "content": "可以用deep learning"
+  },
+  {
+    "from": 476.03,
+    "to": 478.03,
+    "location": 2,
+    "content": "來增加model的彈性"
+  },
+  {
+    "from": 478.51,
+    "to": 481.52,
+    "location": 2,
+    "content": "這是第一個可以的解法"
+  },
+  {
+    "from": 481.99,
+    "to": 484.44,
+    "location": 2,
+    "content": "但是並不是training的時候"
+  },
+  {
+    "from": 484.44,
+    "to": 487.69,
+    "location": 2,
+    "content": "loss大就代表一定是model bias"
+  },
+  {
+    "from": 488.15,
+    "to": 489.84,
+    "location": 2,
+    "content": "你可能會遇到另外一個問題"
+  },
+  {
+    "from": 489.84,
+    "to": 490.85,
+    "location": 2,
+    "content": "這個問題是什麼"
+  },
+  {
+    "from": 491.02,
+    "to": 495.01,
+    "location": 2,
+    "content": "這個問題是optimization做得不好"
+  },
+  {
+    "from": 495.58,
+    "to": 496.56,
+    "location": 2,
+    "content": "什麼意思呢"
+  },
+  {
+    "from": 497.16,
+    "to": 498.24,
+    "location": 2,
+    "content": "我們知道說"
+  },
+  {
+    "from": 498.24,
+    "to": 500.08,
+    "location": 2,
+    "content": "我們今天用的optimization"
+  },
+  {
+    "from": 500.08,
+    "to": 501.01,
+    "location": 2,
+    "content": "在這門課裡面"
+  },
+  {
+    "from": 501.01,
+    "to": 503.33,
+    "location": 2,
+    "content": "我們其實都只會用到gradient descent"
+  },
+  {
+    "from": 503.33,
+    "to": 504.74,
+    "location": 2,
+    "content": "這種optimization的方法"
+  },
+  {
+    "from": 504.95,
+    "to": 507.4,
+    "location": 2,
+    "content": "這種optimization的方法很多的問題"
+  },
+  {
+    "from": 507.6,
+    "to": 509.63,
+    "location": 2,
+    "content": "舉例來說 我們上週也講過說"
+  },
+  {
+    "from": 509.99,
+    "to": 513.16,
+    "location": 2,
+    "content": "你可能會卡在local minima的地方"
+  },
+  {
+    "from": 513.41,
+    "to": 515.03,
+    "location": 2,
+    "content": "你沒有辦法找到一個"
+  },
+  {
+    "from": 515.17,
+    "to": 517.95,
+    "location": 2,
+    "content": "真的可以讓loss很低的參數"
+  },
+  {
+    "from": 518.46,
+    "to": 521.32,
+    "location": 2,
+    "content": "如果用圖具象化的方式來表示"
+  },
+  {
+    "from": 521.32,
+    "to": 522.36,
+    "location": 2,
+    "content": "就像這個樣子"
+  },
+  {
+    "from": 522.86,
+    "to": 524.7,
+    "location": 2,
+    "content": "這個是你的model"
+  },
+  {
+    "from": 524.7,
+    "to": 527.77,
+    "location": 2,
+    "content": "它可以表示的函式所形成的集合"
+  },
+  {
+    "from": 528.24,
+    "to": 530.7,
+    "location": 2,
+    "content": "你可以把θ 代入不同的數值"
+  },
+  {
+    "from": 530.9,
+    "to": 531.98,
+    "location": 2,
+    "content": "形成不同的function"
+  },
+  {
+    "from": 531.98,
+    "to": 534.44,
+    "location": 2,
+    "content": "把所有的function通通集合在一起"
+  },
+  {
+    "from": 534.66,
+    "to": 535.82,
+    "location": 2,
+    "content": "得到這個藍色的set"
+  },
+  {
+    "from": 536.26,
+    "to": 537.73,
+    "location": 2,
+    "content": "這個藍色的set裡面"
+  },
+  {
+    "from": 537.85,
+    "to": 539.93,
+    "location": 2,
+    "content": "確實包含了一些function"
+  },
+  {
+    "from": 540.21,
+    "to": 542.03,
+    "location": 2,
+    "content": "這些function它的loss是低的"
+  },
+  {
+    "from": 542.42,
+    "to": 545.62,
+    "location": 2,
+    "content": "但問題是gradient descent這一個演算法"
+  },
+  {
+    "from": 545.88,
+    "to": 547.88,
+    "location": 2,
+    "content": "沒辦法幫我們找出"
+  },
+  {
+    "from": 547.88,
+    "to": 549.2,
+    "location": 2,
+    "content": "這個loss低的function"
+  },
+  {
+    "from": 549.45,
+    "to": 551.49,
+    "location": 2,
+    "content": "gradient descent說你要我幫你解"
+  },
+  {
+    "from": 551.49,
+    "to": 552.78,
+    "location": 2,
+    "content": "optimization的problem"
+  },
+  {
+    "from": 552.88,
+    "to": 554.98,
+    "location": 2,
+    "content": "我給你這個θ* 然後就結束了"
+  },
+  {
+    "from": 554.98,
+    "to": 557.79,
+    "location": 2,
+    "content": "但是這個θ^* 它給我的loss不夠低"
+  },
+  {
+    "from": 558.09,
+    "to": 559.29,
+    "location": 2,
+    "content": "這一個model裡面"
+  },
+  {
+    "from": 559.45,
+    "to": 560.94,
+    "location": 2,
+    "content": "存在著某一個function"
+  },
+  {
+    "from": 560.94,
+    "to": 562.17,
+    "location": 2,
+    "content": "它的loss是夠低的"
+  },
+  {
+    "from": 562.31,
+    "to": 563.31,
+    "location": 2,
+    "content": "gradient descent"
+  },
+  {
+    "from": 563.57,
+    "to": 566.18,
+    "location": 2,
+    "content": "沒有給我們這一個function"
+  },
+  {
+    "from": 567.33,
+    "to": 570.73,
+    "location": 2,
+    "content": "這就好像是說 我們想大海撈針"
+  },
+  {
+    "from": 570.88,
+    "to": 572.19,
+    "location": 2,
+    "content": "針確實在海裡"
+  },
+  {
+    "from": 572.44,
+    "to": 575.91,
+    "location": 2,
+    "content": "但是我們卻沒有辦法把針撈起來"
+  },
+  {
+    "from": 576.75,
+    "to": 578.03,
+    "location": 2,
+    "content": "這邊問題就來了"
+  },
+  {
+    "from": 578.7,
+    "to": 579.86,
+    "location": 2,
+    "content": "我們今天看到"
+  },
+  {
+    "from": 580.04,
+    "to": 582.59,
+    "location": 2,
+    "content": "training data的loss不夠低的時候"
+  },
+  {
+    "from": 583.01,
+    "to": 584.94,
+    "location": 2,
+    "content": "到底是model bias"
+  },
+  {
+    "from": 585.3,
+    "to": 587.85,
+    "location": 2,
+    "content": "還是optimization的問題呢"
+  },
+  {
+    "from": 588.39,
+    "to": 589.53,
+    "location": 2,
+    "content": "今天我們發現說"
+  },
+  {
+    "from": 589.53,
+    "to": 591.38,
+    "location": 2,
+    "content": "我們找不到一個loss低的function"
+  },
+  {
+    "from": 591.59,
+    "to": 594.27,
+    "location": 2,
+    "content": "到底是因為我們的model的彈性不夠"
+  },
+  {
+    "from": 594.45,
+    "to": 596.01,
+    "location": 2,
+    "content": "我們的海裡面沒有針"
+  },
+  {
+    "from": 596.19,
+    "to": 596.99,
+    "location": 2,
+    "content": "還是說"
+  },
+  {
+    "from": 597.1,
+    "to": 599.88,
+    "location": 2,
+    "content": "我們的model的彈性已經夠了"
+  },
+  {
+    "from": 600.05,
+    "to": 602.82,
+    "location": 2,
+    "content": "只是optimization gradient descent不給力"
+  },
+  {
+    "from": 602.96,
+    "to": 605.16,
+    "location": 2,
+    "content": "它沒辦法把針撈出來"
+  },
+  {
+    "from": 605.66,
+    "to": 608.08,
+    "location": 2,
+    "content": "到底是哪一個呢"
+  },
+  {
+    "from": 608.08,
+    "to": 610.23,
+    "location": 2,
+    "content": "到底我們的model已經夠大了"
+  },
+  {
+    "from": 610.53,
+    "to": 612.68,
+    "location": 2,
+    "content": "還是它不夠大"
+  },
+  {
+    "from": 613.17,
+    "to": 615.27,
+    "location": 2,
+    "content": "怎麼判斷這件事呢"
+  },
+  {
+    "from": 616.32,
+    "to": 618.25,
+    "location": 2,
+    "content": "這邊一個建議判斷的方法"
+  },
+  {
+    "from": 618.25,
+    "to": 621.46,
+    "location": 2,
+    "content": "就是你可以透過比較不同的模型"
+  },
+  {
+    "from": 621.64,
+    "to": 622.63,
+    "location": 2,
+    "content": "來得知說"
+  },
+  {
+    "from": 622.84,
+    "to": 626.11,
+    "location": 2,
+    "content": "你的model現在到底夠不夠大"
+  },
+  {
+    "from": 626.64,
+    "to": 627.42,
+    "location": 2,
+    "content": "怎麼說呢"
+  },
+  {
+    "from": 627.42,
+    "to": 628.53,
+    "location": 2,
+    "content": "我們這邊舉一個例子"
+  },
+  {
+    "from": 628.64,
+    "to": 631.92,
+    "location": 2,
+    "content": "這一個實驗是從residual network"
+  },
+  {
+    "from": 631.92,
+    "to": 634.27,
+    "location": 2,
+    "content": "那篇paper裡面節錄出來的"
+  },
+  {
+    "from": 635.01,
+    "to": 637.18,
+    "location": 2,
+    "content": "我們把paper連結放在右上角"
+  },
+  {
+    "from": 637.38,
+    "to": 640.12,
+    "location": 2,
+    "content": "這篇paper一開頭就跟你講一個故事"
+  },
+  {
+    "from": 640.12,
+    "to": 642.92,
+    "location": 2,
+    "content": "它說 我想測2個networks"
+  },
+  {
+    "from": 643.08,
+    "to": 645.41,
+    "location": 2,
+    "content": "一個network有20層"
+  },
+  {
+    "from": 645.6,
+    "to": 647.99,
+    "location": 2,
+    "content": "一個network有56層"
+  },
+  {
+    "from": 648.41,
+    "to": 651.2,
+    "location": 2,
+    "content": "我們把它們測試在測試資料上"
+  },
+  {
+    "from": 651.86,
+    "to": 654.84,
+    "location": 2,
+    "content": "這個橫軸指的是training的過程"
+  },
+  {
+    "from": 654.84,
+    "to": 656.96,
+    "location": 2,
+    "content": "就是你參數update的過程"
+  },
+  {
+    "from": 657.54,
+    "to": 659.09,
+    "location": 2,
+    "content": "隨著參數的update"
+  },
+  {
+    "from": 659.09,
+    "to": 660.95,
+    "location": 2,
+    "content": "當然你的loss會越來越低"
+  },
+  {
+    "from": 661.39,
+    "to": 663.9,
+    "location": 2,
+    "content": "但是結果20層的loss比較低"
+  },
+  {
+    "from": 664.17,
+    "to": 667.03,
+    "location": 2,
+    "content": "56層的loss還比較高"
+  },
+  {
+    "from": 667.59,
+    "to": 670.17,
+    "location": 2,
+    "content": "這個residual network是比較早期的paper"
+  },
+  {
+    "from": 670.17,
+    "to": 671.68,
+    "location": 2,
+    "content": "2015年的paper"
+  },
+  {
+    "from": 671.68,
+    "to": 672.85,
+    "location": 2,
+    "content": "如果你現在大學生的話"
+  },
+  {
+    "from": 672.85,
+    "to": 674.43,
+    "location": 2,
+    "content": "那個時候你都還是高中生而已"
+  },
+  {
+    "from": 674.43,
+    "to": 676.94,
+    "location": 2,
+    "content": "所以那個時候大家對Deep Learning"
+  },
+  {
+    "from": 676.94,
+    "to": 678.91,
+    "location": 2,
+    "content": "了解還沒有那麼的透徹"
+  },
+  {
+    "from": 678.91,
+    "to": 679.74,
+    "location": 2,
+    "content": "大家對deep learning"
+  },
+  {
+    "from": 679.74,
+    "to": 681.2,
+    "location": 2,
+    "content": "有各種奇怪的誤解"
+  },
+  {
+    "from": 681.31,
+    "to": 682.79,
+    "location": 2,
+    "content": "很多人看到這張圖都會說"
+  },
+  {
+    "from": 682.94,
+    "to": 684.09,
+    "location": 2,
+    "content": "這個代表什麼"
+  },
+  {
+    "from": 684.26,
+    "to": 685.94,
+    "location": 2,
+    "content": "這個代表overfitting"
+  },
+  {
+    "from": 685.94,
+    "to": 688.18,
+    "location": 2,
+    "content": "告訴你deep learning不work 知道嗎"
+  },
+  {
+    "from": 688.18,
+    "to": 689.95,
+    "location": 2,
+    "content": "56層太深了 不work"
+  },
+  {
+    "from": 689.95,
+    "to": 691.39,
+    "location": 2,
+    "content": "根本就不需要那麼深"
+  },
+  {
+    "from": 691.39,
+    "to": 693.32,
+    "location": 2,
+    "content": "那個時候大家也不是每個人都覺得"
+  },
+  {
+    "from": 693.32,
+    "to": 694.26,
+    "location": 2,
+    "content": "deep learning是好的"
+  },
+  {
+    "from": 694.26,
+    "to": 695.16,
+    "location": 2,
+    "content": "那時候還有很多"
+  },
+  {
+    "from": 695.8,
+    "to": 696.85,
+    "location": 2,
+    "content": "對deep learning的質疑"
+  },
+  {
+    "from": 696.85,
+    "to": 698.58,
+    "location": 2,
+    "content": "所以看到這個實驗有人就會說"
+  },
+  {
+    "from": 698.76,
+    "to": 700.51,
+    "location": 2,
+    "content": "最深沒有比較好"
+  },
+  {
+    "from": 700.51,
+    "to": 702.22,
+    "location": 2,
+    "content": "所以這個叫做overfitting"
+  },
+  {
+    "from": 702.83,
+    "to": 704.53,
+    "location": 2,
+    "content": "但是這個是overfitting嗎"
+  },
+  {
+    "from": 704.66,
+    "to": 706.53,
+    "location": 2,
+    "content": "這個不是overfitting"
+  },
+  {
+    "from": 706.53,
+    "to": 708.17,
+    "location": 2,
+    "content": "等一下會告訴你overfitting是什麼"
+  },
+  {
+    "from": 708.17,
+    "to": 709.39,
+    "location": 2,
+    "content": "並不是所有的結果不好"
+  },
+  {
+    "from": 709.39,
+    "to": 710.37,
+    "location": 2,
+    "content": "都叫做overfitting"
+  },
+  {
+    "from": 710.75,
+    "to": 713.75,
+    "location": 2,
+    "content": "你要檢查一下訓練資料上面的解釋"
+  },
+  {
+    "from": 714.3,
+    "to": 716.57,
+    "location": 2,
+    "content": "你檢查訓練資料的結果發現說"
+  },
+  {
+    "from": 716.68,
+    "to": 717.98,
+    "location": 2,
+    "content": "現在20層的network"
+  },
+  {
+    "from": 717.98,
+    "to": 719.53,
+    "location": 2,
+    "content": "跟56層的network比起來"
+  },
+  {
+    "from": 719.53,
+    "to": 720.89,
+    "location": 2,
+    "content": "在訓練資料上"
+  },
+  {
+    "from": 721.15,
+    "to": 723.36,
+    "location": 2,
+    "content": "20層的network loss其實是比較低的"
+  },
+  {
+    "from": 723.64,
+    "to": 726.09,
+    "location": 2,
+    "content": "56層的network loss是比較高的"
+  },
+  {
+    "from": 726.42,
+    "to": 727.32,
+    "location": 2,
+    "content": "這代表什麼"
+  },
+  {
+    "from": 727.59,
+    "to": 729.56,
+    "location": 2,
+    "content": "這代表56層的network"
+  },
+  {
+    "from": 729.77,
+    "to": 732.88,
+    "location": 2,
+    "content": "它的optimization沒有做好"
+  },
+  {
+    "from": 733.01,
+    "to": 735,
+    "location": 2,
+    "content": "它的optimization不給力"
+  },
+  {
+    "from": 735.38,
+    "to": 736.09,
+    "location": 2,
+    "content": "你可能問說"
+  },
+  {
+    "from": 736.09,
+    "to": 737.37,
+    "location": 2,
+    "content": "你怎麼知道是"
+  },
+  {
+    "from": 737.37,
+    "to": 739.2,
+    "location": 2,
+    "content": "56層的optimization不給力"
+  },
+  {
+    "from": 739.2,
+    "to": 740.78,
+    "location": 2,
+    "content": "搞不好是model bias"
+  },
+  {
+    "from": 740.98,
+    "to": 742.49,
+    "location": 2,
+    "content": "搞不好是56層的network"
+  },
+  {
+    "from": 742.49,
+    "to": 744.13,
+    "location": 2,
+    "content": "它的model彈性還不夠大"
+  },
+  {
+    "from": 744.13,
+    "to": 745.55,
+    "location": 2,
+    "content": "它要156層才好"
+  },
+  {
+    "from": 745.55,
+    "to": 747.32,
+    "location": 2,
+    "content": "56層也許彈性還不夠大"
+  },
+  {
+    "from": 747.62,
+    "to": 750.34,
+    "location": 2,
+    "content": "但是你比較56層跟20層"
+  },
+  {
+    "from": 750.9,
+    "to": 753.01,
+    "location": 2,
+    "content": "20層的loss都已經可以做到這樣了"
+  },
+  {
+    "from": 753.28,
+    "to": 756.26,
+    "location": 2,
+    "content": "56層的彈性一定比20層更大對不對"
+  },
+  {
+    "from": 756.61,
+    "to": 759.2,
+    "location": 2,
+    "content": "如果今天56層的network要做到"
+  },
+  {
+    "from": 759.2,
+    "to": 761.03,
+    "location": 2,
+    "content": "20層的network可以做到的事情"
+  },
+  {
+    "from": 761.35,
+    "to": 762.94,
+    "location": 2,
+    "content": "對它來說是輕而易舉的"
+  },
+  {
+    "from": 763.22,
+    "to": 764.81,
+    "location": 2,
+    "content": "它只要前20層的參數"
+  },
+  {
+    "from": 765.07,
+    "to": 767.07,
+    "location": 2,
+    "content": "跟這個20層的network一樣"
+  },
+  {
+    "from": 767.47,
+    "to": 770.74,
+    "location": 2,
+    "content": "剩下36層就什麼事都不做"
+  },
+  {
+    "from": 770.84,
+    "to": 774.13,
+    "location": 2,
+    "content": "identity copy前一層的輸出就好了"
+  },
+  {
+    "from": 774.28,
+    "to": 776.23,
+    "location": 2,
+    "content": "56層的network一定可以做到"
+  },
+  {
+    "from": 776.23,
+    "to": 778.01,
+    "location": 2,
+    "content": "20層的network可以做到的事情"
+  },
+  {
+    "from": 778.43,
+    "to": 779.76,
+    "location": 2,
+    "content": "所以20層的network"
+  },
+  {
+    "from": 779.76,
+    "to": 781.89,
+    "location": 2,
+    "content": "已經都可以走到這麼底的loss了"
+  },
+  {
+    "from": 782.15,
+    "to": 783.33,
+    "location": 2,
+    "content": "56層的network"
+  },
+  {
+    "from": 783.47,
+    "to": 785.99,
+    "location": 2,
+    "content": "它比20層的network彈性還要更大"
+  },
+  {
+    "from": 786.16,
+    "to": 786.92,
+    "location": 2,
+    "content": "所以沒有道理"
+  },
+  {
+    "from": 786.92,
+    "to": 788.86,
+    "location": 2,
+    "content": "20層的network可以做到的事情"
+  },
+  {
+    "from": 788.86,
+    "to": 790.49,
+    "location": 2,
+    "content": "56層的network做不到"
+  },
+  {
+    "from": 790.7,
+    "to": 791.95,
+    "location": 2,
+    "content": "所以56層的network"
+  },
+  {
+    "from": 792.08,
+    "to": 794.16,
+    "location": 2,
+    "content": "如果你optimization成功的話"
+  },
+  {
+    "from": 794.44,
+    "to": 796.26,
+    "location": 2,
+    "content": "它應該要比20層的network"
+  },
+  {
+    "from": 796.26,
+    "to": 797.35,
+    "location": 2,
+    "content": "可以得到更低的loss"
+  },
+  {
+    "from": 797.8,
+    "to": 800.69,
+    "location": 2,
+    "content": "但結果在訓練資料上面沒有"
+  },
+  {
+    "from": 801.18,
+    "to": 802.69,
+    "location": 2,
+    "content": "這個不是overfitting"
+  },
+  {
+    "from": 802.78,
+    "to": 805.01,
+    "location": 2,
+    "content": "這個也不是model bias"
+  },
+  {
+    "from": 805.34,
+    "to": 807.35,
+    "location": 2,
+    "content": "因為56層network彈性是夠的"
+  },
+  {
+    "from": 807.35,
+    "to": 810.81,
+    "location": 2,
+    "content": "這個問題是你的optimization不給力"
+  },
+  {
+    "from": 811,
+    "to": 813.55,
+    "location": 2,
+    "content": "optimization做得不夠好"
+  },
+  {
+    "from": 814.89,
+    "to": 816.94,
+    "location": 2,
+    "content": "所以剛才那個例子就告訴我們說"
+  },
+  {
+    "from": 817.07,
+    "to": 818.75,
+    "location": 2,
+    "content": "你怎麼知道你的optimization"
+  },
+  {
+    "from": 818.75,
+    "to": 819.59,
+    "location": 2,
+    "content": "有沒有做好呢"
+  },
+  {
+    "from": 819.73,
+    "to": 821.59,
+    "location": 2,
+    "content": "這邊給大家的建議是"
+  },
+  {
+    "from": 821.76,
+    "to": 824.3,
+    "location": 2,
+    "content": "看到一個你從來沒有做過的問題"
+  },
+  {
+    "from": 824.72,
+    "to": 826.67,
+    "location": 2,
+    "content": "也許你可以先跑一些比較小的"
+  },
+  {
+    "from": 826.89,
+    "to": 829.08,
+    "location": 2,
+    "content": "比較淺的network"
+  },
+  {
+    "from": 829.33,
+    "to": 830.56,
+    "location": 2,
+    "content": "或甚至用一些"
+  },
+  {
+    "from": 830.73,
+    "to": 832.45,
+    "location": 2,
+    "content": "不是deep learning的方法"
+  },
+  {
+    "from": 832.58,
+    "to": 834.35,
+    "location": 2,
+    "content": "比如說 linear model"
+  },
+  {
+    "from": 834.56,
+    "to": 836.4,
+    "location": 2,
+    "content": "比如說support vector machine"
+  },
+  {
+    "from": 836.73,
+    "to": 838.97,
+    "location": 2,
+    "content": "有一些方法比如說support vector machine"
+  },
+  {
+    "from": 838.97,
+    "to": 840.62,
+    "location": 2,
+    "content": "不知道是什麼也沒有關係"
+  },
+  {
+    "from": 841.51,
+    "to": 845.33,
+    "location": 2,
+    "content": "它們可能是比較容易做Optimize的"
+  },
+  {
+    "from": 845.59,
+    "to": 847.33,
+    "location": 2,
+    "content": "它們比較不會有"
+  },
+  {
+    "from": 847.58,
+    "to": 850.28,
+    "location": 2,
+    "content": "optimization失敗的問題"
+  },
+  {
+    "from": 850.35,
+    "to": 853.09,
+    "location": 2,
+    "content": "也就是這些model它會竭盡全力的"
+  },
+  {
+    "from": 853.09,
+    "to": 854.79,
+    "location": 2,
+    "content": "在它們的能力範圍之內"
+  },
+  {
+    "from": 854.79,
+    "to": 856.79,
+    "location": 2,
+    "content": "找出一組最好的參數"
+  },
+  {
+    "from": 856.92,
+    "to": 858.46,
+    "location": 2,
+    "content": "它們比較不會有失敗的問題"
+  },
+  {
+    "from": 858.77,
+    "to": 860.15,
+    "location": 2,
+    "content": "所以你可以先train一些"
+  },
+  {
+    "from": 860.31,
+    "to": 861.6,
+    "location": 2,
+    "content": "比較淺的model"
+  },
+  {
+    "from": 861.6,
+    "to": 863.76,
+    "location": 2,
+    "content": "或者是一些比較簡單的model"
+  },
+  {
+    "from": 863.91,
+    "to": 865.65,
+    "location": 2,
+    "content": "先知道 先有個概念說"
+  },
+  {
+    "from": 865.65,
+    "to": 866.96,
+    "location": 2,
+    "content": "這些簡單的model"
+  },
+  {
+    "from": 867.13,
+    "to": 870.15,
+    "location": 2,
+    "content": "到底可以得到什麼樣的loss"
+  },
+  {
+    "from": 870.42,
+    "to": 872.83,
+    "location": 2,
+    "content": "接下來還缺一個深的model"
+  },
+  {
+    "from": 873.16,
+    "to": 874.48,
+    "location": 2,
+    "content": "如果你發現你深的model"
+  },
+  {
+    "from": 874.48,
+    "to": 875.6,
+    "location": 2,
+    "content": "跟淺的model比起來"
+  },
+  {
+    "from": 875.6,
+    "to": 877.32,
+    "location": 2,
+    "content": "深的model明明彈性比較大"
+  },
+  {
+    "from": 877.53,
+    "to": 878.62,
+    "location": 2,
+    "content": "但loss卻沒有辦法"
+  },
+  {
+    "from": 878.62,
+    "to": 880.74,
+    "location": 2,
+    "content": "比淺的model壓得更低"
+  },
+  {
+    "from": 881.35,
+    "to": 884.95,
+    "location": 2,
+    "content": "那就代表說你的optimization有問題"
+  },
+  {
+    "from": 885.17,
+    "to": 886.59,
+    "location": 2,
+    "content": "你的gradient descent不給力"
+  },
+  {
+    "from": 886.71,
+    "to": 888.59,
+    "location": 2,
+    "content": "那你要有一些其它的方法"
+  },
+  {
+    "from": 888.84,
+    "to": 891.79,
+    "location": 2,
+    "content": "來把optimization這件事情做得更好"
+  },
+  {
+    "from": 892.52,
+    "to": 893.48,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 893.8,
+    "to": 895.74,
+    "location": 2,
+    "content": "我們上次看到的這個"
+  },
+  {
+    "from": 896.3,
+    "to": 897.92,
+    "location": 2,
+    "content": "觀看人數預測的例子"
+  },
+  {
+    "from": 897.92,
+    "to": 900.69,
+    "location": 2,
+    "content": "我們說在訓練資料上面"
+  },
+  {
+    "from": 900.69,
+    "to": 904.08,
+    "location": 2,
+    "content": "2017年到2020年的資料是訓練資料"
+  },
+  {
+    "from": 904.41,
+    "to": 905.5,
+    "location": 2,
+    "content": "一層的network"
+  },
+  {
+    "from": 905.72,
+    "to": 907.71,
+    "location": 2,
+    "content": "它的loss是0.28k"
+  },
+  {
+    "from": 907.71,
+    "to": 909.43,
+    "location": 2,
+    "content": "2層就降到0.18k"
+  },
+  {
+    "from": 909.43,
+    "to": 910.93,
+    "location": 2,
+    "content": "3層就降到0.14k"
+  },
+  {
+    "from": 910.93,
+    "to": 913.31,
+    "location": 2,
+    "content": "4層就降到0.10k"
+  },
+  {
+    "from": 913.57,
+    "to": 918,
+    "location": 2,
+    "content": "但是 我測5層的時候結果變成0.34k"
+  },
+  {
+    "from": 918.42,
+    "to": 919.39,
+    "location": 2,
+    "content": "這是什麼問題"
+  },
+  {
+    "from": 919.47,
+    "to": 921.01,
+    "location": 2,
+    "content": "我們現在loss很大"
+  },
+  {
+    "from": 921.14,
+    "to": 921.93,
+    "location": 2,
+    "content": "這是什麼問題"
+  },
+  {
+    "from": 921.93,
+    "to": 923.62,
+    "location": 2,
+    "content": "這是model bias的問題嗎"
+  },
+  {
+    "from": 923.85,
+    "to": 924.7,
+    "location": 2,
+    "content": "顯然不是"
+  },
+  {
+    "from": 924.78,
+    "to": 927.42,
+    "location": 2,
+    "content": "因為4層都可以做到0.10k了"
+  },
+  {
+    "from": 927.53,
+    "to": 929.64,
+    "location": 2,
+    "content": "5層應該可以做得更低"
+  },
+  {
+    "from": 930,
+    "to": 932.49,
+    "location": 2,
+    "content": "這個是optimization的problem"
+  },
+  {
+    "from": 932.58,
+    "to": 935.38,
+    "location": 2,
+    "content": "這個是optimization的時候做得不好"
+  },
+  {
+    "from": 935.52,
+    "to": 936.97,
+    "location": 2,
+    "content": "才造成這樣子的問題"
+  },
+  {
+    "from": 937.59,
+    "to": 939.9,
+    "location": 2,
+    "content": "好 那如果optimization做得不好的話"
+  },
+  {
+    "from": 940.02,
+    "to": 940.84,
+    "location": 2,
+    "content": "怎麼辦呢"
+  },
+  {
+    "from": 941.01,
+    "to": 942.89,
+    "location": 2,
+    "content": "這個我們下一節課"
+  },
+  {
+    "from": 943.17,
+    "to": 945.85,
+    "location": 2,
+    "content": "就會告訴大家要怎麼辦"
+  },
+  {
+    "from": 946.22,
+    "to": 948.27,
+    "location": 2,
+    "content": "你現在就知道說有這個問題"
+  },
+  {
+    "from": 948.41,
+    "to": 949.76,
+    "location": 2,
+    "content": "知道怎麼判斷說"
+  },
+  {
+    "from": 949.76,
+    "to": 951.88,
+    "location": 2,
+    "content": "現在如果你的training的loss大"
+  },
+  {
+    "from": 952.05,
+    "to": 955.14,
+    "location": 2,
+    "content": "到底是model bias還是optimization"
+  },
+  {
+    "from": 955.14,
+    "to": 957.56,
+    "location": 2,
+    "content": "如果model bias 那就把model變大"
+  },
+  {
+    "from": 957.74,
+    "to": 960.03,
+    "location": 2,
+    "content": "如果是optimization失敗了"
+  },
+  {
+    "from": 960.03,
+    "to": 963.8,
+    "location": 2,
+    "content": "那就看等一下的課程怎麼解這個問題"
+  },
+  {
+    "from": 965.22,
+    "to": 968.59,
+    "location": 2,
+    "content": "好 假設你現在經過一番的努力"
+  },
+  {
+    "from": 968.59,
+    "to": 970.59,
+    "location": 2,
+    "content": "你已經可以讓你的"
+  },
+  {
+    "from": 970.59,
+    "to": 972.59,
+    "location": 2,
+    "content": "training data的loss變小了"
+  },
+  {
+    "from": 972.86,
+    "to": 975.08,
+    "location": 2,
+    "content": "那接下來你就可以來看"
+  },
+  {
+    "from": 975.32,
+    "to": 976.73,
+    "location": 2,
+    "content": "testing data loss"
+  },
+  {
+    "from": 977.02,
+    "to": 978.91,
+    "location": 2,
+    "content": "看testing data loss做得怎麼樣"
+  },
+  {
+    "from": 979.25,
+    "to": 981.11,
+    "location": 2,
+    "content": "如果testing data loss也小"
+  },
+  {
+    "from": 981.11,
+    "to": 984.5,
+    "location": 2,
+    "content": "有比這個strong baseline還要小就結束了"
+  },
+  {
+    "from": 984.5,
+    "to": 986.82,
+    "location": 2,
+    "content": "沒什麼好做的就結束了好嗎 結束了"
+  },
+  {
+    "from": 987.29,
+    "to": 991.18,
+    "location": 2,
+    "content": "好 那但是如果你覺得還不夠小呢"
+  },
+  {
+    "from": 991.18,
+    "to": 993.18,
+    "location": 2,
+    "content": "如果training data上面的loss小"
+  },
+  {
+    "from": 993.47,
+    "to": 995.01,
+    "location": 2,
+    "content": "testing data上的loss大"
+  },
+  {
+    "from": 995.2,
+    "to": 997.57,
+    "location": 2,
+    "content": "那你可能就是真的遇到"
+  },
+  {
+    "from": 997.84,
+    "to": 999.01,
+    "location": 2,
+    "content": "overfitting的問題"
+  },
+  {
+    "from": 999.36,
+    "to": 1001.76,
+    "location": 2,
+    "content": "你要注意 是training的loss小"
+  },
+  {
+    "from": 1001.76,
+    "to": 1005.19,
+    "location": 2,
+    "content": "testing的loss大 才叫做overfitting"
+  },
+  {
+    "from": 1005.53,
+    "to": 1007.38,
+    "location": 2,
+    "content": "很多同學每次一看到結果不好"
+  },
+  {
+    "from": 1007.38,
+    "to": 1008.72,
+    "location": 2,
+    "content": "在testing上的結果不好"
+  },
+  {
+    "from": 1008.72,
+    "to": 1009.92,
+    "location": 2,
+    "content": "就說這個是overfitting"
+  },
+  {
+    "from": 1010.19,
+    "to": 1011.8,
+    "location": 2,
+    "content": "不一定是overfitting"
+  },
+  {
+    "from": 1012.01,
+    "to": 1013.13,
+    "location": 2,
+    "content": "你拿一個結果來問我說"
+  },
+  {
+    "from": 1013.13,
+    "to": 1015.05,
+    "location": 2,
+    "content": "老師這個結果要怎麼做得更好的時候"
+  },
+  {
+    "from": 1015.05,
+    "to": 1016.29,
+    "location": 2,
+    "content": "我第一個問題就會問你說"
+  },
+  {
+    "from": 1016.46,
+    "to": 1017.87,
+    "location": 2,
+    "content": "你在training data上的loss"
+  },
+  {
+    "from": 1017.87,
+    "to": 1019.01,
+    "location": 2,
+    "content": "到底做得怎麼樣"
+  },
+  {
+    "from": 1019.25,
+    "to": 1021.29,
+    "location": 2,
+    "content": "我發現十個同學有八個同學都說"
+  },
+  {
+    "from": 1021.44,
+    "to": 1022.72,
+    "location": 2,
+    "content": "要看training data的loss嗎"
+  },
+  {
+    "from": 1022.72,
+    "to": 1024.63,
+    "location": 2,
+    "content": "我沒有把training data loss記下來"
+  },
+  {
+    "from": 1024.87,
+    "to": 1026.63,
+    "location": 2,
+    "content": "你要把training data loss記下來"
+  },
+  {
+    "from": 1026.83,
+    "to": 1029.7,
+    "location": 2,
+    "content": "先確定說你的optimization沒有問題"
+  },
+  {
+    "from": 1029.83,
+    "to": 1030.94,
+    "location": 2,
+    "content": "你的model夠大了"
+  },
+  {
+    "from": 1031.08,
+    "to": 1031.85,
+    "location": 2,
+    "content": "然後接下來"
+  },
+  {
+    "from": 1032.08,
+    "to": 1034.71,
+    "location": 2,
+    "content": "才看看是不是testing的問題"
+  },
+  {
+    "from": 1035.84,
+    "to": 1038.55,
+    "location": 2,
+    "content": "好 如果是training的loss小"
+  },
+  {
+    "from": 1038.55,
+    "to": 1039.6,
+    "location": 2,
+    "content": "testing的loss大"
+  },
+  {
+    "from": 1039.85,
+    "to": 1043.02,
+    "location": 2,
+    "content": "這個有可能是overfitting"
+  },
+  {
+    "from": 1043.29,
+    "to": 1045.93,
+    "location": 2,
+    "content": "為什麼會有overfitting這樣的狀況呢"
+  },
+  {
+    "from": 1045.93,
+    "to": 1051.08,
+    "location": 2,
+    "content": "為什麼有可能training的loss小"
+  },
+  {
+    "from": 1051.08,
+    "to": 1052.85,
+    "location": 2,
+    "content": "testing的loss大呢"
+  },
+  {
+    "from": 1053.14,
+    "to": 1056.32,
+    "location": 2,
+    "content": "這邊就舉一個極端的例子來告訴你說"
+  },
+  {
+    "from": 1056.32,
+    "to": 1058.39,
+    "location": 2,
+    "content": "為什麼會發生這樣子的狀況"
+  },
+  {
+    "from": 1058.93,
+    "to": 1061,
+    "location": 2,
+    "content": "這是我們的訓練資料"
+  },
+  {
+    "from": 1061.51,
+    "to": 1063.43,
+    "location": 2,
+    "content": "假設根據這些訓練資料"
+  },
+  {
+    "from": 1063.56,
+    "to": 1065.43,
+    "location": 2,
+    "content": "某一個很廢的"
+  },
+  {
+    "from": 1066.07,
+    "to": 1067.66,
+    "location": 2,
+    "content": "machine learning的方法"
+  },
+  {
+    "from": 1067.83,
+    "to": 1070.43,
+    "location": 2,
+    "content": "它找出了一個一無是處的function"
+  },
+  {
+    "from": 1070.75,
+    "to": 1072.06,
+    "location": 2,
+    "content": "這個一無是處的function"
+  },
+  {
+    "from": 1072.06,
+    "to": 1073.36,
+    "location": 2,
+    "content": "是什麼樣的function呢"
+  },
+  {
+    "from": 1073.44,
+    "to": 1075.22,
+    "location": 2,
+    "content": "這個一無是處的function說"
+  },
+  {
+    "from": 1075.39,
+    "to": 1078.4,
+    "location": 2,
+    "content": "如果今天x當做輸入的時候"
+  },
+  {
+    "from": 1078.93,
+    "to": 1081.03,
+    "location": 2,
+    "content": "我們就去比對這個x"
+  },
+  {
+    "from": 1081.24,
+    "to": 1083.69,
+    "location": 2,
+    "content": "有沒有出現在訓練資料裡面"
+  },
+  {
+    "from": 1084.24,
+    "to": 1086.65,
+    "location": 2,
+    "content": "如果x有出現在訓練資料裡面"
+  },
+  {
+    "from": 1086.86,
+    "to": 1089.39,
+    "location": 2,
+    "content": "就把它對應的ŷ當做輸出"
+  },
+  {
+    "from": 1089.67,
+    "to": 1092,
+    "location": 2,
+    "content": "如果x沒有出現在訓練資料裡面"
+  },
+  {
+    "from": 1092,
+    "to": 1092.76,
+    "location": 2,
+    "content": "那怎麼辦"
+  },
+  {
+    "from": 1092.89,
+    "to": 1095.07,
+    "location": 2,
+    "content": "就輸出一個隨機的值"
+  },
+  {
+    "from": 1095.33,
+    "to": 1096.26,
+    "location": 2,
+    "content": "那你可以想像說"
+  },
+  {
+    "from": 1096.26,
+    "to": 1098.66,
+    "location": 2,
+    "content": "這個function啥事也沒有幹"
+  },
+  {
+    "from": 1098.77,
+    "to": 1100.97,
+    "location": 2,
+    "content": "它是一個一無是處的function"
+  },
+  {
+    "from": 1101.55,
+    "to": 1103.58,
+    "location": 2,
+    "content": "但雖然它是一個一無是處的function"
+  },
+  {
+    "from": 1103.75,
+    "to": 1105.48,
+    "location": 2,
+    "content": "它在training的data上"
+  },
+  {
+    "from": 1105.73,
+    "to": 1107.39,
+    "location": 2,
+    "content": "它的loss可是0呢"
+  },
+  {
+    "from": 1107.53,
+    "to": 1108.48,
+    "location": 2,
+    "content": "你把training的data"
+  },
+  {
+    "from": 1108.48,
+    "to": 1110.06,
+    "location": 2,
+    "content": "通通丟進這個function裡面"
+  },
+  {
+    "from": 1110.18,
+    "to": 1112.86,
+    "location": 2,
+    "content": "它的輸出跟你的訓練資料的level"
+  },
+  {
+    "from": 1112.86,
+    "to": 1114.26,
+    "location": 2,
+    "content": "是一模一樣的"
+  },
+  {
+    "from": 1114.54,
+    "to": 1116.22,
+    "location": 2,
+    "content": "所以在training data上面"
+  },
+  {
+    "from": 1116.3,
+    "to": 1117.74,
+    "location": 2,
+    "content": "這個一無是處的function"
+  },
+  {
+    "from": 1117.89,
+    "to": 1119.3,
+    "location": 2,
+    "content": "它的loss可是0呢"
+  },
+  {
+    "from": 1119.3,
+    "to": 1121.05,
+    "location": 2,
+    "content": "可是在testing data上面"
+  },
+  {
+    "from": 1121.27,
+    "to": 1123.41,
+    "location": 2,
+    "content": "它的loss會變得很大"
+  },
+  {
+    "from": 1123.49,
+    "to": 1126.15,
+    "location": 2,
+    "content": "因為它其實什麼都沒有選"
+  },
+  {
+    "from": 1126.88,
+    "to": 1128.43,
+    "location": 2,
+    "content": "這是一個比較極端的例子"
+  },
+  {
+    "from": 1128.69,
+    "to": 1129.86,
+    "location": 2,
+    "content": "在一般的狀況下"
+  },
+  {
+    "from": 1129.86,
+    "to": 1132.09,
+    "location": 2,
+    "content": "也有可能發生類似的事情"
+  },
+  {
+    "from": 1132.32,
+    "to": 1133.25,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 1133.46,
+    "to": 1136.1,
+    "location": 2,
+    "content": "假設我們輸入的feature叫做x"
+  },
+  {
+    "from": 1136.1,
+    "to": 1138.57,
+    "location": 2,
+    "content": "我們輸出的level叫做y"
+  },
+  {
+    "from": 1138.93,
+    "to": 1141.43,
+    "location": 2,
+    "content": "那x跟y都是一維的"
+  },
+  {
+    "from": 1141.43,
+    "to": 1143.15,
+    "location": 2,
+    "content": "x跟y之間的關係"
+  },
+  {
+    "from": 1143.28,
+    "to": 1146.05,
+    "location": 2,
+    "content": "是這個二次的曲線"
+  },
+  {
+    "from": 1146.36,
+    "to": 1148.6,
+    "location": 2,
+    "content": "這個曲線我們刻意用虛線來表示"
+  },
+  {
+    "from": 1148.6,
+    "to": 1150.15,
+    "location": 2,
+    "content": "因為我們通常沒有辦法"
+  },
+  {
+    "from": 1150.15,
+    "to": 1152.28,
+    "location": 2,
+    "content": "直接觀察到這條曲線"
+  },
+  {
+    "from": 1152.61,
+    "to": 1155.28,
+    "location": 2,
+    "content": "我們真正可以觀察到的是什麼"
+  },
+  {
+    "from": 1155.7,
+    "to": 1157.2,
+    "location": 2,
+    "content": "我們真正可以觀察到的"
+  },
+  {
+    "from": 1157.45,
+    "to": 1160.27,
+    "location": 2,
+    "content": "是我們的訓練資料"
+  },
+  {
+    "from": 1160.79,
+    "to": 1163.05,
+    "location": 2,
+    "content": "訓練資料 你可以想像成"
+  },
+  {
+    "from": 1163.05,
+    "to": 1164.87,
+    "location": 2,
+    "content": "就是從這條曲線上面"
+  },
+  {
+    "from": 1165.07,
+    "to": 1167.83,
+    "location": 2,
+    "content": "隨機sample出來的幾個點"
+  },
+  {
+    "from": 1168.02,
+    "to": 1172.36,
+    "location": 2,
+    "content": "今天的模型 它的能力非常的強"
+  },
+  {
+    "from": 1172.67,
+    "to": 1174.36,
+    "location": 2,
+    "content": "它的flexibility很大"
+  },
+  {
+    "from": 1174.36,
+    "to": 1175.97,
+    "location": 2,
+    "content": "它的彈性很大的話"
+  },
+  {
+    "from": 1176.25,
+    "to": 1178.61,
+    "location": 2,
+    "content": "你只給它這三個點"
+  },
+  {
+    "from": 1178.87,
+    "to": 1179.84,
+    "location": 2,
+    "content": "它會知道說"
+  },
+  {
+    "from": 1180.04,
+    "to": 1182.99,
+    "location": 2,
+    "content": "在這三個點上面我們要讓loss低"
+  },
+  {
+    "from": 1183.35,
+    "to": 1185.15,
+    "location": 2,
+    "content": "所以今天你的model"
+  },
+  {
+    "from": 1185.36,
+    "to": 1187.82,
+    "location": 2,
+    "content": "它的這個曲線會通過這三個點"
+  },
+  {
+    "from": 1188.26,
+    "to": 1189.22,
+    "location": 2,
+    "content": "但是其它"
+  },
+  {
+    "from": 1189.22,
+    "to": 1192.15,
+    "location": 2,
+    "content": "沒有訓練資料做為限制的地方"
+  },
+  {
+    "from": 1192.32,
+    "to": 1193.67,
+    "location": 2,
+    "content": "它就會有freestyle"
+  },
+  {
+    "from": 1193.82,
+    "to": 1197.46,
+    "location": 2,
+    "content": "因為它的這個flexibility很大"
+  },
+  {
+    "from": 1197.46,
+    "to": 1198.57,
+    "location": 2,
+    "content": "它彈性很大"
+  },
+  {
+    "from": 1198.75,
+    "to": 1199.35,
+    "location": 2,
+    "content": "所以你的model"
+  },
+  {
+    "from": 1199.35,
+    "to": 1201.79,
+    "location": 2,
+    "content": "可以變成各式各樣的function"
+  },
+  {
+    "from": 1201.98,
+    "to": 1203.79,
+    "location": 2,
+    "content": "你沒有給它資料做為訓練"
+  },
+  {
+    "from": 1203.93,
+    "to": 1205.02,
+    "location": 2,
+    "content": "它就會有freestyle"
+  },
+  {
+    "from": 1205.02,
+    "to": 1208.04,
+    "location": 2,
+    "content": "可以產生各式各樣奇怪的結果"
+  },
+  {
+    "from": 1208.62,
+    "to": 1209.59,
+    "location": 2,
+    "content": "這個時候"
+  },
+  {
+    "from": 1209.59,
+    "to": 1211.86,
+    "location": 2,
+    "content": "如果你再丟進你的testing data"
+  },
+  {
+    "from": 1211.86,
+    "to": 1213.38,
+    "location": 2,
+    "content": "你的testing data 和training的data"
+  },
+  {
+    "from": 1213.38,
+    "to": 1214.48,
+    "location": 2,
+    "content": "當然不會一模一樣"
+  },
+  {
+    "from": 1214.48,
+    "to": 1215.84,
+    "location": 2,
+    "content": "它們可能是從同一個"
+  },
+  {
+    "from": 1216.03,
+    "to": 1217.84,
+    "location": 2,
+    "content": "distribution sample出來的"
+  },
+  {
+    "from": 1218.05,
+    "to": 1219.84,
+    "location": 2,
+    "content": "testing data是橙色的這些點"
+  },
+  {
+    "from": 1219.91,
+    "to": 1221.53,
+    "location": 2,
+    "content": "訓練data是藍色的這些點"
+  },
+  {
+    "from": 1221.7,
+    "to": 1222.67,
+    "location": 2,
+    "content": "用藍色的這些點"
+  },
+  {
+    "from": 1222.67,
+    "to": 1224.16,
+    "location": 2,
+    "content": "找出一個function以後"
+  },
+  {
+    "from": 1224.32,
+    "to": 1226.28,
+    "location": 2,
+    "content": "你測試在橘色的這些點上"
+  },
+  {
+    "from": 1226.54,
+    "to": 1227.31,
+    "location": 2,
+    "content": "不一定會好"
+  },
+  {
+    "from": 1227.49,
+    "to": 1231.06,
+    "location": 2,
+    "content": "如果你的model它的自由度很大的話"
+  },
+  {
+    "from": 1231.06,
+    "to": 1233.06,
+    "location": 2,
+    "content": "它可以產生非常奇怪的曲線"
+  },
+  {
+    "from": 1233.24,
+    "to": 1235.29,
+    "location": 2,
+    "content": "導致訓練資料上的結果好"
+  },
+  {
+    "from": 1235.46,
+    "to": 1238.57,
+    "location": 2,
+    "content": "但是測試資料上的loss很大"
+  },
+  {
+    "from": 1239.52,
+    "to": 1244.31,
+    "location": 2,
+    "content": "好 那至於更詳細的背後的數學原理"
+  },
+  {
+    "from": 1244.31,
+    "to": 1248,
+    "location": 2,
+    "content": "為什麼這個比較有彈性的model"
+  },
+  {
+    "from": 1248.17,
+    "to": 1249.16,
+    "location": 2,
+    "content": "它就比較會"
+  },
+  {
+    "from": 1249.16,
+    "to": 1251.08,
+    "location": 2,
+    "content": "overfitting背後的數學原理"
+  },
+  {
+    "from": 1251.2,
+    "to": 1253.08,
+    "location": 2,
+    "content": "我們留待下下週"
+  },
+  {
+    "from": 1253.37,
+    "to": 1257.01,
+    "location": 2,
+    "content": "吳佩源老師會跟大家更詳細的說明"
+  },
+  {
+    "from": 1257.75,
+    "to": 1260.7,
+    "location": 2,
+    "content": "我們今天就是講一下它的概念就好"
+  },
+  {
+    "from": 1261.5,
+    "to": 1263.44,
+    "location": 2,
+    "content": "好 那怎麼解決剛才那個"
+  },
+  {
+    "from": 1263.44,
+    "to": 1264.92,
+    "location": 2,
+    "content": "overfitting的問題呢"
+  },
+  {
+    "from": 1265.25,
+    "to": 1267.96,
+    "location": 2,
+    "content": "有兩個可能的方向"
+  },
+  {
+    "from": 1268.31,
+    "to": 1269.38,
+    "location": 2,
+    "content": "第一個方向是"
+  },
+  {
+    "from": 1270.33,
+    "to": 1273.01,
+    "location": 2,
+    "content": "也許這個方向往往是最有效的方向"
+  },
+  {
+    "from": 1273.16,
+    "to": 1275.67,
+    "location": 2,
+    "content": "是增加你的訓練資料"
+  },
+  {
+    "from": 1275.84,
+    "to": 1277.2,
+    "location": 2,
+    "content": "所以今天假設你自己"
+  },
+  {
+    "from": 1277.34,
+    "to": 1278.73,
+    "location": 2,
+    "content": "想要做一個application"
+  },
+  {
+    "from": 1278.73,
+    "to": 1280.73,
+    "location": 2,
+    "content": "你發現有overfitting的問題"
+  },
+  {
+    "from": 1280.82,
+    "to": 1281.4,
+    "location": 2,
+    "content": "其實我覺得"
+  },
+  {
+    "from": 1281.4,
+    "to": 1283.33,
+    "location": 2,
+    "content": "最簡單解決overfitting的方法"
+  },
+  {
+    "from": 1283.33,
+    "to": 1286.5,
+    "location": 2,
+    "content": "就是增加你的訓練資料"
+  },
+  {
+    "from": 1286.75,
+    "to": 1288.01,
+    "location": 2,
+    "content": "所以今天如果訓練資料"
+  },
+  {
+    "from": 1288.01,
+    "to": 1291.75,
+    "location": 2,
+    "content": "藍色的點變多了"
+  },
+  {
+    "from": 1291.89,
+    "to": 1296.44,
+    "location": 2,
+    "content": "那雖然你的model它的彈性可能很大"
+  },
+  {
+    "from": 1296.66,
+    "to": 1298.62,
+    "location": 2,
+    "content": "但是因為你這邊的點非常非常的多"
+  },
+  {
+    "from": 1298.62,
+    "to": 1299.74,
+    "location": 2,
+    "content": "它就可以限制住"
+  },
+  {
+    "from": 1299.82,
+    "to": 1301.83,
+    "location": 2,
+    "content": "它看起來的形狀還是會很像"
+  },
+  {
+    "from": 1301.99,
+    "to": 1304.96,
+    "location": 2,
+    "content": "產生這些資料背後的二次曲線"
+  },
+  {
+    "from": 1305.42,
+    "to": 1306.96,
+    "location": 2,
+    "content": "但是你在作業裡面"
+  },
+  {
+    "from": 1307.28,
+    "to": 1309.07,
+    "location": 2,
+    "content": "你是不能夠使用這一招的"
+  },
+  {
+    "from": 1309.07,
+    "to": 1311.15,
+    "location": 2,
+    "content": "因為我們並不希望大家浪費時間"
+  },
+  {
+    "from": 1311.32,
+    "to": 1313.89,
+    "location": 2,
+    "content": "來蒐集資料啊等等"
+  },
+  {
+    "from": 1313.89,
+    "to": 1316.85,
+    "location": 2,
+    "content": "這個不是機器學習技術最核心的部分"
+  },
+  {
+    "from": 1316.95,
+    "to": 1318.25,
+    "location": 2,
+    "content": "我們希望大家多focus在"
+  },
+  {
+    "from": 1318.25,
+    "to": 1319.88,
+    "location": 2,
+    "content": "機器學習核心的技術上"
+  },
+  {
+    "from": 1319.99,
+    "to": 1322.65,
+    "location": 2,
+    "content": "而不是花太多力氣去網路上蒐集資料"
+  },
+  {
+    "from": 1322.65,
+    "to": 1324.05,
+    "location": 2,
+    "content": "看看怎麼把作業做好"
+  },
+  {
+    "from": 1324.15,
+    "to": 1325.71,
+    "location": 2,
+    "content": "這個不是我們要大家做的"
+  },
+  {
+    "from": 1325.71,
+    "to": 1328.71,
+    "location": 2,
+    "content": "在作業裡面不能夠自己蒐集資料"
+  },
+  {
+    "from": 1329.05,
+    "to": 1330.28,
+    "location": 2,
+    "content": "那你可以做什麼呢"
+  },
+  {
+    "from": 1330.68,
+    "to": 1333.77,
+    "location": 2,
+    "content": "你可以做data augmentation"
+  },
+  {
+    "from": 1333.97,
+    "to": 1336.8,
+    "location": 2,
+    "content": "這個方法並不算是使用了額外的資料"
+  },
+  {
+    "from": 1336.8,
+    "to": 1338.52,
+    "location": 2,
+    "content": "Data augmentation是什麼意思呢"
+  },
+  {
+    "from": 1338.69,
+    "to": 1340.15,
+    "location": 2,
+    "content": "Data augmentation就是"
+  },
+  {
+    "from": 1340.31,
+    "to": 1343,
+    "location": 2,
+    "content": "你用一些你對於這個問題的理解"
+  },
+  {
+    "from": 1343.26,
+    "to": 1346.08,
+    "location": 2,
+    "content": "自己創造出新的資料"
+  },
+  {
+    "from": 1346.44,
+    "to": 1348.54,
+    "location": 2,
+    "content": "舉例來說在做影像辨識的時候"
+  },
+  {
+    "from": 1348.67,
+    "to": 1350.54,
+    "location": 2,
+    "content": "非常常做的一個招式是"
+  },
+  {
+    "from": 1350.66,
+    "to": 1353.17,
+    "location": 2,
+    "content": "假設你的訓練資料裡面有某一張圖片"
+  },
+  {
+    "from": 1353.5,
+    "to": 1355.44,
+    "location": 2,
+    "content": "把它左右翻轉"
+  },
+  {
+    "from": 1355.94,
+    "to": 1359.98,
+    "location": 2,
+    "content": "或者是把它其中一塊截出來放大等等"
+  },
+  {
+    "from": 1360.19,
+    "to": 1363.91,
+    "location": 2,
+    "content": "你做左右翻轉 你的資料就變成兩倍"
+  },
+  {
+    "from": 1364,
+    "to": 1366.22,
+    "location": 2,
+    "content": "那這個就是data augmentation"
+  },
+  {
+    "from": 1366.78,
+    "to": 1368.74,
+    "location": 2,
+    "content": "但是你要注意一下data augmentation"
+  },
+  {
+    "from": 1368.87,
+    "to": 1370.83,
+    "location": 2,
+    "content": "不能夠隨便亂做"
+  },
+  {
+    "from": 1370.93,
+    "to": 1372.06,
+    "location": 2,
+    "content": "這個data augmentation"
+  },
+  {
+    "from": 1372.06,
+    "to": 1375.06,
+    "location": 2,
+    "content": "這個augment 要augment得有道理"
+  },
+  {
+    "from": 1375.29,
+    "to": 1377.38,
+    "location": 2,
+    "content": "舉例來說在影像辨識裡面"
+  },
+  {
+    "from": 1377.56,
+    "to": 1381.14,
+    "location": 2,
+    "content": "你就很少看到有人把影像上下顛倒"
+  },
+  {
+    "from": 1381.31,
+    "to": 1382.49,
+    "location": 2,
+    "content": "當作augmentation"
+  },
+  {
+    "from": 1382.66,
+    "to": 1383.2,
+    "location": 2,
+    "content": "為什麼"
+  },
+  {
+    "from": 1383.37,
+    "to": 1386.15,
+    "location": 2,
+    "content": "因為這些圖片都是合理的圖片"
+  },
+  {
+    "from": 1386.28,
+    "to": 1387.86,
+    "location": 2,
+    "content": "你把一張照片左右翻轉"
+  },
+  {
+    "from": 1387.86,
+    "to": 1389.94,
+    "location": 2,
+    "content": "並不會影響到裡面是什麼樣的東西"
+  },
+  {
+    "from": 1390.11,
+    "to": 1392.13,
+    "location": 2,
+    "content": "但你把它顛倒 那就很奇怪了"
+  },
+  {
+    "from": 1392.13,
+    "to": 1394.13,
+    "location": 2,
+    "content": "這可能不是一個訓練資料裡面"
+  },
+  {
+    "from": 1394.35,
+    "to": 1396.56,
+    "location": 2,
+    "content": "可能不是真實世界會出現的影像"
+  },
+  {
+    "from": 1396.73,
+    "to": 1398.12,
+    "location": 2,
+    "content": "那如果你給機器看這種"
+  },
+  {
+    "from": 1398.12,
+    "to": 1399.28,
+    "location": 2,
+    "content": "奇怪的影像的話"
+  },
+  {
+    "from": 1399.4,
+    "to": 1401.92,
+    "location": 2,
+    "content": "它可能就會學到奇怪的東西"
+  },
+  {
+    "from": 1402.32,
+    "to": 1403.69,
+    "location": 2,
+    "content": "所以data augmentation"
+  },
+  {
+    "from": 1403.81,
+    "to": 1406.76,
+    "location": 2,
+    "content": "要根據你對資料的特性"
+  },
+  {
+    "from": 1406.76,
+    "to": 1408.98,
+    "location": 2,
+    "content": "對你現在要處理的問題的理解"
+  },
+  {
+    "from": 1409.11,
+    "to": 1410.71,
+    "location": 2,
+    "content": "來選擇合適的"
+  },
+  {
+    "from": 1410.93,
+    "to": 1412.71,
+    "location": 2,
+    "content": "data augmentation的方式"
+  },
+  {
+    "from": 1414.12,
+    "to": 1417.22,
+    "location": 2,
+    "content": "好 那這邊是增加資料的部分"
+  },
+  {
+    "from": 1417.53,
+    "to": 1418.87,
+    "location": 2,
+    "content": "那還有什麼解法呢"
+  },
+  {
+    "from": 1418.97,
+    "to": 1421.98,
+    "location": 2,
+    "content": "另外一個解法就是不要讓你的模型"
+  },
+  {
+    "from": 1422.32,
+    "to": 1423.98,
+    "location": 2,
+    "content": "有那麼大的彈性"
+  },
+  {
+    "from": 1424.33,
+    "to": 1426.47,
+    "location": 2,
+    "content": "給它一些限制"
+  },
+  {
+    "from": 1427.06,
+    "to": 1430.36,
+    "location": 2,
+    "content": "舉例來說 假設我們直接限制說"
+  },
+  {
+    "from": 1430.47,
+    "to": 1432.36,
+    "location": 2,
+    "content": "現在我們的model"
+  },
+  {
+    "from": 1432.51,
+    "to": 1435.06,
+    "location": 2,
+    "content": "一定是一條二次曲線"
+  },
+  {
+    "from": 1435.36,
+    "to": 1438.32,
+    "location": 2,
+    "content": "我們somehow通靈出 知道說"
+  },
+  {
+    "from": 1438.32,
+    "to": 1440.17,
+    "location": 2,
+    "content": "x跟y背後的關係"
+  },
+  {
+    "from": 1440.19,
+    "to": 1441.98,
+    "location": 2,
+    "content": "其實就是一條二次曲線"
+  },
+  {
+    "from": 1441.98,
+    "to": 1444.63,
+    "location": 2,
+    "content": "只是我們不明確的知道這二次曲線"
+  },
+  {
+    "from": 1444.63,
+    "to": 1447.34,
+    "location": 2,
+    "content": "裡面的每一個參數長什麼樣"
+  },
+  {
+    "from": 1447.59,
+    "to": 1449.96,
+    "location": 2,
+    "content": "那你說你怎麼會通靈出這樣子的結果"
+  },
+  {
+    "from": 1449.96,
+    "to": 1451.04,
+    "location": 2,
+    "content": "你怎麼會知道說"
+  },
+  {
+    "from": 1451.04,
+    "to": 1453.5,
+    "location": 2,
+    "content": "要用多constrain的model才會好呢"
+  },
+  {
+    "from": 1453.63,
+    "to": 1456.37,
+    "location": 2,
+    "content": "那這就取決於你對這個問題的理解"
+  },
+  {
+    "from": 1456.46,
+    "to": 1458.61,
+    "location": 2,
+    "content": "因為這種model是你自己設計的"
+  },
+  {
+    "from": 1458.73,
+    "to": 1462.74,
+    "location": 2,
+    "content": "到底model要多constrain多flexible"
+  },
+  {
+    "from": 1462.74,
+    "to": 1463.72,
+    "location": 2,
+    "content": "結果才會好"
+  },
+  {
+    "from": 1463.83,
+    "to": 1465.83,
+    "location": 2,
+    "content": "那這個要問你自己"
+  },
+  {
+    "from": 1466,
+    "to": 1468.34,
+    "location": 2,
+    "content": "那要看這個設計出不同的模型"
+  },
+  {
+    "from": 1468.47,
+    "to": 1470.34,
+    "location": 2,
+    "content": "你就會得出不同的結果"
+  },
+  {
+    "from": 1470.51,
+    "to": 1472.92,
+    "location": 2,
+    "content": "好 那現在假設我們已經知道說"
+  },
+  {
+    "from": 1472.92,
+    "to": 1474.92,
+    "location": 2,
+    "content": "模型就是二次曲線"
+  },
+  {
+    "from": 1475.41,
+    "to": 1477.31,
+    "location": 2,
+    "content": "那你就會給你"
+  },
+  {
+    "from": 1477.39,
+    "to": 1479.31,
+    "location": 2,
+    "content": "你就會在選擇function的時候"
+  },
+  {
+    "from": 1479.31,
+    "to": 1480.4,
+    "location": 2,
+    "content": "有很大的限制"
+  },
+  {
+    "from": 1480.4,
+    "to": 1482.76,
+    "location": 2,
+    "content": "因為二次曲線要嘛就是這樣子"
+  },
+  {
+    "from": 1482.87,
+    "to": 1483.8,
+    "location": 2,
+    "content": "要嘛就是這樣子的"
+  },
+  {
+    "from": 1483.8,
+    "to": 1485.68,
+    "location": 2,
+    "content": "來來去去就是那幾個形狀而已"
+  },
+  {
+    "from": 1486.07,
+    "to": 1488.19,
+    "location": 2,
+    "content": "所以當我們的訓練資料有限的時候"
+  },
+  {
+    "from": 1488.39,
+    "to": 1489.32,
+    "location": 2,
+    "content": "因為我們來來去去"
+  },
+  {
+    "from": 1489.32,
+    "to": 1490.83,
+    "location": 2,
+    "content": "只能夠選那幾個function"
+  },
+  {
+    "from": 1491,
+    "to": 1491.81,
+    "location": 2,
+    "content": "所以你可能"
+  },
+  {
+    "from": 1492.08,
+    "to": 1494.12,
+    "location": 2,
+    "content": "雖然說只給了三個點"
+  },
+  {
+    "from": 1494.44,
+    "to": 1496.54,
+    "location": 2,
+    "content": "但是因為我們能選擇的function有限"
+  },
+  {
+    "from": 1496.54,
+    "to": 1498.7,
+    "location": 2,
+    "content": "你可能就會正好選到"
+  },
+  {
+    "from": 1498.86,
+    "to": 1500.88,
+    "location": 2,
+    "content": "跟真正的distribution"
+  },
+  {
+    "from": 1501.23,
+    "to": 1503.1,
+    "location": 2,
+    "content": "比較接近的function"
+  },
+  {
+    "from": 1503.19,
+    "to": 1506.38,
+    "location": 2,
+    "content": "然後在測試資料上得到比較好的結果"
+  },
+  {
+    "from": 1506.9,
+    "to": 1508.5,
+    "location": 2,
+    "content": "所以這是第二個方法"
+  },
+  {
+    "from": 1508.66,
+    "to": 1510.25,
+    "location": 2,
+    "content": "解決overfitting的問題"
+  },
+  {
+    "from": 1510.41,
+    "to": 1513.14,
+    "location": 2,
+    "content": "你要給你的model一些限制"
+  },
+  {
+    "from": 1513.58,
+    "to": 1514.7,
+    "location": 2,
+    "content": "最好你的model正好"
+  },
+  {
+    "from": 1514.7,
+    "to": 1517.57,
+    "location": 2,
+    "content": "跟背後產生資料的過程"
+  },
+  {
+    "from": 1517.57,
+    "to": 1519.29,
+    "location": 2,
+    "content": "你的process是一樣的"
+  },
+  {
+    "from": 1519.61,
+    "to": 1520.62,
+    "location": 2,
+    "content": "那你可能就會"
+  },
+  {
+    "from": 1521.06,
+    "to": 1523.46,
+    "location": 2,
+    "content": "你就有機會得到好的結果"
+  },
+  {
+    "from": 1523.9,
+    "to": 1525.94,
+    "location": 2,
+    "content": "但是如果你給你的"
+  },
+  {
+    "from": 1526.13,
+    "to": 1531.03,
+    "location": 2,
+    "content": "有哪些方法可以給model製造限制呢"
+  },
+  {
+    "from": 1531.27,
+    "to": 1532.25,
+    "location": 2,
+    "content": "舉例來說"
+  },
+  {
+    "from": 1532.79,
+    "to": 1534.67,
+    "location": 2,
+    "content": "給它比較少的參數"
+  },
+  {
+    "from": 1534.67,
+    "to": 1536,
+    "location": 2,
+    "content": "如果是deep learning的話"
+  },
+  {
+    "from": 1536.16,
+    "to": 1539.65,
+    "location": 2,
+    "content": "就給它比較少的神經元的數目"
+  },
+  {
+    "from": 1539.65,
+    "to": 1540.96,
+    "location": 2,
+    "content": "本來每層一千個神經元"
+  },
+  {
+    "from": 1540.96,
+    "to": 1542.71,
+    "location": 2,
+    "content": "改成一百個神經元之類的"
+  },
+  {
+    "from": 1543.2,
+    "to": 1547.51,
+    "location": 2,
+    "content": "或者是你可以讓model共用參數"
+  },
+  {
+    "from": 1547.51,
+    "to": 1550.81,
+    "location": 2,
+    "content": "你可以讓一些參數有一樣的數值"
+  },
+  {
+    "from": 1550.81,
+    "to": 1552.86,
+    "location": 2,
+    "content": "那這個部分如果你沒有很清楚的話"
+  },
+  {
+    "from": 1552.86,
+    "to": 1553.64,
+    "location": 2,
+    "content": "也沒有關係"
+  },
+  {
+    "from": 1553.8,
+    "to": 1556.03,
+    "location": 2,
+    "content": "我們之後在講CNN的時候"
+  },
+  {
+    "from": 1556.33,
+    "to": 1557.79,
+    "location": 2,
+    "content": "會講到這個部分"
+  },
+  {
+    "from": 1558.28,
+    "to": 1561.3,
+    "location": 2,
+    "content": "所以這邊先前情 先預告一下"
+  },
+  {
+    "from": 1561.46,
+    "to": 1564.11,
+    "location": 2,
+    "content": "就是我們之前講的network的架構"
+  },
+  {
+    "from": 1564.34,
+    "to": 1567.09,
+    "location": 2,
+    "content": "叫做fully-connected network"
+  },
+  {
+    "from": 1567.43,
+    "to": 1569.09,
+    "location": 2,
+    "content": "那fully-connected network"
+  },
+  {
+    "from": 1569.2,
+    "to": 1573.3,
+    "location": 2,
+    "content": "其實是一個比較有彈性的架構"
+  },
+  {
+    "from": 1573.61,
+    "to": 1577.41,
+    "location": 2,
+    "content": "而CNN是一個比較有限制的架構"
+  },
+  {
+    "from": 1577.58,
+    "to": 1578.43,
+    "location": 2,
+    "content": "就說你可能會說"
+  },
+  {
+    "from": 1578.43,
+    "to": 1580.04,
+    "location": 2,
+    "content": "CNN不是比較厲害嗎"
+  },
+  {
+    "from": 1580.18,
+    "to": 1581.96,
+    "location": 2,
+    "content": "大家都說做影像就是要CNN"
+  },
+  {
+    "from": 1581.96,
+    "to": 1582.68,
+    "location": 2,
+    "content": "比較厲害的model"
+  },
+  {
+    "from": 1582.68,
+    "to": 1584.09,
+    "location": 2,
+    "content": "難道它比較沒有彈性嗎"
+  },
+  {
+    "from": 1584.4,
+    "to": 1584.71,
+    "location": 2,
+    "content": "沒錯"
+  },
+  {
+    "from": 1584.71,
+    "to": 1586.71,
+    "location": 2,
+    "content": "它是一種比較沒有彈性的model"
+  },
+  {
+    "from": 1586.99,
+    "to": 1588.36,
+    "location": 2,
+    "content": "它厲害的地方就是"
+  },
+  {
+    "from": 1588.51,
+    "to": 1591.11,
+    "location": 2,
+    "content": "它是針對影像的特性"
+  },
+  {
+    "from": 1591.31,
+    "to": 1594.08,
+    "location": 2,
+    "content": "來限制模型的彈性"
+  },
+  {
+    "from": 1594.27,
+    "to": 1596.83,
+    "location": 2,
+    "content": "所以你今天fully-connected的network"
+  },
+  {
+    "from": 1596.83,
+    "to": 1598.85,
+    "location": 2,
+    "content": "可以找出來的function所形成的集合"
+  },
+  {
+    "from": 1598.85,
+    "to": 1599.74,
+    "location": 2,
+    "content": "其實是比較大的"
+  },
+  {
+    "from": 1600.05,
+    "to": 1603.1,
+    "location": 2,
+    "content": "CNN這個model所找出來的function"
+  },
+  {
+    "from": 1603.1,
+    "to": 1604.83,
+    "location": 2,
+    "content": "它形成的集合其實是比較小的"
+  },
+  {
+    "from": 1605.1,
+    "to": 1606.76,
+    "location": 2,
+    "content": "其實包含在fully-connected的"
+  },
+  {
+    "from": 1606.76,
+    "to": 1607.73,
+    "location": 2,
+    "content": "network裡面的"
+  },
+  {
+    "from": 1607.97,
+    "to": 1609.59,
+    "location": 2,
+    "content": "但是就是因為CNN給了"
+  },
+  {
+    "from": 1609.59,
+    "to": 1610.97,
+    "location": 2,
+    "content": "比較大的限制"
+  },
+  {
+    "from": 1611.17,
+    "to": 1612.71,
+    "location": 2,
+    "content": "所以CNN在影像上"
+  },
+  {
+    "from": 1612.92,
+    "to": 1614.38,
+    "location": 2,
+    "content": "反而會做得比較好"
+  },
+  {
+    "from": 1614.5,
+    "to": 1616.64,
+    "location": 2,
+    "content": "那這個之後都還會再提到"
+  },
+  {
+    "from": 1617.55,
+    "to": 1619.22,
+    "location": 2,
+    "content": "還有哪些其它的方法呢"
+  },
+  {
+    "from": 1619.38,
+    "to": 1622.93,
+    "location": 2,
+    "content": "一個就是用比較少的features"
+  },
+  {
+    "from": 1623.06,
+    "to": 1624.55,
+    "location": 2,
+    "content": "那剛才助教已經示範過"
+  },
+  {
+    "from": 1624.55,
+    "to": 1626.72,
+    "location": 2,
+    "content": "本來給三天的資料"
+  },
+  {
+    "from": 1626.9,
+    "to": 1628.1,
+    "location": 2,
+    "content": "改成用給兩天的資料"
+  },
+  {
+    "from": 1628.1,
+    "to": 1630.35,
+    "location": 2,
+    "content": "其實結果就好了一些"
+  },
+  {
+    "from": 1630.46,
+    "to": 1631.68,
+    "location": 2,
+    "content": "那這個是一個招數"
+  },
+  {
+    "from": 1632.26,
+    "to": 1635.38,
+    "location": 2,
+    "content": "還有一個招數叫做Early stopping"
+  },
+  {
+    "from": 1635.38,
+    "to": 1636.16,
+    "location": 2,
+    "content": "Early stopping"
+  },
+  {
+    "from": 1636.16,
+    "to": 1637.4,
+    "location": 2,
+    "content": "Regularization跟Dropout"
+  },
+  {
+    "from": 1637.4,
+    "to": 1639.4,
+    "location": 2,
+    "content": "都是之後課程還會講到的東西"
+  },
+  {
+    "from": 1639.58,
+    "to": 1643.28,
+    "location": 2,
+    "content": "那這三件事情在作業一的程式裡面"
+  },
+  {
+    "from": 1643.55,
+    "to": 1646.9,
+    "location": 2,
+    "content": "這個Early stopping其實是有的"
+  },
+  {
+    "from": 1646.9,
+    "to": 1649.08,
+    "location": 2,
+    "content": "助教有寫在它的code裡面"
+  },
+  {
+    "from": 1649.08,
+    "to": 1650.92,
+    "location": 2,
+    "content": "所以不知道這是什麼也沒有關係"
+  },
+  {
+    "from": 1651.04,
+    "to": 1652.67,
+    "location": 2,
+    "content": "反正你直接執行sample code"
+  },
+  {
+    "from": 1652.67,
+    "to": 1653.51,
+    "location": 2,
+    "content": "裡面就有了"
+  },
+  {
+    "from": 1653.8,
+    "to": 1654.7,
+    "location": 2,
+    "content": "Regularization"
+  },
+  {
+    "from": 1654.87,
+    "to": 1657.53,
+    "location": 2,
+    "content": "助教留下了一個空格給大家填"
+  },
+  {
+    "from": 1657.66,
+    "to": 1659.92,
+    "location": 2,
+    "content": "那你不知道什麼是regularization"
+  },
+  {
+    "from": 1659.92,
+    "to": 1660.53,
+    "location": 2,
+    "content": "沒有關係"
+  },
+  {
+    "from": 1660.53,
+    "to": 1662.53,
+    "location": 2,
+    "content": "反正你可以過得了middle的baseline"
+  },
+  {
+    "from": 1662.66,
+    "to": 1663.74,
+    "location": 2,
+    "content": "那如果你想做得更好"
+  },
+  {
+    "from": 1663.89,
+    "to": 1666.11,
+    "location": 2,
+    "content": "也許你可以先自己survey一下"
+  },
+  {
+    "from": 1666.11,
+    "to": 1666.96,
+    "location": 2,
+    "content": "regularization是什麼"
+  },
+  {
+    "from": 1666.96,
+    "to": 1668.59,
+    "location": 2,
+    "content": "看有沒有辦法自己寫"
+  },
+  {
+    "from": 1668.83,
+    "to": 1669.74,
+    "location": 2,
+    "content": "那Dropout"
+  },
+  {
+    "from": 1669.93,
+    "to": 1671.99,
+    "location": 2,
+    "content": "這是另外一個在Deep Learning裡面"
+  },
+  {
+    "from": 1671.99,
+    "to": 1673.81,
+    "location": 2,
+    "content": "常用來限制模型的方法"
+  },
+  {
+    "from": 1673.97,
+    "to": 1676.37,
+    "location": 2,
+    "content": "那這個之後還會再提到"
+  },
+  {
+    "from": 1679.02,
+    "to": 1683.33,
+    "location": 2,
+    "content": "但是我們也不要給太多的限制"
+  },
+  {
+    "from": 1683.46,
+    "to": 1685.7,
+    "location": 2,
+    "content": "為什麼不能給模型太多的限制呢"
+  },
+  {
+    "from": 1685.84,
+    "to": 1688.44,
+    "location": 2,
+    "content": "假設我們現在給模型更大的限制說"
+  },
+  {
+    "from": 1688.56,
+    "to": 1690.21,
+    "location": 2,
+    "content": "我們假設我們的模型"
+  },
+  {
+    "from": 1690.35,
+    "to": 1691.75,
+    "location": 2,
+    "content": "一定是Linear的Model"
+  },
+  {
+    "from": 1691.85,
+    "to": 1693.96,
+    "location": 2,
+    "content": "一定是寫成y=a+bx"
+  },
+  {
+    "from": 1694.53,
+    "to": 1697.76,
+    "location": 2,
+    "content": "那你的model它能夠產生的function"
+  },
+  {
+    "from": 1697.89,
+    "to": 1699.76,
+    "location": 2,
+    "content": "就一定是一條直線"
+  },
+  {
+    "from": 1700.22,
+    "to": 1701.76,
+    "location": 2,
+    "content": "今天給三個點"
+  },
+  {
+    "from": 1701.87,
+    "to": 1702.9,
+    "location": 2,
+    "content": "沒有任何一條直線"
+  },
+  {
+    "from": 1702.9,
+    "to": 1704.48,
+    "location": 2,
+    "content": "可以同時通過這三個點"
+  },
+  {
+    "from": 1704.61,
+    "to": 1706.48,
+    "location": 2,
+    "content": "但是你只能找到一條直線"
+  },
+  {
+    "from": 1706.66,
+    "to": 1708.95,
+    "location": 2,
+    "content": "這條直線跟這些點比起來"
+  },
+  {
+    "from": 1709.02,
+    "to": 1710.4,
+    "location": 2,
+    "content": "它們的距離是比較近的"
+  },
+  {
+    "from": 1710.54,
+    "to": 1712.77,
+    "location": 2,
+    "content": "但是你沒有辦法找到任何一條直線"
+  },
+  {
+    "from": 1712.98,
+    "to": 1715.26,
+    "location": 2,
+    "content": "同時通過這三個點"
+  },
+  {
+    "from": 1715.72,
+    "to": 1719.29,
+    "location": 2,
+    "content": "這個時候你的模型的限制就太大了"
+  },
+  {
+    "from": 1719.41,
+    "to": 1722.37,
+    "location": 2,
+    "content": "你在測試資料上就不會得到好的結果"
+  },
+  {
+    "from": 1722.81,
+    "to": 1725.1,
+    "location": 2,
+    "content": "但是 這個是overfitting嗎"
+  },
+  {
+    "from": 1725.28,
+    "to": 1727.1,
+    "location": 2,
+    "content": "這個不是overfitting"
+  },
+  {
+    "from": 1727.2,
+    "to": 1730.17,
+    "location": 2,
+    "content": "因為你又回到了model bias的問題"
+  },
+  {
+    "from": 1730.41,
+    "to": 1732.14,
+    "location": 2,
+    "content": "所以你現在這樣在這個情況下"
+  },
+  {
+    "from": 1732.14,
+    "to": 1734.39,
+    "location": 2,
+    "content": "這個投影片的case上面你結果不好"
+  },
+  {
+    "from": 1734.53,
+    "to": 1735.91,
+    "location": 2,
+    "content": "並不是因為overfitting了"
+  },
+  {
+    "from": 1736.03,
+    "to": 1738.22,
+    "location": 2,
+    "content": "而是因為你給你模型太大的限制"
+  },
+  {
+    "from": 1738.42,
+    "to": 1741.87,
+    "location": 2,
+    "content": "大到你有了model bias的問題"
+  },
+  {
+    "from": 1742.69,
+    "to": 1743.81,
+    "location": 2,
+    "content": "所以你就會發現說"
+  },
+  {
+    "from": 1743.81,
+    "to": 1746.78,
+    "location": 2,
+    "content": "這邊產生了一個有點矛盾"
+  },
+  {
+    "from": 1746.78,
+    "to": 1749.16,
+    "location": 2,
+    "content": "這邊產生了一個矛盾的狀況"
+  },
+  {
+    "from": 1749.64,
+    "to": 1753.15,
+    "location": 2,
+    "content": "今天你讓你的模型的複雜的程度"
+  },
+  {
+    "from": 1753.15,
+    "to": 1755.92,
+    "location": 2,
+    "content": "或這樣讓你的模型的彈性越來越大"
+  },
+  {
+    "from": 1756.01,
+    "to": 1757.84,
+    "location": 2,
+    "content": "但是什麼叫做複雜的程度"
+  },
+  {
+    "from": 1757.84,
+    "to": 1758.76,
+    "location": 2,
+    "content": "什麼叫做彈性"
+  },
+  {
+    "from": 1758.76,
+    "to": 1759.66,
+    "location": 2,
+    "content": "在今天這堂課裡面"
+  },
+  {
+    "from": 1759.66,
+    "to": 1761.66,
+    "location": 2,
+    "content": "我們其實都沒有給明確的定義"
+  },
+  {
+    "from": 1761.76,
+    "to": 1764.21,
+    "location": 2,
+    "content": "只給你一個概念上的敘述"
+  },
+  {
+    "from": 1764.21,
+    "to": 1765.75,
+    "location": 2,
+    "content": "那在下下週的課程裡面"
+  },
+  {
+    "from": 1765.91,
+    "to": 1767.3,
+    "location": 2,
+    "content": "你會真的認識到"
+  },
+  {
+    "from": 1767.45,
+    "to": 1770.4,
+    "location": 2,
+    "content": "什麼叫做一個模型很複雜"
+  },
+  {
+    "from": 1770.54,
+    "to": 1772.06,
+    "location": 2,
+    "content": "什麼叫做一個模型有彈性"
+  },
+  {
+    "from": 1772.18,
+    "to": 1776.08,
+    "location": 2,
+    "content": "怎麼真的衡量一個模型的彈性"
+  },
+  {
+    "from": 1776.2,
+    "to": 1777.55,
+    "location": 2,
+    "content": "複雜的程度有多大"
+  },
+  {
+    "from": 1777.55,
+    "to": 1779.73,
+    "location": 2,
+    "content": "那今天我們先用直觀的來了解"
+  },
+  {
+    "from": 1779.73,
+    "to": 1781.2,
+    "location": 2,
+    "content": "所謂比較複雜就是"
+  },
+  {
+    "from": 1782.13,
+    "to": 1784.05,
+    "location": 2,
+    "content": "它可以包含的function比較多"
+  },
+  {
+    "from": 1784.05,
+    "to": 1785.2,
+    "location": 2,
+    "content": "它的參數比較多"
+  },
+  {
+    "from": 1785.2,
+    "to": 1788.03,
+    "location": 2,
+    "content": "這個就是一個比較複雜的model"
+  },
+  {
+    "from": 1789.31,
+    "to": 1791.29,
+    "location": 2,
+    "content": "好 那一個比較複雜的model"
+  },
+  {
+    "from": 1791.44,
+    "to": 1793.18,
+    "location": 2,
+    "content": "如果你看它的training的loss"
+  },
+  {
+    "from": 1793.38,
+    "to": 1796.26,
+    "location": 2,
+    "content": "你會發現說 隨著model越來越複雜"
+  },
+  {
+    "from": 1796.54,
+    "to": 1799.4,
+    "location": 2,
+    "content": "Training的loss可以越來越低"
+  },
+  {
+    "from": 1800.23,
+    "to": 1802.27,
+    "location": 2,
+    "content": "但是testing的時候呢"
+  },
+  {
+    "from": 1802.59,
+    "to": 1805.23,
+    "location": 2,
+    "content": "當model複雜 越來越複雜的時候"
+  },
+  {
+    "from": 1805.41,
+    "to": 1806.38,
+    "location": 2,
+    "content": "剛開始"
+  },
+  {
+    "from": 1806.59,
+    "to": 1808.55,
+    "location": 2,
+    "content": "你的testing的loss會跟著下降"
+  },
+  {
+    "from": 1809.07,
+    "to": 1810.88,
+    "location": 2,
+    "content": "但是當複雜的程度"
+  },
+  {
+    "from": 1811.04,
+    "to": 1813.34,
+    "location": 2,
+    "content": "超過某一個程度以後"
+  },
+  {
+    "from": 1813.68,
+    "to": 1816.88,
+    "location": 2,
+    "content": "Testing的loss就會突然暴增了"
+  },
+  {
+    "from": 1818.31,
+    "to": 1820.39,
+    "location": 2,
+    "content": "那這就是因為說"
+  },
+  {
+    "from": 1820.39,
+    "to": 1822.82,
+    "location": 2,
+    "content": "當你的model越來越複雜的時候"
+  },
+  {
+    "from": 1822.82,
+    "to": 1824.02,
+    "location": 2,
+    "content": "複雜到某一個程度"
+  },
+  {
+    "from": 1824.12,
+    "to": 1826.13,
+    "location": 2,
+    "content": "overfitting的狀況就會出現"
+  },
+  {
+    "from": 1826.27,
+    "to": 1827.78,
+    "location": 2,
+    "content": "所以你在training的loss上面"
+  },
+  {
+    "from": 1827.78,
+    "to": 1829.2,
+    "location": 2,
+    "content": "可以得到比較好的結果"
+  },
+  {
+    "from": 1829.3,
+    "to": 1830.69,
+    "location": 2,
+    "content": "那在Testing的loss上面"
+  },
+  {
+    "from": 1830.92,
+    "to": 1833.76,
+    "location": 2,
+    "content": "你會得到比較大的loss"
+  },
+  {
+    "from": 1834.32,
+    "to": 1835.76,
+    "location": 2,
+    "content": "那我們當然期待說"
+  },
+  {
+    "from": 1835.87,
+    "to": 1839.62,
+    "location": 2,
+    "content": "我們可以選一個中庸的模型"
+  },
+  {
+    "from": 1839.84,
+    "to": 1842.84,
+    "location": 2,
+    "content": "不是太複雜的 也不是太簡單的"
+  },
+  {
+    "from": 1843.04,
+    "to": 1845.68,
+    "location": 2,
+    "content": "剛剛好可以在訓練資料上"
+  },
+  {
+    "from": 1846.01,
+    "to": 1848.44,
+    "location": 2,
+    "content": "給我們最好的結果"
+  },
+  {
+    "from": 1848.52,
+    "to": 1850.44,
+    "location": 2,
+    "content": "給我們最低的loss"
+  },
+  {
+    "from": 1850.44,
+    "to": 1852.11,
+    "location": 2,
+    "content": "給我們最低的testing loss"
+  },
+  {
+    "from": 1852.58,
+    "to": 1854.52,
+    "location": 2,
+    "content": "怎麼選出這樣的model呢"
+  },
+  {
+    "from": 1856.53,
+    "to": 1859.2,
+    "location": 2,
+    "content": "一個很直覺的 你很有可能"
+  },
+  {
+    "from": 1859.57,
+    "to": 1860.9,
+    "location": 2,
+    "content": "沒有人告訴你要怎麼做的話"
+  },
+  {
+    "from": 1860.9,
+    "to": 1862.35,
+    "location": 2,
+    "content": "你可能很直覺就會這麼做的"
+  },
+  {
+    "from": 1862.35,
+    "to": 1863.12,
+    "location": 2,
+    "content": "做法就是說"
+  },
+  {
+    "from": 1863.88,
+    "to": 1865.95,
+    "location": 2,
+    "content": "這個kaggle不是立刻上傳"
+  },
+  {
+    "from": 1865.95,
+    "to": 1867.86,
+    "location": 2,
+    "content": "就可以知道答案了嗎"
+  },
+  {
+    "from": 1868.11,
+    "to": 1870.47,
+    "location": 2,
+    "content": "所以假設我們有三個模型"
+  },
+  {
+    "from": 1870.74,
+    "to": 1872.73,
+    "location": 2,
+    "content": "它們的複雜的程度不太一樣"
+  },
+  {
+    "from": 1872.8,
+    "to": 1875.59,
+    "location": 2,
+    "content": "我不知道要選哪一個模型才會剛剛好"
+  },
+  {
+    "from": 1875.59,
+    "to": 1877.59,
+    "location": 2,
+    "content": "在測試資料上得到最好的結果"
+  },
+  {
+    "from": 1877.59,
+    "to": 1879.84,
+    "location": 2,
+    "content": "因為你選太複雜的就overfitting"
+  },
+  {
+    "from": 1880.01,
+    "to": 1882.64,
+    "location": 2,
+    "content": "選太簡單的有model bias的問題"
+  },
+  {
+    "from": 1882.83,
+    "to": 1884.56,
+    "location": 2,
+    "content": "那怎麼選一個不偏不倚的"
+  },
+  {
+    "from": 1884.72,
+    "to": 1886.1,
+    "location": 2,
+    "content": "不知道 那怎麼辦"
+  },
+  {
+    "from": 1886.21,
+    "to": 1888.84,
+    "location": 2,
+    "content": "把這三個模型的結果都跑出來"
+  },
+  {
+    "from": 1889.05,
+    "to": 1891.58,
+    "location": 2,
+    "content": "然後上傳到kaggle上面"
+  },
+  {
+    "from": 1891.74,
+    "to": 1894.41,
+    "location": 2,
+    "content": "你及時的知道了你的分數"
+  },
+  {
+    "from": 1894.6,
+    "to": 1896.48,
+    "location": 2,
+    "content": "看看哪個分數最低"
+  },
+  {
+    "from": 1896.61,
+    "to": 1900.04,
+    "location": 2,
+    "content": "那個模型顯然就是最好的模型"
+  },
+  {
+    "from": 1900.48,
+    "to": 1903.88,
+    "location": 2,
+    "content": "但是並不建議你這麼做"
+  },
+  {
+    "from": 1904.1,
+    "to": 1906.02,
+    "location": 2,
+    "content": "為什麼不建議你這麼做呢"
+  },
+  {
+    "from": 1906.29,
+    "to": 1909.5,
+    "location": 2,
+    "content": "我們再舉一個極端的例子"
+  },
+  {
+    "from": 1910.08,
+    "to": 1911.52,
+    "location": 2,
+    "content": "好 我們再把剛才那個"
+  },
+  {
+    "from": 1911.52,
+    "to": 1912.97,
+    "location": 2,
+    "content": "極端的例子拿出來"
+  },
+  {
+    "from": 1913.28,
+    "to": 1916.12,
+    "location": 2,
+    "content": "假設現在有一群model"
+  },
+  {
+    "from": 1916.4,
+    "to": 1919.06,
+    "location": 2,
+    "content": "這一群model不知道為什麼都非常廢"
+  },
+  {
+    "from": 1919.26,
+    "to": 1921.06,
+    "location": 2,
+    "content": "它們每一個model產生出來的"
+  },
+  {
+    "from": 1921.22,
+    "to": 1923.26,
+    "location": 2,
+    "content": "都是一無是處的function"
+  },
+  {
+    "from": 1923.47,
+    "to": 1925.53,
+    "location": 2,
+    "content": "我們有一到這個零有多少個"
+  },
+  {
+    "from": 1925.6,
+    "to": 1927.44,
+    "location": 2,
+    "content": "我不知道 我隨便打 當作一兆好了"
+  },
+  {
+    "from": 1927.52,
+    "to": 1930.45,
+    "location": 2,
+    "content": "我們有一到一兆個model"
+  },
+  {
+    "from": 1930.89,
+    "to": 1933.78,
+    "location": 2,
+    "content": "這一到一兆個model不知道為什麼"
+  },
+  {
+    "from": 1933.98,
+    "to": 1935.11,
+    "location": 2,
+    "content": "learn出來的function"
+  },
+  {
+    "from": 1935.26,
+    "to": 1936.82,
+    "location": 2,
+    "content": "都是一無是處的function"
+  },
+  {
+    "from": 1936.82,
+    "to": 1938.06,
+    "location": 2,
+    "content": "它們會做的事情就是"
+  },
+  {
+    "from": 1938.15,
+    "to": 1940.74,
+    "location": 2,
+    "content": "訓練資料裡面有的資料就把它記下來"
+  },
+  {
+    "from": 1940.98,
+    "to": 1942.07,
+    "location": 2,
+    "content": "訓練資料沒看過的"
+  },
+  {
+    "from": 1942.07,
+    "to": 1944.07,
+    "location": 2,
+    "content": "就直接output隨機的結果"
+  },
+  {
+    "from": 1944.54,
+    "to": 1946.81,
+    "location": 2,
+    "content": "好 那你現在有一兆個模型"
+  },
+  {
+    "from": 1947.05,
+    "to": 1949.3,
+    "location": 2,
+    "content": "那你再把這一兆個模型的結果"
+  },
+  {
+    "from": 1949.45,
+    "to": 1952.55,
+    "location": 2,
+    "content": "通通上傳到kaggle上面"
+  },
+  {
+    "from": 1952.66,
+    "to": 1954.94,
+    "location": 2,
+    "content": "你就得到一兆個分數"
+  },
+  {
+    "from": 1955.06,
+    "to": 1956.65,
+    "location": 2,
+    "content": "然後看這一兆的分數裡面"
+  },
+  {
+    "from": 1956.65,
+    "to": 1957.94,
+    "location": 2,
+    "content": "哪一個結果最好"
+  },
+  {
+    "from": 1958.02,
+    "to": 1959.66,
+    "location": 2,
+    "content": "你就覺得那個模型是最好的"
+  },
+  {
+    "from": 1960.21,
+    "to": 1962.16,
+    "location": 2,
+    "content": "那雖然說每一個模型"
+  },
+  {
+    "from": 1962.16,
+    "to": 1963.63,
+    "location": 2,
+    "content": "它們在這個Testing data上面"
+  },
+  {
+    "from": 1963.63,
+    "to": 1965.02,
+    "location": 2,
+    "content": "這個testing data它都沒有看過啊"
+  },
+  {
+    "from": 1965.02,
+    "to": 1966.75,
+    "location": 2,
+    "content": "所以它輸出的結果都是隨機的"
+  },
+  {
+    "from": 1967.31,
+    "to": 1968.94,
+    "location": 2,
+    "content": "但雖然在testing data上面"
+  },
+  {
+    "from": 1968.94,
+    "to": 1970.41,
+    "location": 2,
+    "content": "輸出的結果都是隨機的"
+  },
+  {
+    "from": 1970.54,
+    "to": 1972.93,
+    "location": 2,
+    "content": "但是你不斷的隨機"
+  },
+  {
+    "from": 1973.12,
+    "to": 1975.97,
+    "location": 2,
+    "content": "你總是會找到一個好的結果對不對"
+  },
+  {
+    "from": 1976.31,
+    "to": 1980.56,
+    "location": 2,
+    "content": "所以也許編號五六七八九的那個模型"
+  },
+  {
+    "from": 1980.56,
+    "to": 1982.02,
+    "location": 2,
+    "content": "它找出來的function"
+  },
+  {
+    "from": 1982.6,
+    "to": 1984.63,
+    "location": 2,
+    "content": "正好在testing data上面"
+  },
+  {
+    "from": 1984.88,
+    "to": 1986.63,
+    "location": 2,
+    "content": "就給你一個好的結果"
+  },
+  {
+    "from": 1986.76,
+    "to": 1988.09,
+    "location": 2,
+    "content": "那你就會很高興覺得說"
+  },
+  {
+    "from": 1988.25,
+    "to": 1990.35,
+    "location": 2,
+    "content": "這個model編號五六七八九"
+  },
+  {
+    "from": 1990.53,
+    "to": 1991.64,
+    "location": 2,
+    "content": "是個好model"
+  },
+  {
+    "from": 1991.79,
+    "to": 1993.72,
+    "location": 2,
+    "content": "這個好model得到一個好function"
+  },
+  {
+    "from": 1993.72,
+    "to": 1995.38,
+    "location": 2,
+    "content": "雖然它其實是隨機的 但你不知道"
+  },
+  {
+    "from": 1995.47,
+    "to": 1996.98,
+    "location": 2,
+    "content": "但這個好function"
+  },
+  {
+    "from": 1997.14,
+    "to": 1998.93,
+    "location": 2,
+    "content": "在這個testing data上面"
+  },
+  {
+    "from": 1999.06,
+    "to": 2000.56,
+    "location": 2,
+    "content": "給我們好的結果"
+  },
+  {
+    "from": 2000.71,
+    "to": 2003.17,
+    "location": 2,
+    "content": "所以你就覺得說 這個結果不錯"
+  },
+  {
+    "from": 2003.31,
+    "to": 2005.63,
+    "location": 2,
+    "content": "就這樣 我就選這一個model"
+  },
+  {
+    "from": 2005.82,
+    "to": 2006.77,
+    "location": 2,
+    "content": "這個function"
+  },
+  {
+    "from": 2006.84,
+    "to": 2009.49,
+    "location": 2,
+    "content": "當作我們最後上傳的結果"
+  },
+  {
+    "from": 2009.49,
+    "to": 2011.49,
+    "location": 2,
+    "content": "當作我最後要用在"
+  },
+  {
+    "from": 2011.68,
+    "to": 2013.22,
+    "location": 2,
+    "content": "private testing set上的結果"
+  },
+  {
+    "from": 2013.51,
+    "to": 2014.64,
+    "location": 2,
+    "content": "但是如果你這樣做"
+  },
+  {
+    "from": 2014.77,
+    "to": 2016.64,
+    "location": 2,
+    "content": "往往就會得到非常糟的結果"
+  },
+  {
+    "from": 2017.4,
+    "to": 2018.64,
+    "location": 2,
+    "content": "因為這個model畢竟是隨機的"
+  },
+  {
+    "from": 2018.79,
+    "to": 2022.31,
+    "location": 2,
+    "content": "它恰好在public的testing set data上面"
+  },
+  {
+    "from": 2022.41,
+    "to": 2023.87,
+    "location": 2,
+    "content": "它public的testing set上"
+  },
+  {
+    "from": 2024,
+    "to": 2024.87,
+    "location": 2,
+    "content": "得到一個好結果"
+  },
+  {
+    "from": 2025.07,
+    "to": 2027.66,
+    "location": 2,
+    "content": "但是它在private的testing set上"
+  },
+  {
+    "from": 2027.92,
+    "to": 2030.26,
+    "location": 2,
+    "content": "可能仍然是隨機的"
+  },
+  {
+    "from": 2030.74,
+    "to": 2033.7,
+    "location": 2,
+    "content": "所以假設你今天在選model的時候"
+  },
+  {
+    "from": 2033.89,
+    "to": 2035.98,
+    "location": 2,
+    "content": "你都用public的"
+  },
+  {
+    "from": 2036.42,
+    "to": 2037.62,
+    "location": 2,
+    "content": "就我們這個testing set"
+  },
+  {
+    "from": 2037.83,
+    "to": 2041,
+    "location": 2,
+    "content": "分成public的set跟private的set"
+  },
+  {
+    "from": 2041.13,
+    "to": 2042.56,
+    "location": 2,
+    "content": "你在看分數的時候 你只看得到"
+  },
+  {
+    "from": 2042.56,
+    "to": 2044.27,
+    "location": 2,
+    "content": "public的分數 private的分數"
+  },
+  {
+    "from": 2044.39,
+    "to": 2045.98,
+    "location": 2,
+    "content": "要deadline以後才知道"
+  },
+  {
+    "from": 2046.15,
+    "to": 2047.98,
+    "location": 2,
+    "content": "但假設你在挑模型的時候"
+  },
+  {
+    "from": 2048.08,
+    "to": 2050.73,
+    "location": 2,
+    "content": "你完全看你在public set上面的"
+  },
+  {
+    "from": 2050.73,
+    "to": 2052.4,
+    "location": 2,
+    "content": "也就leaderboard上的分數"
+  },
+  {
+    "from": 2052.54,
+    "to": 2054.06,
+    "location": 2,
+    "content": "來選擇你的模型的話"
+  },
+  {
+    "from": 2054.33,
+    "to": 2055.92,
+    "location": 2,
+    "content": "你可能就會這個樣子"
+  },
+  {
+    "from": 2056.43,
+    "to": 2060.16,
+    "location": 2,
+    "content": "你在public的leaderboard上面排前十"
+  },
+  {
+    "from": 2060.31,
+    "to": 2062.16,
+    "location": 2,
+    "content": "但是deadline一結束"
+  },
+  {
+    "from": 2062.29,
+    "to": 2063.65,
+    "location": 2,
+    "content": "你就心態就崩了這樣"
+  },
+  {
+    "from": 2063.77,
+    "to": 2065.03,
+    "location": 2,
+    "content": "你就掉到三百名之外"
+  },
+  {
+    "from": 2065.03,
+    "to": 2066.37,
+    "location": 2,
+    "content": "而且我們這修課的人這麼多"
+  },
+  {
+    "from": 2066.37,
+    "to": 2067.94,
+    "location": 2,
+    "content": "你搞不好會掉到一千名之外"
+  },
+  {
+    "from": 2068.13,
+    "to": 2068.97,
+    "location": 2,
+    "content": "也說不定"
+  },
+  {
+    "from": 2069.37,
+    "to": 2072.41,
+    "location": 2,
+    "content": "好 而且這件事情並不是傳說"
+  },
+  {
+    "from": 2072.41,
+    "to": 2073.56,
+    "location": 2,
+    "content": "並沒有誇飾"
+  },
+  {
+    "from": 2073.7,
+    "to": 2076.63,
+    "location": 2,
+    "content": "每年都會有這樣子的狀況發生"
+  },
+  {
+    "from": 2076.84,
+    "to": 2079.19,
+    "location": 2,
+    "content": "那因為今年我們會看public"
+  },
+  {
+    "from": 2079.19,
+    "to": 2080.9,
+    "location": 2,
+    "content": "就是說我們在算分數的時候"
+  },
+  {
+    "from": 2081.01,
+    "to": 2082.39,
+    "location": 2,
+    "content": "你在public上面的結果好"
+  },
+  {
+    "from": 2082.39,
+    "to": 2083.58,
+    "location": 2,
+    "content": "還是會給你一點分數"
+  },
+  {
+    "from": 2083.72,
+    "to": 2085.92,
+    "location": 2,
+    "content": "我們不是只看private的分數而已"
+  },
+  {
+    "from": 2085.98,
+    "to": 2087.66,
+    "location": 2,
+    "content": "是public跟private的分數都看"
+  },
+  {
+    "from": 2087.87,
+    "to": 2089.25,
+    "location": 2,
+    "content": "那過去有些學期"
+  },
+  {
+    "from": 2089.25,
+    "to": 2090.63,
+    "location": 2,
+    "content": "是只看private的分數的時候"
+  },
+  {
+    "from": 2090.63,
+    "to": 2091.38,
+    "location": 2,
+    "content": "發生這種狀況"
+  },
+  {
+    "from": 2091.38,
+    "to": 2092.89,
+    "location": 2,
+    "content": "你心態就會整個崩掉這樣子"
+  },
+  {
+    "from": 2093.62,
+    "to": 2095.89,
+    "location": 2,
+    "content": "你就會非常非常的鬱悶"
+  },
+  {
+    "from": 2097.14,
+    "to": 2102.3,
+    "location": 2,
+    "content": "好 那這個時候有同學就會說"
+  },
+  {
+    "from": 2102.3,
+    "to": 2105.6,
+    "location": 2,
+    "content": "那為什麼我們要把testing的set"
+  },
+  {
+    "from": 2105.98,
+    "to": 2108.3,
+    "location": 2,
+    "content": "分成public跟private呢"
+  },
+  {
+    "from": 2108.56,
+    "to": 2109.69,
+    "location": 2,
+    "content": "為什麼我們不能"
+  },
+  {
+    "from": 2109.69,
+    "to": 2112.15,
+    "location": 2,
+    "content": "就通通都分public就好呢"
+  },
+  {
+    "from": 2112.15,
+    "to": 2113.56,
+    "location": 2,
+    "content": "為什麼要為難大家呢"
+  },
+  {
+    "from": 2113.56,
+    "to": 2115.46,
+    "location": 2,
+    "content": "為什麼要讓大家疑神疑鬼"
+  },
+  {
+    "from": 2115.46,
+    "to": 2117.68,
+    "location": 2,
+    "content": "不知道自己private上的結果是什麼"
+  },
+  {
+    "from": 2117.99,
+    "to": 2118.66,
+    "location": 2,
+    "content": "你自己想想看"
+  },
+  {
+    "from": 2118.66,
+    "to": 2121.68,
+    "location": 2,
+    "content": "假設所有的data都是public"
+  },
+  {
+    "from": 2122.06,
+    "to": 2122.83,
+    "location": 2,
+    "content": "那我剛才說"
+  },
+  {
+    "from": 2122.99,
+    "to": 2126.4,
+    "location": 2,
+    "content": "就算是一個一無是處的Model"
+  },
+  {
+    "from": 2126.4,
+    "to": 2128.27,
+    "location": 2,
+    "content": "得到了一無是處的function"
+  },
+  {
+    "from": 2128.51,
+    "to": 2131.44,
+    "location": 2,
+    "content": "它也有可能在public的data上面"
+  },
+  {
+    "from": 2131.65,
+    "to": 2132.58,
+    "location": 2,
+    "content": "得到好的結果"
+  },
+  {
+    "from": 2132.76,
+    "to": 2135.36,
+    "location": 2,
+    "content": "如果我們今天只有public的testing set"
+  },
+  {
+    "from": 2135.59,
+    "to": 2136.96,
+    "location": 2,
+    "content": "沒有private的testing set"
+  },
+  {
+    "from": 2137.19,
+    "to": 2140.1,
+    "location": 2,
+    "content": "那你就回去寫一個程式"
+  },
+  {
+    "from": 2140.1,
+    "to": 2142.1,
+    "location": 2,
+    "content": "不斷random產生輸出就好"
+  },
+  {
+    "from": 2142.1,
+    "to": 2143.33,
+    "location": 2,
+    "content": "然後不斷把random的輸出"
+  },
+  {
+    "from": 2143.33,
+    "to": 2144.23,
+    "location": 2,
+    "content": "上傳到kaggle"
+  },
+  {
+    "from": 2144.35,
+    "to": 2145.05,
+    "location": 2,
+    "content": "然後看你什麼時候"
+  },
+  {
+    "from": 2145.05,
+    "to": 2146.55,
+    "location": 2,
+    "content": "可以random出一個好的結果"
+  },
+  {
+    "from": 2146.68,
+    "to": 2148.31,
+    "location": 2,
+    "content": "那這個作業就結束了"
+  },
+  {
+    "from": 2148.44,
+    "to": 2149.9,
+    "location": 2,
+    "content": "這個顯然沒有意義"
+  },
+  {
+    "from": 2149.9,
+    "to": 2152.28,
+    "location": 2,
+    "content": "顯然不是我們要的"
+  },
+  {
+    "from": 2153.52,
+    "to": 2156.13,
+    "location": 2,
+    "content": "而且因為如果今天 你想想看"
+  },
+  {
+    "from": 2156.31,
+    "to": 2158.69,
+    "location": 2,
+    "content": "然後這邊有另外一個有趣的事情就是"
+  },
+  {
+    "from": 2158.86,
+    "to": 2159.67,
+    "location": 2,
+    "content": "你知道因為今天如果"
+  },
+  {
+    "from": 2159.67,
+    "to": 2163.36,
+    "location": 2,
+    "content": "public的testing data是公開的"
+  },
+  {
+    "from": 2163.69,
+    "to": 2166,
+    "location": 2,
+    "content": "你可以知道public的"
+  },
+  {
+    "from": 2166,
+    "to": 2167.4,
+    "location": 2,
+    "content": "testing data的結果"
+  },
+  {
+    "from": 2167.79,
+    "to": 2171.27,
+    "location": 2,
+    "content": "那你就算是一個很廢的模型"
+  },
+  {
+    "from": 2171.27,
+    "to": 2172.66,
+    "location": 2,
+    "content": "產生了很廢的function"
+  },
+  {
+    "from": 2172.85,
+    "to": 2175.31,
+    "location": 2,
+    "content": "也可能得到非常好的結果"
+  },
+  {
+    "from": 2175.47,
+    "to": 2176.83,
+    "location": 2,
+    "content": "那這就應證了說"
+  },
+  {
+    "from": 2176.98,
+    "to": 2179.32,
+    "location": 2,
+    "content": "為什麼在機器學習的領域"
+  },
+  {
+    "from": 2179.57,
+    "to": 2181.89,
+    "location": 2,
+    "content": "在那些benchmark的corpora上面"
+  },
+  {
+    "from": 2182.12,
+    "to": 2185.37,
+    "location": 2,
+    "content": "往往機器可以得到異於"
+  },
+  {
+    "from": 2185.56,
+    "to": 2187.21,
+    "location": 2,
+    "content": "異乎尋常的好的結果"
+  },
+  {
+    "from": 2187.35,
+    "to": 2188.88,
+    "location": 2,
+    "content": "往往都超越人類"
+  },
+  {
+    "from": 2188.96,
+    "to": 2190.6,
+    "location": 2,
+    "content": "所謂benchmark corpora的意思就是"
+  },
+  {
+    "from": 2190.73,
+    "to": 2193.18,
+    "location": 2,
+    "content": "有一些data set是公開的"
+  },
+  {
+    "from": 2193.37,
+    "to": 2194.56,
+    "location": 2,
+    "content": "好 舉例來說"
+  },
+  {
+    "from": 2194.78,
+    "to": 2197.77,
+    "location": 2,
+    "content": "這個???(36:15) speech是一個公開的"
+  },
+  {
+    "from": 2197.77,
+    "to": 2200.29,
+    "location": 2,
+    "content": "用來訓練語音辨識的資料集"
+  },
+  {
+    "from": 2200.4,
+    "to": 2201.59,
+    "location": 2,
+    "content": "那如果你想要測試"
+  },
+  {
+    "from": 2201.59,
+    "to": 2204.25,
+    "location": 2,
+    "content": "自己的語音辨識的模型好不好的話"
+  },
+  {
+    "from": 2204.33,
+    "to": 2206.7,
+    "location": 2,
+    "content": "那你就訓練在???(36:25) speech上面"
+  },
+  {
+    "from": 2206.8,
+    "to": 2208.4,
+    "location": 2,
+    "content": "那???(36:27) speech也有testing set"
+  },
+  {
+    "from": 2208.5,
+    "to": 2211.36,
+    "location": 2,
+    "content": "所有人都共用一模一樣的testing set"
+  },
+  {
+    "from": 2211.47,
+    "to": 2215.07,
+    "location": 2,
+    "content": "那我們就可以比較不同模型的好壞"
+  },
+  {
+    "from": 2215.51,
+    "to": 2217.92,
+    "location": 2,
+    "content": "但是問題是這些testing set的結果"
+  },
+  {
+    "from": 2218.14,
+    "to": 2219.81,
+    "location": 2,
+    "content": "都是public的"
+  },
+  {
+    "from": 2220.17,
+    "to": 2222.99,
+    "location": 2,
+    "content": "所以就算是一個很廢的模型"
+  },
+  {
+    "from": 2222.99,
+    "to": 2224.43,
+    "location": 2,
+    "content": "它只能產生很廢的function"
+  },
+  {
+    "from": 2224.43,
+    "to": 2225.38,
+    "location": 2,
+    "content": "你只要做得夠多"
+  },
+  {
+    "from": 2225.59,
+    "to": 2227.51,
+    "location": 2,
+    "content": "你還是可以在public的set上"
+  },
+  {
+    "from": 2227.51,
+    "to": 2229.56,
+    "location": 2,
+    "content": "得到結果 得到好的結果"
+  },
+  {
+    "from": 2229.75,
+    "to": 2231.18,
+    "location": 2,
+    "content": "那這就解釋為什麼說"
+  },
+  {
+    "from": 2231.59,
+    "to": 2233.56,
+    "location": 2,
+    "content": "這些benchmark corpora最終"
+  },
+  {
+    "from": 2233.94,
+    "to": 2237.35,
+    "location": 2,
+    "content": "往往機器可以得到超乎人類的結果"
+  },
+  {
+    "from": 2237.35,
+    "to": 2239.26,
+    "location": 2,
+    "content": "那這個最有名的例子就是這個"
+  },
+  {
+    "from": 2239.62,
+    "to": 2241.09,
+    "location": 2,
+    "content": "大家記得16年的時候"
+  },
+  {
+    "from": 2241.09,
+    "to": 2243.74,
+    "location": 2,
+    "content": "Microsoft跟那個IBM"
+  },
+  {
+    "from": 2243.74,
+    "to": 2245.53,
+    "location": 2,
+    "content": "都不約而同的說"
+  },
+  {
+    "from": 2245.53,
+    "to": 2248.67,
+    "location": 2,
+    "content": "它們的machine在語音辨識上面"
+  },
+  {
+    "from": 2248.87,
+    "to": 2250.86,
+    "location": 2,
+    "content": "得到超越人類的結果"
+  },
+  {
+    "from": 2251.16,
+    "to": 2252.4,
+    "location": 2,
+    "content": "專業的聽打員"
+  },
+  {
+    "from": 2252.4,
+    "to": 2255.47,
+    "location": 2,
+    "content": "做的這個語音辨識的錯誤率還要低"
+  },
+  {
+    "from": 2255.56,
+    "to": 2256.56,
+    "location": 2,
+    "content": "那這個是怎麼來的"
+  },
+  {
+    "from": 2256.74,
+    "to": 2258.74,
+    "location": 2,
+    "content": "那個其實就是做在"
+  },
+  {
+    "from": 2259.02,
+    "to": 2261.7,
+    "location": 2,
+    "content": "benchmark的corpora上面"
+  },
+  {
+    "from": 2261.97,
+    "to": 2263.65,
+    "location": 2,
+    "content": "那個其實是做在一個叫做"
+  },
+  {
+    "from": 2263.65,
+    "to": 2266.79,
+    "location": 2,
+    "content": "switchboard benchmark corpora上面"
+  },
+  {
+    "from": 2266.95,
+    "to": 2269.28,
+    "location": 2,
+    "content": "那你說要在benchmark corpora上面"
+  },
+  {
+    "from": 2269.28,
+    "to": 2271.29,
+    "location": 2,
+    "content": "得到一個非常好的超越人類的結果"
+  },
+  {
+    "from": 2271.29,
+    "to": 2274.36,
+    "location": 2,
+    "content": "在現實生活中 它真的有超越人類嗎"
+  },
+  {
+    "from": 2274.36,
+    "to": 2275.51,
+    "location": 2,
+    "content": "我想你不會相信對不對"
+  },
+  {
+    "from": 2275.51,
+    "to": 2278.94,
+    "location": 2,
+    "content": "就算你不是做語音辨識的研究人員"
+  },
+  {
+    "from": 2279.17,
+    "to": 2280.69,
+    "location": 2,
+    "content": "你光是有用過"
+  },
+  {
+    "from": 2281.26,
+    "to": 2283.13,
+    "location": 2,
+    "content": "其實今天語音辨識系統無所不在"
+  },
+  {
+    "from": 2283.23,
+    "to": 2285,
+    "location": 2,
+    "content": "每個手機拿出來都有語音辨識"
+  },
+  {
+    "from": 2285.22,
+    "to": 2286.21,
+    "location": 2,
+    "content": "你其實不會相信說"
+  },
+  {
+    "from": 2286.58,
+    "to": 2288.02,
+    "location": 2,
+    "content": "機器在語音辨識的能力"
+  },
+  {
+    "from": 2288.38,
+    "to": 2289.73,
+    "location": 2,
+    "content": "已經超越人類"
+  },
+  {
+    "from": 2290.04,
+    "to": 2291.63,
+    "location": 2,
+    "content": "所以這個就是在那些"
+  },
+  {
+    "from": 2291.63,
+    "to": 2292.8,
+    "location": 2,
+    "content": "benchmark corpora上"
+  },
+  {
+    "from": 2292.87,
+    "to": 2295.04,
+    "location": 2,
+    "content": "Benchmark corpora的testing set"
+  },
+  {
+    "from": 2295.25,
+    "to": 2297.37,
+    "location": 2,
+    "content": "就是public的testing set"
+  },
+  {
+    "from": 2297.58,
+    "to": 2299.73,
+    "location": 2,
+    "content": "但是你真的訓練出一個語音辨識系統"
+  },
+  {
+    "from": 2299.73,
+    "to": 2301.3,
+    "location": 2,
+    "content": "上線給人用的時候"
+  },
+  {
+    "from": 2301.43,
+    "to": 2303.39,
+    "location": 2,
+    "content": "那這個是private的testing set"
+  },
+  {
+    "from": 2303.76,
+    "to": 2305.85,
+    "location": 2,
+    "content": "你有可能在public的testing set上面"
+  },
+  {
+    "from": 2305.98,
+    "to": 2307.67,
+    "location": 2,
+    "content": "得到什麼超越人類的結果"
+  },
+  {
+    "from": 2307.77,
+    "to": 2308.98,
+    "location": 2,
+    "content": "但並不代表它在"
+  },
+  {
+    "from": 2309.08,
+    "to": 2310.34,
+    "location": 2,
+    "content": "private的testing set上"
+  },
+  {
+    "from": 2310.43,
+    "to": 2311.12,
+    "location": 2,
+    "content": "一定是好的"
+  },
+  {
+    "from": 2311.28,
+    "to": 2312.54,
+    "location": 2,
+    "content": "在那些benchmark corpora上面"
+  },
+  {
+    "from": 2312.54,
+    "to": 2313.29,
+    "location": 2,
+    "content": "今天機器都說"
+  },
+  {
+    "from": 2313.29,
+    "to": 2315.55,
+    "location": 2,
+    "content": "超越人類的語音辨識的正確率了"
+  },
+  {
+    "from": 2315.7,
+    "to": 2317.34,
+    "location": 2,
+    "content": "並不代表在日常生活中"
+  },
+  {
+    "from": 2317.46,
+    "to": 2320.02,
+    "location": 2,
+    "content": "它的語音辨識的正確率超越了人類"
+  },
+  {
+    "from": 2320.24,
+    "to": 2320.99,
+    "location": 2,
+    "content": "所以你知道說"
+  },
+  {
+    "from": 2321.24,
+    "to": 2322.88,
+    "location": 2,
+    "content": "那些說在benchmark corpora得到"
+  },
+  {
+    "from": 2322.88,
+    "to": 2324.2,
+    "location": 2,
+    "content": "什麼超越人類的結果"
+  },
+  {
+    "from": 2324.31,
+    "to": 2325.6,
+    "location": 2,
+    "content": "那個都比較像是"
+  },
+  {
+    "from": 2326.1,
+    "to": 2328.97,
+    "location": 2,
+    "content": "騙騙麻瓜的商業的辭令"
+  },
+  {
+    "from": 2329.36,
+    "to": 2330.46,
+    "location": 2,
+    "content": "不過我覺得說"
+  },
+  {
+    "from": 2330.83,
+    "to": 2332.83,
+    "location": 2,
+    "content": "有benchmark corpora所做出結果來"
+  },
+  {
+    "from": 2332.83,
+    "to": 2334.83,
+    "location": 2,
+    "content": "還算是 已經是很有品了"
+  },
+  {
+    "from": 2334.92,
+    "to": 2336.65,
+    "location": 2,
+    "content": "我聽過更沒有品的是怎樣呢"
+  },
+  {
+    "from": 2336.65,
+    "to": 2341.55,
+    "location": 2,
+    "content": "就是有一個不知道哪來的新創"
+  },
+  {
+    "from": 2341.55,
+    "to": 2343.07,
+    "location": 2,
+    "content": "去接了一個政府的計劃"
+  },
+  {
+    "from": 2343.07,
+    "to": 2344.71,
+    "location": 2,
+    "content": "然後說要做語音辨識"
+  },
+  {
+    "from": 2344.71,
+    "to": 2346.16,
+    "location": 2,
+    "content": "然後就拿那個data set"
+  },
+  {
+    "from": 2346.24,
+    "to": 2347.31,
+    "location": 2,
+    "content": "KPI就訂說"
+  },
+  {
+    "from": 2347.31,
+    "to": 2350.31,
+    "location": 2,
+    "content": "我們這個要做到90%以上的正確率"
+  },
+  {
+    "from": 2350.41,
+    "to": 2353.43,
+    "location": 2,
+    "content": "然後做完 沒有得到90%"
+  },
+  {
+    "from": 2353.43,
+    "to": 2354.74,
+    "location": 2,
+    "content": "怎麼做都做不到90%"
+  },
+  {
+    "from": 2354.82,
+    "to": 2356.22,
+    "location": 2,
+    "content": "人家要來驗收了怎麼辦呢"
+  },
+  {
+    "from": 2356.43,
+    "to": 2358.22,
+    "location": 2,
+    "content": "它們就說 跟驗收的人說"
+  },
+  {
+    "from": 2358.35,
+    "to": 2359.82,
+    "location": 2,
+    "content": "你這個testing set不好"
+  },
+  {
+    "from": 2359.82,
+    "to": 2361.9,
+    "location": 2,
+    "content": "你這個testing set裡面雜訊很多"
+  },
+  {
+    "from": 2361.9,
+    "to": 2363.21,
+    "location": 2,
+    "content": "我幫你把它清乾淨這樣"
+  },
+  {
+    "from": 2363.21,
+    "to": 2365.64,
+    "location": 2,
+    "content": "我把有雜訊的那個句子拿掉這樣"
+  },
+  {
+    "from": 2366.06,
+    "to": 2369.56,
+    "location": 2,
+    "content": "然後KPI就達到了正確率就90%以上"
+  },
+  {
+    "from": 2369.71,
+    "to": 2371.56,
+    "location": 2,
+    "content": "就起飛了 就過了那個KPI了"
+  },
+  {
+    "from": 2372.37,
+    "to": 2373.8,
+    "location": 2,
+    "content": "其實還有更更沒品的啦"
+  },
+  {
+    "from": 2373.8,
+    "to": 2374.52,
+    "location": 2,
+    "content": "就是有人會"
+  },
+  {
+    "from": 2374.65,
+    "to": 2376.31,
+    "location": 2,
+    "content": "有怪怪的新創會拿出"
+  },
+  {
+    "from": 2376.48,
+    "to": 2378.96,
+    "location": 2,
+    "content": "拿出它自己的app給你看"
+  },
+  {
+    "from": 2379.11,
+    "to": 2380.96,
+    "location": 2,
+    "content": "我自己做了一個語音辨識系統"
+  },
+  {
+    "from": 2381.25,
+    "to": 2381.88,
+    "location": 2,
+    "content": "你知道嗎"
+  },
+  {
+    "from": 2382.01,
+    "to": 2384.7,
+    "location": 2,
+    "content": "跟google辨識出來的結果都一樣好喔"
+  },
+  {
+    "from": 2384.93,
+    "to": 2385.63,
+    "location": 2,
+    "content": "為什麼呢"
+  },
+  {
+    "from": 2385.76,
+    "to": 2386.75,
+    "location": 2,
+    "content": "就是因為它偷copy了"
+  },
+  {
+    "from": 2386.75,
+    "to": 2387.97,
+    "location": 2,
+    "content": "google的API這樣子"
+  },
+  {
+    "from": 2390,
+    "to": 2392.88,
+    "location": 2,
+    "content": "好 所以有各種各樣奇奇怪怪的東西"
+  },
+  {
+    "from": 2392.88,
+    "to": 2395.74,
+    "location": 2,
+    "content": "所以網路上奇奇怪怪的吹捧"
+  },
+  {
+    "from": 2395.93,
+    "to": 2397.59,
+    "location": 2,
+    "content": "大家有時候看看就好"
+  },
+  {
+    "from": 2398.04,
+    "to": 2399.29,
+    "location": 2,
+    "content": "好 所以講了這麼多"
+  },
+  {
+    "from": 2399.6,
+    "to": 2401.29,
+    "location": 2,
+    "content": "只是想要告訴大家說"
+  },
+  {
+    "from": 2401.51,
+    "to": 2405.15,
+    "location": 2,
+    "content": "我們為什麼要切public的testing set"
+  },
+  {
+    "from": 2405.15,
+    "to": 2407.75,
+    "location": 2,
+    "content": "我為什麼要切private的testing set"
+  },
+  {
+    "from": 2407.83,
+    "to": 2410.02,
+    "location": 2,
+    "content": "然後你其實不要花"
+  },
+  {
+    "from": 2410.02,
+    "to": 2412.02,
+    "location": 2,
+    "content": "不要用你public的testing set"
+  },
+  {
+    "from": 2412.02,
+    "to": 2413.28,
+    "location": 2,
+    "content": "去調你的模型"
+  },
+  {
+    "from": 2413.46,
+    "to": 2414.91,
+    "location": 2,
+    "content": "因為你可能會在"
+  },
+  {
+    "from": 2414.91,
+    "to": 2416.52,
+    "location": 2,
+    "content": "private的testing set上面"
+  },
+  {
+    "from": 2416.73,
+    "to": 2418.52,
+    "location": 2,
+    "content": "得到很差的結果"
+  },
+  {
+    "from": 2418.63,
+    "to": 2419.99,
+    "location": 2,
+    "content": "那不過因為今年"
+  },
+  {
+    "from": 2420.09,
+    "to": 2421.61,
+    "location": 2,
+    "content": "你在public set上面的"
+  },
+  {
+    "from": 2421.61,
+    "to": 2423.29,
+    "location": 2,
+    "content": "好的結果也有算分數"
+  },
+  {
+    "from": 2423.42,
+    "to": 2424.64,
+    "location": 2,
+    "content": "所以怎麼辦呢"
+  },
+  {
+    "from": 2424.75,
+    "to": 2426.72,
+    "location": 2,
+    "content": "為了避免你 就你可能會說"
+  },
+  {
+    "from": 2426.72,
+    "to": 2428.33,
+    "location": 2,
+    "content": "好 那我放棄private set的結果"
+  },
+  {
+    "from": 2428.33,
+    "to": 2429.57,
+    "location": 2,
+    "content": "就只拿public set的結果"
+  },
+  {
+    "from": 2429.57,
+    "to": 2431.4,
+    "location": 2,
+    "content": "然後不斷地產生隨機的結果"
+  },
+  {
+    "from": 2431.56,
+    "to": 2433.4,
+    "location": 2,
+    "content": "去上傳到Kaggle來"
+  },
+  {
+    "from": 2433.61,
+    "to": 2434.91,
+    "location": 2,
+    "content": "然後看看說能不能夠"
+  },
+  {
+    "from": 2434.91,
+    "to": 2436.31,
+    "location": 2,
+    "content": "正好隨機出一個好的結果"
+  },
+  {
+    "from": 2436.31,
+    "to": 2438.24,
+    "location": 2,
+    "content": "為了避免你浪費時間做這件事情"
+  },
+  {
+    "from": 2438.37,
+    "to": 2440.75,
+    "location": 2,
+    "content": "所以有每日上傳的限制"
+  },
+  {
+    "from": 2440.75,
+    "to": 2441.66,
+    "location": 2,
+    "content": "讓你不會說"
+  },
+  {
+    "from": 2441.79,
+    "to": 2444.21,
+    "location": 2,
+    "content": "我拿很廢的模型只產生隨機的結果"
+  },
+  {
+    "from": 2444.34,
+    "to": 2446.85,
+    "location": 2,
+    "content": "不斷的測試public的testing的score"
+  },
+  {
+    "from": 2448.17,
+    "to": 2451.11,
+    "location": 2,
+    "content": "好 那到底要怎麼做才選擇model"
+  },
+  {
+    "from": 2451.11,
+    "to": 2453.35,
+    "location": 2,
+    "content": "才是比較合理的呢"
+  },
+  {
+    "from": 2453.53,
+    "to": 2455.39,
+    "location": 2,
+    "content": "那界定的方法是這個樣子的"
+  },
+  {
+    "from": 2455.39,
+    "to": 2458.41,
+    "location": 2,
+    "content": "那助教程式裡面也都幫大家做好了"
+  },
+  {
+    "from": 2458.7,
+    "to": 2461.12,
+    "location": 2,
+    "content": "你要把Training的資料分成兩半"
+  },
+  {
+    "from": 2461.42,
+    "to": 2463.51,
+    "location": 2,
+    "content": "一部分叫作Training Set"
+  },
+  {
+    "from": 2463.77,
+    "to": 2466.17,
+    "location": 2,
+    "content": "一部分是Validation Set"
+  },
+  {
+    "from": 2466.25,
+    "to": 2468.34,
+    "location": 2,
+    "content": "剛才助教程式裡面已經看到說"
+  },
+  {
+    "from": 2468.53,
+    "to": 2471.92,
+    "location": 2,
+    "content": "有90%的資料放在Training Set裡面"
+  },
+  {
+    "from": 2472.04,
+    "to": 2473.09,
+    "location": 2,
+    "content": "有10%的資料"
+  },
+  {
+    "from": 2473.24,
+    "to": 2475.53,
+    "location": 2,
+    "content": "會被拿來做Validation Set"
+  },
+  {
+    "from": 2476.35,
+    "to": 2480.04,
+    "location": 2,
+    "content": "你在Training Set上訓練出來的模型"
+  },
+  {
+    "from": 2480.26,
+    "to": 2482.75,
+    "location": 2,
+    "content": "你在Validation Set上面"
+  },
+  {
+    "from": 2482.96,
+    "to": 2485.14,
+    "location": 2,
+    "content": "去衡量它們的分數"
+  },
+  {
+    "from": 2485.37,
+    "to": 2488.39,
+    "location": 2,
+    "content": "你根據Validation Set上面的分數"
+  },
+  {
+    "from": 2488.51,
+    "to": 2489.86,
+    "location": 2,
+    "content": "去挑選結果"
+  },
+  {
+    "from": 2490.11,
+    "to": 2494.11,
+    "location": 2,
+    "content": "再把這個結果上傳到Kaggle上面"
+  },
+  {
+    "from": 2494.26,
+    "to": 2497.32,
+    "location": 2,
+    "content": "去看看你得到的public的分數"
+  },
+  {
+    "from": 2497.61,
+    "to": 2499.53,
+    "location": 2,
+    "content": "那因為你在挑分數的時候"
+  },
+  {
+    "from": 2499.53,
+    "to": 2502.63,
+    "location": 2,
+    "content": "是用Validation Set來挑你的model"
+  },
+  {
+    "from": 2502.84,
+    "to": 2505.56,
+    "location": 2,
+    "content": "所以你的public的Testing Set的分數"
+  },
+  {
+    "from": 2505.68,
+    "to": 2507.18,
+    "location": 2,
+    "content": "就可以反應你的"
+  },
+  {
+    "from": 2507.44,
+    "to": 2509.23,
+    "location": 2,
+    "content": "private Testing Set的分數"
+  },
+  {
+    "from": 2509.37,
+    "to": 2510.68,
+    "location": 2,
+    "content": "就比較不會得到說"
+  },
+  {
+    "from": 2510.81,
+    "to": 2512.33,
+    "location": 2,
+    "content": "在public上面結果很好"
+  },
+  {
+    "from": 2512.51,
+    "to": 2515.19,
+    "location": 2,
+    "content": "但是在private上面結果很差"
+  },
+  {
+    "from": 2515.32,
+    "to": 2516.54,
+    "location": 2,
+    "content": "這樣子的狀況"
+  },
+  {
+    "from": 2517.08,
+    "to": 2518.23,
+    "location": 2,
+    "content": "當我知道說"
+  },
+  {
+    "from": 2519.61,
+    "to": 2522.94,
+    "location": 2,
+    "content": "其實你看到public的結果以後"
+  },
+  {
+    "from": 2523.08,
+    "to": 2524.94,
+    "location": 2,
+    "content": "你就會去想要調它"
+  },
+  {
+    "from": 2525.07,
+    "to": 2527.99,
+    "location": 2,
+    "content": "你看到你現在弄了一堆模型"
+  },
+  {
+    "from": 2528.1,
+    "to": 2529.78,
+    "location": 2,
+    "content": "然後用Validation Set檢查一下"
+  },
+  {
+    "from": 2529.78,
+    "to": 2532.08,
+    "location": 2,
+    "content": "找了一個模型放到public set上以後"
+  },
+  {
+    "from": 2532.15,
+    "to": 2532.99,
+    "location": 2,
+    "content": "發現結果不好"
+  },
+  {
+    "from": 2533.16,
+    "to": 2536.13,
+    "location": 2,
+    "content": "你其實不太可能不根據這一個結果"
+  },
+  {
+    "from": 2536.32,
+    "to": 2538.61,
+    "location": 2,
+    "content": "去調整你的模型"
+  },
+  {
+    "from": 2539.01,
+    "to": 2541.71,
+    "location": 2,
+    "content": "但是假設這一個route做太多次"
+  },
+  {
+    "from": 2541.94,
+    "to": 2542.99,
+    "location": 2,
+    "content": "你根據你的"
+  },
+  {
+    "from": 2542.99,
+    "to": 2544.48,
+    "location": 2,
+    "content": "public Testing Set上的結果"
+  },
+  {
+    "from": 2544.48,
+    "to": 2546.97,
+    "location": 2,
+    "content": "去調整你的model太多次"
+  },
+  {
+    "from": 2547.13,
+    "to": 2548.63,
+    "location": 2,
+    "content": "你就又有可能fit在"
+  },
+  {
+    "from": 2548.63,
+    "to": 2550.81,
+    "location": 2,
+    "content": "你的public Testing Set上面"
+  },
+  {
+    "from": 2550.91,
+    "to": 2552.34,
+    "location": 2,
+    "content": "然後在private Testing Set上面"
+  },
+  {
+    "from": 2552.34,
+    "to": 2553.3,
+    "location": 2,
+    "content": "得到差的結果"
+  },
+  {
+    "from": 2553.64,
+    "to": 2555.86,
+    "location": 2,
+    "content": "不過還好反正我們有限制上傳的次數"
+  },
+  {
+    "from": 2555.98,
+    "to": 2556.87,
+    "location": 2,
+    "content": "所以這個route"
+  },
+  {
+    "from": 2557.04,
+    "to": 2558.8,
+    "location": 2,
+    "content": "你也沒有辦法走太多次"
+  },
+  {
+    "from": 2558.8,
+    "to": 2560.8,
+    "location": 2,
+    "content": "可以避免你太過fit在"
+  },
+  {
+    "from": 2560.8,
+    "to": 2563.93,
+    "location": 2,
+    "content": "public的Testing Set上面的結果"
+  },
+  {
+    "from": 2565.09,
+    "to": 2568.96,
+    "location": 2,
+    "content": "好 那我知道說今天因為"
+  },
+  {
+    "from": 2568.96,
+    "to": 2570.73,
+    "location": 2,
+    "content": "public的Testing Set上面的結果"
+  },
+  {
+    "from": 2570.73,
+    "to": 2572.2,
+    "location": 2,
+    "content": "是大家都可以看到的"
+  },
+  {
+    "from": 2572.5,
+    "to": 2573.29,
+    "location": 2,
+    "content": "然後很多人都會"
+  },
+  {
+    "from": 2573.29,
+    "to": 2575.92,
+    "location": 2,
+    "content": "然後名字你又可以隨便亂取"
+  },
+  {
+    "from": 2576.07,
+    "to": 2577.92,
+    "location": 2,
+    "content": "所以假設有一個人洗到第一名的話"
+  },
+  {
+    "from": 2578.11,
+    "to": 2579.33,
+    "location": 2,
+    "content": "他就會非常的得意"
+  },
+  {
+    "from": 2579.33,
+    "to": 2581.33,
+    "location": 2,
+    "content": "他就把自己的名字改成一些什麼"
+  },
+  {
+    "from": 2581.46,
+    "to": 2583.37,
+    "location": 2,
+    "content": "我第一次試就第一名了"
+  },
+  {
+    "from": 2583.55,
+    "to": 2584.84,
+    "location": 2,
+    "content": "或是 我其實只是個旁聽"
+  },
+  {
+    "from": 2584.84,
+    "to": 2585.76,
+    "location": 2,
+    "content": "那其實他不是旁聽的"
+  },
+  {
+    "from": 2585.76,
+    "to": 2586.34,
+    "location": 2,
+    "content": "那他改成說"
+  },
+  {
+    "from": 2586.34,
+    "to": 2587.28,
+    "location": 2,
+    "content": "我其實只是個旁聽的"
+  },
+  {
+    "from": 2587.4,
+    "to": 2588.69,
+    "location": 2,
+    "content": "隨便做就第一名了"
+  },
+  {
+    "from": 2588.89,
+    "to": 2590.54,
+    "location": 2,
+    "content": "那這個時候你就會覺得很緊張"
+  },
+  {
+    "from": 2590.64,
+    "to": 2592.3,
+    "location": 2,
+    "content": "尤其他如果是你認識的"
+  },
+  {
+    "from": 2592.3,
+    "to": 2593.78,
+    "location": 2,
+    "content": "隔壁小毛得到第一名"
+  },
+  {
+    "from": 2593.91,
+    "to": 2595.26,
+    "location": 2,
+    "content": "到處耀武揚威的時候"
+  },
+  {
+    "from": 2595.49,
+    "to": 2596.56,
+    "location": 2,
+    "content": "你就會開始有點緊張"
+  },
+  {
+    "from": 2596.72,
+    "to": 2596.97,
+    "location": 2,
+    "content": "你就會說"
+  },
+  {
+    "from": 2596.97,
+    "to": 2598.17,
+    "location": 2,
+    "content": "等一下 你不要得意"
+  },
+  {
+    "from": 2598.17,
+    "to": 2600.17,
+    "location": 2,
+    "content": "我等一下就去把你刷下來這樣"
+  },
+  {
+    "from": 2600.32,
+    "to": 2602.17,
+    "location": 2,
+    "content": "那這個時候你要不要理他呢"
+  },
+  {
+    "from": 2602.28,
+    "to": 2602.96,
+    "location": 2,
+    "content": "你不要理他"
+  },
+  {
+    "from": 2603.38,
+    "to": 2604.63,
+    "location": 2,
+    "content": "根據過去的經驗"
+  },
+  {
+    "from": 2604.73,
+    "to": 2607.28,
+    "location": 2,
+    "content": "就在public leaderboard上排前幾名的"
+  },
+  {
+    "from": 2607.39,
+    "to": 2609.28,
+    "location": 2,
+    "content": "往往private很容易就慘掉這樣子"
+  },
+  {
+    "from": 2609.36,
+    "to": 2611.66,
+    "location": 2,
+    "content": "所以在public的Testing上面"
+  },
+  {
+    "from": 2611.66,
+    "to": 2612.73,
+    "location": 2,
+    "content": "得到太好的結果"
+  },
+  {
+    "from": 2612.87,
+    "to": 2614.99,
+    "location": 2,
+    "content": "也不用高興得太早"
+  },
+  {
+    "from": 2620.87,
+    "to": 2623.98,
+    "location": 2,
+    "content": "其實 最好的做法"
+  },
+  {
+    "from": 2624.24,
+    "to": 2626.46,
+    "location": 2,
+    "content": "就是用Validation loss"
+  },
+  {
+    "from": 2626.46,
+    "to": 2627.93,
+    "location": 2,
+    "content": "最小的直接挑就好了"
+  },
+  {
+    "from": 2628.01,
+    "to": 2629.37,
+    "location": 2,
+    "content": "就是你不要去管"
+  },
+  {
+    "from": 2629.56,
+    "to": 2632.15,
+    "location": 2,
+    "content": "你的public Testing Set的結果 這樣"
+  },
+  {
+    "from": 2632.34,
+    "to": 2633.89,
+    "location": 2,
+    "content": "那我知道說在實作上"
+  },
+  {
+    "from": 2634.05,
+    "to": 2635.53,
+    "location": 2,
+    "content": "你不太可能這麼做"
+  },
+  {
+    "from": 2635.53,
+    "to": 2637.15,
+    "location": 2,
+    "content": "因為public set的結果你有看到"
+  },
+  {
+    "from": 2637.15,
+    "to": 2639.72,
+    "location": 2,
+    "content": "所以它對你的模型的選擇"
+  },
+  {
+    "from": 2639.72,
+    "to": 2640.79,
+    "location": 2,
+    "content": "可能還是會有些影響的"
+  },
+  {
+    "from": 2641.12,
+    "to": 2644.2,
+    "location": 2,
+    "content": "但是你要越少去看那個"
+  },
+  {
+    "from": 2644.2,
+    "to": 2645.79,
+    "location": 2,
+    "content": "public Testing Set的結果越好"
+  },
+  {
+    "from": 2646.84,
+    "to": 2648.22,
+    "location": 2,
+    "content": "這樣有回答到你的問題嗎"
+  },
+  {
+    "from": 2653.73,
+    "to": 2654.54,
+    "location": 2,
+    "content": "好 如果有其他問題"
+  },
+  {
+    "from": 2654.54,
+    "to": 2655.45,
+    "location": 2,
+    "content": "我等一下再回答"
+  },
+  {
+    "from": 2655.87,
+    "to": 2657.85,
+    "location": 2,
+    "content": "好 那這個是"
+  },
+  {
+    "from": 2660.21,
+    "to": 2663.85,
+    "location": 2,
+    "content": "剛才忘了複述那個同學的問題"
+  },
+  {
+    "from": 2663.94,
+    "to": 2664.88,
+    "location": 2,
+    "content": "線上直播的同學"
+  },
+  {
+    "from": 2664.88,
+    "to": 2666.14,
+    "location": 2,
+    "content": "我複述一下剛才那個同學的問題"
+  },
+  {
+    "from": 2666.14,
+    "to": 2667.14,
+    "location": 2,
+    "content": "他的問題是說"
+  },
+  {
+    "from": 2667.3,
+    "to": 2669.06,
+    "location": 2,
+    "content": "所以我們不能去看"
+  },
+  {
+    "from": 2669.06,
+    "to": 2670.63,
+    "location": 2,
+    "content": "public Testing Set的結果嗎"
+  },
+  {
+    "from": 2670.79,
+    "to": 2672.12,
+    "location": 2,
+    "content": "理想上是"
+  },
+  {
+    "from": 2672.12,
+    "to": 2674.47,
+    "location": 2,
+    "content": "理想上你就用Validation Set挑就好"
+  },
+  {
+    "from": 2674.47,
+    "to": 2676.69,
+    "location": 2,
+    "content": "然後上傳以後 怎樣就是怎樣"
+  },
+  {
+    "from": 2676.83,
+    "to": 2678.24,
+    "location": 2,
+    "content": "有過那個strong basseline以後"
+  },
+  {
+    "from": 2678.24,
+    "to": 2680.24,
+    "location": 2,
+    "content": "就不要再去動它了"
+  },
+  {
+    "from": 2680.46,
+    "to": 2682.76,
+    "location": 2,
+    "content": "那這樣子就可以避免"
+  },
+  {
+    "from": 2682.76,
+    "to": 2684.65,
+    "location": 2,
+    "content": "你overfit在Testing Set上面"
+  },
+  {
+    "from": 2686.43,
+    "to": 2689.37,
+    "location": 2,
+    "content": "好 那但是這邊會有一個問題"
+  },
+  {
+    "from": 2689.52,
+    "to": 2692.12,
+    "location": 2,
+    "content": "就是怎麼分Training Set"
+  },
+  {
+    "from": 2692.12,
+    "to": 2693.29,
+    "location": 2,
+    "content": "跟Validation Set呢"
+  },
+  {
+    "from": 2693.45,
+    "to": 2695.21,
+    "location": 2,
+    "content": "那如果在助教程式裡面"
+  },
+  {
+    "from": 2695.34,
+    "to": 2696.6,
+    "location": 2,
+    "content": "就是隨機分的"
+  },
+  {
+    "from": 2696.8,
+    "to": 2697.76,
+    "location": 2,
+    "content": "但是你可能會說"
+  },
+  {
+    "from": 2697.76,
+    "to": 2699.63,
+    "location": 2,
+    "content": "搞不好我這個分 分得不好啊"
+  },
+  {
+    "from": 2699.63,
+    "to": 2702.28,
+    "location": 2,
+    "content": "搞不好我分到很奇怪的Validation Set"
+  },
+  {
+    "from": 2702.28,
+    "to": 2703.91,
+    "location": 2,
+    "content": "會導致我的結果很差"
+  },
+  {
+    "from": 2704.09,
+    "to": 2705.72,
+    "location": 2,
+    "content": "如果你有這個擔心的話"
+  },
+  {
+    "from": 2705.89,
+    "to": 2708.84,
+    "location": 2,
+    "content": "那你可以用N-fold Cross Validation"
+  },
+  {
+    "from": 2709.41,
+    "to": 2711.84,
+    "location": 2,
+    "content": "N-fold Cross Validation是怎麼做的"
+  },
+  {
+    "from": 2711.92,
+    "to": 2715.75,
+    "location": 2,
+    "content": "就你先把你的訓練資料切成N等份"
+  },
+  {
+    "from": 2715.91,
+    "to": 2719.13,
+    "location": 2,
+    "content": "在這個例子裡面我們切成三等份"
+  },
+  {
+    "from": 2719.7,
+    "to": 2720.71,
+    "location": 2,
+    "content": "切完以後"
+  },
+  {
+    "from": 2720.86,
+    "to": 2723.52,
+    "location": 2,
+    "content": "你拿其中一份當作Validation Set"
+  },
+  {
+    "from": 2723.68,
+    "to": 2725.85,
+    "location": 2,
+    "content": "另外兩份當Training Set"
+  },
+  {
+    "from": 2726.32,
+    "to": 2728.96,
+    "location": 2,
+    "content": "然後這件事情你要重複三次"
+  },
+  {
+    "from": 2729.07,
+    "to": 2729.82,
+    "location": 2,
+    "content": "也就是說"
+  },
+  {
+    "from": 2730.47,
+    "to": 2732.45,
+    "location": 2,
+    "content": "你先第一份第二份當Train"
+  },
+  {
+    "from": 2732.56,
+    "to": 2734.08,
+    "location": 2,
+    "content": "第三份當Validation"
+  },
+  {
+    "from": 2734.19,
+    "to": 2735.39,
+    "location": 2,
+    "content": "然後第一份第三份當Train"
+  },
+  {
+    "from": 2735.39,
+    "to": 2736.42,
+    "location": 2,
+    "content": "第二份當Validation"
+  },
+  {
+    "from": 2736.42,
+    "to": 2737.32,
+    "location": 2,
+    "content": "第一份當Validation"
+  },
+  {
+    "from": 2737.32,
+    "to": 2738.48,
+    "location": 2,
+    "content": "第二份第三份當Train"
+  },
+  {
+    "from": 2738.79,
+    "to": 2741.1,
+    "location": 2,
+    "content": "然後接下來 你有三個模型"
+  },
+  {
+    "from": 2741.39,
+    "to": 2743.1,
+    "location": 2,
+    "content": "你不知道哪一個是好的"
+  },
+  {
+    "from": 2743.34,
+    "to": 2745.15,
+    "location": 2,
+    "content": "你就把這三個模型"
+  },
+  {
+    "from": 2745.29,
+    "to": 2747.41,
+    "location": 2,
+    "content": "在這三個setting下"
+  },
+  {
+    "from": 2747.59,
+    "to": 2751.02,
+    "location": 2,
+    "content": "在這三個Training跟Validation的"
+  },
+  {
+    "from": 2751.02,
+    "to": 2752.02,
+    "location": 2,
+    "content": "data set上面"
+  },
+  {
+    "from": 2752.26,
+    "to": 2754.18,
+    "location": 2,
+    "content": "通通跑過一次"
+  },
+  {
+    "from": 2754.43,
+    "to": 2756.37,
+    "location": 2,
+    "content": "然後把這三個模型"
+  },
+  {
+    "from": 2756.5,
+    "to": 2760.19,
+    "location": 2,
+    "content": "在這三種狀況的結果都平均起來"
+  },
+  {
+    "from": 2760.36,
+    "to": 2763.17,
+    "location": 2,
+    "content": "把每一個模型在這三種狀況的結果"
+  },
+  {
+    "from": 2763.17,
+    "to": 2764.09,
+    "location": 2,
+    "content": "都平均起來"
+  },
+  {
+    "from": 2764.34,
+    "to": 2767.67,
+    "location": 2,
+    "content": "再看看誰的結果最好"
+  },
+  {
+    "from": 2767.78,
+    "to": 2769.5,
+    "location": 2,
+    "content": "再看看誰的結果最好"
+  },
+  {
+    "from": 2769.56,
+    "to": 2771.78,
+    "location": 2,
+    "content": "那假設現在model 1的結果最好"
+  },
+  {
+    "from": 2772.36,
+    "to": 2776.13,
+    "location": 2,
+    "content": "你用這三個fold得出來的結果是"
+  },
+  {
+    "from": 2776.32,
+    "to": 2778.13,
+    "location": 2,
+    "content": "這個model 1最好"
+  },
+  {
+    "from": 2778.29,
+    "to": 2780.13,
+    "location": 2,
+    "content": "然後你再把model 1"
+  },
+  {
+    "from": 2780.23,
+    "to": 2782.7,
+    "location": 2,
+    "content": "用在全部的Training Set上"
+  },
+  {
+    "from": 2782.79,
+    "to": 2783.93,
+    "location": 2,
+    "content": "然後訓練出來的模型"
+  },
+  {
+    "from": 2784.14,
+    "to": 2786.56,
+    "location": 2,
+    "content": "再用在Testing Set上面"
+  },
+  {
+    "from": 2787.03,
+    "to": 2790.21,
+    "location": 2,
+    "content": "好 那這個是N-fold Cross Validation"
+  },
+  {
+    "from": 2791.05,
+    "to": 2794.68,
+    "location": 2,
+    "content": "好 那這個就是這門課前期的攻略"
+  },
+  {
+    "from": 2794.68,
+    "to": 2797.54,
+    "location": 2,
+    "content": "它可以帶你打贏前期所有的副本"
+  },
+  {
+    "from": 2798.4,
+    "to": 2802.08,
+    "location": 2,
+    "content": "那接下來也許你要問的一個問題是"
+  },
+  {
+    "from": 2802.26,
+    "to": 2803.91,
+    "location": 2,
+    "content": "上週結束的時候"
+  },
+  {
+    "from": 2804.23,
+    "to": 2807.25,
+    "location": 2,
+    "content": "不是講到預測2/26"
+  },
+  {
+    "from": 2807.37,
+    "to": 2810.39,
+    "location": 2,
+    "content": "也就是上週五的觀看人數嗎"
+  },
+  {
+    "from": 2810.68,
+    "to": 2814.18,
+    "location": 2,
+    "content": "到底結果做得怎麼樣"
+  },
+  {
+    "from": 2814.53,
+    "to": 2816.62,
+    "location": 2,
+    "content": "好 那這個就是我們要做的結果"
+  },
+  {
+    "from": 2816.62,
+    "to": 2819.19,
+    "location": 2,
+    "content": "上週比較多人選了三層的network"
+  },
+  {
+    "from": 2819.19,
+    "to": 2821.38,
+    "location": 2,
+    "content": "所以我們就把三層的network"
+  },
+  {
+    "from": 2821.54,
+    "to": 2823.22,
+    "location": 2,
+    "content": "拿來測試一下"
+  },
+  {
+    "from": 2823.48,
+    "to": 2826.35,
+    "location": 2,
+    "content": "以下是測試的結果"
+  },
+  {
+    "from": 2826.58,
+    "to": 2828.13,
+    "location": 2,
+    "content": "我們就沒有再調參數了"
+  },
+  {
+    "from": 2828.13,
+    "to": 2830.35,
+    "location": 2,
+    "content": "大家決定用三層的就是下好離手了"
+  },
+  {
+    "from": 2830.35,
+    "to": 2831.59,
+    "location": 2,
+    "content": "就直接用上去了"
+  },
+  {
+    "from": 2831.85,
+    "to": 2834.5,
+    "location": 2,
+    "content": "好 得到的結果是這個樣子了"
+  },
+  {
+    "from": 2834.5,
+    "to": 2837.25,
+    "location": 2,
+    "content": "這個圖上 這個橫軸就是從"
+  },
+  {
+    "from": 2837.57,
+    "to": 2841.83,
+    "location": 2,
+    "content": "2021年的1月1號開始 一直往下"
+  },
+  {
+    "from": 2842.1,
+    "to": 2845.49,
+    "location": 2,
+    "content": "然後紅色的線是真實的數字"
+  },
+  {
+    "from": 2845.64,
+    "to": 2847.99,
+    "location": 2,
+    "content": "藍色的線是預測的結果"
+  },
+  {
+    "from": 2848.24,
+    "to": 2854.08,
+    "location": 2,
+    "content": "2/26在這邊 這個是今年2021年"
+  },
+  {
+    "from": 2854.24,
+    "to": 2856.75,
+    "location": 2,
+    "content": "觀看人數最高的一天了"
+  },
+  {
+    "from": 2856.98,
+    "to": 2861.09,
+    "location": 2,
+    "content": "那機器的預測怎樣呢"
+  },
+  {
+    "from": 2861.09,
+    "to": 2864.06,
+    "location": 2,
+    "content": "哇 非常的慘 差距非常的大"
+  },
+  {
+    "from": 2864.19,
+    "to": 2867.6,
+    "location": 2,
+    "content": "差距有2.58k這麼多"
+  },
+  {
+    "from": 2867.6,
+    "to": 2870.6,
+    "location": 2,
+    "content": "感謝大家 為了讓這個模型不準"
+  },
+  {
+    "from": 2871.73,
+    "to": 2873.19,
+    "location": 2,
+    "content": "上週五花了很多力氣"
+  },
+  {
+    "from": 2873.19,
+    "to": 2874.71,
+    "location": 2,
+    "content": "去點了這個video"
+  },
+  {
+    "from": 2874.71,
+    "to": 2876.45,
+    "location": 2,
+    "content": "所以這一天是"
+  },
+  {
+    "from": 2876.58,
+    "to": 2879.69,
+    "location": 2,
+    "content": "今年觀看人數最多的一天"
+  },
+  {
+    "from": 2880.49,
+    "to": 2881.64,
+    "location": 2,
+    "content": "那你可能開始想說"
+  },
+  {
+    "from": 2881.64,
+    "to": 2883.16,
+    "location": 2,
+    "content": "那別的模型怎麼樣呢"
+  },
+  {
+    "from": 2883.23,
+    "to": 2886.35,
+    "location": 2,
+    "content": "其實我也跑了一層二層跟四層的看看"
+  },
+  {
+    "from": 2886.52,
+    "to": 2888.83,
+    "location": 2,
+    "content": "所有的模型 都會慘掉"
+  },
+  {
+    "from": 2889.51,
+    "to": 2892.35,
+    "location": 2,
+    "content": "兩層跟三層的錯誤率都是2點多k"
+  },
+  {
+    "from": 2892.57,
+    "to": 2893.97,
+    "location": 2,
+    "content": "其實四層跟一層比較好"
+  },
+  {
+    "from": 2894.03,
+    "to": 2897.1,
+    "location": 2,
+    "content": "都是1.8k左右"
+  },
+  {
+    "from": 2897.24,
+    "to": 2899.66,
+    "location": 2,
+    "content": "但是這四個模型不約而同的"
+  },
+  {
+    "from": 2899.88,
+    "to": 2902.76,
+    "location": 2,
+    "content": "覺得2/26應該是個低點"
+  },
+  {
+    "from": 2902.97,
+    "to": 2907.06,
+    "location": 2,
+    "content": "但實際上2/26是一個公值"
+  },
+  {
+    "from": 2907.27,
+    "to": 2908.91,
+    "location": 2,
+    "content": "那模型其實會覺得它是一個低點"
+  },
+  {
+    "from": 2908.91,
+    "to": 2909.65,
+    "location": 2,
+    "content": "也不能怪它"
+  },
+  {
+    "from": 2909.65,
+    "to": 2911.52,
+    "location": 2,
+    "content": "因為根據過去的資料"
+  },
+  {
+    "from": 2911.69,
+    "to": 2914.07,
+    "location": 2,
+    "content": "禮拜五就是沒有人要學機器學習"
+  },
+  {
+    "from": 2914.28,
+    "to": 2916.07,
+    "location": 2,
+    "content": "禮拜五晚上大家都出去玩了對不對"
+  },
+  {
+    "from": 2916.15,
+    "to": 2918.85,
+    "location": 2,
+    "content": "禮拜五的觀看人數是最少了"
+  },
+  {
+    "from": 2919.08,
+    "to": 2922.68,
+    "location": 2,
+    "content": "但是2/26出現了反常的狀況"
+  },
+  {
+    "from": 2923.4,
+    "to": 2925.74,
+    "location": 2,
+    "content": "好 那這個就不能怪模型了"
+  },
+  {
+    "from": 2925.84,
+    "to": 2927.41,
+    "location": 2,
+    "content": "那我覺得出現這種狀況"
+  },
+  {
+    "from": 2927.56,
+    "to": 2930.39,
+    "location": 2,
+    "content": "應該算是另外一種錯誤的形式"
+  },
+  {
+    "from": 2930.39,
+    "to": 2931.62,
+    "location": 2,
+    "content": "這種錯誤的形式"
+  },
+  {
+    "from": 2931.74,
+    "to": 2933.71,
+    "location": 2,
+    "content": "我們這邊叫作mismatch"
+  },
+  {
+    "from": 2933.95,
+    "to": 2934.67,
+    "location": 2,
+    "content": "那也有人會說"
+  },
+  {
+    "from": 2934.67,
+    "to": 2936.89,
+    "location": 2,
+    "content": "mismatch也算是一種Overfitting"
+  },
+  {
+    "from": 2936.89,
+    "to": 2937.73,
+    "location": 2,
+    "content": "這樣也可以"
+  },
+  {
+    "from": 2937.73,
+    "to": 2939.67,
+    "location": 2,
+    "content": "這都只是名詞定義的問題"
+  },
+  {
+    "from": 2939.79,
+    "to": 2941.62,
+    "location": 2,
+    "content": "那我這邊想要表達的事情是"
+  },
+  {
+    "from": 2941.77,
+    "to": 2945.9,
+    "location": 2,
+    "content": "mismatch它的原因跟overfitting"
+  },
+  {
+    "from": 2945.9,
+    "to": 2946.83,
+    "location": 2,
+    "content": "其實不一樣"
+  },
+  {
+    "from": 2947.44,
+    "to": 2948.83,
+    "location": 2,
+    "content": "一般的overfitting"
+  },
+  {
+    "from": 2948.83,
+    "to": 2951.53,
+    "location": 2,
+    "content": "你可以用搜集更多的資料來克服"
+  },
+  {
+    "from": 2952.01,
+    "to": 2953.8,
+    "location": 2,
+    "content": "但是mismatch意思是說"
+  },
+  {
+    "from": 2953.9,
+    "to": 2956.8,
+    "location": 2,
+    "content": "你今天的訓練資料跟測試資料"
+  },
+  {
+    "from": 2956.92,
+    "to": 2958.4,
+    "location": 2,
+    "content": "它們的分佈是不一樣的"
+  },
+  {
+    "from": 2958.57,
+    "to": 2959.86,
+    "location": 2,
+    "content": "在訓練資料跟測試資料"
+  },
+  {
+    "from": 2959.86,
+    "to": 2961.01,
+    "location": 2,
+    "content": "分佈是不一樣的時候"
+  },
+  {
+    "from": 2961.01,
+    "to": 2962.44,
+    "location": 2,
+    "content": "你訓練資料再增加"
+  },
+  {
+    "from": 2962.64,
+    "to": 2965.08,
+    "location": 2,
+    "content": "其實也沒有幫助了"
+  },
+  {
+    "from": 2965.88,
+    "to": 2967.62,
+    "location": 2,
+    "content": "那其實在多數的作業裡面"
+  },
+  {
+    "from": 2967.79,
+    "to": 2971.02,
+    "location": 2,
+    "content": "我們不會遇到這種mismatch的問題"
+  },
+  {
+    "from": 2971.23,
+    "to": 2974.19,
+    "location": 2,
+    "content": "我們都有把題目設計好了"
+  },
+  {
+    "from": 2974.19,
+    "to": 2977.11,
+    "location": 2,
+    "content": "所以資料跟測試資料它的分佈差不多"
+  },
+  {
+    "from": 2977.34,
+    "to": 2979.44,
+    "location": 2,
+    "content": "舉例來說 以剛才作業一的"
+  },
+  {
+    "from": 2979.44,
+    "to": 2980.94,
+    "location": 2,
+    "content": "Covid19為例的話"
+  },
+  {
+    "from": 2981.18,
+    "to": 2982.94,
+    "location": 2,
+    "content": "假設我們今天資料在"
+  },
+  {
+    "from": 2983.28,
+    "to": 2985.38,
+    "location": 2,
+    "content": "分訓練資料跟測試資料的時候"
+  },
+  {
+    "from": 2985.38,
+    "to": 2987.89,
+    "location": 2,
+    "content": "我們說2020年的資料是訓練資料"
+  },
+  {
+    "from": 2988.06,
+    "to": 2990.45,
+    "location": 2,
+    "content": "2021年的資料是測試資料"
+  },
+  {
+    "from": 2990.91,
+    "to": 2993.05,
+    "location": 2,
+    "content": "那mismatch的問題可能就很嚴重了"
+  },
+  {
+    "from": 2993.14,
+    "to": 2995.33,
+    "location": 2,
+    "content": "這個我們其實有試過了 試了一下"
+  },
+  {
+    "from": 2995.33,
+    "to": 2997.58,
+    "location": 2,
+    "content": "如果今天用2020年當訓練資料"
+  },
+  {
+    "from": 2997.58,
+    "to": 2999.41,
+    "location": 2,
+    "content": "2021年當測試資料"
+  },
+  {
+    "from": 2999.95,
+    "to": 3002.04,
+    "location": 2,
+    "content": "你就怎麼做都是慘了 就做不起來"
+  },
+  {
+    "from": 3002.53,
+    "to": 3004.46,
+    "location": 2,
+    "content": "訓練什麼模型都會慘掉"
+  },
+  {
+    "from": 3004.59,
+    "to": 3007.49,
+    "location": 2,
+    "content": "因為2020年的資料跟2021年的資料"
+  },
+  {
+    "from": 3007.64,
+    "to": 3010.03,
+    "location": 2,
+    "content": "它們的背後的分佈其實都是不一樣"
+  },
+  {
+    "from": 3010.18,
+    "to": 3012.03,
+    "location": 2,
+    "content": "所以你拿2020年的資料來訓練"
+  },
+  {
+    "from": 3012.17,
+    "to": 3014.73,
+    "location": 2,
+    "content": "在2021年的作業一的資料上"
+  },
+  {
+    "from": 3014.73,
+    "to": 3015.78,
+    "location": 2,
+    "content": "你根本就預測不準"
+  },
+  {
+    "from": 3015.78,
+    "to": 3018.08,
+    "location": 2,
+    "content": "所以後來助教是用了別的方式"
+  },
+  {
+    "from": 3018.19,
+    "to": 3021.36,
+    "location": 2,
+    "content": "來分割訓練資料跟測試資料"
+  },
+  {
+    "from": 3022.48,
+    "to": 3024.12,
+    "location": 2,
+    "content": "好 所以我們多數的作業"
+  },
+  {
+    "from": 3024.12,
+    "to": 3026.96,
+    "location": 2,
+    "content": "都不會有這種mismatch的問題"
+  },
+  {
+    "from": 3027.13,
+    "to": 3028.66,
+    "location": 2,
+    "content": "那除了作業十一"
+  },
+  {
+    "from": 3028.67,
+    "to": 3029.96,
+    "location": 2,
+    "content": "因為作業十一就是"
+  },
+  {
+    "from": 3029.96,
+    "to": 3031.96,
+    "location": 2,
+    "content": "針對mismatch的問題來設計的"
+  },
+  {
+    "from": 3032.14,
+    "to": 3035,
+    "location": 2,
+    "content": "作業十一也是一個影像分類的問題"
+  },
+  {
+    "from": 3035.19,
+    "to": 3036.74,
+    "location": 2,
+    "content": "這是它的訓練資料"
+  },
+  {
+    "from": 3037.02,
+    "to": 3038.19,
+    "location": 2,
+    "content": "看起來蠻正常的"
+  },
+  {
+    "from": 3038.48,
+    "to": 3040.4,
+    "location": 2,
+    "content": "但它測試資料就是長這樣子了"
+  },
+  {
+    "from": 3041.16,
+    "to": 3042.28,
+    "location": 2,
+    "content": "所以你知道這個時候"
+  },
+  {
+    "from": 3042.5,
+    "to": 3044.75,
+    "location": 2,
+    "content": "這個時候增加資料哪有什麼用呢"
+  },
+  {
+    "from": 3044.86,
+    "to": 3045.62,
+    "location": 2,
+    "content": "增加資料"
+  },
+  {
+    "from": 3045.73,
+    "to": 3048.19,
+    "location": 2,
+    "content": "你也沒有辦法讓你的模型做得更好"
+  },
+  {
+    "from": 3048.41,
+    "to": 3050.65,
+    "location": 2,
+    "content": "所以這種問題要怎麼解決"
+  },
+  {
+    "from": 3050.81,
+    "to": 3053.97,
+    "location": 2,
+    "content": "那猶待作業十一的時候再講"
+  },
+  {
+    "from": 3055.68,
+    "to": 3057.54,
+    "location": 2,
+    "content": "好 那你可能會問說 我怎麼知道"
+  },
+  {
+    "from": 3057.54,
+    "to": 3059.6,
+    "location": 2,
+    "content": "現在到底是不是mismatch呢"
+  },
+  {
+    "from": 3059.87,
+    "to": 3063.16,
+    "location": 2,
+    "content": "那我覺得知不知道是mismatch"
+  },
+  {
+    "from": 3063.16,
+    "to": 3065.56,
+    "location": 2,
+    "content": "那就要看你對這個資料本身的理解了"
+  },
+  {
+    "from": 3065.75,
+    "to": 3067.99,
+    "location": 2,
+    "content": "你可能要對你的訓練資料跟測試資料"
+  },
+  {
+    "from": 3067.99,
+    "to": 3069.93,
+    "location": 2,
+    "content": "的產生方式有一些理解"
+  },
+  {
+    "from": 3070.09,
+    "to": 3070.96,
+    "location": 2,
+    "content": "你才能判斷說"
+  },
+  {
+    "from": 3071.18,
+    "to": 3074.32,
+    "location": 2,
+    "content": "它是不是遇到了mismatch的狀況"
+  },
+  {
+    "from": 3075.3,
+    "to": 3078.6,
+    "location": 2,
+    "content": "好 那這個就是我們作業的攻略"
+  }
+]

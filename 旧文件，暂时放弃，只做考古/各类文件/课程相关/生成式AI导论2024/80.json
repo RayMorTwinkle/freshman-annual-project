@@ -1,0 +1,6770 @@
+[
+  {
+    "from": 1.02,
+    "to": 4.92,
+    "sid": 1,
+    "location": 2,
+    "content": "好好那各位同学大家好啊",
+    "music": 0
+  },
+  {
+    "from": 4.92,
+    "to": 7.18,
+    "sid": 2,
+    "location": 2,
+    "content": "那我们就来上课吧",
+    "music": 0
+  },
+  {
+    "from": 7.18,
+    "to": 12.17,
+    "sid": 3,
+    "location": 2,
+    "content": "好那我们现在讲到大模型训练的第三阶段",
+    "music": 0
+  },
+  {
+    "from": 12.17,
+    "to": 14.54,
+    "sid": 4,
+    "location": 2,
+    "content": "大模型进行训练的第三阶段",
+    "music": 0
+  },
+  {
+    "from": 14.54,
+    "to": 17.39,
+    "sid": 5,
+    "location": 2,
+    "content": "就是让模型真的跟使用者互动",
+    "music": 0
+  },
+  {
+    "from": 17.39,
+    "to": 20.49,
+    "sid": 6,
+    "location": 2,
+    "content": "在实战中打磨自己的技巧",
+    "music": 0
+  },
+  {
+    "from": 20.49,
+    "to": 24.57,
+    "sid": 7,
+    "location": 2,
+    "content": "那这个第三阶段呢就是鼎鼎大名的reinforcement",
+    "music": 0
+  },
+  {
+    "from": 24.57,
+    "to": 26.58,
+    "sid": 8,
+    "location": 2,
+    "content": "Learning from human feedback",
+    "music": 0
+  },
+  {
+    "from": 26.58,
+    "to": 29.67,
+    "sid": 9,
+    "location": 2,
+    "content": "那它的缩写呢是RLHF",
+    "music": 0
+  },
+  {
+    "from": 29.67,
+    "to": 31.95,
+    "sid": 10,
+    "location": 2,
+    "content": "那这个human feedback是什么意思呢",
+    "music": 0
+  },
+  {
+    "from": 31.95,
+    "to": 36.009,
+    "sid": 11,
+    "location": 2,
+    "content": "你今天会在使用模型的过程中提供模型",
+    "music": 0
+  },
+  {
+    "from": 36.009,
+    "to": 37.029,
+    "sid": 12,
+    "location": 2,
+    "content": "很多的回馈",
+    "music": 0
+  },
+  {
+    "from": 37.029,
+    "to": 39.14,
+    "sid": 13,
+    "location": 2,
+    "content": "告诉他你的喜好",
+    "music": 0
+  },
+  {
+    "from": 39.14,
+    "to": 40.1,
+    "sid": 14,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 40.1,
+    "to": 43.61,
+    "sid": 15,
+    "location": 2,
+    "content": "当你在使用CHEGBT的网页页面的时候",
+    "music": 0
+  },
+  {
+    "from": 43.61,
+    "to": 44.72,
+    "sid": 16,
+    "location": 2,
+    "content": "你问他一个问题",
+    "music": 0
+  },
+  {
+    "from": 44.72,
+    "to": 46.019,
+    "sid": 17,
+    "location": 2,
+    "content": "他给你一个答案",
+    "music": 0
+  },
+  {
+    "from": 46.019,
+    "to": 48.209,
+    "sid": 18,
+    "location": 2,
+    "content": "如果你对这个答案不满意的话",
+    "music": 0
+  },
+  {
+    "from": 48.209,
+    "to": 52.23,
+    "sid": 19,
+    "location": 2,
+    "content": "你可以按这个钮会重新生成新的答案",
+    "music": 0
+  },
+  {
+    "from": 52.23,
+    "to": 55.41,
+    "sid": 20,
+    "location": 2,
+    "content": "每次去GVT重新生成新的答案以后",
+    "music": 0
+  },
+  {
+    "from": 55.41,
+    "to": 56.73,
+    "sid": 21,
+    "location": 2,
+    "content": "他就会问你一个问题",
+    "music": 0
+  },
+  {
+    "from": 56.73,
+    "to": 60.41,
+    "sid": 22,
+    "location": 2,
+    "content": "我现在这个新的答案跟刚才旧的答案比起来",
+    "music": 0
+  },
+  {
+    "from": 60.41,
+    "to": 62.3,
+    "sid": 23,
+    "location": 2,
+    "content": "你觉得是比较好",
+    "music": 0
+  },
+  {
+    "from": 62.3,
+    "to": 64.879,
+    "sid": 24,
+    "location": 2,
+    "content": "比较差还是差不多",
+    "music": 0
+  },
+  {
+    "from": 64.879,
+    "to": 67.159,
+    "sid": 25,
+    "location": 2,
+    "content": "那当你告诉确GVT说",
+    "music": 0
+  },
+  {
+    "from": 67.159,
+    "to": 70.249,
+    "sid": 26,
+    "location": 2,
+    "content": "现在新的答案跟旧的答案比起来比较好",
+    "music": 0
+  },
+  {
+    "from": 70.249,
+    "to": 72.16,
+    "sid": 27,
+    "location": 2,
+    "content": "比较差还是差不多的时候",
+    "music": 0
+  },
+  {
+    "from": 72.16,
+    "to": 74.98,
+    "sid": 28,
+    "location": 2,
+    "content": "你等于就提供了语言模型回馈",
+    "music": 0
+  },
+  {
+    "from": 74.98,
+    "to": 78.46,
+    "sid": 29,
+    "location": 2,
+    "content": "那未来语言模型会收集足够的回馈以后",
+    "music": 0
+  },
+  {
+    "from": 78.46,
+    "to": 81.83,
+    "sid": 30,
+    "location": 2,
+    "content": "对它的参数再进行回调",
+    "music": 0
+  },
+  {
+    "from": 82.27,
+    "to": 84.21,
+    "sid": 31,
+    "location": 2,
+    "content": "那我们现在已经讲到",
+    "music": 0
+  },
+  {
+    "from": 84.21,
+    "to": 87.22,
+    "sid": 32,
+    "location": 2,
+    "content": "大型语言模型的训练的第三阶段",
+    "music": 0
+  },
+  {
+    "from": 87.22,
+    "to": 91,
+    "sid": 33,
+    "location": 2,
+    "content": "那我们来复习一下在这三个阶段中的训练资料",
+    "music": 0
+  },
+  {
+    "from": 91,
+    "to": 93.1,
+    "sid": 34,
+    "location": 2,
+    "content": "看起来有什么不同",
+    "music": 0
+  },
+  {
+    "from": 93.1,
+    "to": 94.78,
+    "sid": 35,
+    "location": 2,
+    "content": "第一阶段叫PORTRAIN",
+    "music": 0
+  },
+  {
+    "from": 94.78,
+    "to": 97,
+    "sid": 36,
+    "location": 2,
+    "content": "第二阶段叫instruction funity",
+    "music": 0
+  },
+  {
+    "from": 97,
+    "to": 99.449,
+    "sid": 37,
+    "location": 2,
+    "content": "第三阶段是RLHF",
+    "music": 0
+  },
+  {
+    "from": 99.449,
+    "to": 101.609,
+    "sid": 38,
+    "location": 2,
+    "content": "在第一阶段跟第二阶段",
+    "music": 0
+  },
+  {
+    "from": 101.609,
+    "to": 104.48,
+    "sid": 39,
+    "location": 2,
+    "content": "我们都是提供给模型输入",
+    "music": 0
+  },
+  {
+    "from": 104.48,
+    "to": 107.6,
+    "sid": 40,
+    "location": 2,
+    "content": "跟下一步做文字接龙的时候",
+    "music": 0
+  },
+  {
+    "from": 107.6,
+    "to": 109.259,
+    "sid": 41,
+    "location": 2,
+    "content": "该有的输出",
+    "music": 0
+  },
+  {
+    "from": 109.259,
+    "to": 110.969,
+    "sid": 42,
+    "location": 2,
+    "content": "在第二阶段的时候",
+    "music": 0
+  },
+  {
+    "from": 110.969,
+    "to": 113.979,
+    "sid": 43,
+    "location": 2,
+    "content": "这些输出是由人所提供的",
+    "music": 0
+  },
+  {
+    "from": 113.979,
+    "to": 116.169,
+    "sid": 44,
+    "location": 2,
+    "content": "所以叫做supervised learning",
+    "music": 0
+  },
+  {
+    "from": 116.169,
+    "to": 117.399,
+    "sid": 45,
+    "location": 2,
+    "content": "督导式学习",
+    "music": 0
+  },
+  {
+    "from": 117.399,
+    "to": 121.18,
+    "sid": 46,
+    "location": 2,
+    "content": "需要人花费大量的时间收集问题跟他的答案",
+    "music": 0
+  },
+  {
+    "from": 121.18,
+    "to": 124.18,
+    "sid": 47,
+    "location": 2,
+    "content": "才能够在第二阶段教语言模型",
+    "music": 0
+  },
+  {
+    "from": 124.18,
+    "to": 126.29,
+    "sid": 48,
+    "location": 2,
+    "content": "第一阶段跟第二阶段",
+    "music": 0
+  },
+  {
+    "from": 126.29,
+    "to": 129.11,
+    "sid": 49,
+    "location": 2,
+    "content": "他的资料格式其实非常的类似",
+    "music": 0
+  },
+  {
+    "from": 129.11,
+    "to": 132.4,
+    "sid": 50,
+    "location": 2,
+    "content": "只是第一阶段没有太多人类的介入",
+    "music": 0
+  },
+  {
+    "from": 132.4,
+    "to": 132.76,
+    "sid": 51,
+    "location": 2,
+    "content": "训练",
+    "music": 0
+  },
+  {
+    "from": 132.76,
+    "to": 135.13,
+    "sid": 52,
+    "location": 2,
+    "content": "资料是直接从网络上取得的",
+    "music": 0
+  },
+  {
+    "from": 135.13,
+    "to": 138.04,
+    "sid": 53,
+    "location": 2,
+    "content": "这个步骤叫做sell supervised learning",
+    "music": 0
+  },
+  {
+    "from": 138.04,
+    "to": 139.67,
+    "sid": 54,
+    "location": 2,
+    "content": "自读导师学习",
+    "music": 0
+  },
+  {
+    "from": 139.67,
+    "to": 141.41,
+    "sid": 55,
+    "location": 2,
+    "content": "而第三阶段呢",
+    "music": 0
+  },
+  {
+    "from": 141.41,
+    "to": 144.11,
+    "sid": 56,
+    "location": 2,
+    "content": "这个训练资料的样子就跟第一阶段",
+    "music": 0
+  },
+  {
+    "from": 144.11,
+    "to": 146.45,
+    "sid": 57,
+    "location": 2,
+    "content": "跟第二和第二阶段非常的不一样",
+    "music": 0
+  },
+  {
+    "from": 146.45,
+    "to": 147.92,
+    "sid": 58,
+    "location": 2,
+    "content": "在第三阶段",
+    "music": 0
+  },
+  {
+    "from": 147.92,
+    "to": 150.92,
+    "sid": 59,
+    "location": 2,
+    "content": "机器没有人明确的告诉他说",
+    "music": 0
+  },
+  {
+    "from": 150.92,
+    "to": 153.64,
+    "sid": 60,
+    "location": 2,
+    "content": "接下来应该要产生哪一个token",
+    "music": 0
+  },
+  {
+    "from": 153.64,
+    "to": 156.34,
+    "sid": 61,
+    "location": 2,
+    "content": "机器得到的学习的讯号",
+    "music": 0
+  },
+  {
+    "from": 156.34,
+    "to": 159.7,
+    "sid": 62,
+    "location": 2,
+    "content": "是某一个答案好过另外一个答案",
+    "music": 0
+  },
+  {
+    "from": 159.7,
+    "to": 165.41,
+    "sid": 63,
+    "location": 2,
+    "content": "那透过这种呃回馈的资讯来进行学习的方法",
+    "music": 0
+  },
+  {
+    "from": 165.41,
+    "to": 169.04,
+    "sid": 64,
+    "location": 2,
+    "content": "叫做reinforcement learning的缩写是RL",
+    "music": 0
+  },
+  {
+    "from": 169.04,
+    "to": 172.38,
+    "sid": 65,
+    "location": 2,
+    "content": "那中文翻译成增强式学习",
+    "music": 0
+  },
+  {
+    "from": 172.72,
+    "to": 175.68,
+    "sid": 66,
+    "location": 2,
+    "content": "那reinforcement learning是怎么运作的呢",
+    "music": 0
+  },
+  {
+    "from": 175.68,
+    "to": 177.33,
+    "sid": 67,
+    "location": 2,
+    "content": "讲的机呃",
+    "music": 0
+  },
+  {
+    "from": 177.33,
+    "to": 179.2,
+    "sid": 68,
+    "location": 2,
+    "content": "如果从概念上来讲",
+    "music": 0
+  },
+  {
+    "from": 179.2,
+    "to": 182.42,
+    "sid": 69,
+    "location": 2,
+    "content": "reinforcement learning的运作方式是这个样子的",
+    "music": 0
+  },
+  {
+    "from": 182.42,
+    "to": 184.52,
+    "sid": 70,
+    "location": 2,
+    "content": "当有人告诉语言模型说",
+    "music": 0
+  },
+  {
+    "from": 184.52,
+    "to": 186.92,
+    "sid": 71,
+    "location": 2,
+    "content": "某一个答案比另外一个答案好的时候",
+    "music": 0
+  },
+  {
+    "from": 186.92,
+    "to": 189.44,
+    "sid": 72,
+    "location": 2,
+    "content": "语言模型就微调它的参数",
+    "music": 0
+  },
+  {
+    "from": 189.44,
+    "to": 191.42,
+    "sid": 73,
+    "location": 2,
+    "content": "这次微调的目标是什么呢",
+    "music": 0
+  },
+  {
+    "from": 191.42,
+    "to": 192.8,
+    "sid": 74,
+    "location": 2,
+    "content": "微调的目标是",
+    "music": 0
+  },
+  {
+    "from": 192.8,
+    "to": 196.76,
+    "sid": 75,
+    "location": 2,
+    "content": "希望人觉得好的答案产生的几率高一点",
+    "music": 0
+  },
+  {
+    "from": 196.76,
+    "to": 200.56,
+    "sid": 76,
+    "location": 2,
+    "content": "人觉得不好的答案产生的几率低一点",
+    "music": 0
+  },
+  {
+    "from": 200.56,
+    "to": 204.28,
+    "sid": 77,
+    "location": 2,
+    "content": "增强式学习的概念就是这样说完了",
+    "music": 0
+  },
+  {
+    "from": 204.28,
+    "to": 208.39,
+    "sid": 78,
+    "location": 2,
+    "content": "假设你想要真的了解增强式学习的内涵的话",
+    "music": 0
+  },
+  {
+    "from": 208.39,
+    "to": 212.09,
+    "sid": 79,
+    "location": 2,
+    "content": "可以看我们过去机器学习的上课录音",
+    "music": 0
+  },
+  {
+    "from": 212.09,
+    "to": 215.63,
+    "sid": 80,
+    "location": 2,
+    "content": "而这个确GPT在做这个I/O hf",
+    "music": 0
+  },
+  {
+    "from": 215.63,
+    "to": 217.44,
+    "sid": 81,
+    "location": 2,
+    "content": "在做增强式学习的时候",
+    "music": 0
+  },
+  {
+    "from": 217.44,
+    "to": 222.1,
+    "sid": 82,
+    "location": 2,
+    "content": "它微调参数的演算法叫做PPO啊",
+    "music": 0
+  },
+  {
+    "from": 222.1,
+    "to": 224.62,
+    "sid": 83,
+    "location": 2,
+    "content": "如果你真的想知道PPO是什么的话",
+    "music": 0
+  },
+  {
+    "from": 224.62,
+    "to": 227.52,
+    "sid": 84,
+    "location": 2,
+    "content": "我也有一个系列的影片再讲PPO",
+    "music": 0
+  },
+  {
+    "from": 227.52,
+    "to": 231.24,
+    "sid": 85,
+    "location": 2,
+    "content": "那我把它连接留在头一天上给大家参考",
+    "music": 0
+  },
+  {
+    "from": 231.24,
+    "to": 234.85,
+    "sid": 86,
+    "location": 2,
+    "content": "但本质上它的概念就是人觉得好的答案",
+    "music": 0
+  },
+  {
+    "from": 234.85,
+    "to": 236.68,
+    "sid": 87,
+    "location": 2,
+    "content": "就提高它出现的几率",
+    "music": 0
+  },
+  {
+    "from": 236.68,
+    "to": 240.369,
+    "sid": 88,
+    "location": 2,
+    "content": "人觉得不好的答案就降低它出现的几率",
+    "music": 0
+  },
+  {
+    "from": 240.369,
+    "to": 242.64,
+    "sid": 89,
+    "location": 2,
+    "content": "那如果你看这些RL的影片",
+    "music": 0
+  },
+  {
+    "from": 242.64,
+    "to": 244.11,
+    "sid": 90,
+    "location": 2,
+    "content": "看PPO的演算法",
+    "music": 0
+  },
+  {
+    "from": 244.11,
+    "to": 245.7,
+    "sid": 91,
+    "location": 2,
+    "content": "看的颠三倒四的话",
+    "music": 0
+  },
+  {
+    "from": 245.7,
+    "to": 247.05,
+    "sid": 92,
+    "location": 2,
+    "content": "就记得我说的原则",
+    "music": 0
+  },
+  {
+    "from": 247.05,
+    "to": 248.82,
+    "sid": 93,
+    "location": 2,
+    "content": "那你就知道IOHF",
+    "music": 0
+  },
+  {
+    "from": 248.82,
+    "to": 252.39,
+    "sid": 94,
+    "location": 2,
+    "content": "实际上在做的事情是什么好",
+    "music": 0
+  },
+  {
+    "from": 252.39,
+    "to": 256.02,
+    "sid": 95,
+    "location": 2,
+    "content": "那我们从人类产生训练资料的角度来看看",
+    "music": 0
+  },
+  {
+    "from": 256.02,
+    "to": 259.68,
+    "sid": 96,
+    "location": 2,
+    "content": "IHF跟第二阶段的instruction funity",
+    "music": 0
+  },
+  {
+    "from": 259.68,
+    "to": 261.06,
+    "sid": 97,
+    "location": 2,
+    "content": "有什么样的不同",
+    "music": 0
+  },
+  {
+    "from": 261.06,
+    "to": 264.21,
+    "sid": 98,
+    "location": 2,
+    "content": "不管是在第二阶段还是第三阶段",
+    "music": 0
+  },
+  {
+    "from": 264.21,
+    "to": 266.75,
+    "sid": 99,
+    "location": 2,
+    "content": "都需要人类的介入",
+    "music": 0
+  },
+  {
+    "from": 266.75,
+    "to": 268.25,
+    "sid": 100,
+    "location": 2,
+    "content": "但是在第二阶段",
+    "music": 0
+  },
+  {
+    "from": 268.25,
+    "to": 270.5,
+    "sid": 101,
+    "location": 2,
+    "content": "instruction fine tune的这个阶段",
+    "music": 0
+  },
+  {
+    "from": 270.5,
+    "to": 272.15,
+    "sid": 102,
+    "location": 2,
+    "content": "人类是比较辛苦的",
+    "music": 0
+  },
+  {
+    "from": 272.15,
+    "to": 275.27,
+    "sid": 103,
+    "location": 2,
+    "content": "因为人类必须要想出问题",
+    "music": 0
+  },
+  {
+    "from": 275.27,
+    "to": 278.659,
+    "sid": 104,
+    "location": 2,
+    "content": "而且要提供正确的答案",
+    "music": 0
+  },
+  {
+    "from": 278.659,
+    "to": 280.579,
+    "sid": 105,
+    "location": 2,
+    "content": "在I/O hf的阶段",
+    "music": 0
+  },
+  {
+    "from": 280.579,
+    "to": 282.139,
+    "sid": 106,
+    "location": 2,
+    "content": "人类是比较轻松的",
+    "music": 0
+  },
+  {
+    "from": 282.139,
+    "to": 284.8,
+    "sid": 107,
+    "location": 2,
+    "content": "人类并不需要提供正确的答案",
+    "music": 0
+  },
+  {
+    "from": 284.8,
+    "to": 286.99,
+    "sid": 108,
+    "location": 2,
+    "content": "而是由模型产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 286.99,
+    "to": 290.7,
+    "sid": 109,
+    "location": 2,
+    "content": "由人类来决定哪一个答案是比较好的",
+    "music": 0
+  },
+  {
+    "from": 290.7,
+    "to": 293.4,
+    "sid": 110,
+    "location": 2,
+    "content": "所以在第三阶段IO hf的阶段",
+    "music": 0
+  },
+  {
+    "from": 293.4,
+    "to": 294.36,
+    "sid": 111,
+    "location": 2,
+    "content": "人类是轻松的",
+    "music": 0
+  },
+  {
+    "from": 294.36,
+    "to": 296.52,
+    "sid": 112,
+    "location": 2,
+    "content": "你就按一个钮告诉语言模型说",
+    "music": 0
+  },
+  {
+    "from": 296.52,
+    "to": 298.38,
+    "sid": 113,
+    "location": 2,
+    "content": "哪一个答案是你觉得比较好的",
+    "music": 0
+  },
+  {
+    "from": 298.38,
+    "to": 301.35,
+    "sid": 114,
+    "location": 2,
+    "content": "那语言模型就从你按钮的这个过程中",
+    "music": 0
+  },
+  {
+    "from": 301.35,
+    "to": 305.67,
+    "sid": 115,
+    "location": 2,
+    "content": "从你按下这个钮的这个资讯去进行学习",
+    "music": 0
+  },
+  {
+    "from": 306.07,
+    "to": 308.55,
+    "sid": 116,
+    "location": 2,
+    "content": "而且IH还有个好处",
+    "music": 0
+  },
+  {
+    "from": 308.55,
+    "to": 313.28,
+    "sid": 117,
+    "location": 2,
+    "content": "很多时候人类要写出正确的答案并不容易",
+    "music": 0
+  },
+  {
+    "from": 313.28,
+    "to": 316.61,
+    "sid": 118,
+    "location": 2,
+    "content": "但是要判断答案是好的还是不好的",
+    "music": 0
+  },
+  {
+    "from": 316.61,
+    "to": 318.68,
+    "sid": 119,
+    "location": 2,
+    "content": "却相对容易很多",
+    "music": 0
+  },
+  {
+    "from": 318.68,
+    "to": 319.73,
+    "sid": 120,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 319.73,
+    "to": 322.58,
+    "sid": 121,
+    "location": 2,
+    "content": "假设你要叫语言模型写诗啊",
+    "music": 0
+  },
+  {
+    "from": 322.58,
+    "to": 325.99,
+    "sid": 122,
+    "location": 2,
+    "content": "写一首赞扬大型语言模型的七言绝句",
+    "music": 0
+  },
+  {
+    "from": 325.99,
+    "to": 329.02,
+    "sid": 123,
+    "location": 2,
+    "content": "如果是在instruction fune的第二阶段",
+    "music": 0
+  },
+  {
+    "from": 329.02,
+    "to": 332.459,
+    "sid": 124,
+    "location": 2,
+    "content": "你需要帮语言模型写出正确答案啊",
+    "music": 0
+  },
+  {
+    "from": 332.459,
+    "to": 333.419,
+    "sid": 125,
+    "location": 2,
+    "content": "你又不是曹植",
+    "music": 0
+  },
+  {
+    "from": 333.419,
+    "to": 335.039,
+    "sid": 126,
+    "location": 2,
+    "content": "你也没办法七步成诗",
+    "music": 0
+  },
+  {
+    "from": 335.039,
+    "to": 337.919,
+    "sid": 127,
+    "location": 2,
+    "content": "所以叫你写这个答案恐怕是有点困难的",
+    "music": 0
+  },
+  {
+    "from": 337.919,
+    "to": 341.699,
+    "sid": 128,
+    "location": 2,
+    "content": "但是假设先让语言模型自己产生两首诗哦",
+    "music": 0
+  },
+  {
+    "from": 341.699,
+    "to": 343.259,
+    "sid": 129,
+    "location": 2,
+    "content": "这边就叫g p t four",
+    "music": 0
+  },
+  {
+    "from": 343.259,
+    "to": 344.42,
+    "sid": 130,
+    "location": 2,
+    "content": "自己写两首诗",
+    "music": 0
+  },
+  {
+    "from": 344.42,
+    "to": 345.32,
+    "sid": 131,
+    "location": 2,
+    "content": "第一首是什么",
+    "music": 0
+  },
+  {
+    "from": 345.32,
+    "to": 347.66,
+    "sid": 132,
+    "location": 2,
+    "content": "自知自知千年万光年",
+    "music": 0
+  },
+  {
+    "from": 347.66,
+    "to": 348.88,
+    "sid": 133,
+    "location": 2,
+    "content": "万里桥啊",
+    "music": 0
+  },
+  {
+    "from": 348.88,
+    "to": 350.14,
+    "sid": 134,
+    "location": 2,
+    "content": "第二首是知识",
+    "music": 0
+  },
+  {
+    "from": 350.14,
+    "to": 351.22,
+    "sid": 135,
+    "location": 2,
+    "content": "海洋生无垠",
+    "music": 0
+  },
+  {
+    "from": 351.22,
+    "to": 352.78,
+    "sid": 136,
+    "location": 2,
+    "content": "字里行间见真心",
+    "music": 0
+  },
+  {
+    "from": 352.78,
+    "to": 354.01,
+    "sid": 137,
+    "location": 2,
+    "content": "也不知道在写些什么",
+    "music": 0
+  },
+  {
+    "from": 354.01,
+    "to": 356.049,
+    "sid": 138,
+    "location": 2,
+    "content": "但是对于人类来说",
+    "music": 0
+  },
+  {
+    "from": 356.049,
+    "to": 357.8,
+    "sid": 139,
+    "location": 2,
+    "content": "到底哪一首比较好呢",
+    "music": 0
+  },
+  {
+    "from": 357.8,
+    "to": 359.24,
+    "sid": 140,
+    "location": 2,
+    "content": "你一秒就可以看出来",
+    "music": 0
+  },
+  {
+    "from": 359.24,
+    "to": 360.77,
+    "sid": 141,
+    "location": 2,
+    "content": "显然第二首比较好啊",
+    "music": 0
+  },
+  {
+    "from": 360.77,
+    "to": 363.2,
+    "sid": 142,
+    "location": 2,
+    "content": "你也不需要鉴赏诗的能力",
+    "music": 0
+  },
+  {
+    "from": 363.2,
+    "to": 364.74,
+    "sid": 143,
+    "location": 2,
+    "content": "你就知道第二首比较好",
+    "music": 0
+  },
+  {
+    "from": 364.74,
+    "to": 367.02,
+    "sid": 144,
+    "location": 2,
+    "content": "因为这边是要写七言绝句啊",
+    "music": 0
+  },
+  {
+    "from": 367.02,
+    "to": 369,
+    "sid": 145,
+    "location": 2,
+    "content": "第一首根本就是五言的哦",
+    "music": 0
+  },
+  {
+    "from": 369,
+    "to": 371.45,
+    "sid": 146,
+    "location": 2,
+    "content": "根本整个连格式都不对了哦",
+    "music": 0
+  },
+  {
+    "from": 371.45,
+    "to": 372.71,
+    "sid": 147,
+    "location": 2,
+    "content": "所以对人类来说",
+    "music": 0
+  },
+  {
+    "from": 372.71,
+    "to": 375.91,
+    "sid": 148,
+    "location": 2,
+    "content": "有时候你要写出正确答案不容易",
+    "music": 0
+  },
+  {
+    "from": 375.91,
+    "to": 378.19,
+    "sid": 149,
+    "location": 2,
+    "content": "但叫你判断哪一个答案比较好",
+    "music": 0
+  },
+  {
+    "from": 378.19,
+    "to": 380.85,
+    "sid": 150,
+    "location": 2,
+    "content": "往往相对是容易很多",
+    "music": 0
+  },
+  {
+    "from": 380.85,
+    "to": 385.47,
+    "sid": 151,
+    "location": 2,
+    "content": "这边我们是从人类产生训练资料的角度来看",
+    "music": 0
+  },
+  {
+    "from": 385.47,
+    "to": 388.47,
+    "sid": 152,
+    "location": 2,
+    "content": "那我们再从另外一个角度",
+    "music": 0
+  },
+  {
+    "from": 388.47,
+    "to": 391.17,
+    "sid": 153,
+    "location": 2,
+    "content": "从模型学习的角度来看",
+    "music": 0
+  },
+  {
+    "from": 391.17,
+    "to": 393.15,
+    "sid": 154,
+    "location": 2,
+    "content": "来看看instruction fine tuning",
+    "music": 0
+  },
+  {
+    "from": 393.15,
+    "to": 396.53,
+    "sid": 155,
+    "location": 2,
+    "content": "跟IOHF对于语言模型的学习",
+    "music": 0
+  },
+  {
+    "from": 396.53,
+    "to": 398.8,
+    "sid": 156,
+    "location": 2,
+    "content": "有什么不一样的地方",
+    "music": 0
+  },
+  {
+    "from": 398.8,
+    "to": 401.08,
+    "sid": 157,
+    "location": 2,
+    "content": "在做instruction fine tuning的时候",
+    "music": 0
+  },
+  {
+    "from": 401.08,
+    "to": 403.09,
+    "sid": 158,
+    "location": 2,
+    "content": "模型要学的就是一件事",
+    "music": 0
+  },
+  {
+    "from": 403.09,
+    "to": 405.909,
+    "sid": 159,
+    "location": 2,
+    "content": "怎么接下一个字",
+    "music": 0
+  },
+  {
+    "from": 405.909,
+    "to": 410.739,
+    "sid": 160,
+    "location": 2,
+    "content": "而这背后隐含的假设是假设每次做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 410.739,
+    "to": 412.68,
+    "sid": 161,
+    "location": 2,
+    "content": "每一步接的都是对的",
+    "music": 0
+  },
+  {
+    "from": 412.68,
+    "to": 416.13,
+    "sid": 162,
+    "location": 2,
+    "content": "那结果最终接出来就会是好的",
+    "music": 0
+  },
+  {
+    "from": 416.13,
+    "to": 417.72,
+    "sid": 163,
+    "location": 2,
+    "content": "我知道每一步都是对的",
+    "music": 0
+  },
+  {
+    "from": 417.72,
+    "to": 419.22,
+    "sid": 164,
+    "location": 2,
+    "content": "最后结果就会是好的",
+    "music": 0
+  },
+  {
+    "from": 419.22,
+    "to": 422.12,
+    "sid": 165,
+    "location": 2,
+    "content": "但这个假设不一定是成立的",
+    "music": 0
+  },
+  {
+    "from": 422.12,
+    "to": 424.43,
+    "sid": 166,
+    "location": 2,
+    "content": "所以在第一阶段和第二阶段",
+    "music": 0
+  },
+  {
+    "from": 424.43,
+    "to": 428.51,
+    "sid": 167,
+    "location": 2,
+    "content": "模型对于生成的结果并没有通盘的考量",
+    "music": 0
+  },
+  {
+    "from": 428.51,
+    "to": 431.539,
+    "sid": 168,
+    "location": 2,
+    "content": "他只学要怎么接下一个字而已",
+    "music": 0
+  },
+  {
+    "from": 431.539,
+    "to": 433.909,
+    "sid": 169,
+    "location": 2,
+    "content": "可是在I/O hf的时候",
+    "music": 0
+  },
+  {
+    "from": 433.909,
+    "to": 435.859,
+    "sid": 170,
+    "location": 2,
+    "content": "第三阶段的时候就不一样了",
+    "music": 0
+  },
+  {
+    "from": 435.859,
+    "to": 439.44,
+    "sid": 171,
+    "location": 2,
+    "content": "因为模型这边得到的讯号是某一个完整的答案",
+    "music": 0
+  },
+  {
+    "from": 439.44,
+    "to": 442.35,
+    "sid": 172,
+    "location": 2,
+    "content": "优于另外一个完整的答案",
+    "music": 0
+  },
+  {
+    "from": 442.35,
+    "to": 446.11,
+    "sid": 173,
+    "location": 2,
+    "content": "所以模型现在会进入新的思考模式",
+    "music": 0
+  },
+  {
+    "from": 446.11,
+    "to": 447.13,
+    "sid": 174,
+    "location": 2,
+    "content": "模型会知道",
+    "music": 0
+  },
+  {
+    "from": 447.13,
+    "to": 450.94,
+    "sid": 175,
+    "location": 2,
+    "content": "不要管中间接龙的每一步到底做的怎么样",
+    "music": 0
+  },
+  {
+    "from": 450.94,
+    "to": 455.65,
+    "sid": 176,
+    "location": 2,
+    "content": "最重要的是最终生成的完整的结果",
+    "music": 0
+  },
+  {
+    "from": 455.65,
+    "to": 458.32,
+    "sid": 177,
+    "location": 2,
+    "content": "那所以ILHF比较有机会",
+    "music": 0
+  },
+  {
+    "from": 458.32,
+    "to": 462.01,
+    "sid": 178,
+    "location": 2,
+    "content": "让语言模型通盘的考量它生成的结果",
+    "music": 0
+  },
+  {
+    "from": 462.01,
+    "to": 467.07,
+    "sid": 179,
+    "location": 2,
+    "content": "而不是只专注于下一步应该要产生哪一个词汇",
+    "music": 0
+  },
+  {
+    "from": 467.07,
+    "to": 468.52,
+    "sid": 180,
+    "location": 2,
+    "content": "哪一个字",
+    "music": 0
+  },
+  {
+    "from": 468.52,
+    "to": 471.52,
+    "sid": 181,
+    "location": 2,
+    "content": "那如果要用一句话概括instruction",
+    "music": 0
+  },
+  {
+    "from": 471.52,
+    "to": 473.83,
+    "sid": 182,
+    "location": 2,
+    "content": "fine tuning跟l hf的差异的话",
+    "music": 0
+  },
+  {
+    "from": 473.83,
+    "to": 477.62,
+    "sid": 183,
+    "location": 2,
+    "content": "那我会说instruction fine tuning就是指问过程",
+    "music": 0
+  },
+  {
+    "from": 477.62,
+    "to": 478.85,
+    "sid": 184,
+    "location": 2,
+    "content": "不问结果",
+    "music": 0
+  },
+  {
+    "from": 478.85,
+    "to": 480.95,
+    "sid": 185,
+    "location": 2,
+    "content": "只问下一步接的对不对",
+    "music": 0
+  },
+  {
+    "from": 480.95,
+    "to": 482.6,
+    "sid": 186,
+    "location": 2,
+    "content": "不管整体而言",
+    "music": 0
+  },
+  {
+    "from": 482.6,
+    "to": 484.36,
+    "sid": 187,
+    "location": 2,
+    "content": "答案产生出来怎么样",
+    "music": 0
+  },
+  {
+    "from": 484.36,
+    "to": 487.67,
+    "sid": 188,
+    "location": 2,
+    "content": "而IO hf是只问结果",
+    "music": 0
+  },
+  {
+    "from": 487.67,
+    "to": 488.6,
+    "sid": 189,
+    "location": 2,
+    "content": "不问过程",
+    "music": 0
+  },
+  {
+    "from": 488.6,
+    "to": 491.54,
+    "sid": 190,
+    "location": 2,
+    "content": "我们只管最终生出来的结果好不好",
+    "music": 0
+  },
+  {
+    "from": 491.54,
+    "to": 495.44,
+    "sid": 191,
+    "location": 2,
+    "content": "不管中间每一步生成的对不对",
+    "music": 0
+  },
+  {
+    "from": 495.44,
+    "to": 496.76,
+    "sid": 192,
+    "location": 2,
+    "content": "讲到这边呢",
+    "music": 0
+  },
+  {
+    "from": 496.76,
+    "to": 499.82,
+    "sid": 193,
+    "location": 2,
+    "content": "我就想到天龙八部的珍珑棋局",
+    "music": 0
+  },
+  {
+    "from": 499.82,
+    "to": 501.62,
+    "sid": 194,
+    "location": 2,
+    "content": "不知道大家有没有看过天龙八部了",
+    "music": 0
+  },
+  {
+    "from": 501.62,
+    "to": 502.64,
+    "sid": 195,
+    "location": 2,
+    "content": "还跟大家讲一下好",
+    "music": 0
+  },
+  {
+    "from": 502.64,
+    "to": 504.23,
+    "sid": 196,
+    "location": 2,
+    "content": "真龙棋局是这样子的",
+    "music": 0
+  },
+  {
+    "from": 504.23,
+    "to": 506,
+    "sid": 197,
+    "location": 2,
+    "content": "有一个人叫做苏星河",
+    "music": 0
+  },
+  {
+    "from": 506,
+    "to": 508.22,
+    "sid": 198,
+    "location": 2,
+    "content": "他就摆了一个真龙棋局",
+    "music": 0
+  },
+  {
+    "from": 508.22,
+    "to": 509.73,
+    "sid": 199,
+    "location": 2,
+    "content": "叫大家来破解",
+    "music": 0
+  },
+  {
+    "from": 509.73,
+    "to": 512.43,
+    "sid": 200,
+    "location": 2,
+    "content": "但是古往今来的各大高手",
+    "music": 0
+  },
+  {
+    "from": 512.43,
+    "to": 514.83,
+    "sid": 201,
+    "location": 2,
+    "content": "都没有办法破解这个棋局",
+    "music": 0
+  },
+  {
+    "from": 514.83,
+    "to": 516.93,
+    "sid": 202,
+    "location": 2,
+    "content": "而右边这个是舒心和阿鲁",
+    "music": 0
+  },
+  {
+    "from": 516.93,
+    "to": 518.52,
+    "sid": 203,
+    "location": 2,
+    "content": "猜左边这个应该是段誉",
+    "music": 0
+  },
+  {
+    "from": 518.52,
+    "to": 520.74,
+    "sid": 204,
+    "location": 2,
+    "content": "然后这个图呢显然是用AI生的啦",
+    "music": 0
+  },
+  {
+    "from": 520.74,
+    "to": 522.84,
+    "sid": 205,
+    "location": 2,
+    "content": "你这棋盘不知道为什么是圆的啊",
+    "music": 0
+  },
+  {
+    "from": 522.84,
+    "to": 525.21,
+    "sid": 206,
+    "location": 2,
+    "content": "这个是AI生成的图好",
+    "music": 0
+  },
+  {
+    "from": 525.21,
+    "to": 528.24,
+    "sid": 207,
+    "location": 2,
+    "content": "但是有一个少林寺的和尚叫做虚竹",
+    "music": 0
+  },
+  {
+    "from": 528.24,
+    "to": 530.61,
+    "sid": 208,
+    "location": 2,
+    "content": "然后就在棋盘上面随便下了一子",
+    "music": 0
+  },
+  {
+    "from": 530.61,
+    "to": 531.71,
+    "sid": 209,
+    "location": 2,
+    "content": "随机下了一子",
+    "music": 0
+  },
+  {
+    "from": 531.71,
+    "to": 533.87,
+    "sid": 210,
+    "location": 2,
+    "content": "然后就把自己的子都堵死了",
+    "music": 0
+  },
+  {
+    "from": 533.87,
+    "to": 535.64,
+    "sid": 211,
+    "location": 2,
+    "content": "其他人都想说怎么可以这样下",
+    "music": 0
+  },
+  {
+    "from": 535.64,
+    "to": 537.83,
+    "sid": 212,
+    "location": 2,
+    "content": "但没想到他就赢了",
+    "music": 0
+  },
+  {
+    "from": 537.83,
+    "to": 540.7,
+    "sid": 213,
+    "location": 2,
+    "content": "因为这个真龙棋局神庙的地方",
+    "music": 0
+  },
+  {
+    "from": 540.7,
+    "to": 544.24,
+    "sid": 214,
+    "location": 2,
+    "content": "就是在中间某一步你要先毒死自己的棋子",
+    "music": 0
+  },
+  {
+    "from": 544.24,
+    "to": 546.32,
+    "sid": 215,
+    "location": 2,
+    "content": "最后才能获得胜利",
+    "music": 0
+  },
+  {
+    "from": 546.32,
+    "to": 548.78,
+    "sid": 216,
+    "location": 2,
+    "content": "过去的人就是因为太过纠结",
+    "music": 0
+  },
+  {
+    "from": 548.78,
+    "to": 550.47,
+    "sid": 217,
+    "location": 2,
+    "content": "但每一步都要下好",
+    "music": 0
+  },
+  {
+    "from": 550.47,
+    "to": 552.75,
+    "sid": 218,
+    "location": 2,
+    "content": "反而最终没有办法下好",
+    "music": 0
+  },
+  {
+    "from": 552.75,
+    "to": 554.7,
+    "sid": 219,
+    "location": 2,
+    "content": "而中间把自己的棋子毒死",
+    "music": 0
+  },
+  {
+    "from": 554.7,
+    "to": 557,
+    "sid": 220,
+    "location": 2,
+    "content": "最后反而会海阔天空",
+    "music": 0
+  },
+  {
+    "from": 557,
+    "to": 558.8,
+    "sid": 221,
+    "location": 2,
+    "content": "这个就是珍珑棋局",
+    "music": 0
+  },
+  {
+    "from": 558.8,
+    "to": 561.56,
+    "sid": 222,
+    "location": 2,
+    "content": "跟我们刚才讲的IOHF跟INTRON",
+    "music": 0
+  },
+  {
+    "from": 561.56,
+    "to": 565.04,
+    "sid": 223,
+    "location": 2,
+    "content": "fine tune的差别有异曲同工之妙",
+    "music": 0
+  },
+  {
+    "from": 565.04,
+    "to": 567.23,
+    "sid": 224,
+    "location": 2,
+    "content": "那讲到这个下围棋呀",
+    "music": 0
+  },
+  {
+    "from": 567.23,
+    "to": 569.51,
+    "sid": 225,
+    "location": 2,
+    "content": "你知道这个语言模型在做的事情",
+    "music": 0
+  },
+  {
+    "from": 569.51,
+    "to": 570.9,
+    "sid": 226,
+    "location": 2,
+    "content": "还有学习的过程",
+    "music": 0
+  },
+  {
+    "from": 570.9,
+    "to": 577.06,
+    "sid": 227,
+    "location": 2,
+    "content": "其实跟下围棋阿尔法狗有很多可以类比的地方",
+    "music": 0
+  },
+  {
+    "from": 577.06,
+    "to": 579.1,
+    "sid": 228,
+    "location": 2,
+    "content": "我们知道语言模型做的事情",
+    "music": 0
+  },
+  {
+    "from": 579.1,
+    "to": 581.23,
+    "sid": 229,
+    "location": 2,
+    "content": "就是读一个未完成的句子",
+    "music": 0
+  },
+  {
+    "from": 581.23,
+    "to": 585.32,
+    "sid": 230,
+    "location": 2,
+    "content": "然后生出下一个应该产生的token",
+    "music": 0
+  },
+  {
+    "from": 585.32,
+    "to": 587.589,
+    "sid": 231,
+    "location": 2,
+    "content": "下一个应该产生的字",
+    "music": 0
+  },
+  {
+    "from": 587.589,
+    "to": 589.209,
+    "sid": 232,
+    "location": 2,
+    "content": "而下围棋",
+    "music": 0
+  },
+  {
+    "from": 589.209,
+    "to": 592.539,
+    "sid": 233,
+    "location": 2,
+    "content": "阿尔法狗做的事情其实也非常的类似",
+    "music": 0
+  },
+  {
+    "from": 592.539,
+    "to": 596.49,
+    "sid": 234,
+    "location": 2,
+    "content": "他做的事情是去看一个未完成的棋局",
+    "music": 0
+  },
+  {
+    "from": 596.49,
+    "to": 601.76,
+    "sid": 235,
+    "location": 2,
+    "content": "然后决定接下来下一步要去落子的位置",
+    "music": 0
+  },
+  {
+    "from": 601.76,
+    "to": 605.6,
+    "sid": 236,
+    "location": 2,
+    "content": "那ALPHAGO会跟一个对手互动啊",
+    "music": 0
+  },
+  {
+    "from": 605.6,
+    "to": 607.58,
+    "sid": 237,
+    "location": 2,
+    "content": "他们互动的过程是这样子的啊",
+    "music": 0
+  },
+  {
+    "from": 607.58,
+    "to": 609.47,
+    "sid": 238,
+    "location": 2,
+    "content": "先给ALPHAGO看一个棋局",
+    "music": 0
+  },
+  {
+    "from": 609.47,
+    "to": 612.349,
+    "sid": 239,
+    "location": 2,
+    "content": "然后呢他决定下一步落子的位置",
+    "music": 0
+  },
+  {
+    "from": 612.349,
+    "to": 614.719,
+    "sid": 240,
+    "location": 2,
+    "content": "接下来他落子在棋盘上面",
+    "music": 0
+  },
+  {
+    "from": 614.719,
+    "to": 617.359,
+    "sid": 241,
+    "location": 2,
+    "content": "他的对手看到阿法狗落子以后",
+    "music": 0
+  },
+  {
+    "from": 617.359,
+    "to": 620.43,
+    "sid": 242,
+    "location": 2,
+    "content": "那对手根据现在的棋局也落一子",
+    "music": 0
+  },
+  {
+    "from": 620.43,
+    "to": 623.97,
+    "sid": 243,
+    "location": 2,
+    "content": "然后会改变了棋局上面黑子跟白子的位置",
+    "music": 0
+  },
+  {
+    "from": 623.97,
+    "to": 626.72,
+    "sid": 244,
+    "location": 2,
+    "content": "然后阿法狗看到更新后的棋局以后",
+    "music": 0
+  },
+  {
+    "from": 626.72,
+    "to": 628.43,
+    "sid": 245,
+    "location": 2,
+    "content": "就会产生新的冲突",
+    "music": 0
+  },
+  {
+    "from": 628.43,
+    "to": 630.98,
+    "sid": 246,
+    "location": 2,
+    "content": "决定下一步应该落子的位置",
+    "music": 0
+  },
+  {
+    "from": 630.98,
+    "to": 633.73,
+    "sid": 247,
+    "location": 2,
+    "content": "这是ALPHAGO跟对手的互动",
+    "music": 0
+  },
+  {
+    "from": 633.73,
+    "to": 635.18,
+    "sid": 248,
+    "location": 2,
+    "content": "那语言模型呢",
+    "music": 0
+  },
+  {
+    "from": 635.18,
+    "to": 637.7,
+    "sid": 249,
+    "location": 2,
+    "content": "语言模型给它一个未完成的句子以后",
+    "music": 0
+  },
+  {
+    "from": 637.7,
+    "to": 639.53,
+    "sid": 250,
+    "location": 2,
+    "content": "它会输出一个几率分布",
+    "music": 0
+  },
+  {
+    "from": 639.53,
+    "to": 642.14,
+    "sid": 251,
+    "location": 2,
+    "content": "根据这个几率分布去指一次骰子",
+    "music": 0
+  },
+  {
+    "from": 642.14,
+    "to": 644.06,
+    "sid": 252,
+    "location": 2,
+    "content": "产生一个token",
+    "music": 0
+  },
+  {
+    "from": 644.06,
+    "to": 644.93,
+    "sid": 253,
+    "location": 2,
+    "content": "产生一个字",
+    "music": 0
+  },
+  {
+    "from": 644.93,
+    "to": 647.66,
+    "sid": 254,
+    "location": 2,
+    "content": "把这个字呢接在刚才的输入后面",
+    "music": 0
+  },
+  {
+    "from": 647.66,
+    "to": 648.68,
+    "sid": 255,
+    "location": 2,
+    "content": "因为输入变了",
+    "music": 0
+  },
+  {
+    "from": 648.68,
+    "to": 651.81,
+    "sid": 256,
+    "location": 2,
+    "content": "语言模型就会有新的输出",
+    "music": 0
+  },
+  {
+    "from": 651.81,
+    "to": 655.95,
+    "sid": 257,
+    "location": 2,
+    "content": "那如果我们把ALPHAGO跟对手的互动展开来看的话",
+    "music": 0
+  },
+  {
+    "from": 655.95,
+    "to": 658.65,
+    "sid": 258,
+    "location": 2,
+    "content": "你其实也可以把阿尔法狗跟对手的互动",
+    "music": 0
+  },
+  {
+    "from": 658.65,
+    "to": 661.33,
+    "sid": 259,
+    "location": 2,
+    "content": "看作是一个棋局接龙",
+    "music": 0
+  },
+  {
+    "from": 661.33,
+    "to": 664.74,
+    "sid": 260,
+    "location": 2,
+    "content": "我就阿法狗下第一首对手下第二首",
+    "music": 0
+  },
+  {
+    "from": 664.74,
+    "to": 668.1,
+    "sid": 261,
+    "location": 2,
+    "content": "阿法狗根据第一首跟第二首再去接第三首",
+    "music": 0
+  },
+  {
+    "from": 668.1,
+    "to": 669.68,
+    "sid": 262,
+    "location": 2,
+    "content": "一直接下去",
+    "music": 0
+  },
+  {
+    "from": 669.68,
+    "to": 672.53,
+    "sid": 263,
+    "location": 2,
+    "content": "这个跟语言模型做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 672.53,
+    "to": 675.18,
+    "sid": 264,
+    "location": 2,
+    "content": "其实有异曲同工之妙",
+    "music": 0
+  },
+  {
+    "from": 675.18,
+    "to": 676.74,
+    "sid": 265,
+    "location": 2,
+    "content": "语言模型在做的事情",
+    "music": 0
+  },
+  {
+    "from": 676.74,
+    "to": 678,
+    "sid": 266,
+    "location": 2,
+    "content": "那现在大家都很熟悉",
+    "music": 0
+  },
+  {
+    "from": 678,
+    "to": 679.47,
+    "sid": 267,
+    "location": 2,
+    "content": "也就是做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 679.47,
+    "to": 681.04,
+    "sid": 268,
+    "location": 2,
+    "content": "根据目前的输入",
+    "music": 0
+  },
+  {
+    "from": 681.04,
+    "to": 683.26,
+    "sid": 269,
+    "location": 2,
+    "content": "先产生下一个token",
+    "music": 0
+  },
+  {
+    "from": 683.26,
+    "to": 686.38,
+    "sid": 270,
+    "location": 2,
+    "content": "根据下一个token再产生下一个token",
+    "music": 0
+  },
+  {
+    "from": 686.38,
+    "to": 689.78,
+    "sid": 271,
+    "location": 2,
+    "content": "一直到产生结束的符号为止",
+    "music": 0
+  },
+  {
+    "from": 690.66,
+    "to": 691.62,
+    "sid": 272,
+    "location": 2,
+    "content": "围棋呀",
+    "music": 0
+  },
+  {
+    "from": 691.62,
+    "to": 694.26,
+    "sid": 273,
+    "location": 2,
+    "content": "过去如果你有听过机器学习的课程的话",
+    "music": 0
+  },
+  {
+    "from": 694.26,
+    "to": 698.36,
+    "sid": 274,
+    "location": 2,
+    "content": "我常常会告诉你说下围棋是一个分类的问题",
+    "music": 0
+  },
+  {
+    "from": 698.36,
+    "to": 701.36,
+    "sid": 275,
+    "location": 2,
+    "content": "但是实际上这样的讲法并不精确",
+    "music": 0
+  },
+  {
+    "from": 701.36,
+    "to": 702.68,
+    "sid": 276,
+    "location": 2,
+    "content": "更精确的来说",
+    "music": 0
+  },
+  {
+    "from": 702.68,
+    "to": 707.9,
+    "sid": 277,
+    "location": 2,
+    "content": "应该是下围棋的每一步是解一个分类的问题",
+    "music": 0
+  },
+  {
+    "from": 707.9,
+    "to": 709.49,
+    "sid": 278,
+    "location": 2,
+    "content": "给一个未完成的棋盘",
+    "music": 0
+  },
+  {
+    "from": 709.49,
+    "to": 710.96,
+    "sid": 279,
+    "location": 2,
+    "content": "决定要落在哪一只",
+    "music": 0
+  },
+  {
+    "from": 710.96,
+    "to": 712.36,
+    "sid": 280,
+    "location": 2,
+    "content": "这是一个分类的问题",
+    "music": 0
+  },
+  {
+    "from": 712.36,
+    "to": 718.87,
+    "sid": 281,
+    "location": 2,
+    "content": "但是整场围棋看起来是一个深层次学习的问题",
+    "music": 0
+  },
+  {
+    "from": 718.87,
+    "to": 721.75,
+    "sid": 282,
+    "location": 2,
+    "content": "就像说语言模型让机器说一句话",
+    "music": 0
+  },
+  {
+    "from": 721.75,
+    "to": 724.03,
+    "sid": 283,
+    "location": 2,
+    "content": "我们在开学的第一堂课就告诉你说",
+    "music": 0
+  },
+  {
+    "from": 724.03,
+    "to": 727.35,
+    "sid": 284,
+    "location": 2,
+    "content": "整体看起来是深层次学习的问题",
+    "music": 0
+  },
+  {
+    "from": 727.35,
+    "to": 730.47,
+    "sid": 285,
+    "location": 2,
+    "content": "但实际上语言模型做的是文字接龙",
+    "music": 0
+  },
+  {
+    "from": 730.47,
+    "to": 735.03,
+    "sid": 286,
+    "location": 2,
+    "content": "文字接龙的每一步都是分类的问题",
+    "music": 0
+  },
+  {
+    "from": 735.03,
+    "to": 738.36,
+    "sid": 287,
+    "location": 2,
+    "content": "就整体看来围棋不管是围棋还是语言模型",
+    "music": 0
+  },
+  {
+    "from": 738.36,
+    "to": 741.14,
+    "sid": 288,
+    "location": 2,
+    "content": "整体看来是深层次学习的问题",
+    "music": 0
+  },
+  {
+    "from": 741.14,
+    "to": 746.15,
+    "sid": 289,
+    "location": 2,
+    "content": "但是细究它每一步都是分类的问题哦",
+    "music": 0
+  },
+  {
+    "from": 746.15,
+    "to": 748.07,
+    "sid": 290,
+    "location": 2,
+    "content": "那ALPHAGO是怎么学习的呢",
+    "music": 0
+  },
+  {
+    "from": 748.07,
+    "to": 750.53,
+    "sid": 291,
+    "location": 2,
+    "content": "这个可能很多同学通通都知道",
+    "music": 0
+  },
+  {
+    "from": 750.53,
+    "to": 752.69,
+    "sid": 292,
+    "location": 2,
+    "content": "alpha go的学习有两阶段",
+    "music": 0
+  },
+  {
+    "from": 752.69,
+    "to": 756.08,
+    "sid": 293,
+    "location": 2,
+    "content": "第一阶段是跟着棋谱学习",
+    "music": 0
+  },
+  {
+    "from": 756.08,
+    "to": 759.6,
+    "sid": 294,
+    "location": 2,
+    "content": "也就是看人类跟人类之间下的棋谱",
+    "music": 0
+  },
+  {
+    "from": 759.6,
+    "to": 762.42,
+    "sid": 295,
+    "location": 2,
+    "content": "人类下哪里就跟着下哪里",
+    "music": 0
+  },
+  {
+    "from": 762.42,
+    "to": 763.74,
+    "sid": 296,
+    "location": 2,
+    "content": "棋谱告诉你说",
+    "music": 0
+  },
+  {
+    "from": 763.74,
+    "to": 765.03,
+    "sid": 297,
+    "location": 2,
+    "content": "如果下到这边",
+    "music": 0
+  },
+  {
+    "from": 765.03,
+    "to": 766.99,
+    "sid": 298,
+    "location": 2,
+    "content": "人类下一步就会下三三",
+    "music": 0
+  },
+  {
+    "from": 766.99,
+    "to": 769.39,
+    "sid": 299,
+    "location": 2,
+    "content": "那ALPHAGO就下三三棋谱",
+    "music": 0
+  },
+  {
+    "from": 769.39,
+    "to": 770.11,
+    "sid": 300,
+    "location": 2,
+    "content": "下到这边",
+    "music": 0
+  },
+  {
+    "from": 770.11,
+    "to": 772.15,
+    "sid": 301,
+    "location": 2,
+    "content": "人类下一步会下五支舞啊",
+    "music": 0
+  },
+  {
+    "from": 772.15,
+    "to": 774.68,
+    "sid": 302,
+    "location": 2,
+    "content": "那ALPHAGO呢就下五支舞",
+    "music": 0
+  },
+  {
+    "from": 774.68,
+    "to": 777.02,
+    "sid": 303,
+    "location": 2,
+    "content": "阿尔法狗跟棋谱学习",
+    "music": 0
+  },
+  {
+    "from": 777.02,
+    "to": 779.69,
+    "sid": 304,
+    "location": 2,
+    "content": "就是语言模型的第一阶段",
+    "music": 0
+  },
+  {
+    "from": 779.69,
+    "to": 781.73,
+    "sid": 305,
+    "location": 2,
+    "content": "跟第二阶段的学习方式",
+    "music": 0
+  },
+  {
+    "from": 781.73,
+    "to": 783.11,
+    "sid": 306,
+    "location": 2,
+    "content": "在第一阶段的PRETRAIN",
+    "music": 0
+  },
+  {
+    "from": 783.11,
+    "to": 785.21,
+    "sid": 307,
+    "location": 2,
+    "content": "跟第二阶段的instruction by tune",
+    "music": 0
+  },
+  {
+    "from": 785.21,
+    "to": 788.76,
+    "sid": 308,
+    "location": 2,
+    "content": "语言模型的学习方式是人类老师说什么",
+    "music": 0
+  },
+  {
+    "from": 788.76,
+    "to": 790.98,
+    "sid": 309,
+    "location": 2,
+    "content": "他就跟着说什么",
+    "music": 0
+  },
+  {
+    "from": 790.98,
+    "to": 793.35,
+    "sid": 310,
+    "location": 2,
+    "content": "人类老师下一个字会接什么字",
+    "music": 0
+  },
+  {
+    "from": 793.35,
+    "to": 795.09,
+    "sid": 311,
+    "location": 2,
+    "content": "他就跟着接什么字",
+    "music": 0
+  },
+  {
+    "from": 795.09,
+    "to": 797.75,
+    "sid": 312,
+    "location": 2,
+    "content": "所以语言模型的第一阶段和第二阶段",
+    "music": 0
+  },
+  {
+    "from": 797.75,
+    "to": 801.99,
+    "sid": 313,
+    "location": 2,
+    "content": "其实就对应了阿尔法狗跟棋谱学习",
+    "music": 0
+  },
+  {
+    "from": 801.99,
+    "to": 803.61,
+    "sid": 314,
+    "location": 2,
+    "content": "那大家也都知道说",
+    "music": 0
+  },
+  {
+    "from": 803.61,
+    "to": 806.19,
+    "sid": 315,
+    "location": 2,
+    "content": "阿尔法狗光是跟棋谱学习是不够的",
+    "music": 0
+  },
+  {
+    "from": 806.19,
+    "to": 809.01,
+    "sid": 316,
+    "location": 2,
+    "content": "跟棋谱学习模仿人类的招式",
+    "music": 0
+  },
+  {
+    "from": 809.01,
+    "to": 811.23,
+    "sid": 317,
+    "location": 2,
+    "content": "只能够打败一般的高手",
+    "music": 0
+  },
+  {
+    "from": 811.23,
+    "to": 813,
+    "sid": 318,
+    "location": 2,
+    "content": "但如果打败顶尖高手",
+    "music": 0
+  },
+  {
+    "from": 813,
+    "to": 815.59,
+    "sid": 319,
+    "location": 2,
+    "content": "阿尔法狗还需要RL",
+    "music": 0
+  },
+  {
+    "from": 815.59,
+    "to": 817.99,
+    "sid": 320,
+    "location": 2,
+    "content": "那ALPHAGO的IO是怎么学的呢",
+    "music": 0
+  },
+  {
+    "from": 817.99,
+    "to": 820.77,
+    "sid": 321,
+    "location": 2,
+    "content": "我觉得ALPHAGO的先跟对手的下一局棋",
+    "music": 0
+  },
+  {
+    "from": 820.77,
+    "to": 823.74,
+    "sid": 322,
+    "location": 2,
+    "content": "然后做完一次这个棋局接龙以后",
+    "music": 0
+  },
+  {
+    "from": 823.74,
+    "to": 826.05,
+    "sid": 323,
+    "location": 2,
+    "content": "接完发现自己赢了",
+    "music": 0
+  },
+  {
+    "from": 826.05,
+    "to": 828.3,
+    "sid": 324,
+    "location": 2,
+    "content": "那就是正面的回馈",
+    "music": 0
+  },
+  {
+    "from": 828.3,
+    "to": 831.99,
+    "sid": 325,
+    "location": 2,
+    "content": "它就会提高这些起步的几率啊",
+    "music": 0
+  },
+  {
+    "from": 831.99,
+    "to": 833.89,
+    "sid": 326,
+    "location": 2,
+    "content": "如果下完以后发现输了",
+    "music": 0
+  },
+  {
+    "from": 833.89,
+    "to": 838,
+    "sid": 327,
+    "location": 2,
+    "content": "要降低这个输的这局棋里面产生的起步",
+    "music": 0
+  },
+  {
+    "from": 838,
+    "to": 839.4,
+    "sid": 328,
+    "location": 2,
+    "content": "出现的几率",
+    "music": 0
+  },
+  {
+    "from": 839.4,
+    "to": 843.43,
+    "sid": 329,
+    "location": 2,
+    "content": "这是ALPHAGO透过RL学习的方式",
+    "music": 0
+  },
+  {
+    "from": 843.43,
+    "to": 845.41,
+    "sid": 330,
+    "location": 2,
+    "content": "那怎么知道输跟赢呢",
+    "music": 0
+  },
+  {
+    "from": 845.41,
+    "to": 847.21,
+    "sid": 331,
+    "location": 2,
+    "content": "对于围棋来说是比较单纯的",
+    "music": 0
+  },
+  {
+    "from": 847.21,
+    "to": 851.95,
+    "sid": 332,
+    "location": 2,
+    "content": "围棋的输赢是直接从围棋的规则得到的",
+    "music": 0
+  },
+  {
+    "from": 851.95,
+    "to": 855.84,
+    "sid": 333,
+    "location": 2,
+    "content": "那语言模型呢语言模型通过IO呃",
+    "music": 0
+  },
+  {
+    "from": 855.84,
+    "to": 859.32,
+    "sid": 334,
+    "location": 2,
+    "content": "语言模型通过IO学习的方式也非常的类似",
+    "music": 0
+  },
+  {
+    "from": 859.32,
+    "to": 862.02,
+    "sid": 335,
+    "location": 2,
+    "content": "由语言模型产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 862.02,
+    "to": 864.78,
+    "sid": 336,
+    "location": 2,
+    "content": "由人类来评价这两个答案哪个比较好",
+    "music": 0
+  },
+  {
+    "from": 864.78,
+    "to": 866.4,
+    "sid": 337,
+    "location": 2,
+    "content": "好的答案提高几率",
+    "music": 0
+  },
+  {
+    "from": 866.4,
+    "to": 868.85,
+    "sid": 338,
+    "location": 2,
+    "content": "不好的答案减低几率",
+    "music": 0
+  },
+  {
+    "from": 868.85,
+    "to": 873.05,
+    "sid": 339,
+    "location": 2,
+    "content": "所以alpha mod IO的学习跟语言模型通过IO学习",
+    "music": 0
+  },
+  {
+    "from": 873.05,
+    "to": 875.81,
+    "sid": 340,
+    "location": 2,
+    "content": "其实有很多可以类比的地方",
+    "music": 0
+  },
+  {
+    "from": 875.81,
+    "to": 878.78,
+    "sid": 341,
+    "location": 2,
+    "content": "当然如果你实际上对ALPHAGO深入研究的话",
+    "music": 0
+  },
+  {
+    "from": 878.78,
+    "to": 881.49,
+    "sid": 342,
+    "location": 2,
+    "content": "你会知道ALPHAGO里面还有很多其他的东西",
+    "music": 0
+  },
+  {
+    "from": 881.49,
+    "to": 884.13,
+    "sid": 343,
+    "location": 2,
+    "content": "比如说啊monte carlo tree search",
+    "music": 0
+  },
+  {
+    "from": 884.13,
+    "to": 885.72,
+    "sid": 344,
+    "location": 2,
+    "content": "比如说value network",
+    "music": 0
+  },
+  {
+    "from": 885.72,
+    "to": 886.86,
+    "sid": 345,
+    "location": 2,
+    "content": "那我这边都没有讲到",
+    "music": 0
+  },
+  {
+    "from": 886.86,
+    "to": 888.78,
+    "sid": 346,
+    "location": 2,
+    "content": "这边讲的是一个大的概念",
+    "music": 0
+  },
+  {
+    "from": 888.78,
+    "to": 890.51,
+    "sid": 347,
+    "location": 2,
+    "content": "你从大的概念看起来",
+    "music": 0
+  },
+  {
+    "from": 890.51,
+    "to": 893.54,
+    "sid": 348,
+    "location": 2,
+    "content": "语言模型跟下围棋有很多可以类比的地方",
+    "music": 0
+  },
+  {
+    "from": 893.54,
+    "to": 895.88,
+    "sid": 349,
+    "location": 2,
+    "content": "当然如果你要深究它的细节的话",
+    "music": 0
+  },
+  {
+    "from": 895.88,
+    "to": 898.849,
+    "sid": 350,
+    "location": 2,
+    "content": "还是有很多不同之处",
+    "music": 0
+  },
+  {
+    "from": 899.309,
+    "to": 902.689,
+    "sid": 351,
+    "location": 2,
+    "content": "那我们刚才讲到这个回馈的方式啊",
+    "music": 0
+  },
+  {
+    "from": 902.689,
+    "to": 905.149,
+    "sid": 352,
+    "location": 2,
+    "content": "你会发现语言模型的回馈",
+    "music": 0
+  },
+  {
+    "from": 905.149,
+    "to": 907.72,
+    "sid": 353,
+    "location": 2,
+    "content": "跟下围棋的回馈很不一样",
+    "music": 0
+  },
+  {
+    "from": 907.72,
+    "to": 910.39,
+    "sid": 354,
+    "location": 2,
+    "content": "在下围棋里面下完一局棋",
+    "music": 0
+  },
+  {
+    "from": 910.39,
+    "to": 911.83,
+    "sid": 355,
+    "location": 2,
+    "content": "下完一局棋",
+    "music": 0
+  },
+  {
+    "from": 911.83,
+    "to": 914.26,
+    "sid": 356,
+    "location": 2,
+    "content": "我们就知道好还是不好",
+    "music": 0
+  },
+  {
+    "from": 914.26,
+    "to": 915.95,
+    "sid": 357,
+    "location": 2,
+    "content": "输还是赢",
+    "music": 0
+  },
+  {
+    "from": 915.95,
+    "to": 917.81,
+    "sid": 358,
+    "location": 2,
+    "content": "但是语言模型的回馈",
+    "music": 0
+  },
+  {
+    "from": 917.81,
+    "to": 920.78,
+    "sid": 359,
+    "location": 2,
+    "content": "往往需要语言模型产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 920.78,
+    "to": 922.61,
+    "sid": 360,
+    "location": 2,
+    "content": "由人类来做排序",
+    "music": 0
+  },
+  {
+    "from": 922.61,
+    "to": 925.16,
+    "sid": 361,
+    "location": 2,
+    "content": "决定哪一个答案是比较好的",
+    "music": 0
+  },
+  {
+    "from": 925.16,
+    "to": 928.16,
+    "sid": 362,
+    "location": 2,
+    "content": "能不能让语言模型就给一个答案",
+    "music": 0
+  },
+  {
+    "from": 928.16,
+    "to": 932.14,
+    "sid": 363,
+    "location": 2,
+    "content": "然后人类直接说这个答案好或不好呢",
+    "music": 0
+  },
+  {
+    "from": 932.14,
+    "to": 934.21,
+    "sid": 364,
+    "location": 2,
+    "content": "不是不可以",
+    "music": 0
+  },
+  {
+    "from": 934.21,
+    "to": 938.23,
+    "sid": 365,
+    "location": 2,
+    "content": "但是你发现在文献上让语言模型产生多个答案",
+    "music": 0
+  },
+  {
+    "from": 938.23,
+    "to": 943.14,
+    "sid": 366,
+    "location": 2,
+    "content": "再由人来排序答案的好坏是比较常用的方式",
+    "music": 0
+  },
+  {
+    "from": 943.14,
+    "to": 945.54,
+    "sid": 367,
+    "location": 2,
+    "content": "为什么让人来排序答案的好坏",
+    "music": 0
+  },
+  {
+    "from": 945.54,
+    "to": 947.16,
+    "sid": 368,
+    "location": 2,
+    "content": "是比较常用的方式呢",
+    "music": 0
+  },
+  {
+    "from": 947.16,
+    "to": 949.74,
+    "sid": 369,
+    "location": 2,
+    "content": "这个如果根据我们实做的经验",
+    "music": 0
+  },
+  {
+    "from": 949.74,
+    "to": 953.47,
+    "sid": 370,
+    "location": 2,
+    "content": "你会发现说假设你真的是给忍一句话",
+    "music": 0
+  },
+  {
+    "from": 953.47,
+    "to": 954.34,
+    "sid": 371,
+    "location": 2,
+    "content": "然后问人说",
+    "music": 0
+  },
+  {
+    "from": 954.34,
+    "to": 956.05,
+    "sid": 372,
+    "location": 2,
+    "content": "你觉得这句话好或不好",
+    "music": 0
+  },
+  {
+    "from": 956.05,
+    "to": 959.08,
+    "sid": 373,
+    "location": 2,
+    "content": "人往往是没办法回答的",
+    "music": 0
+  },
+  {
+    "from": 959.08,
+    "to": 962.55,
+    "sid": 374,
+    "location": 2,
+    "content": "因为一句话讲得好不好是相对的",
+    "music": 0
+  },
+  {
+    "from": 962.55,
+    "to": 964.11,
+    "sid": 375,
+    "location": 2,
+    "content": "它往往没有标准答案",
+    "music": 0
+  },
+  {
+    "from": 964.11,
+    "to": 965.32,
+    "sid": 376,
+    "location": 2,
+    "content": "所以你直接给人一句话",
+    "music": 0
+  },
+  {
+    "from": 965.32,
+    "to": 966.64,
+    "sid": 377,
+    "location": 2,
+    "content": "问他说这个答案好不好",
+    "music": 0
+  },
+  {
+    "from": 966.64,
+    "to": 968.74,
+    "sid": 378,
+    "location": 2,
+    "content": "你问他说台湾最高的山是哪一座山",
+    "music": 0
+  },
+  {
+    "from": 968.74,
+    "to": 970.12,
+    "sid": 379,
+    "location": 2,
+    "content": "AI回答是玉山",
+    "music": 0
+  },
+  {
+    "from": 970.12,
+    "to": 971.56,
+    "sid": 380,
+    "location": 2,
+    "content": "这个答案到底好不好呢",
+    "music": 0
+  },
+  {
+    "from": 971.56,
+    "to": 972.72,
+    "sid": 381,
+    "location": 2,
+    "content": "有人会跟你讲好",
+    "music": 0
+  },
+  {
+    "from": 972.72,
+    "to": 973.86,
+    "sid": 382,
+    "location": 2,
+    "content": "不就是回答了吗",
+    "music": 0
+  },
+  {
+    "from": 973.86,
+    "to": 975.24,
+    "sid": 383,
+    "location": 2,
+    "content": "有人跟你讲不好",
+    "music": 0
+  },
+  {
+    "from": 975.24,
+    "to": 978.42,
+    "sid": 384,
+    "location": 2,
+    "content": "你应该多补充一些玉山相关的资料才叫做好",
+    "music": 0
+  },
+  {
+    "from": 978.42,
+    "to": 983.19,
+    "sid": 385,
+    "location": 2,
+    "content": "所以好跟坏围棋的好坏输赢是有标准答案的",
+    "music": 0
+  },
+  {
+    "from": 983.19,
+    "to": 985.83,
+    "sid": 386,
+    "location": 2,
+    "content": "是有既定的规则的",
+    "music": 0
+  },
+  {
+    "from": 985.83,
+    "to": 986.92,
+    "sid": 387,
+    "location": 2,
+    "content": "是明确的",
+    "music": 0
+  },
+  {
+    "from": 986.92,
+    "to": 990.8,
+    "sid": 388,
+    "location": 2,
+    "content": "但是一句话一句回答的好坏是不明确的",
+    "music": 0
+  },
+  {
+    "from": 990.8,
+    "to": 992.48,
+    "sid": 389,
+    "location": 2,
+    "content": "所以你很难提供给一句话",
+    "music": 0
+  },
+  {
+    "from": 992.48,
+    "to": 994.82,
+    "sid": 390,
+    "location": 2,
+    "content": "就叫人说这句话叫叫人回答",
+    "music": 0
+  },
+  {
+    "from": 994.82,
+    "to": 996.64,
+    "sid": 391,
+    "location": 2,
+    "content": "说一句话是好还是不好的",
+    "music": 0
+  },
+  {
+    "from": 996.64,
+    "to": 997.6,
+    "sid": 392,
+    "location": 2,
+    "content": "所以这就是为什么",
+    "music": 0
+  },
+  {
+    "from": 997.6,
+    "to": 1000.45,
+    "sid": 393,
+    "location": 2,
+    "content": "在语言模型里面做回馈的时候",
+    "music": 0
+  },
+  {
+    "from": 1000.45,
+    "to": 1003.3,
+    "sid": 394,
+    "location": 2,
+    "content": "往往要对人类的要求是比较多的",
+    "music": 0
+  },
+  {
+    "from": 1003.3,
+    "to": 1004.05,
+    "sid": 395,
+    "location": 2,
+    "content": "答案的好坏",
+    "music": 0
+  },
+  {
+    "from": 1004.05,
+    "to": 1009.53,
+    "sid": 396,
+    "location": 2,
+    "content": "而不是对单一答案的好坏进行评比哦",
+    "music": 0
+  },
+  {
+    "from": 1009.53,
+    "to": 1012.83,
+    "sid": 397,
+    "location": 2,
+    "content": "那这个阿尔法go的RL跟语言模型的RL",
+    "music": 0
+  },
+  {
+    "from": 1012.83,
+    "to": 1014.69,
+    "sid": 398,
+    "location": 2,
+    "content": "还有一个很大的差异",
+    "music": 0
+  },
+  {
+    "from": 1014.69,
+    "to": 1019.349,
+    "sid": 399,
+    "location": 2,
+    "content": "alpha go的RL里面几乎不需要人工介入",
+    "music": 0
+  },
+  {
+    "from": 1019.349,
+    "to": 1023.759,
+    "sid": 400,
+    "location": 2,
+    "content": "首先回馈的部分并不是由人来判断棋局的输赢",
+    "music": 0
+  },
+  {
+    "from": 1023.759,
+    "to": 1025.229,
+    "sid": 401,
+    "location": 2,
+    "content": "是围棋的规则",
+    "music": 0
+  },
+  {
+    "from": 1025.229,
+    "to": 1027.8,
+    "sid": 402,
+    "location": 2,
+    "content": "直接就决定了棋局的输赢",
+    "music": 0
+  },
+  {
+    "from": 1027.8,
+    "to": 1030.38,
+    "sid": 403,
+    "location": 2,
+    "content": "那你说阿法狗要跟个对手才能下",
+    "music": 0
+  },
+  {
+    "from": 1030.38,
+    "to": 1032.21,
+    "sid": 404,
+    "location": 2,
+    "content": "那不是这边需要人吗",
+    "music": 0
+  },
+  {
+    "from": 1032.21,
+    "to": 1033.77,
+    "sid": 405,
+    "location": 2,
+    "content": "在ALPHAGO的论文里面",
+    "music": 0
+  },
+  {
+    "from": 1033.77,
+    "to": 1037.13,
+    "sid": 406,
+    "location": 2,
+    "content": "他告诉你对手其实就是其他版本的alpha go啊",
+    "music": 0
+  },
+  {
+    "from": 1037.13,
+    "to": 1039.29,
+    "sid": 407,
+    "location": 2,
+    "content": "所以阿法狗是左手跟右手下",
+    "music": 0
+  },
+  {
+    "from": 1039.29,
+    "to": 1041.72,
+    "sid": 408,
+    "location": 2,
+    "content": "他并不需要真的跟人下",
+    "music": 0
+  },
+  {
+    "from": 1041.72,
+    "to": 1042.8,
+    "sid": 409,
+    "location": 2,
+    "content": "这就是为什么",
+    "music": 0
+  },
+  {
+    "from": 1042.8,
+    "to": 1046.06,
+    "sid": 410,
+    "location": 2,
+    "content": "RL最早成功是成功在棋类游戏上",
+    "music": 0
+  },
+  {
+    "from": 1046.06,
+    "to": 1047.32,
+    "sid": 411,
+    "location": 2,
+    "content": "因为在棋类游戏上",
+    "music": 0
+  },
+  {
+    "from": 1047.32,
+    "to": 1048.52,
+    "sid": 412,
+    "location": 2,
+    "content": "你真的要做IO",
+    "music": 0
+  },
+  {
+    "from": 1048.52,
+    "to": 1050.11,
+    "sid": 413,
+    "location": 2,
+    "content": "还真的不需要真人",
+    "music": 0
+  },
+  {
+    "from": 1050.11,
+    "to": 1051.99,
+    "sid": 414,
+    "location": 2,
+    "content": "让机器自己跟自己下",
+    "music": 0
+  },
+  {
+    "from": 1051.99,
+    "to": 1053.67,
+    "sid": 415,
+    "location": 2,
+    "content": "他就可以学习了",
+    "music": 0
+  },
+  {
+    "from": 1053.67,
+    "to": 1056.19,
+    "sid": 416,
+    "location": 2,
+    "content": "你不需要太多人工的介入",
+    "music": 0
+  },
+  {
+    "from": 1056.19,
+    "to": 1059.49,
+    "sid": 417,
+    "location": 2,
+    "content": "但是语言模型这边你需要人来介入",
+    "music": 0
+  },
+  {
+    "from": 1059.49,
+    "to": 1064.5,
+    "sid": 418,
+    "location": 2,
+    "content": "你需要人来评断一个句子是好的还是不好的",
+    "music": 0
+  },
+  {
+    "from": 1064.5,
+    "to": 1069.07,
+    "sid": 419,
+    "location": 2,
+    "content": "你需要人来对不同的句子间进行评比",
+    "music": 0
+  },
+  {
+    "from": 1069.07,
+    "to": 1073.27,
+    "sid": 420,
+    "location": 2,
+    "content": "而是语言模型跟围棋的IO还是有很大的差异的",
+    "music": 0
+  },
+  {
+    "from": 1073.27,
+    "to": 1076.05,
+    "sid": 421,
+    "location": 2,
+    "content": "语言模型需要人类的帮助",
+    "music": 0
+  },
+  {
+    "from": 1076.05,
+    "to": 1077.7,
+    "sid": 422,
+    "location": 2,
+    "content": "但是问题来了",
+    "music": 0
+  },
+  {
+    "from": 1077.7,
+    "to": 1080.4,
+    "sid": 423,
+    "location": 2,
+    "content": "人类的时间精力太有限了",
+    "music": 0
+  },
+  {
+    "from": 1080.4,
+    "to": 1084.15,
+    "sid": 424,
+    "location": 2,
+    "content": "人类能够提供的回馈也是有限的",
+    "music": 0
+  },
+  {
+    "from": 1084.15,
+    "to": 1086.55,
+    "sid": 425,
+    "location": 2,
+    "content": "所以对语言模型的IO来说",
+    "music": 0
+  },
+  {
+    "from": 1086.55,
+    "to": 1091.889,
+    "sid": 426,
+    "location": 2,
+    "content": "一个关键的议题就是如何有效利用人类的回馈",
+    "music": 0
+  },
+  {
+    "from": 1091.889,
+    "to": 1094.289,
+    "sid": 427,
+    "location": 2,
+    "content": "人类能够提供的回馈很少",
+    "music": 0
+  },
+  {
+    "from": 1094.289,
+    "to": 1096.509,
+    "sid": 428,
+    "location": 2,
+    "content": "怎么样把人类提供的回馈",
+    "music": 0
+  },
+  {
+    "from": 1096.509,
+    "to": 1098.579,
+    "sid": 429,
+    "location": 2,
+    "content": "它的效用最大化呢",
+    "music": 0
+  },
+  {
+    "from": 1098.579,
+    "to": 1101.76,
+    "sid": 430,
+    "location": 2,
+    "content": "这边又要讲到福利点了啊",
+    "music": 0
+  },
+  {
+    "from": 1101.76,
+    "to": 1103.44,
+    "sid": 431,
+    "location": 2,
+    "content": "我来讲一下福利莲的故事",
+    "music": 0
+  },
+  {
+    "from": 1103.44,
+    "to": 1105.42,
+    "sid": 432,
+    "location": 2,
+    "content": "因为我怕不是每个人都看过福利莲",
+    "music": 0
+  },
+  {
+    "from": 1105.42,
+    "to": 1108.12,
+    "sid": 433,
+    "location": 2,
+    "content": "最后还是讲一下福利莲的概要福利",
+    "music": 0
+  },
+  {
+    "from": 1108.12,
+    "to": 1109.59,
+    "sid": 434,
+    "location": 2,
+    "content": "这个故事是这个样子的",
+    "music": 0
+  },
+  {
+    "from": 1109.59,
+    "to": 1112.82,
+    "sid": 435,
+    "location": 2,
+    "content": "在故事一开头有一个勇者小队",
+    "music": 0
+  },
+  {
+    "from": 1112.82,
+    "to": 1115.04,
+    "sid": 436,
+    "location": 2,
+    "content": "那个勇者呢叫做辛梅尔",
+    "music": 0
+  },
+  {
+    "from": 1115.04,
+    "to": 1118.88,
+    "sid": 437,
+    "location": 2,
+    "content": "他带着福利莲和其他伙伴去讨伐了魔王",
+    "music": 0
+  },
+  {
+    "from": 1118.88,
+    "to": 1123.62,
+    "sid": 438,
+    "location": 2,
+    "content": "但是这个动画的开头是在讨伐魔王的",
+    "music": 0
+  },
+  {
+    "from": 1123.62,
+    "to": 1125.15,
+    "sid": 439,
+    "location": 2,
+    "content": "非常多年之后",
+    "music": 0
+  },
+  {
+    "from": 1125.15,
+    "to": 1126.05,
+    "sid": 440,
+    "location": 2,
+    "content": "50年后",
+    "music": 0
+  },
+  {
+    "from": 1126.05,
+    "to": 1129.97,
+    "sid": 441,
+    "location": 2,
+    "content": "勇者辛梅尔在第一集只露个脸就过世了",
+    "music": 0
+  },
+  {
+    "from": 1129.97,
+    "to": 1132.94,
+    "sid": 442,
+    "location": 2,
+    "content": "那福利莲就带着他对辛美尔的回忆",
+    "music": 0
+  },
+  {
+    "from": 1132.94,
+    "to": 1134.87,
+    "sid": 443,
+    "location": 2,
+    "content": "踏上了新的旅程",
+    "music": 0
+  },
+  {
+    "from": 1134.87,
+    "to": 1136.85,
+    "sid": 444,
+    "location": 2,
+    "content": "但在福利联在旅程中",
+    "music": 0
+  },
+  {
+    "from": 1136.85,
+    "to": 1139.97,
+    "sid": 445,
+    "location": 2,
+    "content": "他当他遇到难以抉择的事情的时候",
+    "music": 0
+  },
+  {
+    "from": 1139.97,
+    "to": 1142.65,
+    "sid": 446,
+    "location": 2,
+    "content": "他脑中就会浮现辛梅尔",
+    "music": 0
+  },
+  {
+    "from": 1142.65,
+    "to": 1144.54,
+    "sid": 447,
+    "location": 2,
+    "content": "辛梅尔虽然只有在第一集有出现",
+    "music": 0
+  },
+  {
+    "from": 1144.54,
+    "to": 1147.11,
+    "sid": 448,
+    "location": 2,
+    "content": "但是它的存在感真的是无所不在",
+    "music": 0
+  },
+  {
+    "from": 1147.11,
+    "to": 1148.31,
+    "sid": 449,
+    "location": 2,
+    "content": "福利莲常常说",
+    "music": 0
+  },
+  {
+    "from": 1148.31,
+    "to": 1149.69,
+    "sid": 450,
+    "location": 2,
+    "content": "如果是辛梅尔的话",
+    "music": 0
+  },
+  {
+    "from": 1149.69,
+    "to": 1150.8,
+    "sid": 451,
+    "location": 2,
+    "content": "就一定会这样做",
+    "music": 0
+  },
+  {
+    "from": 1150.8,
+    "to": 1153.06,
+    "sid": 452,
+    "location": 2,
+    "content": "然后他就可以下决定了",
+    "music": 0
+  },
+  {
+    "from": 1153.06,
+    "to": 1154.86,
+    "sid": 453,
+    "location": 2,
+    "content": "所以对语言模型来说",
+    "music": 0
+  },
+  {
+    "from": 1154.86,
+    "to": 1158.04,
+    "sid": 454,
+    "location": 2,
+    "content": "我们能不能够做到类似的事情呢",
+    "music": 0
+  },
+  {
+    "from": 1158.04,
+    "to": 1160.14,
+    "sid": 455,
+    "location": 2,
+    "content": "用人类提供的回馈",
+    "music": 0
+  },
+  {
+    "from": 1160.14,
+    "to": 1164.95,
+    "sid": 456,
+    "location": 2,
+    "content": "去创造一个虚拟的人类语言模型之后",
+    "music": 0
+  },
+  {
+    "from": 1164.95,
+    "to": 1166.39,
+    "sid": 457,
+    "location": 2,
+    "content": "他需要回馈的时候",
+    "music": 0
+  },
+  {
+    "from": 1166.39,
+    "to": 1168.55,
+    "sid": 458,
+    "location": 2,
+    "content": "他不需要去问真正的人类",
+    "music": 0
+  },
+  {
+    "from": 1168.55,
+    "to": 1170.38,
+    "sid": 459,
+    "location": 2,
+    "content": "他问虚拟的人类",
+    "music": 0
+  },
+  {
+    "from": 1170.38,
+    "to": 1172.36,
+    "sid": 460,
+    "location": 2,
+    "content": "在语言模型的脑中就是想象",
+    "music": 0
+  },
+  {
+    "from": 1172.36,
+    "to": 1173.72,
+    "sid": 461,
+    "location": 2,
+    "content": "如果是人类的话",
+    "music": 0
+  },
+  {
+    "from": 1173.72,
+    "to": 1175.19,
+    "sid": 462,
+    "location": 2,
+    "content": "一定会这样说的",
+    "music": 0
+  },
+  {
+    "from": 1175.19,
+    "to": 1176.24,
+    "sid": 463,
+    "location": 2,
+    "content": "如果人类的话",
+    "music": 0
+  },
+  {
+    "from": 1176.24,
+    "to": 1178.16,
+    "sid": 464,
+    "location": 2,
+    "content": "一定会觉得这么说很不错的",
+    "music": 0
+  },
+  {
+    "from": 1178.16,
+    "to": 1182.34,
+    "sid": 465,
+    "location": 2,
+    "content": "让语言模型想象人类觉得什么是好的",
+    "music": 0
+  },
+  {
+    "from": 1182.34,
+    "to": 1185.87,
+    "sid": 466,
+    "location": 2,
+    "content": "这件事情具体而言要怎么操作呢",
+    "music": 0
+  },
+  {
+    "from": 1185.87,
+    "to": 1190.55,
+    "sid": 467,
+    "location": 2,
+    "content": "语言模型想象出来的人类叫做回馈模型啊",
+    "music": 0
+  },
+  {
+    "from": 1190.55,
+    "to": 1192.83,
+    "sid": 468,
+    "location": 2,
+    "content": "它的英文是reward model",
+    "music": 0
+  },
+  {
+    "from": 1192.83,
+    "to": 1195.35,
+    "sid": 469,
+    "location": 2,
+    "content": "那怎么训练一个回馈模型呢",
+    "music": 0
+  },
+  {
+    "from": 1195.35,
+    "to": 1199.11,
+    "sid": 470,
+    "location": 2,
+    "content": "怎么训练一个回馈模型去模仿人类呢",
+    "music": 0
+  },
+  {
+    "from": 1199.11,
+    "to": 1201.45,
+    "sid": 471,
+    "location": 2,
+    "content": "你就先取得一些人类的回馈",
+    "music": 0
+  },
+  {
+    "from": 1201.45,
+    "to": 1204.51,
+    "sid": 472,
+    "location": 2,
+    "content": "人类说第一个答案比第二个答案好",
+    "music": 0
+  },
+  {
+    "from": 1204.51,
+    "to": 1207.75,
+    "sid": 473,
+    "location": 2,
+    "content": "接下来你就训练一个回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1207.75,
+    "to": 1209.37,
+    "sid": 474,
+    "location": 2,
+    "content": "这个回馈模型要做到的事情",
+    "music": 0
+  },
+  {
+    "from": 1209.37,
+    "to": 1209.94,
+    "sid": 475,
+    "location": 2,
+    "content": "就是",
+    "music": 0
+  },
+  {
+    "from": 1209.94,
+    "to": 1213.51,
+    "sid": 476,
+    "location": 2,
+    "content": "当把问题跟第一个答案输入回馈模型的时候",
+    "music": 0
+  },
+  {
+    "from": 1213.51,
+    "to": 1214.74,
+    "sid": 477,
+    "location": 2,
+    "content": "它会输出一个分数",
+    "music": 0
+  },
+  {
+    "from": 1214.74,
+    "to": 1217.41,
+    "sid": 478,
+    "location": 2,
+    "content": "我们把问题跟答案丢给回馈模型的时候",
+    "music": 0
+  },
+  {
+    "from": 1217.41,
+    "to": 1219.07,
+    "sid": 479,
+    "location": 2,
+    "content": "它会输出一个分数",
+    "music": 0
+  },
+  {
+    "from": 1219.07,
+    "to": 1221.32,
+    "sid": 480,
+    "location": 2,
+    "content": "那如果第一个答案比第二个答案好",
+    "music": 0
+  },
+  {
+    "from": 1221.32,
+    "to": 1223.51,
+    "sid": 481,
+    "location": 2,
+    "content": "那第一个答案输入回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1223.51,
+    "to": 1226.43,
+    "sid": 482,
+    "location": 2,
+    "content": "得到的分数要大过第二个答案",
+    "music": 0
+  },
+  {
+    "from": 1226.43,
+    "to": 1229.38,
+    "sid": 483,
+    "location": 2,
+    "content": "输入回馈模型得到的分数",
+    "music": 0
+  },
+  {
+    "from": 1229.38,
+    "to": 1231.69,
+    "sid": 484,
+    "location": 2,
+    "content": "那我们训练出这个回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1231.69,
+    "to": 1234.87,
+    "sid": 485,
+    "location": 2,
+    "content": "它可以是一个问题跟答案得到的分数以后",
+    "music": 0
+  },
+  {
+    "from": 1234.87,
+    "to": 1237.989,
+    "sid": 486,
+    "location": 2,
+    "content": "我们就可以拿这个回归模型的输出",
+    "music": 0
+  },
+  {
+    "from": 1237.989,
+    "to": 1241.649,
+    "sid": 487,
+    "location": 2,
+    "content": "来模拟人类的喜好",
+    "music": 0
+  },
+  {
+    "from": 1241.649,
+    "to": 1244.409,
+    "sid": 488,
+    "location": 2,
+    "content": "那这个回馈模型可以怎么利用呢",
+    "music": 0
+  },
+  {
+    "from": 1244.409,
+    "to": 1246.04,
+    "sid": 489,
+    "location": 2,
+    "content": "一个利用方式是",
+    "music": 0
+  },
+  {
+    "from": 1246.04,
+    "to": 1248.92,
+    "sid": 490,
+    "location": 2,
+    "content": "你的语言模型可以产生多个答案",
+    "music": 0
+  },
+  {
+    "from": 1248.92,
+    "to": 1250.48,
+    "sid": 491,
+    "location": 2,
+    "content": "我今天问一个问题",
+    "music": 0
+  },
+  {
+    "from": 1250.48,
+    "to": 1253.24,
+    "sid": 492,
+    "location": 2,
+    "content": "语言模型背后呢其实先产生64个答案",
+    "music": 0
+  },
+  {
+    "from": 1253.24,
+    "to": 1256.13,
+    "sid": 493,
+    "location": 2,
+    "content": "语言模型在产生答案的时候是有随机性的",
+    "music": 0
+  },
+  {
+    "from": 1256.13,
+    "to": 1258.62,
+    "sid": 494,
+    "location": 2,
+    "content": "所以它可以产生多个同样的问题",
+    "music": 0
+  },
+  {
+    "from": 1258.62,
+    "to": 1260.36,
+    "sid": 495,
+    "location": 2,
+    "content": "它可以产生多个不同的答案",
+    "music": 0
+  },
+  {
+    "from": 1260.36,
+    "to": 1265.009,
+    "sid": 496,
+    "location": 2,
+    "content": "接下来你可以把每一个答案通通未给回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1265.009,
+    "to": 1267.589,
+    "sid": 497,
+    "location": 2,
+    "content": "让回馈模型评分评分越高",
+    "music": 0
+  },
+  {
+    "from": 1267.589,
+    "to": 1271.39,
+    "sid": 498,
+    "location": 2,
+    "content": "就代表这是人类越有可能觉得好的答案",
+    "music": 0
+  },
+  {
+    "from": 1271.39,
+    "to": 1273.07,
+    "sid": 499,
+    "location": 2,
+    "content": "那最后只给人类看",
+    "music": 0
+  },
+  {
+    "from": 1273.07,
+    "to": 1277.409,
+    "sid": 500,
+    "location": 2,
+    "content": "分数最高的答案就是回馈模型的一种使用方式",
+    "music": 0
+  },
+  {
+    "from": 1277.409,
+    "to": 1281.72,
+    "sid": 501,
+    "location": 2,
+    "content": "但是回归模型今天更常见的用法是",
+    "music": 0
+  },
+  {
+    "from": 1281.72,
+    "to": 1286.88,
+    "sid": 502,
+    "location": 2,
+    "content": "让语言模型直接对回馈模型进行学习",
+    "music": 0
+  },
+  {
+    "from": 1286.88,
+    "to": 1289.94,
+    "sid": 503,
+    "location": 2,
+    "content": "也就是当语言模型得到一个答案的时候",
+    "music": 0
+  },
+  {
+    "from": 1289.94,
+    "to": 1293.06,
+    "sid": 504,
+    "location": 2,
+    "content": "直接把答案跟输入的问题接起来",
+    "music": 0
+  },
+  {
+    "from": 1293.06,
+    "to": 1294.38,
+    "sid": 505,
+    "location": 2,
+    "content": "输给回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1294.38,
+    "to": 1296.93,
+    "sid": 506,
+    "location": 2,
+    "content": "看看回归模型给什么样的分数",
+    "music": 0
+  },
+  {
+    "from": 1296.93,
+    "to": 1298.34,
+    "sid": 507,
+    "location": 2,
+    "content": "如果给低分代表",
+    "music": 0
+  },
+  {
+    "from": 1298.34,
+    "to": 1300.35,
+    "sid": 508,
+    "location": 2,
+    "content": "这是人类会觉得不好的答案",
+    "music": 0
+  },
+  {
+    "from": 1300.35,
+    "to": 1302.639,
+    "sid": 509,
+    "location": 2,
+    "content": "那语言模型就去微调参数",
+    "music": 0
+  },
+  {
+    "from": 1302.639,
+    "to": 1306.299,
+    "sid": 510,
+    "location": 2,
+    "content": "降低它产生这个不好的答案的几率",
+    "music": 0
+  },
+  {
+    "from": 1306.299,
+    "to": 1307.2,
+    "sid": 511,
+    "location": 2,
+    "content": "反之",
+    "music": 0
+  },
+  {
+    "from": 1307.2,
+    "to": 1309.57,
+    "sid": 512,
+    "location": 2,
+    "content": "如果今天语言模型产生一个答案",
+    "music": 0
+  },
+  {
+    "from": 1309.57,
+    "to": 1311.76,
+    "sid": 513,
+    "location": 2,
+    "content": "把答案跟问题丢给回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1311.76,
+    "to": 1314.06,
+    "sid": 514,
+    "location": 2,
+    "content": "回归模型会给一个高分代表",
+    "music": 0
+  },
+  {
+    "from": 1314.06,
+    "to": 1316.909,
+    "sid": 515,
+    "location": 2,
+    "content": "说这是人类有可能觉得好的答案",
+    "music": 0
+  },
+  {
+    "from": 1316.909,
+    "to": 1319.309,
+    "sid": 516,
+    "location": 2,
+    "content": "那语言模型就去微调它的参数",
+    "music": 0
+  },
+  {
+    "from": 1319.309,
+    "to": 1322.579,
+    "sid": 517,
+    "location": 2,
+    "content": "让这个好的答案出现的几率提高",
+    "music": 0
+  },
+  {
+    "from": 1322.579,
+    "to": 1324.76,
+    "sid": 518,
+    "location": 2,
+    "content": "也就是有了回馈模型之后",
+    "music": 0
+  },
+  {
+    "from": 1324.76,
+    "to": 1328.32,
+    "sid": 519,
+    "location": 2,
+    "content": "语言模型就不一定要再跟真正的人类学习了",
+    "music": 0
+  },
+  {
+    "from": 1328.32,
+    "to": 1331.56,
+    "sid": 520,
+    "location": 2,
+    "content": "用人类的喜好训练出回馈模型之后",
+    "music": 0
+  },
+  {
+    "from": 1331.56,
+    "to": 1335.98,
+    "sid": 521,
+    "location": 2,
+    "content": "语言模型可以只跟回馈模型学习就好了",
+    "music": 0
+  },
+  {
+    "from": 1335.98,
+    "to": 1339.04,
+    "sid": 522,
+    "location": 2,
+    "content": "那这个呃跟回馈模型学习",
+    "music": 0
+  },
+  {
+    "from": 1339.04,
+    "to": 1342.22,
+    "sid": 523,
+    "location": 2,
+    "content": "跟这个虚拟人类学习有没有帮助呢",
+    "music": 0
+  },
+  {
+    "from": 1342.22,
+    "to": 1343.33,
+    "sid": 524,
+    "location": 2,
+    "content": "有帮助",
+    "music": 0
+  },
+  {
+    "from": 1343.33,
+    "to": 1346.72,
+    "sid": 525,
+    "location": 2,
+    "content": "而这个是出自一篇叫INTRLGBT的论文",
+    "music": 0
+  },
+  {
+    "from": 1346.72,
+    "to": 1349.71,
+    "sid": 526,
+    "location": 2,
+    "content": "那这个是确GPT的钱赚了",
+    "music": 0
+  },
+  {
+    "from": 1349.71,
+    "to": 1353.58,
+    "sid": 527,
+    "location": 2,
+    "content": "这个是在2022年的3月就已经发表的论文",
+    "music": 0
+  },
+  {
+    "from": 1353.58,
+    "to": 1355.17,
+    "sid": 528,
+    "location": 2,
+    "content": "而在这篇论文里面",
+    "music": 0
+  },
+  {
+    "from": 1355.17,
+    "to": 1358.26,
+    "sid": 529,
+    "location": 2,
+    "content": "他们比较了只有做sf t s f t",
+    "music": 0
+  },
+  {
+    "from": 1358.26,
+    "to": 1361.83,
+    "sid": 530,
+    "location": 2,
+    "content": "就是第二阶段做翻译tune的模型",
+    "music": 0
+  },
+  {
+    "from": 1361.83,
+    "to": 1363.15,
+    "sid": 531,
+    "location": 2,
+    "content": "跟做PPO哦",
+    "music": 0
+  },
+  {
+    "from": 1363.15,
+    "to": 1365.48,
+    "sid": 532,
+    "location": 2,
+    "content": "就是有做l hf的模型",
+    "music": 0
+  },
+  {
+    "from": 1365.48,
+    "to": 1369.38,
+    "sid": 533,
+    "location": 2,
+    "content": "由人类老师的资料训练出来的回馈模型",
+    "music": 0
+  },
+  {
+    "from": 1369.38,
+    "to": 1370.66,
+    "sid": 534,
+    "location": 2,
+    "content": "来学习的模型",
+    "music": 0
+  },
+  {
+    "from": 1370.66,
+    "to": 1375.86,
+    "sid": 535,
+    "location": 2,
+    "content": "他其实会得到比第二阶段更好的模型啊",
+    "music": 0
+  },
+  {
+    "from": 1375.86,
+    "to": 1378.35,
+    "sid": 536,
+    "location": 2,
+    "content": "然后呢这右边这是另外一个实验结果",
+    "music": 0
+  },
+  {
+    "from": 1378.35,
+    "to": 1381.16,
+    "sid": 537,
+    "location": 2,
+    "content": "这个实验的横轴是模型的大小",
+    "music": 0
+  },
+  {
+    "from": 1381.16,
+    "to": 1384.85,
+    "sid": 538,
+    "location": 2,
+    "content": "由最小的模型1.3B的模型到6B的模型",
+    "music": 0
+  },
+  {
+    "from": 1384.85,
+    "to": 1386.53,
+    "sid": 539,
+    "location": 2,
+    "content": "就是你作业用的差不多大小",
+    "music": 0
+  },
+  {
+    "from": 1386.53,
+    "to": 1388.66,
+    "sid": 540,
+    "location": 2,
+    "content": "模型到你手上根本就没有",
+    "music": 0
+  },
+  {
+    "from": 1388.66,
+    "to": 1390.22,
+    "sid": 541,
+    "location": 2,
+    "content": "你根本不可能自己跑起来的",
+    "music": 0
+  },
+  {
+    "from": 1390.22,
+    "to": 1393.14,
+    "sid": 542,
+    "location": 2,
+    "content": "175B脸参数的模型啊",
+    "music": 0
+  },
+  {
+    "from": 1393.14,
+    "to": 1396.5,
+    "sid": 543,
+    "location": 2,
+    "content": "这边不同颜色代表不同的学习方法",
+    "music": 0
+  },
+  {
+    "from": 1396.5,
+    "to": 1399.02,
+    "sid": 544,
+    "location": 2,
+    "content": "那这两条蓝色系的代表",
+    "music": 0
+  },
+  {
+    "from": 1399.02,
+    "to": 1402.35,
+    "sid": 545,
+    "location": 2,
+    "content": "是第一阶段用PRETRAINING得到的模型",
+    "music": 0
+  },
+  {
+    "from": 1402.35,
+    "to": 1406.07,
+    "sid": 546,
+    "location": 2,
+    "content": "绿色线代表透过这个instruction funity",
+    "music": 0
+  },
+  {
+    "from": 1406.07,
+    "to": 1407.59,
+    "sid": 547,
+    "location": 2,
+    "content": "第二阶段得到的模型",
+    "music": 0
+  },
+  {
+    "from": 1407.59,
+    "to": 1409.15,
+    "sid": 548,
+    "location": 2,
+    "content": "红色和黄色的线是",
+    "music": 0
+  },
+  {
+    "from": 1409.15,
+    "to": 1412.239,
+    "sid": 549,
+    "location": 2,
+    "content": "第三阶段做完RL得到的模型",
+    "music": 0
+  },
+  {
+    "from": 1412.239,
+    "to": 1414.759,
+    "sid": 550,
+    "location": 2,
+    "content": "那两条线是因为用了两个有点不一样",
+    "music": 0
+  },
+  {
+    "from": 1414.759,
+    "to": 1416.439,
+    "sid": 551,
+    "location": 2,
+    "content": "但其实非常类似的演算法",
+    "music": 0
+  },
+  {
+    "from": 1416.439,
+    "to": 1418.469,
+    "sid": 552,
+    "location": 2,
+    "content": "细节我们这边就不深究",
+    "music": 0
+  },
+  {
+    "from": 1418.469,
+    "to": 1420.94,
+    "sid": 553,
+    "location": 2,
+    "content": "而这个实验其实可以告诉我们说啊",
+    "music": 0
+  },
+  {
+    "from": 1420.94,
+    "to": 1424.99,
+    "sid": 554,
+    "location": 2,
+    "content": "不管是第二节还是第三阶都非常有效",
+    "music": 0
+  },
+  {
+    "from": 1424.99,
+    "to": 1428.32,
+    "sid": 555,
+    "location": 2,
+    "content": "最小的1.3b lion参数的模型",
+    "music": 0
+  },
+  {
+    "from": 1428.32,
+    "to": 1433.35,
+    "sid": 556,
+    "location": 2,
+    "content": "透过LHF是有机会打爆最大的模型",
+    "music": 0
+  },
+  {
+    "from": 1433.35,
+    "to": 1435.77,
+    "sid": 557,
+    "location": 2,
+    "content": "没有i hf的模型",
+    "music": 0
+  },
+  {
+    "from": 1435.77,
+    "to": 1438.35,
+    "sid": 558,
+    "location": 2,
+    "content": "所以显示说人类老师的教学",
+    "music": 0
+  },
+  {
+    "from": 1438.35,
+    "to": 1441.77,
+    "sid": 559,
+    "location": 2,
+    "content": "不管是instruction翻译union还是还是l hf",
+    "music": 0
+  },
+  {
+    "from": 1441.77,
+    "to": 1443.75,
+    "sid": 560,
+    "location": 2,
+    "content": "都是非常关键的哦",
+    "music": 0
+  },
+  {
+    "from": 1443.75,
+    "to": 1447.16,
+    "sid": 561,
+    "location": 2,
+    "content": "但是完全跟虚拟的人类学习",
+    "music": 0
+  },
+  {
+    "from": 1447.16,
+    "to": 1450.659,
+    "sid": 562,
+    "location": 2,
+    "content": "也是有可能会造成伤害的",
+    "music": 0
+  },
+  {
+    "from": 1450.659,
+    "to": 1455.339,
+    "sid": 563,
+    "location": 2,
+    "content": "以下这个结果是出自一篇2020年的论文",
+    "music": 0
+  },
+  {
+    "from": 1455.339,
+    "to": 1457.319,
+    "sid": 564,
+    "location": 2,
+    "content": "就是上古时代的论文",
+    "music": 0
+  },
+  {
+    "from": 1457.319,
+    "to": 1460.73,
+    "sid": 565,
+    "location": 2,
+    "content": "那个时候就已经有reward model了",
+    "music": 0
+  },
+  {
+    "from": 1460.73,
+    "to": 1464.91,
+    "sid": 566,
+    "location": 2,
+    "content": "那个时候就已经知道要跟reward model学习",
+    "music": 0
+  },
+  {
+    "from": 1464.91,
+    "to": 1466.68,
+    "sid": 567,
+    "location": 2,
+    "content": "而在2020年那个时候",
+    "music": 0
+  },
+  {
+    "from": 1466.68,
+    "to": 1468.63,
+    "sid": 568,
+    "location": 2,
+    "content": "这篇论文这也是OpenAI的论文",
+    "music": 0
+  },
+  {
+    "from": 1468.63,
+    "to": 1473.83,
+    "sid": 569,
+    "location": 2,
+    "content": "就也已经知道说过度跟虚拟人类学习是有害的",
+    "music": 0
+  },
+  {
+    "from": 1473.83,
+    "to": 1478.45,
+    "sid": 570,
+    "location": 2,
+    "content": "这个图上的横轴代表跟虚拟人类学习的程度",
+    "music": 0
+  },
+  {
+    "from": 1478.45,
+    "to": 1481.27,
+    "sid": 571,
+    "location": 2,
+    "content": "那这边有点难跟大家解释横轴实际上的意义了",
+    "music": 0
+  },
+  {
+    "from": 1481.27,
+    "to": 1483.03,
+    "sid": 572,
+    "location": 2,
+    "content": "反正你就记得对着右边",
+    "music": 0
+  },
+  {
+    "from": 1483.03,
+    "to": 1486.15,
+    "sid": 573,
+    "location": 2,
+    "content": "代表跟虚拟人类学习的越多",
+    "music": 0
+  },
+  {
+    "from": 1486.15,
+    "to": 1489.48,
+    "sid": 574,
+    "location": 2,
+    "content": "而纵轴呢代表喜好的程度",
+    "music": 0
+  },
+  {
+    "from": 1489.48,
+    "to": 1494.799,
+    "sid": 575,
+    "location": 2,
+    "content": "虚线代表虚拟人类reward model喜好的程度",
+    "music": 0
+  },
+  {
+    "from": 1494.799,
+    "to": 1497.34,
+    "sid": 576,
+    "location": 2,
+    "content": "你跟虚拟的人类学习越多",
+    "music": 0
+  },
+  {
+    "from": 1497.34,
+    "to": 1499.38,
+    "sid": 577,
+    "location": 2,
+    "content": "当然这个虚拟的reward model",
+    "music": 0
+  },
+  {
+    "from": 1499.38,
+    "to": 1502.31,
+    "sid": 578,
+    "location": 2,
+    "content": "虚拟人类会觉得你这个模型越好",
+    "music": 0
+  },
+  {
+    "from": 1502.31,
+    "to": 1504.29,
+    "sid": 579,
+    "location": 2,
+    "content": "但如果叫真人来看",
+    "music": 0
+  },
+  {
+    "from": 1504.29,
+    "to": 1506.81,
+    "sid": 580,
+    "location": 2,
+    "content": "实现是真人的喜好程度",
+    "music": 0
+  },
+  {
+    "from": 1506.81,
+    "to": 1509.83,
+    "sid": 581,
+    "location": 2,
+    "content": "跟虚拟人类学习到某一个阶段",
+    "music": 0
+  },
+  {
+    "from": 1509.83,
+    "to": 1512.77,
+    "sid": 582,
+    "location": 2,
+    "content": "人类真实人类的喜好程度",
+    "music": 0
+  },
+  {
+    "from": 1512.77,
+    "to": 1516.91,
+    "sid": 583,
+    "location": 2,
+    "content": "真实人类对这个模型输出的喜好程度也会上升",
+    "music": 0
+  },
+  {
+    "from": 1516.91,
+    "to": 1520.319,
+    "sid": 584,
+    "location": 2,
+    "content": "但是过度去跟虚拟人类学习",
+    "music": 0
+  },
+  {
+    "from": 1520.319,
+    "to": 1524.96,
+    "sid": 585,
+    "location": 2,
+    "content": "在真实人类的喜好上其实是会下降的",
+    "music": 0
+  },
+  {
+    "from": 1524.96,
+    "to": 1527.72,
+    "sid": 586,
+    "location": 2,
+    "content": "那这篇论文里面还列举了几个",
+    "music": 0
+  },
+  {
+    "from": 1527.72,
+    "to": 1530.92,
+    "sid": 587,
+    "location": 2,
+    "content": "过度跟人类学习以后模型的输出",
+    "music": 0
+  },
+  {
+    "from": 1530.92,
+    "to": 1533.32,
+    "sid": 588,
+    "location": 2,
+    "content": "那在这篇论文里面是只做一个任务啦",
+    "music": 0
+  },
+  {
+    "from": 1533.32,
+    "to": 1536.76,
+    "sid": 589,
+    "location": 2,
+    "content": "那个时候还没有发展出那种要打造通才的观念",
+    "music": 0
+  },
+  {
+    "from": 1536.76,
+    "to": 1538.68,
+    "sid": 590,
+    "location": 2,
+    "content": "所以他们只教模型去做摘要",
+    "music": 0
+  },
+  {
+    "from": 1538.68,
+    "to": 1539.7,
+    "sid": 591,
+    "location": 2,
+    "content": "给他一篇长文",
+    "music": 0
+  },
+  {
+    "from": 1539.7,
+    "to": 1542.03,
+    "sid": 592,
+    "location": 2,
+    "content": "教模型把摘要写出来",
+    "music": 0
+  },
+  {
+    "from": 1542.03,
+    "to": 1545.15,
+    "sid": 593,
+    "location": 2,
+    "content": "那当模型过度跟虚拟人类学习以后",
+    "music": 0
+  },
+  {
+    "from": 1545.15,
+    "to": 1547.16,
+    "sid": 594,
+    "location": 2,
+    "content": "他写出来的摘要是什么样子呢",
+    "music": 0
+  },
+  {
+    "from": 1547.16,
+    "to": 1549.36,
+    "sid": 595,
+    "location": 2,
+    "content": "他写出来的摘要是这个样子的",
+    "music": 0
+  },
+  {
+    "from": 1549.36,
+    "to": 1553.44,
+    "sid": 596,
+    "location": 2,
+    "content": "你会发现这些过度跟虚拟人类学习的模型",
+    "music": 0
+  },
+  {
+    "from": 1553.44,
+    "to": 1555.42,
+    "sid": 597,
+    "location": 2,
+    "content": "它写出来的再有个共同的特色",
+    "music": 0
+  },
+  {
+    "from": 1555.42,
+    "to": 1557.84,
+    "sid": 598,
+    "location": 2,
+    "content": "就是结尾都要写一个please",
+    "music": 0
+  },
+  {
+    "from": 1557.84,
+    "to": 1560.81,
+    "sid": 599,
+    "location": 2,
+    "content": "然后呢中间都要有三个问号",
+    "music": 0
+  },
+  {
+    "from": 1560.81,
+    "to": 1561.77,
+    "sid": 600,
+    "location": 2,
+    "content": "为什么呢",
+    "music": 0
+  },
+  {
+    "from": 1561.77,
+    "to": 1563.75,
+    "sid": 601,
+    "location": 2,
+    "content": "不知道他就是这个样子",
+    "music": 0
+  },
+  {
+    "from": 1563.75,
+    "to": 1566.83,
+    "sid": 602,
+    "location": 2,
+    "content": "因为虚拟的人类他也不是真实的人类啊",
+    "music": 0
+  },
+  {
+    "from": 1566.83,
+    "to": 1568.12,
+    "sid": 603,
+    "location": 2,
+    "content": "它就是个模型",
+    "music": 0
+  },
+  {
+    "from": 1568.12,
+    "to": 1571.98,
+    "sid": 604,
+    "location": 2,
+    "content": "那这个模型在跟真正人类的这个回馈",
+    "music": 0
+  },
+  {
+    "from": 1571.98,
+    "to": 1572.82,
+    "sid": 605,
+    "location": 2,
+    "content": "学习的时候",
+    "music": 0
+  },
+  {
+    "from": 1572.82,
+    "to": 1575.1,
+    "sid": 606,
+    "location": 2,
+    "content": "不知道学到了什么奇怪的东西",
+    "music": 0
+  },
+  {
+    "from": 1575.1,
+    "to": 1577.23,
+    "sid": 607,
+    "location": 2,
+    "content": "他觉得有三个问号就是棒的",
+    "music": 0
+  },
+  {
+    "from": 1577.23,
+    "to": 1579.3,
+    "sid": 608,
+    "location": 2,
+    "content": "觉得结尾有一个please就是棒的",
+    "music": 0
+  },
+  {
+    "from": 1579.3,
+    "to": 1583.88,
+    "sid": 609,
+    "location": 2,
+    "content": "那它就会引导你的语言模型学出奇怪的结果",
+    "music": 0
+  },
+  {
+    "from": 1583.88,
+    "to": 1588.65,
+    "sid": 610,
+    "location": 2,
+    "content": "那事实上今天很多CHEGVT不尽如人意的表现",
+    "music": 0
+  },
+  {
+    "from": 1588.65,
+    "to": 1592.46,
+    "sid": 611,
+    "location": 2,
+    "content": "也有可能是过度跟虚拟人类学习的结果",
+    "music": 0
+  },
+  {
+    "from": 1592.46,
+    "to": 1594.95,
+    "sid": 612,
+    "location": 2,
+    "content": "这个那这个这个讲法不是我瞎掰的啊",
+    "music": 0
+  },
+  {
+    "from": 1594.95,
+    "to": 1597.85,
+    "sid": 613,
+    "location": 2,
+    "content": "这一页投影片是出自中呃",
+    "music": 0
+  },
+  {
+    "from": 1597.85,
+    "to": 1599.65,
+    "sid": 614,
+    "location": 2,
+    "content": "showman他的呃",
+    "music": 0
+  },
+  {
+    "from": 1599.65,
+    "to": 1603.7,
+    "sid": 615,
+    "location": 2,
+    "content": "在i c l machine learning的一个conference给的talk",
+    "music": 0
+  },
+  {
+    "from": 1603.7,
+    "to": 1606.199,
+    "sid": 616,
+    "location": 2,
+    "content": "那这个john san是谁呢",
+    "music": 0
+  },
+  {
+    "from": 1606.199,
+    "to": 1609.319,
+    "sid": 617,
+    "location": 2,
+    "content": "john san是OpenAI的KFER跟scientist",
+    "music": 0
+  },
+  {
+    "from": 1609.319,
+    "to": 1612.349,
+    "sid": 618,
+    "location": 2,
+    "content": "所以他们在评论区GBT应该是蛮可信的",
+    "music": 0
+  },
+  {
+    "from": 1612.349,
+    "to": 1616.03,
+    "sid": 619,
+    "location": 2,
+    "content": "他说这个确GBT有一些大家不太喜欢的行为",
+    "music": 0
+  },
+  {
+    "from": 1616.03,
+    "to": 1620.02,
+    "sid": 620,
+    "location": 2,
+    "content": "很有可能就是跟人跟虚拟的reward model",
+    "music": 0
+  },
+  {
+    "from": 1620.02,
+    "to": 1622.87,
+    "sid": 621,
+    "location": 2,
+    "content": "跟虚拟的人类老师学过头了",
+    "music": 0
+  },
+  {
+    "from": 1622.87,
+    "to": 1625.75,
+    "sid": 622,
+    "location": 2,
+    "content": "有哪一些觉得学过头的行为呢",
+    "music": 0
+  },
+  {
+    "from": 1625.75,
+    "to": 1628.45,
+    "sid": 623,
+    "location": 2,
+    "content": "比如说讲话非常的饶舌",
+    "music": 0
+  },
+  {
+    "from": 1628.45,
+    "to": 1630.19,
+    "sid": 624,
+    "location": 2,
+    "content": "对你知道确实比他最喜欢做的事情",
+    "music": 0
+  },
+  {
+    "from": 1630.19,
+    "to": 1631.39,
+    "sid": 625,
+    "location": 2,
+    "content": "就是你问他什么",
+    "music": 0
+  },
+  {
+    "from": 1631.39,
+    "to": 1633.13,
+    "sid": 626,
+    "location": 2,
+    "content": "他的条例12345",
+    "music": 0
+  },
+  {
+    "from": 1633.13,
+    "to": 1635.829,
+    "sid": 627,
+    "location": 2,
+    "content": "然后最后要overall来结尾啊",
+    "music": 0
+  },
+  {
+    "from": 1635.829,
+    "to": 1638.499,
+    "sid": 628,
+    "location": 2,
+    "content": "或者是他太过喜欢道歉",
+    "music": 0
+  },
+  {
+    "from": 1638.499,
+    "to": 1642.659,
+    "sid": 629,
+    "location": 2,
+    "content": "或者是他开头太喜欢用s n AI language model",
+    "music": 0
+  },
+  {
+    "from": 1642.659,
+    "to": 1646.559,
+    "sid": 630,
+    "location": 2,
+    "content": "或者是他讲话的时候往往太过模棱两可",
+    "music": 0
+  },
+  {
+    "from": 1646.559,
+    "to": 1650.69,
+    "sid": 631,
+    "location": 2,
+    "content": "或者是他太常喜欢拒绝人类的要求",
+    "music": 0
+  },
+  {
+    "from": 1650.69,
+    "to": 1655.22,
+    "sid": 632,
+    "location": 2,
+    "content": "那这都有可能是跟虚拟老师过度学习以后",
+    "music": 0
+  },
+  {
+    "from": 1655.22,
+    "to": 1658.179,
+    "sid": 633,
+    "location": 2,
+    "content": "所产生的某种后遗症",
+    "music": 0
+  },
+  {
+    "from": 1658.639,
+    "to": 1662.199,
+    "sid": 634,
+    "location": 2,
+    "content": "好那因为跟虚拟老师学习有他的缺点",
+    "music": 0
+  },
+  {
+    "from": 1662.199,
+    "to": 1665.83,
+    "sid": 635,
+    "location": 2,
+    "content": "所以事实上有很多人试图开发新的演算法",
+    "music": 0
+  },
+  {
+    "from": 1665.83,
+    "to": 1669.58,
+    "sid": 636,
+    "location": 2,
+    "content": "这些新的演算法是不需要虚拟老师的",
+    "music": 0
+  },
+  {
+    "from": 1669.58,
+    "to": 1671.02,
+    "sid": 637,
+    "location": 2,
+    "content": "比如说DPO啊",
+    "music": 0
+  },
+  {
+    "from": 1671.02,
+    "to": 1674.18,
+    "sid": 638,
+    "location": 2,
+    "content": "这个是我们在作业的时候实际上会用的方法",
+    "music": 0
+  },
+  {
+    "from": 1674.18,
+    "to": 1676.1,
+    "sid": 639,
+    "location": 2,
+    "content": "或者是KTO等等",
+    "music": 0
+  },
+  {
+    "from": 1676.1,
+    "to": 1677.48,
+    "sid": 640,
+    "location": 2,
+    "content": "那你看这边引用的论文",
+    "music": 0
+  },
+  {
+    "from": 1677.48,
+    "to": 1680.57,
+    "sid": 641,
+    "location": 2,
+    "content": "会发现它都是非常近期的论文",
+    "music": 0
+  },
+  {
+    "from": 1680.57,
+    "to": 1684.5,
+    "sid": 642,
+    "location": 2,
+    "content": "那至于这些方法有没有办法取代虚拟老师",
+    "music": 0
+  },
+  {
+    "from": 1684.5,
+    "to": 1685.22,
+    "sid": 643,
+    "location": 2,
+    "content": "那个做法",
+    "music": 0
+  },
+  {
+    "from": 1685.22,
+    "to": 1688.09,
+    "sid": 644,
+    "location": 2,
+    "content": "这个是上待时间的验证",
+    "music": 0
+  },
+  {
+    "from": 1688.09,
+    "to": 1690.85,
+    "sid": 645,
+    "location": 2,
+    "content": "上待更多实验结果的验证",
+    "music": 0
+  },
+  {
+    "from": 1690.85,
+    "to": 1692.59,
+    "sid": 646,
+    "location": 2,
+    "content": "所以这些方法不一定比较好",
+    "music": 0
+  },
+  {
+    "from": 1692.59,
+    "to": 1695.89,
+    "sid": 647,
+    "location": 2,
+    "content": "我只是把这些方法的参考资料列在这边",
+    "music": 0
+  },
+  {
+    "from": 1695.89,
+    "to": 1698.91,
+    "sid": 648,
+    "location": 2,
+    "content": "列在投影片上给大家参考",
+    "music": 0
+  },
+  {
+    "from": 1698.91,
+    "to": 1703.11,
+    "sid": 649,
+    "location": 2,
+    "content": "过去我们都讲说我们要做RLHF",
+    "music": 0
+  },
+  {
+    "from": 1703.11,
+    "to": 1706.11,
+    "sid": 650,
+    "location": 2,
+    "content": "由人类来提供回馈",
+    "music": 0
+  },
+  {
+    "from": 1706.11,
+    "to": 1707.73,
+    "sid": 651,
+    "location": 2,
+    "content": "但是在下一阶段",
+    "music": 0
+  },
+  {
+    "from": 1707.73,
+    "to": 1710.03,
+    "sid": 652,
+    "location": 2,
+    "content": "当AI的能力更强以后",
+    "music": 0
+  },
+  {
+    "from": 1710.03,
+    "to": 1714.56,
+    "sid": 653,
+    "location": 2,
+    "content": "也许我们有机会做RLAIF",
+    "music": 0
+  },
+  {
+    "from": 1714.56,
+    "to": 1718.86,
+    "sid": 654,
+    "location": 2,
+    "content": "也就是由AI来提供语言模型回馈",
+    "music": 0
+  },
+  {
+    "from": 1718.86,
+    "to": 1722.54,
+    "sid": 655,
+    "location": 2,
+    "content": "之前我们是用人类来告诉某个语言模型",
+    "music": 0
+  },
+  {
+    "from": 1722.54,
+    "to": 1723.62,
+    "sid": 656,
+    "location": 2,
+    "content": "说某个答案好",
+    "music": 0
+  },
+  {
+    "from": 1723.62,
+    "to": 1724.73,
+    "sid": 657,
+    "location": 2,
+    "content": "某个答案不好",
+    "music": 0
+  },
+  {
+    "from": 1724.73,
+    "to": 1727.61,
+    "sid": 658,
+    "location": 2,
+    "content": "但今天g p t four已经练得这么强了",
+    "music": 0
+  },
+  {
+    "from": 1727.61,
+    "to": 1732.13,
+    "sid": 659,
+    "location": 2,
+    "content": "我们有没有可能直接那个语言模型来评价",
+    "music": 0
+  },
+  {
+    "from": 1732.13,
+    "to": 1733.78,
+    "sid": 660,
+    "location": 2,
+    "content": "另外一个语言模型",
+    "music": 0
+  },
+  {
+    "from": 1733.78,
+    "to": 1735.46,
+    "sid": 661,
+    "location": 2,
+    "content": "它输出的好坏呢",
+    "music": 0
+  },
+  {
+    "from": 1735.46,
+    "to": 1737.86,
+    "sid": 662,
+    "location": 2,
+    "content": "这件事完全是有可能的",
+    "music": 0
+  },
+  {
+    "from": 1737.86,
+    "to": 1740.38,
+    "sid": 663,
+    "location": 2,
+    "content": "所以你也知道说其实有新盘坑满谷的人",
+    "music": 0
+  },
+  {
+    "from": 1740.38,
+    "to": 1742.909,
+    "sid": 664,
+    "location": 2,
+    "content": "拿g p t four扮演人类",
+    "music": 0
+  },
+  {
+    "from": 1742.909,
+    "to": 1746.359,
+    "sid": 665,
+    "location": 2,
+    "content": "然后来给自己的模型提供回馈",
+    "music": 0
+  },
+  {
+    "from": 1746.359,
+    "to": 1747.319,
+    "sid": 666,
+    "location": 2,
+    "content": "这是一个做法",
+    "music": 0
+  },
+  {
+    "from": 1747.319,
+    "to": 1749.389,
+    "sid": 667,
+    "location": 2,
+    "content": "我这边引用了一大堆相关的论文",
+    "music": 0
+  },
+  {
+    "from": 1749.389,
+    "to": 1751.72,
+    "sid": 668,
+    "location": 2,
+    "content": "大家有兴趣的话再慢慢的读",
+    "music": 0
+  },
+  {
+    "from": 1751.72,
+    "to": 1755.48,
+    "sid": 669,
+    "location": 2,
+    "content": "而事实上是一个提供回馈的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1755.48,
+    "to": 1760.79,
+    "sid": 670,
+    "location": 2,
+    "content": "甚至可以跟你要训练的模型是同一个",
+    "music": 0
+  },
+  {
+    "from": 1760.79,
+    "to": 1763.25,
+    "sid": 671,
+    "location": 2,
+    "content": "你可能会想说诶这个语言模型",
+    "music": 0
+  },
+  {
+    "from": 1763.25,
+    "to": 1766.01,
+    "sid": 672,
+    "location": 2,
+    "content": "如果这个蓝色跟绿色的语言模型其实同一个",
+    "music": 0
+  },
+  {
+    "from": 1766.01,
+    "to": 1769.389,
+    "sid": 673,
+    "location": 2,
+    "content": "那提供的回馈怎么可能会有帮助的呢",
+    "music": 0
+  },
+  {
+    "from": 1769.389,
+    "to": 1770.769,
+    "sid": 674,
+    "location": 2,
+    "content": "但不要忘了",
+    "music": 0
+  },
+  {
+    "from": 1770.769,
+    "to": 1773.949,
+    "sid": 675,
+    "location": 2,
+    "content": "语言模型是有反省的能力的",
+    "music": 0
+  },
+  {
+    "from": 1773.949,
+    "to": 1776.53,
+    "sid": 676,
+    "location": 2,
+    "content": "他不一定能产生出好的答案",
+    "music": 0
+  },
+  {
+    "from": 1776.53,
+    "to": 1780.74,
+    "sid": 677,
+    "location": 2,
+    "content": "但并不代表他不知道某一个答案是坏的",
+    "music": 0
+  },
+  {
+    "from": 1780.74,
+    "to": 1783.08,
+    "sid": 678,
+    "location": 2,
+    "content": "所以语言模型不见得能产生好的答案",
+    "music": 0
+  },
+  {
+    "from": 1783.08,
+    "to": 1786.44,
+    "sid": 679,
+    "location": 2,
+    "content": "但并不代表他没有评价一个答案",
+    "music": 0
+  },
+  {
+    "from": 1786.44,
+    "to": 1788.78,
+    "sid": 680,
+    "location": 2,
+    "content": "是不是优良答案的能力",
+    "music": 0
+  },
+  {
+    "from": 1788.78,
+    "to": 1791.75,
+    "sid": 681,
+    "location": 2,
+    "content": "所以你甚至可以让这个绿色的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1791.75,
+    "to": 1795.78,
+    "sid": 682,
+    "location": 2,
+    "content": "直接就是这个蓝色的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1795.78,
+    "to": 1799.44,
+    "sid": 683,
+    "location": 2,
+    "content": "让语言模型自己来教导自己",
+    "music": 0
+  },
+  {
+    "from": 1799.44,
+    "to": 1802.2,
+    "sid": 684,
+    "location": 2,
+    "content": "那其实在那个cloud paper里面",
+    "music": 0
+  },
+  {
+    "from": 1802.2,
+    "to": 1804.96,
+    "sid": 685,
+    "location": 2,
+    "content": "这个constitutional AI那篇paper里面",
+    "music": 0
+  },
+  {
+    "from": 1804.96,
+    "to": 1807.06,
+    "sid": 686,
+    "location": 2,
+    "content": "这应该是我这边引用的第一篇文章",
+    "music": 0
+  },
+  {
+    "from": 1807.06,
+    "to": 1809.66,
+    "sid": 687,
+    "location": 2,
+    "content": "这个早在2022年的12月",
+    "music": 0
+  },
+  {
+    "from": 1809.66,
+    "to": 1812.18,
+    "sid": 688,
+    "location": 2,
+    "content": "这个com就有用这样子的方法",
+    "music": 0
+  },
+  {
+    "from": 1812.18,
+    "to": 1815.42,
+    "sid": 689,
+    "location": 2,
+    "content": "用AI自己的模型来提供自己回馈的方法",
+    "music": 0
+  },
+  {
+    "from": 1815.42,
+    "to": 1818.539,
+    "sid": 690,
+    "location": 2,
+    "content": "来强化道的能力啊",
+    "music": 0
+  },
+  {
+    "from": 1818.539,
+    "to": 1820.309,
+    "sid": 691,
+    "location": 2,
+    "content": "因为语言模型有反省的能力",
+    "music": 0
+  },
+  {
+    "from": 1820.309,
+    "to": 1822.619,
+    "sid": 692,
+    "location": 2,
+    "content": "所以今天其实是有机会让语言模型",
+    "music": 0
+  },
+  {
+    "from": 1822.619,
+    "to": 1825.45,
+    "sid": 693,
+    "location": 2,
+    "content": "自己给自己提供回馈",
+    "music": 0
+  },
+  {
+    "from": 1825.45,
+    "to": 1827.49,
+    "sid": 694,
+    "location": 2,
+    "content": "那我记得今年年初的时候",
+    "music": 0
+  },
+  {
+    "from": 1827.49,
+    "to": 1832.19,
+    "sid": 695,
+    "location": 2,
+    "content": "这个呃meta也有一篇叫做self rewarding model",
+    "music": 0
+  },
+  {
+    "from": 1832.19,
+    "to": 1835.86,
+    "sid": 696,
+    "location": 2,
+    "content": "用的也是类似的概念",
+    "music": 0
+  },
+  {
+    "from": 1836.14,
+    "to": 1839.43,
+    "sid": 697,
+    "location": 2,
+    "content": "那增强式学习有一个本质上的难题",
+    "music": 0
+  },
+  {
+    "from": 1839.43,
+    "to": 1844.42,
+    "sid": 698,
+    "location": 2,
+    "content": "就是什么叫做好这件事情是没有标准答案",
+    "music": 0
+  },
+  {
+    "from": 1844.42,
+    "to": 1846.4,
+    "sid": 699,
+    "location": 2,
+    "content": "我们要叫人类告诉机器说",
+    "music": 0
+  },
+  {
+    "from": 1846.4,
+    "to": 1848.78,
+    "sid": 700,
+    "location": 2,
+    "content": "某个答案比另外一个答案好",
+    "music": 0
+  },
+  {
+    "from": 1848.78,
+    "to": 1851.06,
+    "sid": 701,
+    "location": 2,
+    "content": "但是什么叫做好呢",
+    "music": 0
+  },
+  {
+    "from": 1851.06,
+    "to": 1853.86,
+    "sid": 702,
+    "location": 2,
+    "content": "好是有不同的面向的",
+    "music": 0
+  },
+  {
+    "from": 1853.86,
+    "to": 1854.97,
+    "sid": 703,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 1858.97,
+    "to": 1861.55,
+    "sid": 704,
+    "location": 2,
+    "content": "语言模型回答你说我不能教你",
+    "music": 0
+  },
+  {
+    "from": 1861.55,
+    "to": 1862.45,
+    "sid": 705,
+    "location": 2,
+    "content": "这个太危险了",
+    "music": 0
+  },
+  {
+    "from": 1864.53,
+    "to": 1867.95,
+    "sid": 706,
+    "location": 2,
+    "content": "这到底是不是一个好的答案呢",
+    "music": 0
+  },
+  {
+    "from": 1867.95,
+    "to": 1870.17,
+    "sid": 707,
+    "location": 2,
+    "content": "从安全性的角度来看",
+    "music": 0
+  },
+  {
+    "from": 1870.17,
+    "to": 1871.82,
+    "sid": 708,
+    "location": 2,
+    "content": "这是个好的答案",
+    "music": 0
+  },
+  {
+    "from": 1871.82,
+    "to": 1874.58,
+    "sid": 709,
+    "location": 2,
+    "content": "但是从helpfulness的角度来看",
+    "music": 0
+  },
+  {
+    "from": 1874.58,
+    "to": 1877.04,
+    "sid": 710,
+    "location": 2,
+    "content": "语言模型怎么可以拒绝人类的请求呢",
+    "music": 0
+  },
+  {
+    "from": 1877.04,
+    "to": 1878,
+    "sid": 711,
+    "location": 2,
+    "content": "我就是要叫你帮忙",
+    "music": 0
+  },
+  {
+    "from": 1878,
+    "to": 1878.9,
+    "sid": 712,
+    "location": 2,
+    "content": "你却不帮忙",
+    "music": 0
+  },
+  {
+    "from": 1878.9,
+    "to": 1881.27,
+    "sid": 713,
+    "location": 2,
+    "content": "这样怎么能够算是一个好的答案呢",
+    "music": 0
+  },
+  {
+    "from": 1881.27,
+    "to": 1883.1,
+    "sid": 714,
+    "location": 2,
+    "content": "所以什么答案叫做好",
+    "music": 0
+  },
+  {
+    "from": 1883.1,
+    "to": 1886.19,
+    "sid": 715,
+    "location": 2,
+    "content": "其实是没有固定标准的",
+    "music": 0
+  },
+  {
+    "from": 1886.19,
+    "to": 1888.74,
+    "sid": 716,
+    "location": 2,
+    "content": "那如果你看LMT的论文的话",
+    "music": 0
+  },
+  {
+    "from": 1888.74,
+    "to": 1891.92,
+    "sid": 717,
+    "location": 2,
+    "content": "它里面呢训练了两个reward model",
+    "music": 0
+  },
+  {
+    "from": 1891.92,
+    "to": 1895.22,
+    "sid": 718,
+    "location": 2,
+    "content": "它会从两个不同的角度来评比模型",
+    "music": 0
+  },
+  {
+    "from": 1895.22,
+    "to": 1897.32,
+    "sid": 719,
+    "location": 2,
+    "content": "一个是safety reward model",
+    "music": 0
+  },
+  {
+    "from": 1897.32,
+    "to": 1899.39,
+    "sid": 720,
+    "location": 2,
+    "content": "从安全性的角度来评比答案",
+    "music": 0
+  },
+  {
+    "from": 1899.39,
+    "to": 1902.06,
+    "sid": 721,
+    "location": 2,
+    "content": "另外一个叫helpfulness reward model",
+    "music": 0
+  },
+  {
+    "from": 1902.06,
+    "to": 1906.84,
+    "sid": 722,
+    "location": 2,
+    "content": "从有没有帮助这个角度来评估模型的答案",
+    "music": 0
+  },
+  {
+    "from": 1906.84,
+    "to": 1910.78,
+    "sid": 723,
+    "location": 2,
+    "content": "但是假设今天一个答案是safety motion",
+    "music": 0
+  },
+  {
+    "from": 1910.78,
+    "to": 1912.4,
+    "sid": 724,
+    "location": 2,
+    "content": "safety reward model觉得好",
+    "music": 0
+  },
+  {
+    "from": 1912.4,
+    "to": 1914.68,
+    "sid": 725,
+    "location": 2,
+    "content": "但helpful is reward model觉得差的",
+    "music": 0
+  },
+  {
+    "from": 1914.68,
+    "to": 1917,
+    "sid": 726,
+    "location": 2,
+    "content": "那到底该听谁的呢",
+    "music": 0
+  },
+  {
+    "from": 1917,
+    "to": 1919.48,
+    "sid": 727,
+    "location": 2,
+    "content": "到底helpfulness the safety",
+    "music": 0
+  },
+  {
+    "from": 1919.48,
+    "to": 1923.65,
+    "sid": 728,
+    "location": 2,
+    "content": "安全跟有帮助哪一项比较重要呢",
+    "music": 0
+  },
+  {
+    "from": 1923.65,
+    "to": 1926.64,
+    "sid": 729,
+    "location": 2,
+    "content": "这个就是一个见仁见智的问题了",
+    "music": 0
+  },
+  {
+    "from": 1926.64,
+    "to": 1928.92,
+    "sid": 730,
+    "location": 2,
+    "content": "如果你看la就原始的论文的话",
+    "music": 0
+  },
+  {
+    "from": 1928.92,
+    "to": 1931.28,
+    "sid": 731,
+    "location": 2,
+    "content": "他用一个有点别扭的方式",
+    "music": 0
+  },
+  {
+    "from": 1931.28,
+    "to": 1934.82,
+    "sid": 732,
+    "location": 2,
+    "content": "把safety reward model跟helpfulness reward model的分数",
+    "music": 0
+  },
+  {
+    "from": 1934.82,
+    "to": 1936.29,
+    "sid": 733,
+    "location": 2,
+    "content": "试图combine在一起",
+    "music": 0
+  },
+  {
+    "from": 1936.29,
+    "to": 1937.72,
+    "sid": 734,
+    "location": 2,
+    "content": "他会讲一些啊",
+    "music": 0
+  },
+  {
+    "from": 1937.72,
+    "to": 1941.65,
+    "sid": 735,
+    "location": 2,
+    "content": "如果safety reward model的分数高过某一个fresh hall",
+    "music": 0
+  },
+  {
+    "from": 1941.65,
+    "to": 1944.08,
+    "sid": 736,
+    "location": 2,
+    "content": "那我们就听helpfulness model的话",
+    "music": 0
+  },
+  {
+    "from": 1944.08,
+    "to": 1946.66,
+    "sid": 737,
+    "location": 2,
+    "content": "反之如果safety is的分数不够高",
+    "music": 0
+  },
+  {
+    "from": 1946.66,
+    "to": 1948.28,
+    "sid": 738,
+    "location": 2,
+    "content": "那safety应该要比较重要",
+    "music": 0
+  },
+  {
+    "from": 1948.28,
+    "to": 1950,
+    "sid": 739,
+    "location": 2,
+    "content": "这时候safety优先等等",
+    "music": 0
+  },
+  {
+    "from": 1950,
+    "to": 1951.92,
+    "sid": 740,
+    "location": 2,
+    "content": "他用一个有点别扭的方式",
+    "music": 0
+  },
+  {
+    "from": 1951.92,
+    "to": 1955.34,
+    "sid": 741,
+    "location": 2,
+    "content": "来试图结合这两个不同的面向",
+    "music": 0
+  },
+  {
+    "from": 1955.34,
+    "to": 1957.999,
+    "sid": 742,
+    "location": 2,
+    "content": "那到底safety比较重要",
+    "music": 0
+  },
+  {
+    "from": 1957.999,
+    "to": 1959.379,
+    "sid": 743,
+    "location": 2,
+    "content": "还是helpfulness比较重要",
+    "music": 0
+  },
+  {
+    "from": 1959.379,
+    "to": 1961.299,
+    "sid": 744,
+    "location": 2,
+    "content": "这真的是一个见仁见智的问题",
+    "music": 0
+  },
+  {
+    "from": 1961.299,
+    "to": 1966.469,
+    "sid": 745,
+    "location": 2,
+    "content": "你会发现不同语言模型对于什么样才是安全的",
+    "music": 0
+  },
+  {
+    "from": 1966.469,
+    "to": 1968.809,
+    "sid": 746,
+    "location": 2,
+    "content": "是有不同的标准的",
+    "music": 0
+  },
+  {
+    "from": 1968.809,
+    "to": 1969.74,
+    "sid": 747,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 1969.74,
+    "to": 1971.15,
+    "sid": 748,
+    "location": 2,
+    "content": "如果你问g p t four",
+    "music": 0
+  },
+  {
+    "from": 1971.15,
+    "to": 1972.86,
+    "sid": 749,
+    "location": 2,
+    "content": "叫他教你做一把玩具枪",
+    "music": 0
+  },
+  {
+    "from": 1972.86,
+    "to": 1973.82,
+    "sid": 750,
+    "location": 2,
+    "content": "我们要做真枪哦",
+    "music": 0
+  },
+  {
+    "from": 1973.82,
+    "to": 1975.17,
+    "sid": 751,
+    "location": 2,
+    "content": "我只知道做玩具枪哦",
+    "music": 0
+  },
+  {
+    "from": 1975.17,
+    "to": 1980.2,
+    "sid": 752,
+    "location": 2,
+    "content": "而且还特别强调说要不会打伤人的那一种哦",
+    "music": 0
+  },
+  {
+    "from": 1980.2,
+    "to": 1981.7,
+    "sid": 753,
+    "location": 2,
+    "content": "我不只是要做玩具枪",
+    "music": 0
+  },
+  {
+    "from": 1981.7,
+    "to": 1984.48,
+    "sid": 754,
+    "location": 2,
+    "content": "而且要做一把安全的玩具枪",
+    "music": 0
+  },
+  {
+    "from": 1984.48,
+    "to": 1986.26,
+    "sid": 755,
+    "location": 2,
+    "content": "gp four就会说没问题",
+    "music": 0
+  },
+  {
+    "from": 1986.26,
+    "to": 1988.66,
+    "sid": 756,
+    "location": 2,
+    "content": "我教你怎么做一个橡皮筋枪",
+    "music": 0
+  },
+  {
+    "from": 1988.66,
+    "to": 1990.34,
+    "sid": 757,
+    "location": 2,
+    "content": "橡皮筋枪其实也会打伤人了",
+    "music": 0
+  },
+  {
+    "from": 1990.34,
+    "to": 1993.23,
+    "sid": 758,
+    "location": 2,
+    "content": "不过g p t four就觉得做橡皮筋枪还可以",
+    "music": 0
+  },
+  {
+    "from": 1993.23,
+    "to": 1995.45,
+    "sid": 759,
+    "location": 2,
+    "content": "如果你问GEMINI1模一样的问题",
+    "music": 0
+  },
+  {
+    "from": 1995.45,
+    "to": 1997.55,
+    "sid": 760,
+    "location": 2,
+    "content": "他还说这件事我帮不了",
+    "music": 0
+  },
+  {
+    "from": 1997.55,
+    "to": 1998.36,
+    "sid": 761,
+    "location": 2,
+    "content": "帮不了你",
+    "music": 0
+  },
+  {
+    "from": 1998.36,
+    "to": 2000.31,
+    "sid": 762,
+    "location": 2,
+    "content": "而且他给的三个草稿都是一样的",
+    "music": 0
+  },
+  {
+    "from": 2000.31,
+    "to": 2002.61,
+    "sid": 763,
+    "location": 2,
+    "content": "就是反正我就是不想帮你这件事",
+    "music": 0
+  },
+  {
+    "from": 2002.61,
+    "to": 2004.77,
+    "sid": 764,
+    "location": 2,
+    "content": "如果你是问cloud jd",
+    "music": 0
+  },
+  {
+    "from": 2004.77,
+    "to": 2005.61,
+    "sid": 765,
+    "location": 2,
+    "content": "不叫他",
+    "music": 0
+  },
+  {
+    "from": 2005.61,
+    "to": 2006.33,
+    "sid": 766,
+    "location": 2,
+    "content": "你跟他说",
+    "music": 0
+  },
+  {
+    "from": 2006.33,
+    "to": 2007.53,
+    "sid": 767,
+    "location": 2,
+    "content": "教我做一把玩具枪",
+    "music": 0
+  },
+  {
+    "from": 2007.53,
+    "to": 2008.85,
+    "sid": 768,
+    "location": 2,
+    "content": "不会打伤人的那一种",
+    "music": 0
+  },
+  {
+    "from": 2008.85,
+    "to": 2012.58,
+    "sid": 769,
+    "location": 2,
+    "content": "他会说我知道你想要做一把安全无害的玩具枪",
+    "music": 0
+  },
+  {
+    "from": 2012.58,
+    "to": 2014.95,
+    "sid": 770,
+    "location": 2,
+    "content": "但总之做枪就是一件坏事",
+    "music": 0
+  },
+  {
+    "from": 2014.95,
+    "to": 2017.65,
+    "sid": 771,
+    "location": 2,
+    "content": "你要不要做个积木等等之类的",
+    "music": 0
+  },
+  {
+    "from": 2017.65,
+    "to": 2021.07,
+    "sid": 772,
+    "location": 2,
+    "content": "而他来给你一个其他的建议",
+    "music": 0
+  },
+  {
+    "from": 2021.07,
+    "to": 2024.19,
+    "sid": 773,
+    "location": 2,
+    "content": "所以不同的模型对于怎么样才是安全",
+    "music": 0
+  },
+  {
+    "from": 2024.19,
+    "to": 2026.05,
+    "sid": 774,
+    "location": 2,
+    "content": "到底安全的标准要到哪里",
+    "music": 0
+  },
+  {
+    "from": 2026.05,
+    "to": 2028.81,
+    "sid": 775,
+    "location": 2,
+    "content": "其实是有不同的想法的",
+    "music": 0
+  },
+  {
+    "from": 2028.81,
+    "to": 2032.65,
+    "sid": 776,
+    "location": 2,
+    "content": "只有在未来增强式学习还会面临另外一个难题",
+    "music": 0
+  },
+  {
+    "from": 2032.65,
+    "to": 2036.52,
+    "sid": 777,
+    "location": 2,
+    "content": "这个难题是假设今天语言模型越来越厉害",
+    "music": 0
+  },
+  {
+    "from": 2036.52,
+    "to": 2039.49,
+    "sid": 778,
+    "location": 2,
+    "content": "厉害到他今天要面对的问题是",
+    "music": 0
+  },
+  {
+    "from": 2039.49,
+    "to": 2044.43,
+    "sid": 779,
+    "location": 2,
+    "content": "连人类自己都无法正确判断好坏的状况",
+    "music": 0
+  },
+  {
+    "from": 2044.43,
+    "to": 2048.37,
+    "sid": 780,
+    "location": 2,
+    "content": "那语言模型要怎么取得正确的回馈",
+    "music": 0
+  },
+  {
+    "from": 2048.37,
+    "to": 2050.11,
+    "sid": 781,
+    "location": 2,
+    "content": "再继续去进步呢",
+    "music": 0
+  },
+  {
+    "from": 2050.11,
+    "to": 2051.46,
+    "sid": 782,
+    "location": 2,
+    "content": "这世界上有很多问题",
+    "music": 0
+  },
+  {
+    "from": 2051.46,
+    "to": 2054.79,
+    "sid": 783,
+    "location": 2,
+    "content": "是人类自己也没有办法判断好坏的",
+    "music": 0
+  },
+  {
+    "from": 2054.79,
+    "to": 2057,
+    "sid": 784,
+    "location": 2,
+    "content": "这边举一个例子哦",
+    "music": 0
+  },
+  {
+    "from": 2057,
+    "to": 2058.98,
+    "sid": 785,
+    "location": 2,
+    "content": "那这个毕业季快到了啊",
+    "music": 0
+  },
+  {
+    "from": 2058.98,
+    "to": 2060.81,
+    "sid": 786,
+    "location": 2,
+    "content": "如果你是数二的学生的话",
+    "music": 0
+  },
+  {
+    "from": 2060.81,
+    "to": 2062.739,
+    "sid": 787,
+    "location": 2,
+    "content": "你可能会有这样的纠结",
+    "music": 0
+  },
+  {
+    "from": 2062.739,
+    "to": 2067.159,
+    "sid": 788,
+    "location": 2,
+    "content": "到底应该要念博班还是应该去工作呢",
+    "music": 0
+  },
+  {
+    "from": 2067.159,
+    "to": 2070.009,
+    "sid": 789,
+    "location": 2,
+    "content": "那我们就来问g p t four这个问题吧",
+    "music": 0
+  },
+  {
+    "from": 2070.009,
+    "to": 2072.84,
+    "sid": 790,
+    "location": 2,
+    "content": "不过因为g p t four是一个老奸巨猾的模型",
+    "music": 0
+  },
+  {
+    "from": 2072.84,
+    "to": 2074.4,
+    "sid": 791,
+    "location": 2,
+    "content": "你通常叫做判断的时候",
+    "music": 0
+  },
+  {
+    "from": 2074.4,
+    "to": 2076.2,
+    "sid": 792,
+    "location": 2,
+    "content": "他会告诉你这两件事都好",
+    "music": 0
+  },
+  {
+    "from": 2076.2,
+    "to": 2077.739,
+    "sid": 793,
+    "location": 2,
+    "content": "所以不准他这样做",
+    "music": 0
+  },
+  {
+    "from": 2077.739,
+    "to": 2078.759,
+    "sid": 794,
+    "location": 2,
+    "content": "不准他这样说",
+    "music": 0
+  },
+  {
+    "from": 2078.759,
+    "to": 2079.659,
+    "sid": 795,
+    "location": 2,
+    "content": "就跟他讲说",
+    "music": 0
+  },
+  {
+    "from": 2079.659,
+    "to": 2082.51,
+    "sid": 796,
+    "location": 2,
+    "content": "一般状况下你觉得哪一个选择比较好",
+    "music": 0
+  },
+  {
+    "from": 2082.51,
+    "to": 2084.43,
+    "sid": 797,
+    "location": 2,
+    "content": "给我一个明确的答案",
+    "music": 0
+  },
+  {
+    "from": 2084.43,
+    "to": 2087.61,
+    "sid": 798,
+    "location": 2,
+    "content": "不可以模棱两可的说两个都好逼",
+    "music": 0
+  },
+  {
+    "from": 2087.61,
+    "to": 2089.26,
+    "sid": 799,
+    "location": 2,
+    "content": "他一定要选边站",
+    "music": 0
+  },
+  {
+    "from": 2089.26,
+    "to": 2092.41,
+    "sid": 800,
+    "location": 2,
+    "content": "你要不要猜猜看g v d four会选哪一边站",
+    "music": 0
+  },
+  {
+    "from": 2092.41,
+    "to": 2093.4,
+    "sid": 801,
+    "location": 2,
+    "content": "我问他的时候",
+    "music": 0
+  },
+  {
+    "from": 2093.4,
+    "to": 2096.289,
+    "sid": 802,
+    "location": 2,
+    "content": "他第一次给我的答案是要念博班呐",
+    "music": 0
+  },
+  {
+    "from": 2096.289,
+    "to": 2097.549,
+    "sid": 803,
+    "location": 2,
+    "content": "哎这个身为一个教授",
+    "music": 0
+  },
+  {
+    "from": 2097.549,
+    "to": 2101.4,
+    "sid": 804,
+    "location": 2,
+    "content": "就喜欢看到人家念博班高兴了",
+    "music": 0
+  },
+  {
+    "from": 2101.4,
+    "to": 2103.95,
+    "sid": 805,
+    "location": 2,
+    "content": "然后但是我叫他再生成一次答案的时候",
+    "music": 0
+  },
+  {
+    "from": 2103.95,
+    "to": 2105.9,
+    "sid": 806,
+    "location": 2,
+    "content": "他就说工作比较好",
+    "music": 0
+  },
+  {
+    "from": 2105.9,
+    "to": 2108.21,
+    "sid": 807,
+    "location": 2,
+    "content": "我一气之下就给他一个负的回馈",
+    "music": 0
+  },
+  {
+    "from": 2108.21,
+    "to": 2112.47,
+    "sid": 808,
+    "location": 2,
+    "content": "是希望他下一次update模型的时候",
+    "music": 0
+  },
+  {
+    "from": 2112.47,
+    "to": 2115.18,
+    "sid": 809,
+    "location": 2,
+    "content": "要让第一个答案出现的几率高一点",
+    "music": 0
+  },
+  {
+    "from": 2115.18,
+    "to": 2118.27,
+    "sid": 810,
+    "location": 2,
+    "content": "但是到底念博班跟工作哪个比较好呢",
+    "music": 0
+  },
+  {
+    "from": 2118.27,
+    "to": 2122.08,
+    "sid": 811,
+    "location": 2,
+    "content": "啊这个真的是要考虑非常非常多不同的面相",
+    "music": 0
+  },
+  {
+    "from": 2122.08,
+    "to": 2125.069,
+    "sid": 812,
+    "location": 2,
+    "content": "可能没有办法那么轻易的决定",
+    "music": 0
+  },
+  {
+    "from": 2125.069,
+    "to": 2126.599,
+    "sid": 813,
+    "location": 2,
+    "content": "所以有很多问题是",
+    "music": 0
+  },
+  {
+    "from": 2126.599,
+    "to": 2129.509,
+    "sid": 814,
+    "location": 2,
+    "content": "人类也不知道答案是好还是坏",
+    "music": 0
+  },
+  {
+    "from": 2129.509,
+    "to": 2131.279,
+    "sid": 815,
+    "location": 2,
+    "content": "人类提供的回馈",
+    "music": 0
+  },
+  {
+    "from": 2131.279,
+    "to": 2135.55,
+    "sid": 816,
+    "location": 2,
+    "content": "很有可能是基于人类自己偏狭的偏见",
+    "music": 0
+  },
+  {
+    "from": 2135.55,
+    "to": 2136.75,
+    "sid": 817,
+    "location": 2,
+    "content": "所提供的回馈",
+    "music": 0
+  },
+  {
+    "from": 2136.75,
+    "to": 2139.03,
+    "sid": 818,
+    "location": 2,
+    "content": "不一定是一个正确的回馈",
+    "music": 0
+  },
+  {
+    "from": 2139.03,
+    "to": 2141.7,
+    "sid": 819,
+    "location": 2,
+    "content": "那如果人类提供了一个不正确的回馈",
+    "music": 0
+  },
+  {
+    "from": 2141.7,
+    "to": 2145.66,
+    "sid": 820,
+    "location": 2,
+    "content": "可能就会把语言模型引导到不正确的方向上",
+    "music": 0
+  },
+  {
+    "from": 2145.66,
+    "to": 2147.85,
+    "sid": 821,
+    "location": 2,
+    "content": "语言模型就没有办法变得更好",
+    "music": 0
+  },
+  {
+    "from": 2147.85,
+    "to": 2151.4,
+    "sid": 822,
+    "location": 2,
+    "content": "所以未来假设语言模型要真正面对的是",
+    "music": 0
+  },
+  {
+    "from": 2151.4,
+    "to": 2153.22,
+    "sid": 823,
+    "location": 2,
+    "content": "人类自己也解不了的问题",
+    "music": 0
+  },
+  {
+    "from": 2153.22,
+    "to": 2156.1,
+    "sid": 824,
+    "location": 2,
+    "content": "那语言模型还要再怎么进步呢",
+    "music": 0
+  },
+  {
+    "from": 2156.1,
+    "to": 2160.5,
+    "sid": 825,
+    "location": 2,
+    "content": "这是一个今天还没有明确答案的问题",
+    "music": 0
+  },
+  {
+    "from": 2160.5,
+    "to": 2162.24,
+    "sid": 826,
+    "location": 2,
+    "content": "好那到目前为止",
+    "music": 0
+  },
+  {
+    "from": 2162.24,
+    "to": 2165.87,
+    "sid": 827,
+    "location": 2,
+    "content": "我们就是讲了语言模型学习的三个阶段",
+    "music": 0
+  },
+  {
+    "from": 2165.87,
+    "to": 2167.45,
+    "sid": 828,
+    "location": 2,
+    "content": "第一阶段是PRETRAIN",
+    "music": 0
+  },
+  {
+    "from": 2167.45,
+    "to": 2168.95,
+    "sid": 829,
+    "location": 2,
+    "content": "第二阶段是instruction",
+    "music": 0
+  },
+  {
+    "from": 2168.95,
+    "to": 2169.67,
+    "sid": 830,
+    "location": 2,
+    "content": "Fine tuning",
+    "music": 0
+  },
+  {
+    "from": 2169.67,
+    "to": 2171.83,
+    "sid": 831,
+    "location": 2,
+    "content": "第三阶段是RLHF",
+    "music": 0
+  },
+  {
+    "from": 2171.83,
+    "to": 2174.5,
+    "sid": 832,
+    "location": 2,
+    "content": "在培训这个阶段我们会得到一个模型",
+    "music": 0
+  },
+  {
+    "from": 2174.5,
+    "to": 2178.34,
+    "sid": 833,
+    "location": 2,
+    "content": "那我们几周前也跟你展示过这个模型没什么用",
+    "music": 0
+  },
+  {
+    "from": 2178.34,
+    "to": 2181.07,
+    "sid": 834,
+    "location": 2,
+    "content": "但是它是接下来训练的基础",
+    "music": 0
+  },
+  {
+    "from": 2181.07,
+    "to": 2184.55,
+    "sid": 835,
+    "location": 2,
+    "content": "所以这个模型现在又叫做foundation model",
+    "music": 0
+  },
+  {
+    "from": 2184.55,
+    "to": 2186.33,
+    "sid": 836,
+    "location": 2,
+    "content": "它是其他模型的基石",
+    "music": 0
+  },
+  {
+    "from": 2186.33,
+    "to": 2188.28,
+    "sid": 837,
+    "location": 2,
+    "content": "而第二阶段和第三阶段",
+    "music": 0
+  },
+  {
+    "from": 2188.28,
+    "to": 2190.77,
+    "sid": 838,
+    "location": 2,
+    "content": "引入了人类老师来教机器",
+    "music": 0
+  },
+  {
+    "from": 2190.77,
+    "to": 2194.52,
+    "sid": 839,
+    "location": 2,
+    "content": "所以第二阶段跟第三阶段又叫做alignment",
+    "music": 0
+  },
+  {
+    "from": 2194.52,
+    "to": 2195.06,
+    "sid": 840,
+    "location": 2,
+    "content": "Align",
+    "music": 0
+  },
+  {
+    "from": 2195.06,
+    "to": 2198.23,
+    "sid": 841,
+    "location": 2,
+    "content": "什么align的中文翻译也许可以翻译成对齐",
+    "music": 0
+  },
+  {
+    "from": 2198.23,
+    "to": 2199.28,
+    "sid": 842,
+    "location": 2,
+    "content": "对其什么",
+    "music": 0
+  },
+  {
+    "from": 2199.28,
+    "to": 2203.76,
+    "sid": 843,
+    "location": 2,
+    "content": "对其人类的偏好和需求好",
+    "music": 0
+  },
+  {
+    "from": 2203.76,
+    "to": 2208.17,
+    "sid": 844,
+    "location": 2,
+    "content": "那到这边我们就讲完了语言模型的训练过程",
+    "music": 0
+  },
+  {
+    "from": 2208.17,
+    "to": 2212.94,
+    "sid": 845,
+    "location": 2,
+    "content": "那接下来应该是要请助教呢讲一下作业六",
+    "music": 0
+  },
+  {
+    "from": 2212.94,
+    "to": 2216.74,
+    "sid": 846,
+    "location": 2,
+    "content": "讲作业六呢就是做IOHF",
+    "music": 0
+  }
+]

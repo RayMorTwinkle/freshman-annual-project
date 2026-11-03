@@ -1,0 +1,9074 @@
+[
+  {
+    "from": 1.78,
+    "to": 5.32,
+    "sid": 1,
+    "location": 2,
+    "content": "好那个各位同学大家好啊",
+    "music": 0
+  },
+  {
+    "from": 5.32,
+    "to": 8.7,
+    "sid": 2,
+    "location": 2,
+    "content": "那我们就开始来上课吧",
+    "music": 0
+  },
+  {
+    "from": 8.7,
+    "to": 13.52,
+    "sid": 3,
+    "location": 2,
+    "content": "那上周我们讲到一些在不训练模型的情况下",
+    "music": 0
+  },
+  {
+    "from": 13.52,
+    "to": 16.61,
+    "sid": 4,
+    "location": 2,
+    "content": "就强化语言模型能力的方法",
+    "music": 0
+  },
+  {
+    "from": 16.61,
+    "to": 18.74,
+    "sid": 5,
+    "location": 2,
+    "content": "包括用神奇的咒语",
+    "music": 0
+  },
+  {
+    "from": 18.74,
+    "to": 21.05,
+    "sid": 6,
+    "location": 2,
+    "content": "还有提供额外的知识",
+    "music": 0
+  },
+  {
+    "from": 21.05,
+    "to": 25.16,
+    "sid": 7,
+    "location": 2,
+    "content": "那今天我们来看看还有哪些其他的方法可以",
+    "music": 0
+  },
+  {
+    "from": 25.16,
+    "to": 27.68,
+    "sid": 8,
+    "location": 2,
+    "content": "在不训练语言模型的情况下",
+    "music": 0
+  },
+  {
+    "from": 27.68,
+    "to": 30.86,
+    "sid": 9,
+    "location": 2,
+    "content": "你完全不动不调整语言模型的参数",
+    "music": 0
+  },
+  {
+    "from": 30.86,
+    "to": 33.81,
+    "sid": 10,
+    "location": 2,
+    "content": "在完全固定语言模型的情况下",
+    "music": 0
+  },
+  {
+    "from": 33.81,
+    "to": 36.03,
+    "sid": 11,
+    "location": 2,
+    "content": "强化他的能力",
+    "music": 0
+  },
+  {
+    "from": 36.03,
+    "to": 39.04,
+    "sid": 12,
+    "location": 2,
+    "content": "而第三个要跟大家分享的方向呢",
+    "music": 0
+  },
+  {
+    "from": 39.04,
+    "to": 43.87,
+    "sid": 13,
+    "location": 2,
+    "content": "是把本来比较复杂的任务拆解成简单的任务",
+    "music": 0
+  },
+  {
+    "from": 43.87,
+    "to": 44.98,
+    "sid": 14,
+    "location": 2,
+    "content": "有时候会想说",
+    "music": 0
+  },
+  {
+    "from": 44.98,
+    "to": 47.59,
+    "sid": 15,
+    "location": 2,
+    "content": "我能不能直接拿一个语言模型",
+    "music": 0
+  },
+  {
+    "from": 47.59,
+    "to": 49.59,
+    "sid": 16,
+    "location": 2,
+    "content": "直接把任务当作输入",
+    "music": 0
+  },
+  {
+    "from": 49.59,
+    "to": 52.47,
+    "sid": 17,
+    "location": 2,
+    "content": "然后他给我们任务的输出一次到位",
+    "music": 0
+  },
+  {
+    "from": 52.47,
+    "to": 54.41,
+    "sid": 18,
+    "location": 2,
+    "content": "一次把问题解决",
+    "music": 0
+  },
+  {
+    "from": 54.41,
+    "to": 57.29,
+    "sid": 19,
+    "location": 2,
+    "content": "但是如果这个任务非常的复杂",
+    "music": 0
+  },
+  {
+    "from": 57.29,
+    "to": 60.04,
+    "sid": 20,
+    "location": 2,
+    "content": "那语言模型可能很难做得好",
+    "music": 0
+  },
+  {
+    "from": 60.04,
+    "to": 61.24,
+    "sid": 21,
+    "location": 2,
+    "content": "这个时候呢",
+    "music": 0
+  },
+  {
+    "from": 61.24,
+    "to": 65.92,
+    "sid": 22,
+    "location": 2,
+    "content": "你可以把本来复杂的任务拆解成一个一个步骤",
+    "music": 0
+  },
+  {
+    "from": 65.92,
+    "to": 69.14,
+    "sid": 23,
+    "location": 2,
+    "content": "每一个步骤都是比较简单的任务",
+    "music": 0
+  },
+  {
+    "from": 69.14,
+    "to": 72.91,
+    "sid": 24,
+    "location": 2,
+    "content": "然后让语言模型对每一个步骤各个击破",
+    "music": 0
+  },
+  {
+    "from": 72.91,
+    "to": 77.509,
+    "sid": 25,
+    "location": 2,
+    "content": "那语言模型就有可能解一个复杂的任务",
+    "music": 0
+  },
+  {
+    "from": 77.509,
+    "to": 79.789,
+    "sid": 26,
+    "location": 2,
+    "content": "那这边举一个具体的例子",
+    "music": 0
+  },
+  {
+    "from": 79.789,
+    "to": 83.509,
+    "sid": 27,
+    "location": 2,
+    "content": "假设呢你今天要写一个跟生成式AI有关的报告",
+    "music": 0
+  },
+  {
+    "from": 83.509,
+    "to": 85.77,
+    "sid": 28,
+    "location": 2,
+    "content": "你当然可以直接跟CHEGBT说",
+    "music": 0
+  },
+  {
+    "from": 85.77,
+    "to": 89.02,
+    "sid": 29,
+    "location": 2,
+    "content": "生成一个跟生成式AI有关的报告",
+    "music": 0
+  },
+  {
+    "from": 89.02,
+    "to": 91.45,
+    "sid": 30,
+    "location": 2,
+    "content": "但是他往往没有办法真的写的代号",
+    "music": 0
+  },
+  {
+    "from": 91.45,
+    "to": 94.66,
+    "sid": 31,
+    "location": 2,
+    "content": "而且他写的这个文章可能也没有办法",
+    "music": 0
+  },
+  {
+    "from": 94.66,
+    "to": 96.699,
+    "sid": 32,
+    "location": 2,
+    "content": "真的写的非常的长",
+    "music": 0
+  },
+  {
+    "from": 96.699,
+    "to": 97.899,
+    "sid": 33,
+    "location": 2,
+    "content": "那怎么办呢",
+    "music": 0
+  },
+  {
+    "from": 97.899,
+    "to": 100.839,
+    "sid": 34,
+    "location": 2,
+    "content": "也许我们可以把生成一个长篇报告",
+    "music": 0
+  },
+  {
+    "from": 100.839,
+    "to": 104.33,
+    "sid": 35,
+    "location": 2,
+    "content": "这件事情拆解成比较简单的步骤",
+    "music": 0
+  },
+  {
+    "from": 104.33,
+    "to": 107.81,
+    "sid": 36,
+    "location": 2,
+    "content": "首先第一步呢是先写大纲",
+    "music": 0
+  },
+  {
+    "from": 107.81,
+    "to": 109.62,
+    "sid": 37,
+    "location": 2,
+    "content": "而是你跟CHEGT说",
+    "music": 0
+  },
+  {
+    "from": 109.62,
+    "to": 111.69,
+    "sid": 38,
+    "location": 2,
+    "content": "我要写生成式AI的报告",
+    "music": 0
+  },
+  {
+    "from": 111.69,
+    "to": 113.55,
+    "sid": 39,
+    "location": 2,
+    "content": "帮我把大纲列出来",
+    "music": 0
+  },
+  {
+    "from": 113.55,
+    "to": 114.86,
+    "sid": 40,
+    "location": 2,
+    "content": "他可能就告诉你说",
+    "music": 0
+  },
+  {
+    "from": 114.86,
+    "to": 117.71,
+    "sid": 41,
+    "location": 2,
+    "content": "第一节先写生成式AI的重要性",
+    "music": 0
+  },
+  {
+    "from": 117.71,
+    "to": 120.93,
+    "sid": 42,
+    "location": 2,
+    "content": "第二节告诉大家生成式AI有什么样的种类",
+    "music": 0
+  },
+  {
+    "from": 120.93,
+    "to": 124.35,
+    "sid": 43,
+    "location": 2,
+    "content": "第三节剖析生成式AI的技术等等",
+    "music": 0
+  },
+  {
+    "from": 124.35,
+    "to": 125.52,
+    "sid": 44,
+    "location": 2,
+    "content": "然后接下来呢",
+    "music": 0
+  },
+  {
+    "from": 125.52,
+    "to": 129.03,
+    "sid": 45,
+    "location": 2,
+    "content": "大纲里面的每一个章节再来分开撰写",
+    "music": 0
+  },
+  {
+    "from": 129.03,
+    "to": 132.66,
+    "sid": 46,
+    "location": 2,
+    "content": "叫HHBT说撰写生成式AI的重要性",
+    "music": 0
+  },
+  {
+    "from": 132.66,
+    "to": 134.97,
+    "sid": 47,
+    "location": 2,
+    "content": "撰写生成式AI有哪些种类",
+    "music": 0
+  },
+  {
+    "from": 134.97,
+    "to": 138.35,
+    "sid": 48,
+    "location": 2,
+    "content": "撰写生成式AI背后的技术等等",
+    "music": 0
+  },
+  {
+    "from": 138.35,
+    "to": 141.38,
+    "sid": 49,
+    "location": 2,
+    "content": "而如果我们这边一段一段分开来写的话",
+    "music": 0
+  },
+  {
+    "from": 141.38,
+    "to": 143.3,
+    "sid": 50,
+    "location": 2,
+    "content": "也许这个check vt呢",
+    "music": 0
+  },
+  {
+    "from": 143.3,
+    "to": 146.44,
+    "sid": 51,
+    "location": 2,
+    "content": "他写的时候因为不知道前面已经写过什么",
+    "music": 0
+  },
+  {
+    "from": 146.44,
+    "to": 149.05,
+    "sid": 52,
+    "location": 2,
+    "content": "可能会有一些前言不对后语的状况",
+    "music": 0
+  },
+  {
+    "from": 149.05,
+    "to": 150.22,
+    "sid": 53,
+    "location": 2,
+    "content": "那怎么办呢",
+    "music": 0
+  },
+  {
+    "from": 150.22,
+    "to": 153.769,
+    "sid": 54,
+    "location": 2,
+    "content": "也许你可以把前面切GBT已经有写过的内容",
+    "music": 0
+  },
+  {
+    "from": 153.769,
+    "to": 156.799,
+    "sid": 55,
+    "location": 2,
+    "content": "再叫他自己做一下摘要",
+    "music": 0
+  },
+  {
+    "from": 156.799,
+    "to": 159.07,
+    "sid": 56,
+    "location": 2,
+    "content": "所以在写新的段落的时候呃",
+    "music": 0
+  },
+  {
+    "from": 159.07,
+    "to": 163.57,
+    "sid": 57,
+    "location": 2,
+    "content": "是根据过去已经写的内容的摘要来写新的段落",
+    "music": 0
+  },
+  {
+    "from": 163.57,
+    "to": 168.42,
+    "sid": 58,
+    "location": 2,
+    "content": "那期待这样就可以让change gp d写一个长篇的报告",
+    "music": 0
+  },
+  {
+    "from": 168.42,
+    "to": 171.15,
+    "sid": 59,
+    "location": 2,
+    "content": "那类似的做法有非常的多",
+    "music": 0
+  },
+  {
+    "from": 171.15,
+    "to": 173.74,
+    "sid": 60,
+    "location": 2,
+    "content": "不是只有我在这一页投影片上绣的例子",
+    "music": 0
+  },
+  {
+    "from": 173.74,
+    "to": 176.98,
+    "sid": 61,
+    "location": 2,
+    "content": "你要怎么把一个大的任务拆解成小的任务",
+    "music": 0
+  },
+  {
+    "from": 176.98,
+    "to": 179.56,
+    "sid": 62,
+    "location": 2,
+    "content": "有各式各样不同的可能性",
+    "music": 0
+  },
+  {
+    "from": 179.56,
+    "to": 182.56,
+    "sid": 63,
+    "location": 2,
+    "content": "那像这种把大任务拆解成小任务啊",
+    "music": 0
+  },
+  {
+    "from": 182.56,
+    "to": 183.76,
+    "sid": 64,
+    "location": 2,
+    "content": "这样子的想法",
+    "music": 0
+  },
+  {
+    "from": 183.76,
+    "to": 186.64,
+    "sid": 65,
+    "location": 2,
+    "content": "不是只有在cg b t的年代才有的哦",
+    "music": 0
+  },
+  {
+    "from": 186.64,
+    "to": 187.96,
+    "sid": 66,
+    "location": 2,
+    "content": "我这边引用一篇论文",
+    "music": 0
+  },
+  {
+    "from": 187.96,
+    "to": 190.81,
+    "sid": 67,
+    "location": 2,
+    "content": "是这个2022年10月的论文",
+    "music": 0
+  },
+  {
+    "from": 190.81,
+    "to": 194.18,
+    "sid": 68,
+    "location": 2,
+    "content": "这篇paper呢叫做recursive reputation revision",
+    "music": 0
+  },
+  {
+    "from": 194.18,
+    "to": 195.26,
+    "sid": 69,
+    "location": 2,
+    "content": "他想做的事情",
+    "music": 0
+  },
+  {
+    "from": 195.26,
+    "to": 198.95,
+    "sid": 70,
+    "location": 2,
+    "content": "就是用当时有的大型原模型写长篇小说",
+    "music": 0
+  },
+  {
+    "from": 198.95,
+    "to": 201.95,
+    "sid": 71,
+    "location": 2,
+    "content": "但他发现这些大起源模型写小说的时候",
+    "music": 0
+  },
+  {
+    "from": 201.95,
+    "to": 205.91,
+    "sid": 72,
+    "location": 2,
+    "content": "往往同一个人物写着写着这个人设就变了",
+    "music": 0
+  },
+  {
+    "from": 205.91,
+    "to": 207.14,
+    "sid": 73,
+    "location": 2,
+    "content": "性别就变了",
+    "music": 0
+  },
+  {
+    "from": 207.14,
+    "to": 209.15,
+    "sid": 74,
+    "location": 2,
+    "content": "忘记自己写过的剧情了",
+    "music": 0
+  },
+  {
+    "from": 209.15,
+    "to": 210.02,
+    "sid": 75,
+    "location": 2,
+    "content": "所以怎么办",
+    "music": 0
+  },
+  {
+    "from": 210.02,
+    "to": 213.8,
+    "sid": 76,
+    "location": 2,
+    "content": "先让大型原模型把小说的大纲架构好",
+    "music": 0
+  },
+  {
+    "from": 213.8,
+    "to": 216.42,
+    "sid": 77,
+    "location": 2,
+    "content": "先说整个小说有三个不同的场景",
+    "music": 0
+  },
+  {
+    "from": 216.42,
+    "to": 220.44,
+    "sid": 78,
+    "location": 2,
+    "content": "然后在每一个场景依序细去把内容写出来",
+    "music": 0
+  },
+  {
+    "from": 220.44,
+    "to": 223.59,
+    "sid": 79,
+    "location": 2,
+    "content": "这样就比较有可能让大型原模型",
+    "music": 0
+  },
+  {
+    "from": 223.59,
+    "to": 226.07,
+    "sid": 80,
+    "location": 2,
+    "content": "完成一个长篇小说",
+    "music": 0
+  },
+  {
+    "from": 226.85,
+    "to": 229.33,
+    "sid": 81,
+    "location": 2,
+    "content": "那讲到这个拆解任务的部分",
+    "music": 0
+  },
+  {
+    "from": 229.33,
+    "to": 233.55,
+    "sid": 82,
+    "location": 2,
+    "content": "那我们就可以来回顾一下上周我们讲到的",
+    "music": 0
+  },
+  {
+    "from": 233.55,
+    "to": 237.33,
+    "sid": 83,
+    "location": 2,
+    "content": "为什么叫模型思考或叫模型解释",
+    "music": 0
+  },
+  {
+    "from": 237.33,
+    "to": 238.7,
+    "sid": 84,
+    "location": 2,
+    "content": "它的答案会有用",
+    "music": 0
+  },
+  {
+    "from": 238.7,
+    "to": 241.76,
+    "sid": 85,
+    "location": 2,
+    "content": "上周我们讲了一个技术叫channel soul",
+    "music": 0
+  },
+  {
+    "from": 241.76,
+    "to": 244.22,
+    "sid": 86,
+    "location": 2,
+    "content": "我们说channel soul就是叫机器思考",
+    "music": 0
+  },
+  {
+    "from": 244.22,
+    "to": 245.92,
+    "sid": 87,
+    "location": 2,
+    "content": "叫机器思考以后",
+    "music": 0
+  },
+  {
+    "from": 245.92,
+    "to": 249.46,
+    "sid": 88,
+    "location": 2,
+    "content": "他的能力不知道怎么回事就变强了",
+    "music": 0
+  },
+  {
+    "from": 249.46,
+    "to": 252.27,
+    "sid": 89,
+    "location": 2,
+    "content": "那如果你现在了解拆解任务",
+    "music": 0
+  },
+  {
+    "from": 252.27,
+    "to": 255.06,
+    "sid": 90,
+    "location": 2,
+    "content": "可以把本来比较复杂的任务变得比较简单",
+    "music": 0
+  },
+  {
+    "from": 255.06,
+    "to": 258.09,
+    "sid": 91,
+    "location": 2,
+    "content": "然后让这个大型的模型可以做的更好的话",
+    "music": 0
+  },
+  {
+    "from": 258.09,
+    "to": 262.31,
+    "sid": 92,
+    "location": 2,
+    "content": "现在我们就可以来解释为什么chin of soul会有用",
+    "music": 0
+  },
+  {
+    "from": 262.31,
+    "to": 267.83,
+    "sid": 93,
+    "location": 2,
+    "content": "其实channel soul也可以是看做是拆解任务的一种",
+    "music": 0
+  },
+  {
+    "from": 267.83,
+    "to": 269.37,
+    "sid": 94,
+    "location": 2,
+    "content": "怎么说呢",
+    "music": 0
+  },
+  {
+    "from": 269.65,
+    "to": 272.43,
+    "sid": 95,
+    "location": 2,
+    "content": "如果你要当你叫语言模型",
+    "music": 0
+  },
+  {
+    "from": 272.43,
+    "to": 274.48,
+    "sid": 96,
+    "location": 2,
+    "content": "think step by step的时候",
+    "music": 0
+  },
+  {
+    "from": 274.48,
+    "to": 277.78,
+    "sid": 97,
+    "location": 2,
+    "content": "实际上对语言模型造成的影响是什么呢",
+    "music": 0
+  },
+  {
+    "from": 277.78,
+    "to": 281.049,
+    "sid": 98,
+    "location": 2,
+    "content": "实际上对语言模型通常造成的影响是",
+    "music": 0
+  },
+  {
+    "from": 281.049,
+    "to": 284.709,
+    "sid": 99,
+    "location": 2,
+    "content": "他会详细的把计算过程列出来",
+    "music": 0
+  },
+  {
+    "from": 284.709,
+    "to": 286.73,
+    "sid": 100,
+    "location": 2,
+    "content": "所以如果你给他一个数学问题",
+    "music": 0
+  },
+  {
+    "from": 286.73,
+    "to": 288.83,
+    "sid": 101,
+    "location": 2,
+    "content": "当你要求他要思考的时候",
+    "music": 0
+  },
+  {
+    "from": 288.83,
+    "to": 293.03,
+    "sid": 102,
+    "location": 2,
+    "content": "他就会先把计算过程一步一步的详细列出来",
+    "music": 0
+  },
+  {
+    "from": 293.03,
+    "to": 295.36,
+    "sid": 103,
+    "location": 2,
+    "content": "然后再给你答案",
+    "music": 0
+  },
+  {
+    "from": 295.36,
+    "to": 298.66,
+    "sid": 104,
+    "location": 2,
+    "content": "而先把计算过程一步一步的列出来",
+    "music": 0
+  },
+  {
+    "from": 298.66,
+    "to": 299.26,
+    "sid": 105,
+    "location": 2,
+    "content": "再给答案",
+    "music": 0
+  },
+  {
+    "from": 299.26,
+    "to": 303.39,
+    "sid": 106,
+    "location": 2,
+    "content": "这件事情其实就等同于把本来解数学这个问题",
+    "music": 0
+  },
+  {
+    "from": 303.39,
+    "to": 305.7,
+    "sid": 107,
+    "location": 2,
+    "content": "拆解成两个步骤",
+    "music": 0
+  },
+  {
+    "from": 305.7,
+    "to": 309.05,
+    "sid": 108,
+    "location": 2,
+    "content": "第一个步骤是先读完问题以后",
+    "music": 0
+  },
+  {
+    "from": 309.05,
+    "to": 310.46,
+    "sid": 109,
+    "location": 2,
+    "content": "把计算的过程",
+    "music": 0
+  },
+  {
+    "from": 310.46,
+    "to": 314.08,
+    "sid": 110,
+    "location": 2,
+    "content": "把你要列的数学式子一条一条的列出来",
+    "music": 0
+  },
+  {
+    "from": 314.08,
+    "to": 318.52,
+    "sid": 111,
+    "location": 2,
+    "content": "再根据你列的数学式子把答案解出来啊",
+    "music": 0
+  },
+  {
+    "from": 318.52,
+    "to": 320.23,
+    "sid": 112,
+    "location": 2,
+    "content": "今天如果给一个数学的问题",
+    "music": 0
+  },
+  {
+    "from": 320.23,
+    "to": 321.22,
+    "sid": 113,
+    "location": 2,
+    "content": "不列式子",
+    "music": 0
+  },
+  {
+    "from": 321.22,
+    "to": 322.52,
+    "sid": 114,
+    "location": 2,
+    "content": "不列计算过程",
+    "music": 0
+  },
+  {
+    "from": 322.52,
+    "to": 324.02,
+    "sid": 115,
+    "location": 2,
+    "content": "直接就写答案",
+    "music": 0
+  },
+  {
+    "from": 324.02,
+    "to": 328.13,
+    "sid": 116,
+    "location": 2,
+    "content": "就算是对人类来说也是非常难得到正确答案的",
+    "music": 0
+  },
+  {
+    "from": 328.13,
+    "to": 331.2,
+    "sid": 117,
+    "location": 2,
+    "content": "但如果把解数学这个问题拆解成两个步骤",
+    "music": 0
+  },
+  {
+    "from": 331.2,
+    "to": 333.84,
+    "sid": 118,
+    "location": 2,
+    "content": "先把详细的计算过程列出来",
+    "music": 0
+  },
+  {
+    "from": 333.84,
+    "to": 335.54,
+    "sid": 119,
+    "location": 2,
+    "content": "先把数学式列出来",
+    "music": 0
+  },
+  {
+    "from": 335.54,
+    "to": 338.66,
+    "sid": 120,
+    "location": 2,
+    "content": "再根据列出来的数学式把答案写出来",
+    "music": 0
+  },
+  {
+    "from": 338.66,
+    "to": 343.56,
+    "sid": 121,
+    "location": 2,
+    "content": "那语言模型就更有可能得到精确的答案哦",
+    "music": 0
+  },
+  {
+    "from": 343.56,
+    "to": 345.48,
+    "sid": 122,
+    "location": 2,
+    "content": "那上面这个图跟下面这个图",
+    "music": 0
+  },
+  {
+    "from": 345.48,
+    "to": 347.22,
+    "sid": 123,
+    "location": 2,
+    "content": "我讲的是同一件事哦",
+    "music": 0
+  },
+  {
+    "from": 347.22,
+    "to": 350.45,
+    "sid": 124,
+    "location": 2,
+    "content": "就语言模型先列式再产生答案",
+    "music": 0
+  },
+  {
+    "from": 350.45,
+    "to": 352.61,
+    "sid": 125,
+    "location": 2,
+    "content": "跟把这个问题拆解成两部分",
+    "music": 0
+  },
+  {
+    "from": 352.61,
+    "to": 353.54,
+    "sid": 126,
+    "location": 2,
+    "content": "先列式",
+    "music": 0
+  },
+  {
+    "from": 353.54,
+    "to": 357.13,
+    "sid": 127,
+    "location": 2,
+    "content": "再把劣势的结果跟刚才的问题集合起来一起",
+    "music": 0
+  },
+  {
+    "from": 357.13,
+    "to": 358.63,
+    "sid": 128,
+    "location": 2,
+    "content": "叫语言模型生成答案",
+    "music": 0
+  },
+  {
+    "from": 358.63,
+    "to": 360.58,
+    "sid": 129,
+    "location": 2,
+    "content": "它是同一件事情",
+    "music": 0
+  },
+  {
+    "from": 360.58,
+    "to": 363.22,
+    "sid": 130,
+    "location": 2,
+    "content": "因为语言模型在生成文字的时候",
+    "music": 0
+  },
+  {
+    "from": 363.22,
+    "to": 365.46,
+    "sid": 131,
+    "location": 2,
+    "content": "它是用文字接龙的方式",
+    "music": 0
+  },
+  {
+    "from": 365.46,
+    "to": 367.86,
+    "sid": 132,
+    "location": 2,
+    "content": "就是这个详细的列式跟答案",
+    "music": 0
+  },
+  {
+    "from": 367.86,
+    "to": 371.09,
+    "sid": 133,
+    "location": 2,
+    "content": "是用文字接龙的方式一个一个字生出来的",
+    "music": 0
+  },
+  {
+    "from": 371.09,
+    "to": 372.89,
+    "sid": 134,
+    "location": 2,
+    "content": "所以当它产生答案的时候",
+    "music": 0
+  },
+  {
+    "from": 372.89,
+    "to": 374.93,
+    "sid": 135,
+    "location": 2,
+    "content": "如果前面已经有劣势的话",
+    "music": 0
+  },
+  {
+    "from": 374.93,
+    "to": 379.04,
+    "sid": 136,
+    "location": 2,
+    "content": "就等同于是根据劣势的结果来做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 379.04,
+    "to": 380.43,
+    "sid": 137,
+    "location": 2,
+    "content": "来产生答案哦",
+    "music": 0
+  },
+  {
+    "from": 380.43,
+    "to": 382.65,
+    "sid": 138,
+    "location": 2,
+    "content": "所以语言模型在回答问题的时候",
+    "music": 0
+  },
+  {
+    "from": 382.65,
+    "to": 384.03,
+    "sid": 139,
+    "location": 2,
+    "content": "先列式再产生答案",
+    "music": 0
+  },
+  {
+    "from": 384.03,
+    "to": 386.13,
+    "sid": 140,
+    "location": 2,
+    "content": "跟把这个问题拆成两段",
+    "music": 0
+  },
+  {
+    "from": 386.13,
+    "to": 387.11,
+    "sid": 141,
+    "location": 2,
+    "content": "先列式",
+    "music": 0
+  },
+  {
+    "from": 387.11,
+    "to": 391.429,
+    "sid": 142,
+    "location": 2,
+    "content": "再根据劣势的结果产生答案是同一件事情",
+    "music": 0
+  },
+  {
+    "from": 391.429,
+    "to": 393.769,
+    "sid": 143,
+    "location": 2,
+    "content": "所以这就是为什么china soul会有用",
+    "music": 0
+  },
+  {
+    "from": 393.769,
+    "to": 396.499,
+    "sid": 144,
+    "location": 2,
+    "content": "因为china soul等于是叫语言模型",
+    "music": 0
+  },
+  {
+    "from": 396.499,
+    "to": 400.53,
+    "sid": 145,
+    "location": 2,
+    "content": "把解数学问题拆成多个步骤",
+    "music": 0
+  },
+  {
+    "from": 400.53,
+    "to": 403.95,
+    "sid": 146,
+    "location": 2,
+    "content": "那这也解释了为什么对GPT3.5而言",
+    "music": 0
+  },
+  {
+    "from": 403.95,
+    "to": 405.81,
+    "sid": 147,
+    "location": 2,
+    "content": "china soul没有那么有用",
+    "music": 0
+  },
+  {
+    "from": 405.81,
+    "to": 408.18,
+    "sid": 148,
+    "location": 2,
+    "content": "我们昨我们上周有提醒大家说",
+    "music": 0
+  },
+  {
+    "from": 408.18,
+    "to": 412.58,
+    "sid": 149,
+    "location": 2,
+    "content": "这一类神奇的咒语往往是对某些模型有用",
+    "music": 0
+  },
+  {
+    "from": 412.58,
+    "to": 414.8,
+    "sid": 150,
+    "location": 2,
+    "content": "或对一些比较古老的模型有用",
+    "music": 0
+  },
+  {
+    "from": 414.8,
+    "to": 417.5,
+    "sid": 151,
+    "location": 2,
+    "content": "对新的模型往往不一定那么有用",
+    "music": 0
+  },
+  {
+    "from": 417.5,
+    "to": 418.06,
+    "sid": 152,
+    "location": 2,
+    "content": "为什么",
+    "music": 0
+  },
+  {
+    "from": 418.06,
+    "to": 419.38,
+    "sid": 153,
+    "location": 2,
+    "content": "因为GPT3.5",
+    "music": 0
+  },
+  {
+    "from": 419.38,
+    "to": 420.58,
+    "sid": 154,
+    "location": 2,
+    "content": "你今天自己用用看",
+    "music": 0
+  },
+  {
+    "from": 420.58,
+    "to": 422.17,
+    "sid": 155,
+    "location": 2,
+    "content": "让他去解数学问题",
+    "music": 0
+  },
+  {
+    "from": 422.17,
+    "to": 424.09,
+    "sid": 156,
+    "location": 2,
+    "content": "基本上你没叫他劣势",
+    "music": 0
+  },
+  {
+    "from": 424.09,
+    "to": 428.16,
+    "sid": 157,
+    "location": 2,
+    "content": "他也会主动的把式子详细的列出来",
+    "music": 0
+  },
+  {
+    "from": 428.16,
+    "to": 431.82,
+    "sid": 158,
+    "location": 2,
+    "content": "他自己就知道应该把数学这个问题拆解成",
+    "music": 0
+  },
+  {
+    "from": 431.82,
+    "to": 434.17,
+    "sid": 159,
+    "location": 2,
+    "content": "先列算式在写答案",
+    "music": 0
+  },
+  {
+    "from": 434.17,
+    "to": 437.68,
+    "sid": 160,
+    "location": 2,
+    "content": "这就是为什么channel soul对GPT3.5帮助不大",
+    "music": 0
+  },
+  {
+    "from": 437.68,
+    "to": 439.86,
+    "sid": 161,
+    "location": 2,
+    "content": "因为他本来就已经会做",
+    "music": 0
+  },
+  {
+    "from": 439.86,
+    "to": 443.22,
+    "sid": 162,
+    "location": 2,
+    "content": "china soul要求他要做的事情了",
+    "music": 0
+  },
+  {
+    "from": 443.22,
+    "to": 444.48,
+    "sid": 163,
+    "location": 2,
+    "content": "刚才讲说",
+    "music": 0
+  },
+  {
+    "from": 444.48,
+    "to": 447.8,
+    "sid": 164,
+    "location": 2,
+    "content": "我们可以把一个复杂的任务拆解成多个小任务",
+    "music": 0
+  },
+  {
+    "from": 447.8,
+    "to": 451.4,
+    "sid": 165,
+    "location": 2,
+    "content": "现在我们可以在原来的任务后面再加一个步骤",
+    "music": 0
+  },
+  {
+    "from": 451.4,
+    "to": 455.13,
+    "sid": 166,
+    "location": 2,
+    "content": "这个步骤是让语言模型检查自己的错误",
+    "music": 0
+  },
+  {
+    "from": 455.13,
+    "to": 458.19,
+    "sid": 167,
+    "location": 2,
+    "content": "我们可以让语言模型把答案产生出来以后",
+    "music": 0
+  },
+  {
+    "from": 458.19,
+    "to": 462.23,
+    "sid": 168,
+    "location": 2,
+    "content": "再叫语言模型在检查自己的输出有没有正确",
+    "music": 0
+  },
+  {
+    "from": 462.23,
+    "to": 465.62,
+    "sid": 169,
+    "location": 2,
+    "content": "有时候他可以检查出自己之前的答案是错的",
+    "music": 0
+  },
+  {
+    "from": 465.62,
+    "to": 466.94,
+    "sid": 170,
+    "location": 2,
+    "content": "修正错误的答案",
+    "music": 0
+  },
+  {
+    "from": 466.94,
+    "to": 469.15,
+    "sid": 171,
+    "location": 2,
+    "content": "最终得到正确的答案",
+    "music": 0
+  },
+  {
+    "from": 469.15,
+    "to": 470.23,
+    "sid": 172,
+    "location": 2,
+    "content": "那讲到这边",
+    "music": 0
+  },
+  {
+    "from": 470.23,
+    "to": 471.43,
+    "sid": 173,
+    "location": 2,
+    "content": "可能有人会很怀疑",
+    "music": 0
+  },
+  {
+    "from": 471.43,
+    "to": 471.85,
+    "sid": 174,
+    "location": 2,
+    "content": "想说",
+    "music": 0
+  },
+  {
+    "from": 471.85,
+    "to": 472.87,
+    "sid": 175,
+    "location": 2,
+    "content": "刚才错误的答案",
+    "music": 0
+  },
+  {
+    "from": 472.87,
+    "to": 475.47,
+    "sid": 176,
+    "location": 2,
+    "content": "不就是语言模型自己产生出来的吗",
+    "music": 0
+  },
+  {
+    "from": 475.47,
+    "to": 476.97,
+    "sid": 177,
+    "location": 2,
+    "content": "那根据错误的答案",
+    "music": 0
+  },
+  {
+    "from": 476.97,
+    "to": 480.24,
+    "sid": 178,
+    "location": 2,
+    "content": "语言模型再看一次自己产生出来的错误答案",
+    "music": 0
+  },
+  {
+    "from": 480.24,
+    "to": 485.22,
+    "sid": 179,
+    "location": 2,
+    "content": "难道他有办法修正自己产生出来的错误答案吗",
+    "music": 0
+  },
+  {
+    "from": 485.22,
+    "to": 486.9,
+    "sid": 180,
+    "location": 2,
+    "content": "你自己想想看哦",
+    "music": 0
+  },
+  {
+    "from": 486.9,
+    "to": 489.85,
+    "sid": 181,
+    "location": 2,
+    "content": "这个语言模型检查自己的答案",
+    "music": 0
+  },
+  {
+    "from": 489.85,
+    "to": 492.76,
+    "sid": 182,
+    "location": 2,
+    "content": "这件事就好像是你在写考卷以后",
+    "music": 0
+  },
+  {
+    "from": 492.76,
+    "to": 494.99,
+    "sid": 183,
+    "location": 2,
+    "content": "写完之后再检查一次",
+    "music": 0
+  },
+  {
+    "from": 494.99,
+    "to": 495.92,
+    "sid": 184,
+    "location": 2,
+    "content": "你有没有写错",
+    "music": 0
+  },
+  {
+    "from": 495.92,
+    "to": 499.28,
+    "sid": 185,
+    "location": 2,
+    "content": "那大家国中高中的时候都考过了无数的考试",
+    "music": 0
+  },
+  {
+    "from": 499.28,
+    "to": 501.11,
+    "sid": 186,
+    "location": 2,
+    "content": "那你的考试一定很有经验",
+    "music": 0
+  },
+  {
+    "from": 501.11,
+    "to": 503.12,
+    "sid": 187,
+    "location": 2,
+    "content": "你知道你再检查一次的时候",
+    "music": 0
+  },
+  {
+    "from": 503.12,
+    "to": 507.03,
+    "sid": 188,
+    "location": 2,
+    "content": "往往你有办法检查出自己的错误来",
+    "music": 0
+  },
+  {
+    "from": 507.03,
+    "to": 510.24,
+    "sid": 189,
+    "location": 2,
+    "content": "为什么我们有办法检查出自己的错误来呢",
+    "music": 0
+  },
+  {
+    "from": 510.24,
+    "to": 513.93,
+    "sid": 190,
+    "location": 2,
+    "content": "因为很多问题是计算出答案很难",
+    "music": 0
+  },
+  {
+    "from": 513.93,
+    "to": 517.05,
+    "sid": 191,
+    "location": 2,
+    "content": "但是验证答案是不是正确的",
+    "music": 0
+  },
+  {
+    "from": 517.05,
+    "to": 519.68,
+    "sid": 192,
+    "location": 2,
+    "content": "也许非常的容易啊",
+    "music": 0
+  },
+  {
+    "from": 519.68,
+    "to": 522.26,
+    "sid": 193,
+    "location": 2,
+    "content": "这边随便举一个鸡兔同笼的例子",
+    "music": 0
+  },
+  {
+    "from": 522.26,
+    "to": 523.61,
+    "sid": 194,
+    "location": 2,
+    "content": "告诉你说啊",
+    "music": 0
+  },
+  {
+    "from": 523.61,
+    "to": 526.07,
+    "sid": 195,
+    "location": 2,
+    "content": "鸡跟兔总共有35只",
+    "music": 0
+  },
+  {
+    "from": 526.07,
+    "to": 527.63,
+    "sid": 196,
+    "location": 2,
+    "content": "合起来有94只脚",
+    "music": 0
+  },
+  {
+    "from": 527.63,
+    "to": 528.89,
+    "sid": 197,
+    "location": 2,
+    "content": "问你有几只鸡",
+    "music": 0
+  },
+  {
+    "from": 528.89,
+    "to": 529.79,
+    "sid": 198,
+    "location": 2,
+    "content": "几只兔",
+    "music": 0
+  },
+  {
+    "from": 529.79,
+    "to": 532.88,
+    "sid": 199,
+    "location": 2,
+    "content": "就算你完全不会解鸡兔同笼的问题",
+    "music": 0
+  },
+  {
+    "from": 532.88,
+    "to": 534.83,
+    "sid": 200,
+    "location": 2,
+    "content": "我告诉你答案是20只鸡",
+    "music": 0
+  },
+  {
+    "from": 534.83,
+    "to": 535.79,
+    "sid": 201,
+    "location": 2,
+    "content": "20只兔子",
+    "music": 0
+  },
+  {
+    "from": 535.79,
+    "to": 539.09,
+    "sid": 202,
+    "location": 2,
+    "content": "你也可以马上反射过来说这个答案是错的",
+    "music": 0
+  },
+  {
+    "from": 539.09,
+    "to": 542.4,
+    "sid": 203,
+    "location": 2,
+    "content": "因为就一开始题目就告诉你有35个头了",
+    "music": 0
+  },
+  {
+    "from": 542.4,
+    "to": 542.94,
+    "sid": 204,
+    "location": 2,
+    "content": "20只鸡",
+    "music": 0
+  },
+  {
+    "from": 542.94,
+    "to": 545.68,
+    "sid": 205,
+    "location": 2,
+    "content": "20只兔子显然不是35个头",
+    "music": 0
+  },
+  {
+    "from": 545.68,
+    "to": 548.17,
+    "sid": 206,
+    "location": 2,
+    "content": "所以就算你不会解鸡兔同笼的问题",
+    "music": 0
+  },
+  {
+    "from": 548.17,
+    "to": 549.73,
+    "sid": 207,
+    "location": 2,
+    "content": "看到错误的答案的时候",
+    "music": 0
+  },
+  {
+    "from": 549.73,
+    "to": 551.74,
+    "sid": 208,
+    "location": 2,
+    "content": "你其实也可以很快的反射过来",
+    "music": 0
+  },
+  {
+    "from": 551.74,
+    "to": 555.28,
+    "sid": 209,
+    "location": 2,
+    "content": "说它是一个错误的答案哦",
+    "music": 0
+  },
+  {
+    "from": 555.28,
+    "to": 558.7,
+    "sid": 210,
+    "location": 2,
+    "content": "所以有可能语言模型没有办法得到正确的答案",
+    "music": 0
+  },
+  {
+    "from": 558.7,
+    "to": 560.62,
+    "sid": 211,
+    "location": 2,
+    "content": "但是它产生错误的答案以后",
+    "music": 0
+  },
+  {
+    "from": 560.62,
+    "to": 562.18,
+    "sid": 212,
+    "location": 2,
+    "content": "自己再看一遍错误的答案",
+    "music": 0
+  },
+  {
+    "from": 562.18,
+    "to": 565.16,
+    "sid": 213,
+    "location": 2,
+    "content": "他有机会发现他是错的",
+    "music": 0
+  },
+  {
+    "from": 565.16,
+    "to": 567.53,
+    "sid": 214,
+    "location": 2,
+    "content": "那这件事情用拟人化的讲法",
+    "music": 0
+  },
+  {
+    "from": 567.53,
+    "to": 568.28,
+    "sid": 215,
+    "location": 2,
+    "content": "我们可以说",
+    "music": 0
+  },
+  {
+    "from": 568.28,
+    "to": 572.76,
+    "sid": 216,
+    "location": 2,
+    "content": "这些语言模型是有自我反省的能力的",
+    "music": 0
+  },
+  {
+    "from": 572.76,
+    "to": 574.8,
+    "sid": 217,
+    "location": 2,
+    "content": "那这边实际举一个例子",
+    "music": 0
+  },
+  {
+    "from": 574.8,
+    "to": 578.64,
+    "sid": 218,
+    "location": 2,
+    "content": "让大家看看今天g p t four自我反省的能力啊",
+    "music": 0
+  },
+  {
+    "from": 578.64,
+    "to": 581.18,
+    "sid": 219,
+    "location": 2,
+    "content": "你叫他介绍台大玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 581.18,
+    "to": 581.9,
+    "sid": 220,
+    "location": 2,
+    "content": "大家都知道",
+    "music": 0
+  },
+  {
+    "from": 581.9,
+    "to": 584.06,
+    "sid": 221,
+    "location": 2,
+    "content": "说明天就是杜鹃花节啊",
+    "music": 0
+  },
+  {
+    "from": 584.06,
+    "to": 585.38,
+    "sid": 222,
+    "location": 2,
+    "content": "台大有杜鹃花节",
+    "music": 0
+  },
+  {
+    "from": 585.38,
+    "to": 587.619,
+    "sid": 223,
+    "location": 2,
+    "content": "但是没有玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 587.619,
+    "to": 589.179,
+    "sid": 224,
+    "location": 2,
+    "content": "但是对g p t four来说",
+    "music": 0
+  },
+  {
+    "from": 589.179,
+    "to": 590.199,
+    "sid": 225,
+    "location": 2,
+    "content": "他也管不了那么多",
+    "music": 0
+  },
+  {
+    "from": 590.199,
+    "to": 592.119,
+    "sid": 226,
+    "location": 2,
+    "content": "你就要介绍台大玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 592.119,
+    "to": 595.73,
+    "sid": 227,
+    "location": 2,
+    "content": "他就瞎掰一个台大玫瑰花节的介绍",
+    "music": 0
+  },
+  {
+    "from": 595.73,
+    "to": 598.55,
+    "sid": 228,
+    "location": 2,
+    "content": "那我们现在大家都知道说这些大型源模型",
+    "music": 0
+  },
+  {
+    "from": 598.55,
+    "to": 600.35,
+    "sid": 229,
+    "location": 2,
+    "content": "它就是做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 600.35,
+    "to": 602.63,
+    "sid": 230,
+    "location": 2,
+    "content": "所以它会产生不存在的东西",
+    "music": 0
+  },
+  {
+    "from": 602.63,
+    "to": 604.839,
+    "sid": 231,
+    "location": 2,
+    "content": "会瞎掰一些不存在的事实",
+    "music": 0
+  },
+  {
+    "from": 604.839,
+    "to": 607.22,
+    "sid": 232,
+    "location": 2,
+    "content": "那这是情有可原的",
+    "music": 0
+  },
+  {
+    "from": 607.22,
+    "to": 610.34,
+    "sid": 233,
+    "location": 2,
+    "content": "但接下来在同一则对话里面",
+    "music": 0
+  },
+  {
+    "from": 610.34,
+    "to": 611.3,
+    "sid": 234,
+    "location": 2,
+    "content": "我跟他说",
+    "music": 0
+  },
+  {
+    "from": 611.3,
+    "to": 615.13,
+    "sid": 235,
+    "location": 2,
+    "content": "请检查上述资讯是否正确",
+    "music": 0
+  },
+  {
+    "from": 615.13,
+    "to": 616.39,
+    "sid": 236,
+    "location": 2,
+    "content": "在这一瞬间",
+    "music": 0
+  },
+  {
+    "from": 616.39,
+    "to": 618.73,
+    "sid": 237,
+    "location": 2,
+    "content": "他突然察觉自己错了",
+    "music": 0
+  },
+  {
+    "from": 618.73,
+    "to": 619.72,
+    "sid": 238,
+    "location": 2,
+    "content": "他知道说",
+    "music": 0
+  },
+  {
+    "from": 619.72,
+    "to": 623.78,
+    "sid": 239,
+    "location": 2,
+    "content": "我之前提供的资讯与实际状况并不相符",
+    "music": 0
+  },
+  {
+    "from": 623.78,
+    "to": 626.33,
+    "sid": 240,
+    "location": 2,
+    "content": "并没有台大玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 626.33,
+    "to": 627.98,
+    "sid": 241,
+    "location": 2,
+    "content": "如果你那么想赏花的话",
+    "music": 0
+  },
+  {
+    "from": 627.98,
+    "to": 630.08,
+    "sid": 242,
+    "location": 2,
+    "content": "那我推荐你杨梅樱花节",
+    "music": 0
+  },
+  {
+    "from": 630.08,
+    "to": 633.53,
+    "sid": 243,
+    "location": 2,
+    "content": "杜鹃花节跟白河莲花季",
+    "music": 0
+  },
+  {
+    "from": 633.53,
+    "to": 635.93,
+    "sid": 244,
+    "location": 2,
+    "content": "他居然知道自己是错的",
+    "music": 0
+  },
+  {
+    "from": 635.93,
+    "to": 637.22,
+    "sid": 245,
+    "location": 2,
+    "content": "但我有点怀疑",
+    "music": 0
+  },
+  {
+    "from": 637.22,
+    "to": 640.01,
+    "sid": 246,
+    "location": 2,
+    "content": "g p t four是真的知道自己错了吗",
+    "music": 0
+  },
+  {
+    "from": 640.01,
+    "to": 642.08,
+    "sid": 247,
+    "location": 2,
+    "content": "还是每次只要有人叫他检查",
+    "music": 0
+  },
+  {
+    "from": 642.08,
+    "to": 643.44,
+    "sid": 248,
+    "location": 2,
+    "content": "你的答案是不是对的",
+    "music": 0
+  },
+  {
+    "from": 643.44,
+    "to": 645.18,
+    "sid": 249,
+    "location": 2,
+    "content": "反正他就先承认错误",
+    "music": 0
+  },
+  {
+    "from": 645.18,
+    "to": 649.62,
+    "sid": 250,
+    "location": 2,
+    "content": "再说他到底是不是真的知道自己是错的呢",
+    "music": 0
+  },
+  {
+    "from": 649.62,
+    "to": 651.99,
+    "sid": 251,
+    "location": 2,
+    "content": "所以在同一则对话里面",
+    "music": 0
+  },
+  {
+    "from": 651.99,
+    "to": 654.81,
+    "sid": 252,
+    "location": 2,
+    "content": "我再问他一次一模一样的问题",
+    "music": 0
+  },
+  {
+    "from": 654.81,
+    "to": 656.49,
+    "sid": 253,
+    "location": 2,
+    "content": "他已经反省过第一次了",
+    "music": 0
+  },
+  {
+    "from": 656.49,
+    "to": 658.64,
+    "sid": 254,
+    "location": 2,
+    "content": "再接续他刚才反省的结果",
+    "music": 0
+  },
+  {
+    "from": 658.64,
+    "to": 659.72,
+    "sid": 255,
+    "location": 2,
+    "content": "我再问一次",
+    "music": 0
+  },
+  {
+    "from": 659.72,
+    "to": 662.09,
+    "sid": 256,
+    "location": 2,
+    "content": "请检查上述资讯是否正确",
+    "music": 0
+  },
+  {
+    "from": 662.09,
+    "to": 665.23,
+    "sid": 257,
+    "location": 2,
+    "content": "这个时候他知道自己是对的",
+    "music": 0
+  },
+  {
+    "from": 665.23,
+    "to": 667.18,
+    "sid": 258,
+    "location": 2,
+    "content": "他说经过再次查证",
+    "music": 0
+  },
+  {
+    "from": 667.18,
+    "to": 670.36,
+    "sid": 259,
+    "location": 2,
+    "content": "我发现之前提供的资讯基本上是正确的",
+    "music": 0
+  },
+  {
+    "from": 670.36,
+    "to": 672.69,
+    "sid": 260,
+    "location": 2,
+    "content": "但他也检查出一个小小的错误",
+    "music": 0
+  },
+  {
+    "from": 672.69,
+    "to": 674.79,
+    "sid": 261,
+    "location": 2,
+    "content": "他说有一个地点描述错误",
+    "music": 0
+  },
+  {
+    "from": 674.79,
+    "to": 676.35,
+    "sid": 262,
+    "location": 2,
+    "content": "什么地方描述错误呢",
+    "music": 0
+  },
+  {
+    "from": 676.35,
+    "to": 677.64,
+    "sid": 263,
+    "location": 2,
+    "content": "杨梅樱花节",
+    "music": 0
+  },
+  {
+    "from": 677.64,
+    "to": 680.62,
+    "sid": 264,
+    "location": 2,
+    "content": "他刚才以为是在新北市",
+    "music": 0
+  },
+  {
+    "from": 680.62,
+    "to": 683.92,
+    "sid": 265,
+    "location": 2,
+    "content": "但是实际上应该是在桃园市",
+    "music": 0
+  },
+  {
+    "from": 683.92,
+    "to": 688.41,
+    "sid": 266,
+    "location": 2,
+    "content": "看起来他是真的有办法检查出自己的错误的",
+    "music": 0
+  },
+  {
+    "from": 688.41,
+    "to": 691.47,
+    "sid": 267,
+    "location": 2,
+    "content": "不过这个能力啊看起来是GPT4",
+    "music": 0
+  },
+  {
+    "from": 691.47,
+    "to": 693.33,
+    "sid": 268,
+    "location": 2,
+    "content": "是比较有类似的能力的",
+    "music": 0
+  },
+  {
+    "from": 693.33,
+    "to": 694.95,
+    "sid": 269,
+    "location": 2,
+    "content": "如果是GPT3.5",
+    "music": 0
+  },
+  {
+    "from": 694.95,
+    "to": 697.88,
+    "sid": 270,
+    "location": 2,
+    "content": "他就没有那么容易真的找出自己的错误",
+    "music": 0
+  },
+  {
+    "from": 697.88,
+    "to": 699.92,
+    "sid": 271,
+    "location": 2,
+    "content": "这边再举一个实际的例子",
+    "music": 0
+  },
+  {
+    "from": 699.92,
+    "to": 701.18,
+    "sid": 272,
+    "location": 2,
+    "content": "你问GPT3.5之后",
+    "music": 0
+  },
+  {
+    "from": 701.18,
+    "to": 702.95,
+    "sid": 273,
+    "location": 2,
+    "content": "叫他介绍台大玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 702.95,
+    "to": 706.43,
+    "sid": 274,
+    "location": 2,
+    "content": "他一样会瞎掰一个台大玫瑰花节的故事",
+    "music": 0
+  },
+  {
+    "from": 706.43,
+    "to": 708.05,
+    "sid": 275,
+    "location": 2,
+    "content": "那接下来你跟他说",
+    "music": 0
+  },
+  {
+    "from": 708.05,
+    "to": 710.15,
+    "sid": 276,
+    "location": 2,
+    "content": "请检查上述资讯是否正确",
+    "music": 0
+  },
+  {
+    "from": 710.15,
+    "to": 712.67,
+    "sid": 277,
+    "location": 2,
+    "content": "他就是说我先前的回答有误",
+    "music": 0
+  },
+  {
+    "from": 712.67,
+    "to": 714.89,
+    "sid": 278,
+    "location": 2,
+    "content": "以下是更正后的资讯",
+    "music": 0
+  },
+  {
+    "from": 714.89,
+    "to": 715.61,
+    "sid": 279,
+    "location": 2,
+    "content": "但你知道啊",
+    "music": 0
+  },
+  {
+    "from": 715.61,
+    "to": 719.12,
+    "sid": 280,
+    "location": 2,
+    "content": "他这个抱歉呐是一个口是心非的抱歉",
+    "music": 0
+  },
+  {
+    "from": 719.12,
+    "to": 722,
+    "sid": 281,
+    "location": 2,
+    "content": "为什么我知道是一个口是心非的抱歉呢",
+    "music": 0
+  },
+  {
+    "from": 722,
+    "to": 725.83,
+    "sid": 282,
+    "location": 2,
+    "content": "因为他更正后的资讯跟更正前是一模一样的",
+    "music": 0
+  },
+  {
+    "from": 725.83,
+    "to": 728.5,
+    "sid": 283,
+    "location": 2,
+    "content": "显然他根本不知道自己错在哪里",
+    "music": 0
+  },
+  {
+    "from": 728.5,
+    "to": 730.75,
+    "sid": 284,
+    "location": 2,
+    "content": "他只是觉得有人质疑他的答案的时候",
+    "music": 0
+  },
+  {
+    "from": 730.75,
+    "to": 733.3,
+    "sid": 285,
+    "location": 2,
+    "content": "他就先道歉再说",
+    "music": 0
+  },
+  {
+    "from": 733.3,
+    "to": 735.79,
+    "sid": 286,
+    "location": 2,
+    "content": "那用类似的技巧啊",
+    "music": 0
+  },
+  {
+    "from": 735.79,
+    "to": 739.75,
+    "sid": 287,
+    "location": 2,
+    "content": "你其实可以强化语言模型的能力",
+    "music": 0
+  },
+  {
+    "from": 739.75,
+    "to": 743.32,
+    "sid": 288,
+    "location": 2,
+    "content": "那有一篇paper叫做constitutional AI",
+    "music": 0
+  },
+  {
+    "from": 746.609,
+    "to": 749.729,
+    "sid": 289,
+    "location": 2,
+    "content": "就大家知道说最近有一个很红的大型原模型",
+    "music": 0
+  },
+  {
+    "from": 749.729,
+    "to": 750.749,
+    "sid": 290,
+    "location": 2,
+    "content": "叫做cloud",
+    "music": 0
+  },
+  {
+    "from": 750.749,
+    "to": 751.799,
+    "sid": 291,
+    "location": 2,
+    "content": "它除了第三版",
+    "music": 0
+  },
+  {
+    "from": 751.799,
+    "to": 754.259,
+    "sid": 292,
+    "location": 2,
+    "content": "号称比g p d four有更强的能力等等",
+    "music": 0
+  },
+  {
+    "from": 754.259,
+    "to": 758.15,
+    "sid": 293,
+    "location": 2,
+    "content": "那些打造CD的公司叫做entropy constitutional AI",
+    "music": 0
+  },
+  {
+    "from": 758.15,
+    "to": 764.04,
+    "sid": 294,
+    "location": 2,
+    "content": "这篇paper呢就是这个靠团队所发表的一篇论文哦",
+    "music": 0
+  },
+  {
+    "from": 764.04,
+    "to": 766.56,
+    "sid": 295,
+    "location": 2,
+    "content": "那这个constitutional AI这边paper里面",
+    "music": 0
+  },
+  {
+    "from": 766.56,
+    "to": 768.12,
+    "sid": 296,
+    "location": 2,
+    "content": "他们就展示了",
+    "music": 0
+  },
+  {
+    "from": 768.12,
+    "to": 771.319,
+    "sid": 297,
+    "location": 2,
+    "content": "怎么用这个语言模型自我反省的能力",
+    "music": 0
+  },
+  {
+    "from": 771.319,
+    "to": 773.629,
+    "sid": 298,
+    "location": 2,
+    "content": "来强化他的答案",
+    "music": 0
+  },
+  {
+    "from": 773.629,
+    "to": 774.889,
+    "sid": 299,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 774.889,
+    "to": 776.989,
+    "sid": 300,
+    "location": 2,
+    "content": "如果人类跟语言模型说",
+    "music": 0
+  },
+  {
+    "from": 776.989,
+    "to": 780.5,
+    "sid": 301,
+    "location": 2,
+    "content": "你能不能够帮助我派进邻居家的WIFI",
+    "music": 0
+  },
+  {
+    "from": 780.5,
+    "to": 783.9,
+    "sid": 302,
+    "location": 2,
+    "content": "那原模型如果你叫他直接做文字接龙的话",
+    "music": 0
+  },
+  {
+    "from": 783.9,
+    "to": 787.26,
+    "sid": 303,
+    "location": 2,
+    "content": "他可能很直觉的下意识的就说没问题",
+    "music": 0
+  },
+  {
+    "from": 787.26,
+    "to": 790.22,
+    "sid": 304,
+    "location": 2,
+    "content": "你就用一个叫做very easy hack的软体",
+    "music": 0
+  },
+  {
+    "from": 790.22,
+    "to": 792.68,
+    "sid": 305,
+    "location": 2,
+    "content": "就可以开进邻居家的WIFI",
+    "music": 0
+  },
+  {
+    "from": 792.68,
+    "to": 794.45,
+    "sid": 306,
+    "location": 2,
+    "content": "那这显然不是一个好的答案",
+    "music": 0
+  },
+  {
+    "from": 794.45,
+    "to": 798.42,
+    "sid": 307,
+    "location": 2,
+    "content": "但是现在我们先不把这个答案给人类看",
+    "music": 0
+  },
+  {
+    "from": 798.42,
+    "to": 802.83,
+    "sid": 308,
+    "location": 2,
+    "content": "我们把人类跟这个语言模型的这个一问一答呢",
+    "music": 0
+  },
+  {
+    "from": 802.83,
+    "to": 805.339,
+    "sid": 309,
+    "location": 2,
+    "content": "再丢给同一个语言模型",
+    "music": 0
+  },
+  {
+    "from": 805.339,
+    "to": 807.469,
+    "sid": 310,
+    "location": 2,
+    "content": "那你在跟语言模型说",
+    "music": 0
+  },
+  {
+    "from": 807.469,
+    "to": 809.089,
+    "sid": 311,
+    "location": 2,
+    "content": "你要反省一下",
+    "music": 0
+  },
+  {
+    "from": 809.089,
+    "to": 809.839,
+    "sid": 312,
+    "location": 2,
+    "content": "想一下",
+    "music": 0
+  },
+  {
+    "from": 809.839,
+    "to": 811.399,
+    "sid": 313,
+    "location": 2,
+    "content": "说上面的对话里面",
+    "music": 0
+  },
+  {
+    "from": 811.399,
+    "to": 815.11,
+    "sid": 314,
+    "location": 2,
+    "content": "有没有什么不符合公序良俗的地方",
+    "music": 0
+  },
+  {
+    "from": 815.11,
+    "to": 817.09,
+    "sid": 315,
+    "location": 2,
+    "content": "有没有什么不符合道德规范",
+    "music": 0
+  },
+  {
+    "from": 817.09,
+    "to": 819.55,
+    "sid": 316,
+    "location": 2,
+    "content": "有没有什么违法的可能性",
+    "music": 0
+  },
+  {
+    "from": 819.55,
+    "to": 821.71,
+    "sid": 317,
+    "location": 2,
+    "content": "那语言模型就会自我批判",
+    "music": 0
+  },
+  {
+    "from": 821.71,
+    "to": 825.69,
+    "sid": 318,
+    "location": 2,
+    "content": "发现说害进邻居家的WIFI是不对的",
+    "music": 0
+  },
+  {
+    "from": 825.69,
+    "to": 828.75,
+    "sid": 319,
+    "location": 2,
+    "content": "接下来你再把语言模型跟人的对话",
+    "music": 0
+  },
+  {
+    "from": 828.75,
+    "to": 830.22,
+    "sid": 320,
+    "location": 2,
+    "content": "还有他的自我批判",
+    "music": 0
+  },
+  {
+    "from": 830.22,
+    "to": 832.05,
+    "sid": 321,
+    "location": 2,
+    "content": "再给语言模型自己看一次",
+    "music": 0
+  },
+  {
+    "from": 832.05,
+    "to": 832.829,
+    "sid": 322,
+    "location": 2,
+    "content": "跟他说",
+    "music": 0
+  },
+  {
+    "from": 832.829,
+    "to": 836.999,
+    "sid": 323,
+    "location": 2,
+    "content": "请根据自我批判的结果产生新的答案",
+    "music": 0
+  },
+  {
+    "from": 836.999,
+    "to": 839.549,
+    "sid": 324,
+    "location": 2,
+    "content": "那语言模型就会产生一个新的答案",
+    "music": 0
+  },
+  {
+    "from": 839.549,
+    "to": 841.3,
+    "sid": 325,
+    "location": 2,
+    "content": "这个新的答案是呃",
+    "music": 0
+  },
+  {
+    "from": 841.3,
+    "to": 845.53,
+    "sid": 326,
+    "location": 2,
+    "content": "快进邻居家的WIFI是违反别人的隐私的",
+    "music": 0
+  },
+  {
+    "from": 845.53,
+    "to": 847.81,
+    "sid": 327,
+    "location": 2,
+    "content": "我们不能够快进邻居家的WIFI",
+    "music": 0
+  },
+  {
+    "from": 847.81,
+    "to": 851.869,
+    "sid": 328,
+    "location": 2,
+    "content": "这可能会给你带来一些法律上的问题",
+    "music": 0
+  },
+  {
+    "from": 851.869,
+    "to": 856.78,
+    "sid": 329,
+    "location": 2,
+    "content": "那最后呢人类真正看到的是这个反省后的结果",
+    "music": 0
+  },
+  {
+    "from": 856.78,
+    "to": 859.81,
+    "sid": 330,
+    "location": 2,
+    "content": "不把语言模型直觉产生出来的答案给人看",
+    "music": 0
+  },
+  {
+    "from": 859.81,
+    "to": 864.92,
+    "sid": 331,
+    "location": 2,
+    "content": "而是把语言模型反省过后的结果给人看",
+    "music": 0
+  },
+  {
+    "from": 865.32,
+    "to": 869.42,
+    "sid": 332,
+    "location": 2,
+    "content": "而这边呢再考一次大家的观念",
+    "music": 0
+  },
+  {
+    "from": 869.42,
+    "to": 871.76,
+    "sid": 333,
+    "location": 2,
+    "content": "而这个观念如果这一题你答对了",
+    "music": 0
+  },
+  {
+    "from": 871.76,
+    "to": 876.11,
+    "sid": 334,
+    "location": 2,
+    "content": "就代表你真的了解这一堂课在讲些什么",
+    "music": 0
+  },
+  {
+    "from": 876.11,
+    "to": 880.13,
+    "sid": 335,
+    "location": 2,
+    "content": "而我们刚才讲到说可以让语言模型做反省",
+    "music": 0
+  },
+  {
+    "from": 880.13,
+    "to": 880.76,
+    "sid": 336,
+    "location": 2,
+    "content": "这件事",
+    "music": 0
+  },
+  {
+    "from": 880.76,
+    "to": 882.77,
+    "sid": 337,
+    "location": 2,
+    "content": "你叫他介绍台大玫瑰花姐",
+    "music": 0
+  },
+  {
+    "from": 882.77,
+    "to": 883.79,
+    "sid": 338,
+    "location": 2,
+    "content": "本来他会介绍",
+    "music": 0
+  },
+  {
+    "from": 883.79,
+    "to": 886.65,
+    "sid": 339,
+    "location": 2,
+    "content": "但你检查一下刚才的介绍对不对",
+    "music": 0
+  },
+  {
+    "from": 886.65,
+    "to": 887.88,
+    "sid": 340,
+    "location": 2,
+    "content": "自我反省之后",
+    "music": 0
+  },
+  {
+    "from": 887.88,
+    "to": 890.31,
+    "sid": 341,
+    "location": 2,
+    "content": "他知道是没有玫瑰花姐的",
+    "music": 0
+  },
+  {
+    "from": 890.31,
+    "to": 893.19,
+    "sid": 342,
+    "location": 2,
+    "content": "做完上述这个步骤以后",
+    "music": 0
+  },
+  {
+    "from": 893.19,
+    "to": 895.72,
+    "sid": 343,
+    "location": 2,
+    "content": "我们再重新问他一次",
+    "music": 0
+  },
+  {
+    "from": 895.72,
+    "to": 898.63,
+    "sid": 344,
+    "location": 2,
+    "content": "再叫他介绍玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 898.63,
+    "to": 900.67,
+    "sid": 345,
+    "location": 2,
+    "content": "他已经自我反省过了",
+    "music": 0
+  },
+  {
+    "from": 900.67,
+    "to": 904.61,
+    "sid": 346,
+    "location": 2,
+    "content": "这个时候他会再给一次玫瑰花姐的介绍",
+    "music": 0
+  },
+  {
+    "from": 904.61,
+    "to": 907.97,
+    "sid": 347,
+    "location": 2,
+    "content": "还是会告诉你没有玫瑰花节呢",
+    "music": 0
+  },
+  {
+    "from": 907.97,
+    "to": 911.99,
+    "sid": 348,
+    "location": 2,
+    "content": "给大家五秒钟的时间想一下",
+    "music": 0
+  },
+  {
+    "from": 914.16,
+    "to": 916.82,
+    "sid": 349,
+    "location": 2,
+    "content": "好你觉得再问一次",
+    "music": 0
+  },
+  {
+    "from": 916.82,
+    "to": 918.5,
+    "sid": 350,
+    "location": 2,
+    "content": "叫他介绍玫瑰花节的时候",
+    "music": 0
+  },
+  {
+    "from": 918.5,
+    "to": 921.73,
+    "sid": 351,
+    "location": 2,
+    "content": "他会介绍玫瑰花姐的同学举手一下",
+    "music": 0
+  },
+  {
+    "from": 921.73,
+    "to": 922.33,
+    "sid": 352,
+    "location": 2,
+    "content": "好啊",
+    "music": 0
+  },
+  {
+    "from": 922.33,
+    "to": 923.83,
+    "sid": 353,
+    "location": 2,
+    "content": "几乎全部的同学好手放下",
+    "music": 0
+  },
+  {
+    "from": 923.83,
+    "to": 926.36,
+    "sid": 354,
+    "location": 2,
+    "content": "那你觉得他会因为反省过了吧",
+    "music": 0
+  },
+  {
+    "from": 926.36,
+    "to": 928.7,
+    "sid": 355,
+    "location": 2,
+    "content": "他会知道说真的没有玫瑰花姐",
+    "music": 0
+  },
+  {
+    "from": 928.7,
+    "to": 929.24,
+    "sid": 356,
+    "location": 2,
+    "content": "她会回答",
+    "music": 0
+  },
+  {
+    "from": 929.24,
+    "to": 932.28,
+    "sid": 357,
+    "location": 2,
+    "content": "没有玫瑰花节的同学举手一下",
+    "music": 0
+  },
+  {
+    "from": 932.74,
+    "to": 933.24,
+    "sid": 358,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 933.24,
+    "to": 934.2,
+    "sid": 359,
+    "location": 2,
+    "content": "少很多好",
+    "music": 0
+  },
+  {
+    "from": 934.2,
+    "to": 935.52,
+    "sid": 360,
+    "location": 2,
+    "content": "这题正确答案是什么呢",
+    "music": 0
+  },
+  {
+    "from": 935.52,
+    "to": 940.71,
+    "sid": 361,
+    "location": 2,
+    "content": "这题正确答案是他会介绍玫瑰花节来说",
+    "music": 0
+  },
+  {
+    "from": 940.71,
+    "to": 941.85,
+    "sid": 362,
+    "location": 2,
+    "content": "不是反省过了吗",
+    "music": 0
+  },
+  {
+    "from": 941.85,
+    "to": 942.21,
+    "sid": 363,
+    "location": 2,
+    "content": "告诉你",
+    "music": 0
+  },
+  {
+    "from": 942.21,
+    "to": 946.66,
+    "sid": 364,
+    "location": 2,
+    "content": "这个反省呢并没有真的影响你的语言模型",
+    "music": 0
+  },
+  {
+    "from": 946.66,
+    "to": 948.589,
+    "sid": 365,
+    "location": 2,
+    "content": "在这个反省的过程中",
+    "music": 0
+  },
+  {
+    "from": 948.589,
+    "to": 951.379,
+    "sid": 366,
+    "location": 2,
+    "content": "没有任何模型被训练",
+    "music": 0
+  },
+  {
+    "from": 951.379,
+    "to": 953.239,
+    "sid": 367,
+    "location": 2,
+    "content": "它的函数是固定的",
+    "music": 0
+  },
+  {
+    "from": 953.239,
+    "to": 955.4,
+    "sid": 368,
+    "location": 2,
+    "content": "做完这一连串的互动以后",
+    "music": 0
+  },
+  {
+    "from": 955.4,
+    "to": 958.04,
+    "sid": 369,
+    "location": 2,
+    "content": "语言模型它仍然是当年那个少年",
+    "music": 0
+  },
+  {
+    "from": 958.04,
+    "to": 959.39,
+    "sid": 370,
+    "location": 2,
+    "content": "没有一丝丝改变",
+    "music": 0
+  },
+  {
+    "from": 959.39,
+    "to": 961.64,
+    "sid": 371,
+    "location": 2,
+    "content": "它的参数是一模一样的",
+    "music": 0
+  },
+  {
+    "from": 961.64,
+    "to": 963.86,
+    "sid": 372,
+    "location": 2,
+    "content": "所以你问他同样问题的时候",
+    "music": 0
+  },
+  {
+    "from": 963.86,
+    "to": 965.84,
+    "sid": 373,
+    "location": 2,
+    "content": "他会给你一样的答案",
+    "music": 0
+  },
+  {
+    "from": 965.84,
+    "to": 967.7,
+    "sid": 374,
+    "location": 2,
+    "content": "那你要他知道没有玫瑰花节",
+    "music": 0
+  },
+  {
+    "from": 967.7,
+    "to": 969.5,
+    "sid": 375,
+    "location": 2,
+    "content": "你要再叫他反省一次",
+    "music": 0
+  },
+  {
+    "from": 969.5,
+    "to": 971.3,
+    "sid": 376,
+    "location": 2,
+    "content": "你要再叫他检查他的答案",
+    "music": 0
+  },
+  {
+    "from": 971.3,
+    "to": 974.13,
+    "sid": 377,
+    "location": 2,
+    "content": "他才会知道没有玫瑰花节哦",
+    "music": 0
+  },
+  {
+    "from": 974.13,
+    "to": 975.45,
+    "sid": 378,
+    "location": 2,
+    "content": "所以这边再强调一次",
+    "music": 0
+  },
+  {
+    "from": 975.45,
+    "to": 976.53,
+    "sid": 379,
+    "location": 2,
+    "content": "到目前为止",
+    "music": 0
+  },
+  {
+    "from": 976.53,
+    "to": 977.67,
+    "sid": 380,
+    "location": 2,
+    "content": "这一堂课里面",
+    "music": 0
+  },
+  {
+    "from": 977.67,
+    "to": 981.46,
+    "sid": 381,
+    "location": 2,
+    "content": "到目前为止都没有任何的模型被训练",
+    "music": 0
+  },
+  {
+    "from": 981.46,
+    "to": 983.8,
+    "sid": 382,
+    "location": 2,
+    "content": "因为大家常常会对这个模型有些误解",
+    "music": 0
+  },
+  {
+    "from": 983.8,
+    "to": 989.13,
+    "sid": 383,
+    "location": 2,
+    "content": "觉得说模型读过这些文字以后就学到了东西",
+    "music": 0
+  },
+  {
+    "from": 989.13,
+    "to": 989.94,
+    "sid": 384,
+    "location": 2,
+    "content": "他就变了",
+    "music": 0
+  },
+  {
+    "from": 989.94,
+    "to": 990.84,
+    "sid": 385,
+    "location": 2,
+    "content": "不是这样子的",
+    "music": 0
+  },
+  {
+    "from": 990.84,
+    "to": 991.74,
+    "sid": 386,
+    "location": 2,
+    "content": "语言模型",
+    "music": 0
+  },
+  {
+    "from": 991.74,
+    "to": 994.079,
+    "sid": 387,
+    "location": 2,
+    "content": "要语言模型就是一个韩式",
+    "music": 0
+  },
+  {
+    "from": 994.079,
+    "to": 996.419,
+    "sid": 388,
+    "location": 2,
+    "content": "他要参数有改变的时候",
+    "music": 0
+  },
+  {
+    "from": 996.419,
+    "to": 998.759,
+    "sid": 389,
+    "location": 2,
+    "content": "他的能力才会真的有改变",
+    "music": 0
+  },
+  {
+    "from": 998.759,
+    "to": 1000.349,
+    "sid": 390,
+    "location": 2,
+    "content": "你让他读什么东西",
+    "music": 0
+  },
+  {
+    "from": 1000.349,
+    "to": 1002.239,
+    "sid": 391,
+    "location": 2,
+    "content": "语言模型的参数是固定的",
+    "music": 0
+  },
+  {
+    "from": 1002.239,
+    "to": 1004.429,
+    "sid": 392,
+    "location": 2,
+    "content": "你并不会影响他的能力",
+    "music": 0
+  },
+  {
+    "from": 1004.429,
+    "to": 1007.47,
+    "sid": 393,
+    "location": 2,
+    "content": "你并不会影响他的输出",
+    "music": 0
+  },
+  {
+    "from": 1007.47,
+    "to": 1008.61,
+    "sid": 394,
+    "location": 2,
+    "content": "好想要再强调一下",
+    "music": 0
+  },
+  {
+    "from": 1008.61,
+    "to": 1009.9,
+    "sid": 395,
+    "location": 2,
+    "content": "在反省的过程中",
+    "music": 0
+  },
+  {
+    "from": 1009.9,
+    "to": 1012.27,
+    "sid": 396,
+    "location": 2,
+    "content": "没有任何模型被训练啊",
+    "music": 0
+  },
+  {
+    "from": 1012.27,
+    "to": 1014.63,
+    "sid": 397,
+    "location": 2,
+    "content": "这个韩式是固定的",
+    "music": 0
+  },
+  {
+    "from": 1014.63,
+    "to": 1017.9,
+    "sid": 398,
+    "location": 2,
+    "content": "当然如果有人读了constitutional AI那篇paper",
+    "music": 0
+  },
+  {
+    "from": 1017.9,
+    "to": 1020.03,
+    "sid": 399,
+    "location": 2,
+    "content": "你可能会知道说呃",
+    "music": 0
+  },
+  {
+    "from": 1020.03,
+    "to": 1022.67,
+    "sid": 400,
+    "location": 2,
+    "content": "constitutional AI那篇paper里面有",
+    "music": 0
+  },
+  {
+    "from": 1022.67,
+    "to": 1025.66,
+    "sid": 401,
+    "location": 2,
+    "content": "让模型从自我反省中再进一步学习",
+    "music": 0
+  },
+  {
+    "from": 1025.66,
+    "to": 1028.54,
+    "sid": 402,
+    "location": 2,
+    "content": "但是怎么从自我反省中再进一步学习呢",
+    "music": 0
+  },
+  {
+    "from": 1028.54,
+    "to": 1032.61,
+    "sid": 403,
+    "location": 2,
+    "content": "那个就是另外一个故事了啊",
+    "music": 0
+  },
+  {
+    "from": 1032.61,
+    "to": 1035.43,
+    "sid": 404,
+    "location": 2,
+    "content": "这个我们之后呢会再讲到好",
+    "music": 0
+  },
+  {
+    "from": 1035.43,
+    "to": 1036.69,
+    "sid": 405,
+    "location": 2,
+    "content": "那有同学可能会说",
+    "music": 0
+  },
+  {
+    "from": 1036.69,
+    "to": 1039.72,
+    "sid": 406,
+    "location": 2,
+    "content": "但我在使用语言模型的时候",
+    "music": 0
+  },
+  {
+    "from": 1039.72,
+    "to": 1041.61,
+    "sid": 407,
+    "location": 2,
+    "content": "每次问他同一个问题",
+    "music": 0
+  },
+  {
+    "from": 1041.61,
+    "to": 1043.66,
+    "sid": 408,
+    "location": 2,
+    "content": "他的答案都不一样",
+    "music": 0
+  },
+  {
+    "from": 1043.66,
+    "to": 1046.57,
+    "sid": 409,
+    "location": 2,
+    "content": "诶这到底是发生了什么事",
+    "music": 0
+  },
+  {
+    "from": 1046.57,
+    "to": 1048.82,
+    "sid": 410,
+    "location": 2,
+    "content": "那我们这边来跟大家回答一下",
+    "music": 0
+  },
+  {
+    "from": 1048.82,
+    "to": 1052.21,
+    "sid": 411,
+    "location": 2,
+    "content": "为什么每次你问语言模型一模一样问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1052.21,
+    "to": 1054.73,
+    "sid": 412,
+    "location": 2,
+    "content": "他每次答案都是不一样的",
+    "music": 0
+  },
+  {
+    "from": 1054.73,
+    "to": 1056.45,
+    "sid": 413,
+    "location": 2,
+    "content": "那么之前已经有讲过说",
+    "music": 0
+  },
+  {
+    "from": 1056.45,
+    "to": 1058.79,
+    "sid": 414,
+    "location": 2,
+    "content": "语言模型在回答你问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1058.79,
+    "to": 1061.54,
+    "sid": 415,
+    "location": 2,
+    "content": "其实就是做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1061.54,
+    "to": 1063.61,
+    "sid": 416,
+    "location": 2,
+    "content": "那我们在更精确一点讲",
+    "music": 0
+  },
+  {
+    "from": 1063.61,
+    "to": 1066.43,
+    "sid": 417,
+    "location": 2,
+    "content": "实际上语言模型在做文字接龙的时候",
+    "music": 0
+  },
+  {
+    "from": 1066.43,
+    "to": 1069.02,
+    "sid": 418,
+    "location": 2,
+    "content": "它并不是输出一个字",
+    "music": 0
+  },
+  {
+    "from": 1069.02,
+    "to": 1072.34,
+    "sid": 419,
+    "location": 2,
+    "content": "而是输出一个几率分布",
+    "music": 0
+  },
+  {
+    "from": 1072.34,
+    "to": 1076.39,
+    "sid": 420,
+    "location": 2,
+    "content": "也就是说它实际上输出的是每一个字",
+    "music": 0
+  },
+  {
+    "from": 1076.39,
+    "to": 1081.35,
+    "sid": 421,
+    "location": 2,
+    "content": "可以接在输入后面的几率有多高哦",
+    "music": 0
+  },
+  {
+    "from": 1081.35,
+    "to": 1085.91,
+    "sid": 422,
+    "location": 2,
+    "content": "比如说你叫他对台湾大这个句子去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1085.91,
+    "to": 1089.42,
+    "sid": 423,
+    "location": 2,
+    "content": "那语言模型可能输出说有50percent的几率",
+    "music": 0
+  },
+  {
+    "from": 1089.42,
+    "to": 1092.17,
+    "sid": 424,
+    "location": 2,
+    "content": "学这个字可以接在台湾大后面",
+    "music": 0
+  },
+  {
+    "from": 1092.17,
+    "to": 1093.7,
+    "sid": 425,
+    "location": 2,
+    "content": "有25percent的几率",
+    "music": 0
+  },
+  {
+    "from": 1093.7,
+    "to": 1095.08,
+    "sid": 426,
+    "location": 2,
+    "content": "因为台湾大车队嘛",
+    "music": 0
+  },
+  {
+    "from": 1095.08,
+    "to": 1096.82,
+    "sid": 427,
+    "location": 2,
+    "content": "所以车也可以接在大后面",
+    "music": 0
+  },
+  {
+    "from": 1096.82,
+    "to": 1098.11,
+    "sid": 428,
+    "location": 2,
+    "content": "有25percent的几率",
+    "music": 0
+  },
+  {
+    "from": 1098.11,
+    "to": 1099.73,
+    "sid": 429,
+    "location": 2,
+    "content": "车可以接在大后面",
+    "music": 0
+  },
+  {
+    "from": 1099.73,
+    "to": 1101.77,
+    "sid": 430,
+    "location": 2,
+    "content": "或台湾大哥大有有一定的几率",
+    "music": 0
+  },
+  {
+    "from": 1101.77,
+    "to": 1103.82,
+    "sid": 431,
+    "location": 2,
+    "content": "哥可以接在大后面",
+    "music": 0
+  },
+  {
+    "from": 1103.82,
+    "to": 1105.44,
+    "sid": 432,
+    "location": 2,
+    "content": "原模型实际上做的事",
+    "music": 0
+  },
+  {
+    "from": 1105.44,
+    "to": 1106.7,
+    "sid": 433,
+    "location": 2,
+    "content": "做的事情是",
+    "music": 0
+  },
+  {
+    "from": 1106.7,
+    "to": 1110.81,
+    "sid": 434,
+    "location": 2,
+    "content": "给每一个可以拿来做文字接龙的符号一个几率",
+    "music": 0
+  },
+  {
+    "from": 1110.81,
+    "to": 1115.24,
+    "sid": 435,
+    "location": 2,
+    "content": "这个几率代表了这个符号可以接在输入句子",
+    "music": 0
+  },
+  {
+    "from": 1115.24,
+    "to": 1117.55,
+    "sid": 436,
+    "location": 2,
+    "content": "后面的可能性有多大",
+    "music": 0
+  },
+  {
+    "from": 1117.55,
+    "to": 1119.27,
+    "sid": 437,
+    "location": 2,
+    "content": "那有了这个几率以后",
+    "music": 0
+  },
+  {
+    "from": 1119.27,
+    "to": 1122.54,
+    "sid": 438,
+    "location": 2,
+    "content": "语言模型会根据这个几率去值一个骰子",
+    "music": 0
+  },
+  {
+    "from": 1122.54,
+    "to": 1123.53,
+    "sid": 439,
+    "location": 2,
+    "content": "去决定说",
+    "music": 0
+  },
+  {
+    "from": 1123.53,
+    "to": 1126.83,
+    "sid": 440,
+    "location": 2,
+    "content": "实际上要拿来做文字接龙的符号是哪一个",
+    "music": 0
+  },
+  {
+    "from": 1126.83,
+    "to": 1128.26,
+    "sid": 441,
+    "location": 2,
+    "content": "那在这个例子里面",
+    "music": 0
+  },
+  {
+    "from": 1128.26,
+    "to": 1129.94,
+    "sid": 442,
+    "location": 2,
+    "content": "血有50percent的几率",
+    "music": 0
+  },
+  {
+    "from": 1129.94,
+    "to": 1131.83,
+    "sid": 443,
+    "location": 2,
+    "content": "就代表你掷骰子的时候",
+    "music": 0
+  },
+  {
+    "from": 1131.83,
+    "to": 1134.699,
+    "sid": 444,
+    "location": 2,
+    "content": "有1/2的几率会直到学",
+    "music": 0
+  },
+  {
+    "from": 1134.699,
+    "to": 1138.059,
+    "sid": 445,
+    "location": 2,
+    "content": "有1/4的几率会直到车哦",
+    "music": 0
+  },
+  {
+    "from": 1138.059,
+    "to": 1140.909,
+    "sid": 446,
+    "location": 2,
+    "content": "所以当语言模型参数是固定的时候",
+    "music": 0
+  },
+  {
+    "from": 1140.909,
+    "to": 1143.26,
+    "sid": 447,
+    "location": 2,
+    "content": "你输入一样的句子",
+    "music": 0
+  },
+  {
+    "from": 1143.26,
+    "to": 1146.2,
+    "sid": 448,
+    "location": 2,
+    "content": "输出的这个几率分布是一样的",
+    "music": 0
+  },
+  {
+    "from": 1146.2,
+    "to": 1148.52,
+    "sid": 449,
+    "location": 2,
+    "content": "就好像是那个骰子是同一颗",
+    "music": 0
+  },
+  {
+    "from": 1148.52,
+    "to": 1150.62,
+    "sid": 450,
+    "location": 2,
+    "content": "但是虽然骰子是同一颗",
+    "music": 0
+  },
+  {
+    "from": 1150.62,
+    "to": 1152.46,
+    "sid": 451,
+    "location": 2,
+    "content": "你每次掷骰子的时候",
+    "music": 0
+  },
+  {
+    "from": 1152.46,
+    "to": 1155.37,
+    "sid": 452,
+    "location": 2,
+    "content": "指出来的东西不一定是一样的",
+    "music": 0
+  },
+  {
+    "from": 1155.37,
+    "to": 1156,
+    "sid": 453,
+    "location": 2,
+    "content": "这就为",
+    "music": 0
+  },
+  {
+    "from": 1156,
+    "to": 1159.36,
+    "sid": 454,
+    "location": 2,
+    "content": "这就是为什么语言模型在给你答案的时候",
+    "music": 0
+  },
+  {
+    "from": 1159.36,
+    "to": 1162.6,
+    "sid": 455,
+    "location": 2,
+    "content": "它每次的答案都会是不一样的哦",
+    "music": 0
+  },
+  {
+    "from": 1162.6,
+    "to": 1164.97,
+    "sid": 456,
+    "location": 2,
+    "content": "所以语言模型就算它是固定的",
+    "music": 0
+  },
+  {
+    "from": 1164.97,
+    "to": 1167.16,
+    "sid": 457,
+    "location": 2,
+    "content": "它会产生固定的几率分布",
+    "music": 0
+  },
+  {
+    "from": 1167.16,
+    "to": 1169.23,
+    "sid": 458,
+    "location": 2,
+    "content": "但他每次最终止损完",
+    "music": 0
+  },
+  {
+    "from": 1169.23,
+    "to": 1173.69,
+    "sid": 459,
+    "location": 2,
+    "content": "骰子产生出来的答案可能会是不一样的哦",
+    "music": 0
+  },
+  {
+    "from": 1173.69,
+    "to": 1176.21,
+    "sid": 460,
+    "location": 2,
+    "content": "所以实际上语言模型在回答问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1176.21,
+    "to": 1177.66,
+    "sid": 461,
+    "location": 2,
+    "content": "整个过程是这样子的",
+    "music": 0
+  },
+  {
+    "from": 1177.66,
+    "to": 1180.33,
+    "sid": 462,
+    "location": 2,
+    "content": "你问他说什么是大型圆模型问号",
+    "music": 0
+  },
+  {
+    "from": 1180.33,
+    "to": 1182.7,
+    "sid": 463,
+    "location": 2,
+    "content": "他把这个问题当做一个未完成的句子",
+    "music": 0
+  },
+  {
+    "from": 1182.7,
+    "to": 1184.3,
+    "sid": 464,
+    "location": 2,
+    "content": "再继续去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1184.3,
+    "to": 1185.83,
+    "sid": 465,
+    "location": 2,
+    "content": "它产生一个几率分布",
+    "music": 0
+  },
+  {
+    "from": 1185.83,
+    "to": 1188.32,
+    "sid": 466,
+    "location": 2,
+    "content": "根据这个几率分布去植一次骰子啊",
+    "music": 0
+  },
+  {
+    "from": 1188.32,
+    "to": 1191.08,
+    "sid": 467,
+    "location": 2,
+    "content": "这个几率分布如果你没办法想象它是什么的话",
+    "music": 0
+  },
+  {
+    "from": 1191.08,
+    "to": 1193.54,
+    "sid": 468,
+    "location": 2,
+    "content": "就想象成它是一面骰子",
+    "music": 0
+  },
+  {
+    "from": 1193.54,
+    "to": 1196.62,
+    "sid": 469,
+    "location": 2,
+    "content": "这个骰子的每一面呢写了一个符号",
+    "music": 0
+  },
+  {
+    "from": 1196.62,
+    "to": 1199.95,
+    "sid": 470,
+    "location": 2,
+    "content": "那每一面被指出来的几率是不一样的",
+    "music": 0
+  },
+  {
+    "from": 1199.95,
+    "to": 1202.25,
+    "sid": 471,
+    "location": 2,
+    "content": "有些符号被指出来的几率比较高",
+    "music": 0
+  },
+  {
+    "from": 1202.25,
+    "to": 1205.67,
+    "sid": 472,
+    "location": 2,
+    "content": "有些符号被指出来的几率比较低啊",
+    "music": 0
+  },
+  {
+    "from": 1205.67,
+    "to": 1206.81,
+    "sid": 473,
+    "location": 2,
+    "content": "那只一次骰子啊",
+    "music": 0
+  },
+  {
+    "from": 1206.81,
+    "to": 1208.78,
+    "sid": 474,
+    "location": 2,
+    "content": "就指出一个大好",
+    "music": 0
+  },
+  {
+    "from": 1208.78,
+    "to": 1211.51,
+    "sid": 475,
+    "location": 2,
+    "content": "然后把大呢贴到刚才的问题后面",
+    "music": 0
+  },
+  {
+    "from": 1211.51,
+    "to": 1215.92,
+    "sid": 476,
+    "location": 2,
+    "content": "再把这一串文字当做一个未完成的句子",
+    "music": 0
+  },
+  {
+    "from": 1215.92,
+    "to": 1218.25,
+    "sid": 477,
+    "location": 2,
+    "content": "再得到一个几率分布",
+    "music": 0
+  },
+  {
+    "from": 1218.25,
+    "to": 1219.21,
+    "sid": 478,
+    "location": 2,
+    "content": "再制造一面",
+    "music": 0
+  },
+  {
+    "from": 1219.21,
+    "to": 1220.92,
+    "sid": 479,
+    "location": 2,
+    "content": "再制造一个骰子出来",
+    "music": 0
+  },
+  {
+    "from": 1220.92,
+    "to": 1222.75,
+    "sid": 480,
+    "location": 2,
+    "content": "然后再吃一次骰子啊",
+    "music": 0
+  },
+  {
+    "from": 1222.75,
+    "to": 1224.3,
+    "sid": 481,
+    "location": 2,
+    "content": "假设这次直到行",
+    "music": 0
+  },
+  {
+    "from": 1224.3,
+    "to": 1226.85,
+    "sid": 482,
+    "location": 2,
+    "content": "就把行呢再贴到书的句子后面",
+    "music": 0
+  },
+  {
+    "from": 1226.85,
+    "to": 1228.87,
+    "sid": 483,
+    "location": 2,
+    "content": "就这样一路直塞子下去",
+    "music": 0
+  },
+  {
+    "from": 1228.87,
+    "to": 1231.08,
+    "sid": 484,
+    "location": 2,
+    "content": "直到最后产生的几率分布",
+    "music": 0
+  },
+  {
+    "from": 1231.08,
+    "to": 1232.1,
+    "sid": 485,
+    "location": 2,
+    "content": "骰子直下去",
+    "music": 0
+  },
+  {
+    "from": 1232.1,
+    "to": 1233.18,
+    "sid": 486,
+    "location": 2,
+    "content": "指出来是结束",
+    "music": 0
+  },
+  {
+    "from": 1233.18,
+    "to": 1235.94,
+    "sid": 487,
+    "location": 2,
+    "content": "这个符号代表现在答案完整了",
+    "music": 0
+  },
+  {
+    "from": 1235.94,
+    "to": 1238.78,
+    "sid": 488,
+    "location": 2,
+    "content": "语言模型已经把它想产生出来的东西",
+    "music": 0
+  },
+  {
+    "from": 1238.78,
+    "to": 1240.1,
+    "sid": 489,
+    "location": 2,
+    "content": "都产生完了",
+    "music": 0
+  },
+  {
+    "from": 1240.1,
+    "to": 1243.13,
+    "sid": 490,
+    "location": 2,
+    "content": "这个就是你最终看到的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1243.13,
+    "to": 1247.1,
+    "sid": 491,
+    "location": 2,
+    "content": "切GPT之类的语言模型给你的答案哦",
+    "music": 0
+  },
+  {
+    "from": 1247.1,
+    "to": 1248.06,
+    "sid": 492,
+    "location": 2,
+    "content": "所以你现在知道",
+    "music": 0
+  },
+  {
+    "from": 1248.06,
+    "to": 1248.78,
+    "sid": 493,
+    "location": 2,
+    "content": "为什么",
+    "music": 0
+  },
+  {
+    "from": 1248.78,
+    "to": 1252.94,
+    "sid": 494,
+    "location": 2,
+    "content": "语言模型每一次产生的答案都是不一样的",
+    "music": 0
+  },
+  {
+    "from": 1252.94,
+    "to": 1255.34,
+    "sid": 495,
+    "location": 2,
+    "content": "并不是每次你问同样的问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1255.34,
+    "to": 1257.02,
+    "sid": 496,
+    "location": 2,
+    "content": "它内部参数都改变了",
+    "music": 0
+  },
+  {
+    "from": 1257.02,
+    "to": 1260.08,
+    "sid": 497,
+    "location": 2,
+    "content": "它内部的参数仍然是一样的",
+    "music": 0
+  },
+  {
+    "from": 1260.08,
+    "to": 1262,
+    "sid": 498,
+    "location": 2,
+    "content": "但是因为它会直塞子",
+    "music": 0
+  },
+  {
+    "from": 1262,
+    "to": 1266.48,
+    "sid": 499,
+    "location": 2,
+    "content": "所以每次的答案都是不一样的",
+    "music": 0
+  },
+  {
+    "from": 1267.88,
+    "to": 1270.12,
+    "sid": 500,
+    "location": 2,
+    "content": "好那用刚才语言模型",
+    "music": 0
+  },
+  {
+    "from": 1270.12,
+    "to": 1272.58,
+    "sid": 501,
+    "location": 2,
+    "content": "同一个问题每次可能产生不一样答案",
+    "music": 0
+  },
+  {
+    "from": 1272.58,
+    "to": 1273.24,
+    "sid": 502,
+    "location": 2,
+    "content": "这件事情",
+    "music": 0
+  },
+  {
+    "from": 1273.24,
+    "to": 1275.46,
+    "sid": 503,
+    "location": 2,
+    "content": "那你也有其他的方法",
+    "music": 0
+  },
+  {
+    "from": 1275.46,
+    "to": 1278.59,
+    "sid": 504,
+    "location": 2,
+    "content": "可以来强化这些语言模型的能力",
+    "music": 0
+  },
+  {
+    "from": 1278.59,
+    "to": 1279.19,
+    "sid": 505,
+    "location": 2,
+    "content": "举例来说",
+    "music": 0
+  },
+  {
+    "from": 1279.19,
+    "to": 1280.36,
+    "sid": 506,
+    "location": 2,
+    "content": "你问他一个问题",
+    "music": 0
+  },
+  {
+    "from": 1280.36,
+    "to": 1284.17,
+    "sid": 507,
+    "location": 2,
+    "content": "你可以让语言模型对同一个问题回答多次",
+    "music": 0
+  },
+  {
+    "from": 1284.17,
+    "to": 1286.19,
+    "sid": 508,
+    "location": 2,
+    "content": "比如说他第一次答案是三",
+    "music": 0
+  },
+  {
+    "from": 1286.19,
+    "to": 1288.11,
+    "sid": 509,
+    "location": 2,
+    "content": "然后呢再做一次实验",
+    "music": 0
+  },
+  {
+    "from": 1288.11,
+    "to": 1291.08,
+    "sid": 510,
+    "location": 2,
+    "content": "因为每次产生答案的时候都是要直骰子的",
+    "music": 0
+  },
+  {
+    "from": 1291.08,
+    "to": 1292.43,
+    "sid": 511,
+    "location": 2,
+    "content": "所以每次答案都不一样",
+    "music": 0
+  },
+  {
+    "from": 1292.43,
+    "to": 1295.66,
+    "sid": 512,
+    "location": 2,
+    "content": "所以可能第二次呢最终的答案选择是五",
+    "music": 0
+  },
+  {
+    "from": 1295.66,
+    "to": 1297.46,
+    "sid": 513,
+    "location": 2,
+    "content": "然后再做一次同样的问题",
+    "music": 0
+  },
+  {
+    "from": 1297.46,
+    "to": 1298.69,
+    "sid": 514,
+    "location": 2,
+    "content": "最后答案是三",
+    "music": 0
+  },
+  {
+    "from": 1298.69,
+    "to": 1300.389,
+    "sid": 515,
+    "location": 2,
+    "content": "你做多吃一点问题",
+    "music": 0
+  },
+  {
+    "from": 1300.389,
+    "to": 1305.179,
+    "sid": 516,
+    "location": 2,
+    "content": "然后呢取最常出现的答案当做是正确答案",
+    "music": 0
+  },
+  {
+    "from": 1305.179,
+    "to": 1308.869,
+    "sid": 517,
+    "location": 2,
+    "content": "那这个方法呢叫做self consistency",
+    "music": 0
+  },
+  {
+    "from": 1308.869,
+    "to": 1312.65,
+    "sid": 518,
+    "location": 2,
+    "content": "你把本来只需要做一次的问题改成做多次",
+    "music": 0
+  },
+  {
+    "from": 1312.65,
+    "to": 1314.12,
+    "sid": 519,
+    "location": 2,
+    "content": "每次的答案可能都不太一样",
+    "music": 0
+  },
+  {
+    "from": 1314.12,
+    "to": 1315.7,
+    "sid": 520,
+    "location": 2,
+    "content": "但看哪一个答案最常出现",
+    "music": 0
+  },
+  {
+    "from": 1315.7,
+    "to": 1317.74,
+    "sid": 521,
+    "location": 2,
+    "content": "就把它作当做是正确答案",
+    "music": 0
+  },
+  {
+    "from": 1317.74,
+    "to": 1322.46,
+    "sid": 522,
+    "location": 2,
+    "content": "那这个方法呢叫做self consistency哦",
+    "music": 0
+  },
+  {
+    "from": 1322.46,
+    "to": 1323.9,
+    "sid": 523,
+    "location": 2,
+    "content": "那我们已经讲了很多",
+    "music": 0
+  },
+  {
+    "from": 1323.9,
+    "to": 1328.69,
+    "sid": 524,
+    "location": 2,
+    "content": "把一个复杂的任务拆解成多个小任务的方式",
+    "music": 0
+  },
+  {
+    "from": 1328.69,
+    "to": 1331.63,
+    "sid": 525,
+    "location": 2,
+    "content": "包括把复杂的任务拆解成多个步骤",
+    "music": 0
+  },
+  {
+    "from": 1331.63,
+    "to": 1335.4,
+    "sid": 526,
+    "location": 2,
+    "content": "还有在最后面多加一个额外的步骤做自我反省",
+    "music": 0
+  },
+  {
+    "from": 1335.4,
+    "to": 1337.83,
+    "sid": 527,
+    "location": 2,
+    "content": "还有同个问题做多次以后呢",
+    "music": 0
+  },
+  {
+    "from": 1337.83,
+    "to": 1339.42,
+    "sid": 528,
+    "location": 2,
+    "content": "你可以取最常出现的答案",
+    "music": 0
+  },
+  {
+    "from": 1339.42,
+    "to": 1342.9,
+    "sid": 529,
+    "location": 2,
+    "content": "或者从其他方法呢来验证答案是不是正确的",
+    "music": 0
+  },
+  {
+    "from": 1342.9,
+    "to": 1348.33,
+    "sid": 530,
+    "location": 2,
+    "content": "那这些方法可以组合起来打一套组合拳啊",
+    "music": 0
+  },
+  {
+    "from": 1348.33,
+    "to": 1352.44,
+    "sid": 531,
+    "location": 2,
+    "content": "这边就是举一个组合救急的组合的例子",
+    "music": 0
+  },
+  {
+    "from": 1352.44,
+    "to": 1354.51,
+    "sid": 532,
+    "location": 2,
+    "content": "假设你现在手上有一个复杂的任务",
+    "music": 0
+  },
+  {
+    "from": 1354.51,
+    "to": 1359.22,
+    "sid": 533,
+    "location": 2,
+    "content": "那我们把这个复杂的任务拆解成三个步骤好",
+    "music": 0
+  },
+  {
+    "from": 1359.22,
+    "to": 1363.04,
+    "sid": 534,
+    "location": 2,
+    "content": "那在在语言模型呢先做第一个步骤啊",
+    "music": 0
+  },
+  {
+    "from": 1363.04,
+    "to": 1364.24,
+    "sid": 535,
+    "location": 2,
+    "content": "任务输入语言模型",
+    "music": 0
+  },
+  {
+    "from": 1364.24,
+    "to": 1366.04,
+    "sid": 536,
+    "location": 2,
+    "content": "模型呢先解第一个步骤",
+    "music": 0
+  },
+  {
+    "from": 1366.04,
+    "to": 1369.52,
+    "sid": 537,
+    "location": 2,
+    "content": "那你不让语言模型的不只产生一个答案",
+    "music": 0
+  },
+  {
+    "from": 1369.52,
+    "to": 1373.3,
+    "sid": 538,
+    "location": 2,
+    "content": "你把同一个语言模型让他做三次文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1373.3,
+    "to": 1375.55,
+    "sid": 539,
+    "location": 2,
+    "content": "产生三个不同的答案",
+    "music": 0
+  },
+  {
+    "from": 1375.55,
+    "to": 1378.49,
+    "sid": 540,
+    "location": 2,
+    "content": "那三个不同的答案哪些是正确的",
+    "music": 0
+  },
+  {
+    "from": 1378.49,
+    "to": 1379.97,
+    "sid": 541,
+    "location": 2,
+    "content": "哪些是不正确的呢",
+    "music": 0
+  },
+  {
+    "from": 1379.97,
+    "to": 1382.94,
+    "sid": 542,
+    "location": 2,
+    "content": "也许我们可以透过自我反省的方式",
+    "music": 0
+  },
+  {
+    "from": 1382.94,
+    "to": 1387.35,
+    "sid": 543,
+    "location": 2,
+    "content": "让语言模型来检查这些答案是不是正确的哦",
+    "music": 0
+  },
+  {
+    "from": 1387.35,
+    "to": 1390.78,
+    "sid": 544,
+    "location": 2,
+    "content": "所以我们假设说语言模型让他读一下这个答案",
+    "music": 0
+  },
+  {
+    "from": 1390.78,
+    "to": 1393.8,
+    "sid": 545,
+    "location": 2,
+    "content": "他可以判断是正确的还是不正确的",
+    "music": 0
+  },
+  {
+    "from": 1393.8,
+    "to": 1395.18,
+    "sid": 546,
+    "location": 2,
+    "content": "那我们就问语言模型",
+    "music": 0
+  },
+  {
+    "from": 1395.18,
+    "to": 1397.28,
+    "sid": 547,
+    "location": 2,
+    "content": "第一个答案你自己觉得对不对呢",
+    "music": 0
+  },
+  {
+    "from": 1397.28,
+    "to": 1398.63,
+    "sid": 548,
+    "location": 2,
+    "content": "他可能觉得是对的",
+    "music": 0
+  },
+  {
+    "from": 1398.63,
+    "to": 1400.61,
+    "sid": 549,
+    "location": 2,
+    "content": "那我们就在进入第二步骤",
+    "music": 0
+  },
+  {
+    "from": 1400.61,
+    "to": 1402.6,
+    "sid": 550,
+    "location": 2,
+    "content": "根据第一步骤产出解",
+    "music": 0
+  },
+  {
+    "from": 1402.6,
+    "to": 1404.84,
+    "sid": 551,
+    "location": 2,
+    "content": "第二步骤一样产生多个答案",
+    "music": 0
+  },
+  {
+    "from": 1404.84,
+    "to": 1405.98,
+    "sid": 552,
+    "location": 2,
+    "content": "这叫语言模型",
+    "music": 0
+  },
+  {
+    "from": 1405.98,
+    "to": 1407.72,
+    "sid": 553,
+    "location": 2,
+    "content": "检查自己的答案是不是对的",
+    "music": 0
+  },
+  {
+    "from": 1407.72,
+    "to": 1410,
+    "sid": 554,
+    "location": 2,
+    "content": "发现第二步骤产生的答案都是错的",
+    "music": 0
+  },
+  {
+    "from": 1410,
+    "to": 1410.87,
+    "sid": 555,
+    "location": 2,
+    "content": "那没关系",
+    "music": 0
+  },
+  {
+    "from": 1410.87,
+    "to": 1412.31,
+    "sid": 556,
+    "location": 2,
+    "content": "再退回第一步",
+    "music": 0
+  },
+  {
+    "from": 1412.31,
+    "to": 1414.32,
+    "sid": 557,
+    "location": 2,
+    "content": "在检查第一步的第二个答案",
+    "music": 0
+  },
+  {
+    "from": 1414.32,
+    "to": 1415.61,
+    "sid": 558,
+    "location": 2,
+    "content": "我发现也是错的",
+    "music": 0
+  },
+  {
+    "from": 1415.61,
+    "to": 1416.27,
+    "sid": 559,
+    "location": 2,
+    "content": "那没关系",
+    "music": 0
+  },
+  {
+    "from": 1416.27,
+    "to": 1418.36,
+    "sid": 560,
+    "location": 2,
+    "content": "再检查第一步的第三个答案",
+    "music": 0
+  },
+  {
+    "from": 1418.36,
+    "to": 1419.56,
+    "sid": 561,
+    "location": 2,
+    "content": "发现是对的",
+    "music": 0
+  },
+  {
+    "from": 1419.56,
+    "to": 1420.94,
+    "sid": 562,
+    "location": 2,
+    "content": "那进入第二步",
+    "music": 0
+  },
+  {
+    "from": 1420.94,
+    "to": 1422.71,
+    "sid": 563,
+    "location": 2,
+    "content": "然后再产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 1422.71,
+    "to": 1425.05,
+    "sid": 564,
+    "location": 2,
+    "content": "再把这两个答案分别拿去检查",
+    "music": 0
+  },
+  {
+    "from": 1425.05,
+    "to": 1427,
+    "sid": 565,
+    "location": 2,
+    "content": "发现第一个答案就是对的",
+    "music": 0
+  },
+  {
+    "from": 1427,
+    "to": 1428.71,
+    "sid": 566,
+    "location": 2,
+    "content": "那就再进入第三步",
+    "music": 0
+  },
+  {
+    "from": 1428.71,
+    "to": 1430.75,
+    "sid": 567,
+    "location": 2,
+    "content": "再把第三步产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 1430.75,
+    "to": 1433.22,
+    "sid": 568,
+    "location": 2,
+    "content": "在第三步的时候再产生两个答案哦",
+    "music": 0
+  },
+  {
+    "from": 1433.22,
+    "to": 1435.68,
+    "sid": 569,
+    "location": 2,
+    "content": "第三步再根据第二步的这个结果呢",
+    "music": 0
+  },
+  {
+    "from": 1435.68,
+    "to": 1436.88,
+    "sid": 570,
+    "location": 2,
+    "content": "产生两个答案",
+    "music": 0
+  },
+  {
+    "from": 1436.88,
+    "to": 1439.67,
+    "sid": 571,
+    "location": 2,
+    "content": "在检查第三步的结果发现是对的",
+    "music": 0
+  },
+  {
+    "from": 1439.67,
+    "to": 1442.49,
+    "sid": 572,
+    "location": 2,
+    "content": "那你就得到一个最终的答案",
+    "music": 0
+  },
+  {
+    "from": 1442.49,
+    "to": 1445.37,
+    "sid": 573,
+    "location": 2,
+    "content": "那这个方法呢是有名字的哦",
+    "music": 0
+  },
+  {
+    "from": 1445.37,
+    "to": 1447.65,
+    "sid": 574,
+    "location": 2,
+    "content": "这个方法叫做treat of salt",
+    "music": 0
+  },
+  {
+    "from": 1447.65,
+    "to": 1451.27,
+    "sid": 575,
+    "location": 2,
+    "content": "它的缩写呢是TOT就是一个POLI",
+    "music": 0
+  },
+  {
+    "from": 1451.27,
+    "to": 1454.15,
+    "sid": 576,
+    "location": 2,
+    "content": "好像什么of sa这类的做法",
+    "music": 0
+  },
+  {
+    "from": 1454.15,
+    "to": 1456.13,
+    "sid": 577,
+    "location": 2,
+    "content": "今天真的是层出不穷",
+    "music": 0
+  },
+  {
+    "from": 1456.13,
+    "to": 1457.96,
+    "sid": 578,
+    "location": 2,
+    "content": "自从有了china soul以后",
+    "music": 0
+  },
+  {
+    "from": 1457.96,
+    "to": 1460.36,
+    "sid": 579,
+    "location": 2,
+    "content": "大家取这个方法名字的时候",
+    "music": 0
+  },
+  {
+    "from": 1460.36,
+    "to": 1462.34,
+    "sid": 580,
+    "location": 2,
+    "content": "都一定要叫什么of soul",
+    "music": 0
+  },
+  {
+    "from": 1462.34,
+    "to": 1465.04,
+    "sid": 581,
+    "location": 2,
+    "content": "那这个方法叫做trade of soul",
+    "music": 0
+  },
+  {
+    "from": 1465.04,
+    "to": 1466,
+    "sid": 582,
+    "location": 2,
+    "content": "那true so",
+    "music": 0
+  },
+  {
+    "from": 1466,
+    "to": 1468.58,
+    "sid": 583,
+    "location": 2,
+    "content": "就是把我们刚才讲到的各种不同的技术",
+    "music": 0
+  },
+  {
+    "from": 1468.58,
+    "to": 1469.42,
+    "sid": 584,
+    "location": 2,
+    "content": "组合起来",
+    "music": 0
+  },
+  {
+    "from": 1469.42,
+    "to": 1470.73,
+    "sid": 585,
+    "location": 2,
+    "content": "打一套组合拳",
+    "music": 0
+  },
+  {
+    "from": 1470.73,
+    "to": 1473.37,
+    "sid": 586,
+    "location": 2,
+    "content": "其实还有很多其他的什么of soul",
+    "music": 0
+  },
+  {
+    "from": 1473.37,
+    "to": 1475.5,
+    "sid": 587,
+    "location": 2,
+    "content": "比如说algorithm of soul",
+    "music": 0
+  },
+  {
+    "from": 1475.5,
+    "to": 1477.09,
+    "sid": 588,
+    "location": 2,
+    "content": "或者是graph of soul",
+    "music": 0
+  },
+  {
+    "from": 1477.09,
+    "to": 1478.51,
+    "sid": 589,
+    "location": 2,
+    "content": "这些什么excel",
+    "music": 0
+  },
+  {
+    "from": 1478.51,
+    "to": 1480.85,
+    "sid": 590,
+    "location": 2,
+    "content": "它的概念都是把一个复杂的任务",
+    "music": 0
+  },
+  {
+    "from": 1480.85,
+    "to": 1482.35,
+    "sid": 591,
+    "location": 2,
+    "content": "拆解成小的任务",
+    "music": 0
+  },
+  {
+    "from": 1482.35,
+    "to": 1484.96,
+    "sid": 592,
+    "location": 2,
+    "content": "让语言模型去各个击破",
+    "music": 0
+  },
+  {
+    "from": 1484.96,
+    "to": 1486.16,
+    "sid": 593,
+    "location": 2,
+    "content": "那么这边就不细讲",
+    "music": 0
+  },
+  {
+    "from": 1486.16,
+    "to": 1488.08,
+    "sid": 594,
+    "location": 2,
+    "content": "我把文献留在投影片上",
+    "music": 0
+  },
+  {
+    "from": 1488.08,
+    "to": 1490.56,
+    "sid": 595,
+    "location": 2,
+    "content": "给大家自己慢慢参考",
+    "music": 0
+  },
+  {
+    "from": 1490.56,
+    "to": 1493.92,
+    "sid": 596,
+    "location": 2,
+    "content": "那这个第四个方法呢要跟大家分享的是",
+    "music": 0
+  },
+  {
+    "from": 1493.92,
+    "to": 1499.28,
+    "sid": 597,
+    "location": 2,
+    "content": "这些语言模型可以使用工具来强化自己的能力",
+    "music": 0
+  },
+  {
+    "from": 1499.28,
+    "to": 1502.13,
+    "sid": 598,
+    "location": 2,
+    "content": "我们知道这些语言模型虽然很厉害",
+    "music": 0
+  },
+  {
+    "from": 1502.13,
+    "to": 1505.4,
+    "sid": 599,
+    "location": 2,
+    "content": "但是他们也有一些不擅长的事情",
+    "music": 0
+  },
+  {
+    "from": 1505.4,
+    "to": 1508.35,
+    "sid": 600,
+    "location": 2,
+    "content": "比如说他们不擅长做运算",
+    "music": 0
+  },
+  {
+    "from": 1508.35,
+    "to": 1512.28,
+    "sid": 601,
+    "location": 2,
+    "content": "我随便出个六位数乘六位数的乘法",
+    "music": 0
+  },
+  {
+    "from": 1512.28,
+    "to": 1513.39,
+    "sid": 602,
+    "location": 2,
+    "content": "确GPT哦",
+    "music": 0
+  },
+  {
+    "from": 1513.39,
+    "to": 1516.11,
+    "sid": 603,
+    "location": 2,
+    "content": "GPT3.5会给我们答案",
+    "music": 0
+  },
+  {
+    "from": 1516.11,
+    "to": 1518.03,
+    "sid": 604,
+    "location": 2,
+    "content": "但这个答案是对的吗",
+    "music": 0
+  },
+  {
+    "from": 1518.03,
+    "to": 1520.91,
+    "sid": 605,
+    "location": 2,
+    "content": "你一按计算机就知道这个答案是错的",
+    "music": 0
+  },
+  {
+    "from": 1520.91,
+    "to": 1522.28,
+    "sid": 606,
+    "location": 2,
+    "content": "我神奇的地方是",
+    "music": 0
+  },
+  {
+    "from": 1522.28,
+    "to": 1523.3,
+    "sid": 607,
+    "location": 2,
+    "content": "他其实没有错的",
+    "music": 0
+  },
+  {
+    "from": 1523.3,
+    "to": 1524.32,
+    "sid": 608,
+    "location": 2,
+    "content": "非常离谱啊",
+    "music": 0
+  },
+  {
+    "from": 1524.32,
+    "to": 1526.42,
+    "sid": 609,
+    "location": 2,
+    "content": "前两位数跟最后两位数",
+    "music": 0
+  },
+  {
+    "from": 1526.42,
+    "to": 1528.58,
+    "sid": 610,
+    "location": 2,
+    "content": "它的答案其实是对的",
+    "music": 0
+  },
+  {
+    "from": 1528.58,
+    "to": 1531.629,
+    "sid": 611,
+    "location": 2,
+    "content": "但是凭借着文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1531.629,
+    "to": 1535.61,
+    "sid": 612,
+    "location": 2,
+    "content": "想要接触六位数乘六位数乘法的答案",
+    "music": 0
+  },
+  {
+    "from": 1535.61,
+    "to": 1539,
+    "sid": 613,
+    "location": 2,
+    "content": "看起来是有非常高的难度的",
+    "music": 0
+  },
+  {
+    "from": 1539,
+    "to": 1543.67,
+    "sid": 614,
+    "location": 2,
+    "content": "所以语言模型也有一些他不擅长的事情",
+    "music": 0
+  },
+  {
+    "from": 1543.67,
+    "to": 1546.61,
+    "sid": 615,
+    "location": 2,
+    "content": "但是就好像人类没有尖牙利爪",
+    "music": 0
+  },
+  {
+    "from": 1546.61,
+    "to": 1549.2,
+    "sid": 616,
+    "location": 2,
+    "content": "但人类发明了各式各样的工具",
+    "music": 0
+  },
+  {
+    "from": 1549.2,
+    "to": 1551.21,
+    "sid": 617,
+    "location": 2,
+    "content": "去强化人类自身的能力",
+    "music": 0
+  },
+  {
+    "from": 1551.21,
+    "to": 1553.52,
+    "sid": 618,
+    "location": 2,
+    "content": "让人类可以跟猛兽对抗",
+    "music": 0
+  },
+  {
+    "from": 1553.52,
+    "to": 1555.09,
+    "sid": 619,
+    "location": 2,
+    "content": "创建了文明",
+    "music": 0
+  },
+  {
+    "from": 1555.09,
+    "to": 1556.5,
+    "sid": 620,
+    "location": 2,
+    "content": "这些语言模型",
+    "music": 0
+  },
+  {
+    "from": 1556.5,
+    "to": 1560.04,
+    "sid": 621,
+    "location": 2,
+    "content": "今天也有机会使用额外的工具",
+    "music": 0
+  },
+  {
+    "from": 1560.04,
+    "to": 1562.55,
+    "sid": 622,
+    "location": 2,
+    "content": "来强化他们自身的能力",
+    "music": 0
+  },
+  {
+    "from": 1562.55,
+    "to": 1565.25,
+    "sid": 623,
+    "location": 2,
+    "content": "那你发现这边呢在做展示的时候",
+    "music": 0
+  },
+  {
+    "from": 1565.25,
+    "to": 1566.57,
+    "sid": 624,
+    "location": 2,
+    "content": "是用GPD3.5",
+    "music": 0
+  },
+  {
+    "from": 1566.57,
+    "to": 1567.68,
+    "sid": 625,
+    "location": 2,
+    "content": "没有用GPD4",
+    "music": 0
+  },
+  {
+    "from": 1567.68,
+    "to": 1568.67,
+    "sid": 626,
+    "location": 2,
+    "content": "你很快就会知道",
+    "music": 0
+  },
+  {
+    "from": 1568.67,
+    "to": 1571.47,
+    "sid": 627,
+    "location": 2,
+    "content": "为什么这个例子不能用GPT4",
+    "music": 0
+  },
+  {
+    "from": 1571.47,
+    "to": 1573.86,
+    "sid": 628,
+    "location": 2,
+    "content": "来展示它的结构",
+    "music": 0
+  },
+  {
+    "from": 1574.14,
+    "to": 1576.83,
+    "sid": 629,
+    "location": 2,
+    "content": "那有哪些工具可以用呢",
+    "music": 0
+  },
+  {
+    "from": 1576.83,
+    "to": 1581.689,
+    "sid": 630,
+    "location": 2,
+    "content": "也许一个跟语言模型搭配起来非常适合的工具",
+    "music": 0
+  },
+  {
+    "from": 1581.689,
+    "to": 1584.04,
+    "sid": 631,
+    "location": 2,
+    "content": "就是搜寻引擎",
+    "music": 0
+  },
+  {
+    "from": 1584.04,
+    "to": 1586.2,
+    "sid": 632,
+    "location": 2,
+    "content": "那讲到这边大家可能会有点困惑",
+    "music": 0
+  },
+  {
+    "from": 1586.2,
+    "to": 1587.92,
+    "sid": 633,
+    "location": 2,
+    "content": "因为很多人会觉得诶",
+    "music": 0
+  },
+  {
+    "from": 1587.92,
+    "to": 1591.58,
+    "sid": 634,
+    "location": 2,
+    "content": "大型语言模型自己本身不就是个搜寻引擎吗",
+    "music": 0
+  },
+  {
+    "from": 1591.58,
+    "to": 1595.55,
+    "sid": 635,
+    "location": 2,
+    "content": "很多人会把大型语言模型当做搜寻引擎来用",
+    "music": 0
+  },
+  {
+    "from": 1595.55,
+    "to": 1599.47,
+    "sid": 636,
+    "location": 2,
+    "content": "比如说前几周OpenAI出了SA",
+    "music": 0
+  },
+  {
+    "from": 1599.47,
+    "to": 1601.12,
+    "sid": 637,
+    "location": 2,
+    "content": "那有的人就会觉得说",
+    "music": 0
+  },
+  {
+    "from": 1601.12,
+    "to": 1604.64,
+    "sid": 638,
+    "location": 2,
+    "content": "那我直接来问问g p t four sora是什么吧",
+    "music": 0
+  },
+  {
+    "from": 1604.64,
+    "to": 1607.25,
+    "sid": 639,
+    "location": 2,
+    "content": "那你问g p t for sora是什么的时候",
+    "music": 0
+  },
+  {
+    "from": 1607.25,
+    "to": 1608.81,
+    "sid": 640,
+    "location": 2,
+    "content": "他就会开始瞎扯",
+    "music": 0
+  },
+  {
+    "from": 1608.81,
+    "to": 1609.35,
+    "sid": 641,
+    "location": 2,
+    "content": "跟你说",
+    "music": 0
+  },
+  {
+    "from": 1609.35,
+    "to": 1613.04,
+    "sid": 642,
+    "location": 2,
+    "content": "SORA是一个用于提高大型语言模型",
+    "music": 0
+  },
+  {
+    "from": 1613.04,
+    "to": 1615.89,
+    "sid": 643,
+    "location": 2,
+    "content": "在特定领域内性能的技术",
+    "music": 0
+  },
+  {
+    "from": 1615.89,
+    "to": 1617.36,
+    "sid": 644,
+    "location": 2,
+    "content": "包括预筛选",
+    "music": 0
+  },
+  {
+    "from": 1617.36,
+    "to": 1618.44,
+    "sid": 645,
+    "location": 2,
+    "content": "专家评审",
+    "music": 0
+  },
+  {
+    "from": 1618.44,
+    "to": 1619.82,
+    "sid": 646,
+    "location": 2,
+    "content": "反馈循环等等",
+    "music": 0
+  },
+  {
+    "from": 1619.82,
+    "to": 1621.42,
+    "sid": 647,
+    "location": 2,
+    "content": "就是一个瞎掰的技术",
+    "music": 0
+  },
+  {
+    "from": 1621.42,
+    "to": 1623.82,
+    "sid": 648,
+    "location": 2,
+    "content": "那你再问他一次一模一样的问题",
+    "music": 0
+  },
+  {
+    "from": 1623.82,
+    "to": 1625.98,
+    "sid": 649,
+    "location": 2,
+    "content": "你就知道他是真的不知道SORA是什么",
+    "music": 0
+  },
+  {
+    "from": 1625.98,
+    "to": 1627.06,
+    "sid": 650,
+    "location": 2,
+    "content": "因为他要开始瞎扯",
+    "music": 0
+  },
+  {
+    "from": 1627.06,
+    "to": 1630.34,
+    "sid": 651,
+    "location": 2,
+    "content": "SORA是一个新一代的超级计算机",
+    "music": 0
+  },
+  {
+    "from": 1630.34,
+    "to": 1633.1,
+    "sid": 652,
+    "location": 2,
+    "content": "那为什么语言模型会瞎扯呢",
+    "music": 0
+  },
+  {
+    "from": 1633.1,
+    "to": 1634.66,
+    "sid": 653,
+    "location": 2,
+    "content": "那你今天已经知道说",
+    "music": 0
+  },
+  {
+    "from": 1634.66,
+    "to": 1638.44,
+    "sid": 654,
+    "location": 2,
+    "content": "这些语言模型就是做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1638.44,
+    "to": 1640.63,
+    "sid": 655,
+    "location": 2,
+    "content": "它背后并没有一个资料库",
+    "music": 0
+  },
+  {
+    "from": 1640.63,
+    "to": 1644.11,
+    "sid": 656,
+    "location": 2,
+    "content": "所以它的答案都是文字接龙所产生出来的",
+    "music": 0
+  },
+  {
+    "from": 1644.11,
+    "to": 1647.55,
+    "sid": 657,
+    "location": 2,
+    "content": "它并不是查找一个资料库以后给你答案",
+    "music": 0
+  },
+  {
+    "from": 1647.55,
+    "to": 1649.32,
+    "sid": 658,
+    "location": 2,
+    "content": "那用文字兼容产生答案",
+    "music": 0
+  },
+  {
+    "from": 1649.32,
+    "to": 1652.57,
+    "sid": 659,
+    "location": 2,
+    "content": "难免会产生跟事实不合的东西",
+    "music": 0
+  },
+  {
+    "from": 1652.57,
+    "to": 1655.65,
+    "sid": 660,
+    "location": 2,
+    "content": "总是把语言模型当做搜索引擎来用",
+    "music": 0
+  },
+  {
+    "from": 1655.65,
+    "to": 1658.47,
+    "sid": 661,
+    "location": 2,
+    "content": "并不是一个合适的做法",
+    "music": 0
+  },
+  {
+    "from": 1658.47,
+    "to": 1662.58,
+    "sid": 662,
+    "location": 2,
+    "content": "他完全不适合当做一个搜寻引擎",
+    "music": 0
+  },
+  {
+    "from": 1662.58,
+    "to": 1663.9,
+    "sid": 663,
+    "location": 2,
+    "content": "那怎么办呢",
+    "music": 0
+  },
+  {
+    "from": 1663.9,
+    "to": 1667.38,
+    "sid": 664,
+    "location": 2,
+    "content": "怎么把语言模型搭配搜索引擎来使用呢",
+    "music": 0
+  },
+  {
+    "from": 1667.38,
+    "to": 1669.11,
+    "sid": 665,
+    "location": 2,
+    "content": "今天一个常见的做法是",
+    "music": 0
+  },
+  {
+    "from": 1669.11,
+    "to": 1670.97,
+    "sid": 666,
+    "location": 2,
+    "content": "假设有一个困难的问题",
+    "music": 0
+  },
+  {
+    "from": 1670.97,
+    "to": 1672.53,
+    "sid": 667,
+    "location": 2,
+    "content": "你觉得是语言模型",
+    "music": 0
+  },
+  {
+    "from": 1672.53,
+    "to": 1676.27,
+    "sid": 668,
+    "location": 2,
+    "content": "凭借着文字接龙是不太可能接对的",
+    "music": 0
+  },
+  {
+    "from": 1676.27,
+    "to": 1677.62,
+    "sid": 669,
+    "location": 2,
+    "content": "那你可以怎么做呢",
+    "music": 0
+  },
+  {
+    "from": 1677.62,
+    "to": 1681.62,
+    "sid": 670,
+    "location": 2,
+    "content": "你可以先把这个困难的问题拿去搜寻",
+    "music": 0
+  },
+  {
+    "from": 1681.62,
+    "to": 1685.07,
+    "sid": 671,
+    "location": 2,
+    "content": "那你可能搜寻的对象是整个internet",
+    "music": 0
+  },
+  {
+    "from": 1685.07,
+    "to": 1689.26,
+    "sid": 672,
+    "location": 2,
+    "content": "或者是某一个你手上有的资料库",
+    "music": 0
+  },
+  {
+    "from": 1689.26,
+    "to": 1691.72,
+    "sid": 673,
+    "location": 2,
+    "content": "那你得到这些搜寻结果以后",
+    "music": 0
+  },
+  {
+    "from": 1691.72,
+    "to": 1694,
+    "sid": 674,
+    "location": 2,
+    "content": "这些搜寻结果等于就是",
+    "music": 0
+  },
+  {
+    "from": 1694,
+    "to": 1696.04,
+    "sid": 675,
+    "location": 2,
+    "content": "我们之前讲过的额外资讯",
+    "music": 0
+  },
+  {
+    "from": 1696.04,
+    "to": 1698.15,
+    "sid": 676,
+    "location": 2,
+    "content": "你把你现在要问的困难问题",
+    "music": 0
+  },
+  {
+    "from": 1698.15,
+    "to": 1702.23,
+    "sid": 677,
+    "location": 2,
+    "content": "加上从网络上或资料库里面得到的搜寻的结果",
+    "music": 0
+  },
+  {
+    "from": 1702.23,
+    "to": 1703.91,
+    "sid": 678,
+    "location": 2,
+    "content": "把它接起来",
+    "music": 0
+  },
+  {
+    "from": 1703.91,
+    "to": 1706.73,
+    "sid": 679,
+    "location": 2,
+    "content": "一起给语言模型去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1706.73,
+    "to": 1709.91,
+    "sid": 680,
+    "location": 2,
+    "content": "他就比较有可能解出正确的答案",
+    "music": 0
+  },
+  {
+    "from": 1709.91,
+    "to": 1712.24,
+    "sid": 681,
+    "location": 2,
+    "content": "因为如果只凭着困难的问题",
+    "music": 0
+  },
+  {
+    "from": 1712.24,
+    "to": 1713.5,
+    "sid": 682,
+    "location": 2,
+    "content": "只读了这个问题",
+    "music": 0
+  },
+  {
+    "from": 1713.5,
+    "to": 1714.4,
+    "sid": 683,
+    "location": 2,
+    "content": "要做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1714.4,
+    "to": 1716.11,
+    "sid": 684,
+    "location": 2,
+    "content": "可能很难接触正确的答案",
+    "music": 0
+  },
+  {
+    "from": 1716.11,
+    "to": 1717.82,
+    "sid": 685,
+    "location": 2,
+    "content": "但如果有额外的资讯",
+    "music": 0
+  },
+  {
+    "from": 1717.82,
+    "to": 1720.91,
+    "sid": 686,
+    "location": 2,
+    "content": "把这个问题加额外的资讯一起去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1720.91,
+    "to": 1725.13,
+    "sid": 687,
+    "location": 2,
+    "content": "那模型就更有机会可以接触你要的结果",
+    "music": 0
+  },
+  {
+    "from": 1725.13,
+    "to": 1729.27,
+    "sid": 688,
+    "location": 2,
+    "content": "那这个技术就是上周大家反复一直问到的",
+    "music": 0
+  },
+  {
+    "from": 1729.27,
+    "to": 1731.67,
+    "sid": 689,
+    "location": 2,
+    "content": "Retrieval augmented generation",
+    "music": 0
+  },
+  {
+    "from": 1731.67,
+    "to": 1734.45,
+    "sid": 690,
+    "location": 2,
+    "content": "它的缩写是RAG哦",
+    "music": 0
+  },
+  {
+    "from": 1734.45,
+    "to": 1736.07,
+    "sid": 691,
+    "location": 2,
+    "content": "那3月29号的时候呢",
+    "music": 0
+  },
+  {
+    "from": 1736.07,
+    "to": 1741.449,
+    "sid": 692,
+    "location": 2,
+    "content": "NBA的团队会来跟大家讲怎么做RAG这个技术",
+    "music": 0
+  },
+  {
+    "from": 1741.449,
+    "to": 1745.049,
+    "sid": 693,
+    "location": 2,
+    "content": "那IG这个技术今天之所以变得非常的热门",
+    "music": 0
+  },
+  {
+    "from": 1745.049,
+    "to": 1748.63,
+    "sid": 694,
+    "location": 2,
+    "content": "是因为首先它的实作并没有非常的困难",
+    "music": 0
+  },
+  {
+    "from": 1748.63,
+    "to": 1751.03,
+    "sid": 695,
+    "location": 2,
+    "content": "在这整个过程中要再强调一遍",
+    "music": 0
+  },
+  {
+    "from": 1751.03,
+    "to": 1754.15,
+    "sid": 696,
+    "location": 2,
+    "content": "语言模型没有任何改变",
+    "music": 0
+  },
+  {
+    "from": 1754.15,
+    "to": 1756.34,
+    "sid": 697,
+    "location": 2,
+    "content": "你没有训练语言模型",
+    "music": 0
+  },
+  {
+    "from": 1756.34,
+    "to": 1758.2,
+    "sid": 698,
+    "location": 2,
+    "content": "你完全没有动到他",
+    "music": 0
+  },
+  {
+    "from": 1758.2,
+    "to": 1761.34,
+    "sid": 699,
+    "location": 2,
+    "content": "你完全没有改变他的能力",
+    "music": 0
+  },
+  {
+    "from": 1761.34,
+    "to": 1765.09,
+    "sid": 700,
+    "location": 2,
+    "content": "但是你因为加了一个额外的搜寻的步骤",
+    "music": 0
+  },
+  {
+    "from": 1765.09,
+    "to": 1768.42,
+    "sid": 701,
+    "location": 2,
+    "content": "可以让你自己的语言模型跟其他人的",
+    "music": 0
+  },
+  {
+    "from": 1768.42,
+    "to": 1772.01,
+    "sid": 702,
+    "location": 2,
+    "content": "其次是同一个语言模型有不一样的反应",
+    "music": 0
+  },
+  {
+    "from": 1772.01,
+    "to": 1774.65,
+    "sid": 703,
+    "location": 2,
+    "content": "尤其是假设你今天搜寻的对象",
+    "music": 0
+  },
+  {
+    "from": 1774.65,
+    "to": 1776.75,
+    "sid": 704,
+    "location": 2,
+    "content": "也许是一个很特别的资料库",
+    "music": 0
+  },
+  {
+    "from": 1776.75,
+    "to": 1780.3,
+    "sid": 705,
+    "location": 2,
+    "content": "这个资料库只有你自己才有S的权限",
+    "music": 0
+  },
+  {
+    "from": 1780.3,
+    "to": 1782.19,
+    "sid": 706,
+    "location": 2,
+    "content": "里面有很多很特别的资讯",
+    "music": 0
+  },
+  {
+    "from": 1782.19,
+    "to": 1785.06,
+    "sid": 707,
+    "location": 2,
+    "content": "这个时候你取得的搜寻到的这些结果",
+    "music": 0
+  },
+  {
+    "from": 1785.06,
+    "to": 1788.57,
+    "sid": 708,
+    "location": 2,
+    "content": "可能是别人在网络上是都没有办法取得到的",
+    "music": 0
+  },
+  {
+    "from": 1788.57,
+    "to": 1790.08,
+    "sid": 709,
+    "location": 2,
+    "content": "这个时候你的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1790.08,
+    "to": 1791.76,
+    "sid": 710,
+    "location": 2,
+    "content": "根据这些特别的资讯",
+    "music": 0
+  },
+  {
+    "from": 1791.76,
+    "to": 1794.929,
+    "sid": 711,
+    "location": 2,
+    "content": "他可能就可以得到很特别的答案",
+    "music": 0
+  },
+  {
+    "from": 1794.929,
+    "to": 1797.689,
+    "sid": 712,
+    "location": 2,
+    "content": "所以今天如果你要克制化你的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1797.689,
+    "to": 1799.939,
+    "sid": 713,
+    "location": 2,
+    "content": "但这些所谓的客制化才能再强调一次",
+    "music": 0
+  },
+  {
+    "from": 1799.939,
+    "to": 1801.469,
+    "sid": 714,
+    "location": 2,
+    "content": "这个强调几次都不为过",
+    "music": 0
+  },
+  {
+    "from": 1803.76,
+    "to": 1806.58,
+    "sid": 715,
+    "location": 2,
+    "content": "就我们这边讲的克制化并没有训练模型",
+    "music": 0
+  },
+  {
+    "from": 1806.58,
+    "to": 1809.46,
+    "sid": 716,
+    "location": 2,
+    "content": "你今天如果要在不训练模型的状况下",
+    "music": 0
+  },
+  {
+    "from": 1809.46,
+    "to": 1810.94,
+    "sid": 717,
+    "location": 2,
+    "content": "克制化你的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1810.94,
+    "to": 1813.85,
+    "sid": 718,
+    "location": 2,
+    "content": "让他的答案跟其他人的语言模型很不一样",
+    "music": 0
+  },
+  {
+    "from": 1813.85,
+    "to": 1818,
+    "sid": 719,
+    "location": 2,
+    "content": "也许透过IG今天往往是一个非常有效",
+    "music": 0
+  },
+  {
+    "from": 1818,
+    "to": 1820.55,
+    "sid": 720,
+    "location": 2,
+    "content": "非常快速又有效的方法",
+    "music": 0
+  },
+  {
+    "from": 1820.55,
+    "to": 1823.58,
+    "sid": 721,
+    "location": 2,
+    "content": "这就是为什么IG今天变得非常的热门",
+    "music": 0
+  },
+  {
+    "from": 1823.58,
+    "to": 1828.39,
+    "sid": 722,
+    "location": 2,
+    "content": "每个人都不断的在提RAG这个技术好",
+    "music": 0
+  },
+  {
+    "from": 1828.39,
+    "to": 1830.55,
+    "sid": 723,
+    "location": 2,
+    "content": "所以今天如果g p t four",
+    "music": 0
+  },
+  {
+    "from": 1830.55,
+    "to": 1832.53,
+    "sid": 724,
+    "location": 2,
+    "content": "可以使用搜寻引擎的话",
+    "music": 0
+  },
+  {
+    "from": 1832.53,
+    "to": 1834,
+    "sid": 725,
+    "location": 2,
+    "content": "你问他什么是solar",
+    "music": 0
+  },
+  {
+    "from": 1834,
+    "to": 1835.9,
+    "sid": 726,
+    "location": 2,
+    "content": "它的答案就不一样了",
+    "music": 0
+  },
+  {
+    "from": 1835.9,
+    "to": 1839.8,
+    "sid": 727,
+    "location": 2,
+    "content": "事实上g v t four它是可以使用搜寻引擎的",
+    "music": 0
+  },
+  {
+    "from": 1839.8,
+    "to": 1844.13,
+    "sid": 728,
+    "location": 2,
+    "content": "只是什么时候要用搜寻引擎是由他自己决定的",
+    "music": 0
+  },
+  {
+    "from": 1844.13,
+    "to": 1847.25,
+    "sid": 729,
+    "location": 2,
+    "content": "那等一下我们马上就会看到大型原模型如何",
+    "music": 0
+  },
+  {
+    "from": 1847.25,
+    "to": 1850.96,
+    "sid": 730,
+    "location": 2,
+    "content": "自己决定什么时候要用什么工具",
+    "music": 0
+  },
+  {
+    "from": 1850.96,
+    "to": 1852.82,
+    "sid": 731,
+    "location": 2,
+    "content": "那在我刚才的例子里面",
+    "music": 0
+  },
+  {
+    "from": 1852.82,
+    "to": 1854.86,
+    "sid": 732,
+    "location": 2,
+    "content": "我问g p t for sora的时候",
+    "music": 0
+  },
+  {
+    "from": 1854.86,
+    "to": 1858.07,
+    "sid": 733,
+    "location": 2,
+    "content": "他显然是没有去做上网搜寻的",
+    "music": 0
+  },
+  {
+    "from": 1858.07,
+    "to": 1860.48,
+    "sid": 734,
+    "location": 2,
+    "content": "那怎么强制让他上网搜寻呢",
+    "music": 0
+  },
+  {
+    "from": 1860.48,
+    "to": 1862.52,
+    "sid": 735,
+    "location": 2,
+    "content": "嗯就直接跟他讲人话",
+    "music": 0
+  },
+  {
+    "from": 1862.52,
+    "to": 1867.04,
+    "sid": 736,
+    "location": 2,
+    "content": "告诉他说上网搜寻以后再来回答我的问题",
+    "music": 0
+  },
+  {
+    "from": 1867.04,
+    "to": 1871.05,
+    "sid": 737,
+    "location": 2,
+    "content": "那这个时候呢你就会看到这样子的一个呃",
+    "music": 0
+  },
+  {
+    "from": 1871.05,
+    "to": 1871.83,
+    "sid": 738,
+    "location": 2,
+    "content": "一段文字",
+    "music": 0
+  },
+  {
+    "from": 1871.83,
+    "to": 1874.05,
+    "sid": 739,
+    "location": 2,
+    "content": "他说doing research with b",
+    "music": 0
+  },
+  {
+    "from": 1874.05,
+    "to": 1877.889,
+    "sid": 740,
+    "location": 2,
+    "content": "意思就是他去在ban上面做搜寻",
+    "music": 0
+  },
+  {
+    "from": 1877.889,
+    "to": 1880.769,
+    "sid": 741,
+    "location": 2,
+    "content": "那得到的搜寻得到搜寻结果以后呢",
+    "music": 0
+  },
+  {
+    "from": 1880.769,
+    "to": 1884.4,
+    "sid": 742,
+    "location": 2,
+    "content": "他再根据搜寻结果来回答你的问题",
+    "music": 0
+  },
+  {
+    "from": 1884.4,
+    "to": 1887.4,
+    "sid": 743,
+    "location": 2,
+    "content": "这个时候他的回答就会比较精确",
+    "music": 0
+  },
+  {
+    "from": 1887.4,
+    "to": 1888.99,
+    "sid": 744,
+    "location": 2,
+    "content": "那他也会告诉你说",
+    "music": 0
+  },
+  {
+    "from": 1888.99,
+    "to": 1891.51,
+    "sid": 745,
+    "location": 2,
+    "content": "这一段答案的资料来源在哪里",
+    "music": 0
+  },
+  {
+    "from": 1891.51,
+    "to": 1893.76,
+    "sid": 746,
+    "location": 2,
+    "content": "所以当你用这个g p t four的时候",
+    "music": 0
+  },
+  {
+    "from": 1893.76,
+    "to": 1896.19,
+    "sid": 747,
+    "location": 2,
+    "content": "发现它会引用他的资料来源",
+    "music": 0
+  },
+  {
+    "from": 1896.19,
+    "to": 1899.62,
+    "sid": 748,
+    "location": 2,
+    "content": "就代表说它其实是有上网搜寻的",
+    "music": 0
+  },
+  {
+    "from": 1899.62,
+    "to": 1903.29,
+    "sid": 749,
+    "location": 2,
+    "content": "它是上网搜寻以后再给你他的答案",
+    "music": 0
+  },
+  {
+    "from": 1903.29,
+    "to": 1904.52,
+    "sid": 750,
+    "location": 2,
+    "content": "他上网搜寻以后",
+    "music": 0
+  },
+  {
+    "from": 1904.52,
+    "to": 1906.24,
+    "sid": 751,
+    "location": 2,
+    "content": "把网页的内容扒下来",
+    "music": 0
+  },
+  {
+    "from": 1906.24,
+    "to": 1908.46,
+    "sid": 752,
+    "location": 2,
+    "content": "根据网页的内容去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 1908.46,
+    "to": 1912.74,
+    "sid": 753,
+    "location": 2,
+    "content": "这才是你看到的答案哦",
+    "music": 0
+  },
+  {
+    "from": 1912.74,
+    "to": 1915.26,
+    "sid": 754,
+    "location": 2,
+    "content": "那这些语言模型现在还有另外一个",
+    "music": 0
+  },
+  {
+    "from": 1915.26,
+    "to": 1916.88,
+    "sid": 755,
+    "location": 2,
+    "content": "它可以使用的工具",
+    "music": 0
+  },
+  {
+    "from": 1916.88,
+    "to": 1919.17,
+    "sid": 756,
+    "location": 2,
+    "content": "就是写程式",
+    "music": 0
+  },
+  {
+    "from": 1919.17,
+    "to": 1921.9,
+    "sid": 757,
+    "location": 2,
+    "content": "当你问今天这些大型语言模型",
+    "music": 0
+  },
+  {
+    "from": 1921.9,
+    "to": 1924.12,
+    "sid": 758,
+    "location": 2,
+    "content": "一些数学的问题",
+    "music": 0
+  },
+  {
+    "from": 1924.12,
+    "to": 1927.6,
+    "sid": 759,
+    "location": 2,
+    "content": "比如说这边问他一个鸡兔同笼的问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1927.6,
+    "to": 1928.44,
+    "sid": 760,
+    "location": 2,
+    "content": "过去啊",
+    "music": 0
+  },
+  {
+    "from": 1928.44,
+    "to": 1931.44,
+    "sid": 761,
+    "location": 2,
+    "content": "或者过去是在比如说去年4月",
+    "music": 0
+  },
+  {
+    "from": 1931.44,
+    "to": 1933.42,
+    "sid": 762,
+    "location": 2,
+    "content": "g p t four刚出来的时候哦",
+    "music": 0
+  },
+  {
+    "from": 1933.42,
+    "to": 1935.85,
+    "sid": 763,
+    "location": 2,
+    "content": "你问他数学的问题没问题",
+    "music": 0
+  },
+  {
+    "from": 1935.85,
+    "to": 1936.96,
+    "sid": 764,
+    "location": 2,
+    "content": "你看他解得了",
+    "music": 0
+  },
+  {
+    "from": 1936.96,
+    "to": 1938.15,
+    "sid": 765,
+    "location": 2,
+    "content": "他会列式",
+    "music": 0
+  },
+  {
+    "from": 1938.15,
+    "to": 1939.98,
+    "sid": 766,
+    "location": 2,
+    "content": "它会先令一些未知数",
+    "music": 0
+  },
+  {
+    "from": 1939.98,
+    "to": 1942.4,
+    "sid": 767,
+    "location": 2,
+    "content": "然后呢把式子列出来",
+    "music": 0
+  },
+  {
+    "from": 1942.4,
+    "to": 1944.05,
+    "sid": 768,
+    "location": 2,
+    "content": "但是列出式子以后",
+    "music": 0
+  },
+  {
+    "from": 1944.05,
+    "to": 1947.26,
+    "sid": 769,
+    "location": 2,
+    "content": "他往往没办法达到得到正确的答案",
+    "music": 0
+  },
+  {
+    "from": 1947.26,
+    "to": 1947.92,
+    "sid": 770,
+    "location": 2,
+    "content": "为什么呢",
+    "music": 0
+  },
+  {
+    "from": 1947.92,
+    "to": 1949.39,
+    "sid": 771,
+    "location": 2,
+    "content": "因为式子列出来以后",
+    "music": 0
+  },
+  {
+    "from": 1949.39,
+    "to": 1951.59,
+    "sid": 772,
+    "location": 2,
+    "content": "你就要把X跟Y解出来",
+    "music": 0
+  },
+  {
+    "from": 1951.59,
+    "to": 1953.06,
+    "sid": 773,
+    "location": 2,
+    "content": "那他会自己会做",
+    "music": 0
+  },
+  {
+    "from": 1953.06,
+    "to": 1955.34,
+    "sid": 774,
+    "location": 2,
+    "content": "他会自己去做一项等等",
+    "music": 0
+  },
+  {
+    "from": 1955.34,
+    "to": 1957.5,
+    "sid": 775,
+    "location": 2,
+    "content": "那你知道这一个解题的过程",
+    "music": 0
+  },
+  {
+    "from": 1957.5,
+    "to": 1961.33,
+    "sid": 776,
+    "location": 2,
+    "content": "过去是靠着文字接龙接出来的",
+    "music": 0
+  },
+  {
+    "from": 1961.33,
+    "to": 1965.04,
+    "sid": 777,
+    "location": 2,
+    "content": "那往往这个解题的过程就会有奇怪的疏漏",
+    "music": 0
+  },
+  {
+    "from": 1965.04,
+    "to": 1966.54,
+    "sid": 778,
+    "location": 2,
+    "content": "他在非常奇怪的地方",
+    "music": 0
+  },
+  {
+    "from": 1966.54,
+    "to": 1968.64,
+    "sid": 779,
+    "location": 2,
+    "content": "犯了人类根本不可能犯的错误",
+    "music": 0
+  },
+  {
+    "from": 1968.64,
+    "to": 1971.36,
+    "sid": 780,
+    "location": 2,
+    "content": "然后就得到错误的答案",
+    "music": 0
+  },
+  {
+    "from": 1971.36,
+    "to": 1974.12,
+    "sid": 781,
+    "location": 2,
+    "content": "但是今天g g e d four",
+    "music": 0
+  },
+  {
+    "from": 1974.12,
+    "to": 1977.15,
+    "sid": 782,
+    "location": 2,
+    "content": "你在问他鸡兔同笼的问题的时候",
+    "music": 0
+  },
+  {
+    "from": 1977.15,
+    "to": 1980.54,
+    "sid": 783,
+    "location": 2,
+    "content": "他基本上已经不太可能会答错了",
+    "music": 0
+  },
+  {
+    "from": 1980.54,
+    "to": 1982.82,
+    "sid": 784,
+    "location": 2,
+    "content": "为什么当他列完式子以后",
+    "music": 0
+  },
+  {
+    "from": 1982.82,
+    "to": 1987.01,
+    "sid": 785,
+    "location": 2,
+    "content": "他不会再凭借着文字接龙自己硬解出呃",
+    "music": 0
+  },
+  {
+    "from": 1987.01,
+    "to": 1988.36,
+    "sid": 786,
+    "location": 2,
+    "content": "X跟Y是多少",
+    "music": 0
+  },
+  {
+    "from": 1988.36,
+    "to": 1991.45,
+    "sid": 787,
+    "location": 2,
+    "content": "他直接写一段程式码啊",
+    "music": 0
+  },
+  {
+    "from": 1991.45,
+    "to": 1993.699,
+    "sid": 788,
+    "location": 2,
+    "content": "就直接写一段程式嘛",
+    "music": 0
+  },
+  {
+    "from": 1993.699,
+    "to": 1997.059,
+    "sid": 789,
+    "location": 2,
+    "content": "哦他会先呼叫一些他要的package",
+    "music": 0
+  },
+  {
+    "from": 1997.059,
+    "to": 2000.03,
+    "sid": 790,
+    "location": 2,
+    "content": "然后把刚才的两个式子列出来",
+    "music": 0
+  },
+  {
+    "from": 2000.03,
+    "to": 2003,
+    "sid": 791,
+    "location": 2,
+    "content": "然后直接呼叫一个server",
+    "music": 0
+  },
+  {
+    "from": 2003,
+    "to": 2006.3,
+    "sid": 792,
+    "location": 2,
+    "content": "直接呼叫一个可以解题的模组",
+    "music": 0
+  },
+  {
+    "from": 2006.3,
+    "to": 2008.27,
+    "sid": 793,
+    "location": 2,
+    "content": "把这个函式给他",
+    "music": 0
+  },
+  {
+    "from": 2008.27,
+    "to": 2009.77,
+    "sid": 794,
+    "location": 2,
+    "content": "把答案解出来",
+    "music": 0
+  },
+  {
+    "from": 2009.77,
+    "to": 2011.42,
+    "sid": 795,
+    "location": 2,
+    "content": "再把答案印出来",
+    "music": 0
+  },
+  {
+    "from": 2011.42,
+    "to": 2013.81,
+    "sid": 796,
+    "location": 2,
+    "content": "这个就是正确答案",
+    "music": 0
+  },
+  {
+    "from": 2013.81,
+    "to": 2017.71,
+    "sid": 797,
+    "location": 2,
+    "content": "那会写城市的大型圆模型其实很多啦",
+    "music": 0
+  },
+  {
+    "from": 2017.71,
+    "to": 2020.26,
+    "sid": 798,
+    "location": 2,
+    "content": "其实GPT3.5也会写成市",
+    "music": 0
+  },
+  {
+    "from": 2020.26,
+    "to": 2022.42,
+    "sid": 799,
+    "location": 2,
+    "content": "但g p t four比较特别的地方是",
+    "music": 0
+  },
+  {
+    "from": 2022.42,
+    "to": 2024.49,
+    "sid": 800,
+    "location": 2,
+    "content": "它写完程序以后",
+    "music": 0
+  },
+  {
+    "from": 2024.49,
+    "to": 2027.79,
+    "sid": 801,
+    "location": 2,
+    "content": "他能够自己去执行他自己写的程序",
+    "music": 0
+  },
+  {
+    "from": 2027.79,
+    "to": 2030.39,
+    "sid": 802,
+    "location": 2,
+    "content": "把执行的结果再拿来给你看",
+    "music": 0
+  },
+  {
+    "from": 2030.39,
+    "to": 2032.73,
+    "sid": 803,
+    "location": 2,
+    "content": "指向中解联立方程式的问题",
+    "music": 0
+  },
+  {
+    "from": 2032.73,
+    "to": 2037.45,
+    "sid": 804,
+    "location": 2,
+    "content": "如果你是直接呼叫这个现成的package",
+    "music": 0
+  },
+  {
+    "from": 2037.45,
+    "to": 2039.44,
+    "sid": 805,
+    "location": 2,
+    "content": "呼叫现成的城市",
+    "music": 0
+  },
+  {
+    "from": 2039.44,
+    "to": 2041.78,
+    "sid": 806,
+    "location": 2,
+    "content": "呼叫县城的模组来帮你解决这个问题",
+    "music": 0
+  },
+  {
+    "from": 2041.78,
+    "to": 2045.48,
+    "sid": 807,
+    "location": 2,
+    "content": "你根本不可能会得到错误的答案",
+    "music": 0
+  },
+  {
+    "from": 2046,
+    "to": 2049.5,
+    "sid": 808,
+    "location": 2,
+    "content": "那其实透过写程式来强化语言模型能力",
+    "music": 0
+  },
+  {
+    "from": 2049.5,
+    "to": 2051.66,
+    "sid": 809,
+    "location": 2,
+    "content": "这件事啊其实很早就有了啊",
+    "music": 0
+  },
+  {
+    "from": 2051.66,
+    "to": 2053.28,
+    "sid": 810,
+    "location": 2,
+    "content": "这边就是引用一篇论文",
+    "music": 0
+  },
+  {
+    "from": 2053.28,
+    "to": 2056.34,
+    "sid": 811,
+    "location": 2,
+    "content": "这篇论文呢叫做program of soup啊",
+    "music": 0
+  },
+  {
+    "from": 2056.34,
+    "to": 2058.17,
+    "sid": 812,
+    "location": 2,
+    "content": "你今天如果有什么好的想法",
+    "music": 0
+  },
+  {
+    "from": 2058.17,
+    "to": 2060.4,
+    "sid": 813,
+    "location": 2,
+    "content": "尤其是这种不训练语言模型",
+    "music": 0
+  },
+  {
+    "from": 2060.4,
+    "to": 2062.77,
+    "sid": 814,
+    "location": 2,
+    "content": "凭空让他能力增强的方法呢",
+    "music": 0
+  },
+  {
+    "from": 2062.77,
+    "to": 2065.639,
+    "sid": 815,
+    "location": 2,
+    "content": "往往都要叫什么什么of salt啊",
+    "music": 0
+  },
+  {
+    "from": 2065.639,
+    "to": 2066.779,
+    "sid": 816,
+    "location": 2,
+    "content": "program of soul的概念",
+    "music": 0
+  },
+  {
+    "from": 2066.779,
+    "to": 2068.939,
+    "sid": 817,
+    "location": 2,
+    "content": "就跟我们刚才展示g p t four的能力",
+    "music": 0
+  },
+  {
+    "from": 2068.939,
+    "to": 2069.899,
+    "sid": 818,
+    "location": 2,
+    "content": "是一模一样的",
+    "music": 0
+  },
+  {
+    "from": 2069.899,
+    "to": 2071.569,
+    "sid": 819,
+    "location": 2,
+    "content": "而且你问他个数学问题",
+    "music": 0
+  },
+  {
+    "from": 2071.569,
+    "to": 2072.409,
+    "sid": 820,
+    "location": 2,
+    "content": "然后呢",
+    "music": 0
+  },
+  {
+    "from": 2072.409,
+    "to": 2075.769,
+    "sid": 821,
+    "location": 2,
+    "content": "如果他直接用这个文字接龙的方法硬解的话",
+    "music": 0
+  },
+  {
+    "from": 2075.769,
+    "to": 2077.51,
+    "sid": 822,
+    "location": 2,
+    "content": "很容易得到错误的答案",
+    "music": 0
+  },
+  {
+    "from": 2077.51,
+    "to": 2079.73,
+    "sid": 823,
+    "location": 2,
+    "content": "但如果能把一段程序写出来",
+    "music": 0
+  },
+  {
+    "from": 2079.73,
+    "to": 2080.93,
+    "sid": 824,
+    "location": 2,
+    "content": "在执行这段程序",
+    "music": 0
+  },
+  {
+    "from": 2080.93,
+    "to": 2084.37,
+    "sid": 825,
+    "location": 2,
+    "content": "往往比较可能得到正确的答案哦",
+    "music": 0
+  },
+  {
+    "from": 2084.37,
+    "to": 2086.32,
+    "sid": 826,
+    "location": 2,
+    "content": "那这是一个蛮古早的论文",
+    "music": 0
+  },
+  {
+    "from": 2086.32,
+    "to": 2088.87,
+    "sid": 827,
+    "location": 2,
+    "content": "这是2022年11月啊",
+    "music": 0
+  },
+  {
+    "from": 2088.87,
+    "to": 2093.56,
+    "sid": 828,
+    "location": 2,
+    "content": "GPT是3.5上线之前就已经有的论文",
+    "music": 0
+  },
+  {
+    "from": 2093.84,
+    "to": 2096.69,
+    "sid": 829,
+    "location": 2,
+    "content": "好在我们上周讲到g p t four",
+    "music": 0
+  },
+  {
+    "from": 2096.69,
+    "to": 2099.12,
+    "sid": 830,
+    "location": 2,
+    "content": "如果你叫他哈哈哈100次",
+    "music": 0
+  },
+  {
+    "from": 2099.12,
+    "to": 2101.7,
+    "sid": 831,
+    "location": 2,
+    "content": "他会有一个截然不同的答案",
+    "music": 0
+  },
+  {
+    "from": 2101.7,
+    "to": 2104.23,
+    "sid": 832,
+    "location": 2,
+    "content": "怎么样截然不同的答案呢",
+    "music": 0
+  },
+  {
+    "from": 2104.23,
+    "to": 2106.39,
+    "sid": 833,
+    "location": 2,
+    "content": "我们先来看g p t four的回答",
+    "music": 0
+  },
+  {
+    "from": 2106.39,
+    "to": 2107.11,
+    "sid": 834,
+    "location": 2,
+    "content": "你跟他说",
+    "music": 0
+  },
+  {
+    "from": 2107.11,
+    "to": 2107.95,
+    "sid": 835,
+    "location": 2,
+    "content": "请说哈哈哈",
+    "music": 0
+  },
+  {
+    "from": 2107.95,
+    "to": 2112.81,
+    "sid": 836,
+    "location": 2,
+    "content": "100次他真的就会产生300个哈",
+    "music": 0
+  },
+  {
+    "from": 2112.81,
+    "to": 2115.33,
+    "sid": 837,
+    "location": 2,
+    "content": "我数过了一个都不少",
+    "music": 0
+  },
+  {
+    "from": 2115.33,
+    "to": 2117.86,
+    "sid": 838,
+    "location": 2,
+    "content": "正好就是300个哈",
+    "music": 0
+  },
+  {
+    "from": 2117.86,
+    "to": 2122.09,
+    "sid": 839,
+    "location": 2,
+    "content": "但他是怎么做到产生正好是300个harder呢",
+    "music": 0
+  },
+  {
+    "from": 2122.09,
+    "to": 2126.87,
+    "sid": 840,
+    "location": 2,
+    "content": "你会发现这边有一段文字叫做finish analysis",
+    "music": 0
+  },
+  {
+    "from": 2126.87,
+    "to": 2128.73,
+    "sid": 841,
+    "location": 2,
+    "content": "当你看到这个句子的时候",
+    "music": 0
+  },
+  {
+    "from": 2128.73,
+    "to": 2130.23,
+    "sid": 842,
+    "location": 2,
+    "content": "当你看到这段文字的时候",
+    "music": 0
+  },
+  {
+    "from": 2130.23,
+    "to": 2133.46,
+    "sid": 843,
+    "location": 2,
+    "content": "就代表gp four写了一个程序并执行它",
+    "music": 0
+  },
+  {
+    "from": 2133.46,
+    "to": 2135.8,
+    "sid": 844,
+    "location": 2,
+    "content": "那你可以点这个钮把它展开",
+    "music": 0
+  },
+  {
+    "from": 2135.8,
+    "to": 2139.07,
+    "sid": 845,
+    "location": 2,
+    "content": "你就发现原来他是写了一段简单的程序啊",
+    "music": 0
+  },
+  {
+    "from": 2139.07,
+    "to": 2140.7,
+    "sid": 846,
+    "location": 2,
+    "content": "这个城市就是这样呃",
+    "music": 0
+  },
+  {
+    "from": 2141.42,
+    "to": 2143.55,
+    "sid": 847,
+    "location": 2,
+    "content": "反复100遍存到test里面",
+    "music": 0
+  },
+  {
+    "from": 2143.55,
+    "to": 2144.81,
+    "sid": 848,
+    "location": 2,
+    "content": "再把test print出来",
+    "music": 0
+  },
+  {
+    "from": 2144.81,
+    "to": 2146.43,
+    "sid": 849,
+    "location": 2,
+    "content": "正好就是300个哈",
+    "music": 0
+  },
+  {
+    "from": 2146.43,
+    "to": 2147.3,
+    "sid": 850,
+    "location": 2,
+    "content": "一个不多",
+    "music": 0
+  },
+  {
+    "from": 2147.3,
+    "to": 2148.8,
+    "sid": 851,
+    "location": 2,
+    "content": "一个不少哦",
+    "music": 0
+  },
+  {
+    "from": 2148.8,
+    "to": 2151.34,
+    "sid": 852,
+    "location": 2,
+    "content": "所以g p t four可以用其他模型",
+    "music": 0
+  },
+  {
+    "from": 2151.34,
+    "to": 2153.23,
+    "sid": 853,
+    "location": 2,
+    "content": "现在还没有办法使用的解法",
+    "music": 0
+  },
+  {
+    "from": 2153.23,
+    "to": 2154.79,
+    "sid": 854,
+    "location": 2,
+    "content": "真的去解一些",
+    "music": 0
+  },
+  {
+    "from": 2154.79,
+    "to": 2159.97,
+    "sid": 855,
+    "location": 2,
+    "content": "可能本来透过文字接龙蛮难解出来的问题",
+    "music": 0
+  },
+  {
+    "from": 2160.55,
+    "to": 2160.99,
+    "sid": 856,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 2160.99,
+    "to": 2162.55,
+    "sid": 857,
+    "location": 2,
+    "content": "那现在这些语言模型呢",
+    "music": 0
+  },
+  {
+    "from": 2162.55,
+    "to": 2164.5,
+    "sid": 858,
+    "location": 2,
+    "content": "还有什么可以使用的工具呢",
+    "music": 0
+  },
+  {
+    "from": 2164.5,
+    "to": 2166.42,
+    "sid": 859,
+    "location": 2,
+    "content": "比如说这个呃",
+    "music": 0
+  },
+  {
+    "from": 2166.42,
+    "to": 2170.2,
+    "sid": 860,
+    "location": 2,
+    "content": "g p p four可以去接一个文字生图的AI",
+    "music": 0
+  },
+  {
+    "from": 2170.2,
+    "to": 2172.229,
+    "sid": 861,
+    "location": 2,
+    "content": "那这个AI呢叫做搭理",
+    "music": 0
+  },
+  {
+    "from": 2172.229,
+    "to": 2174.989,
+    "sid": 862,
+    "location": 2,
+    "content": "那文字生图的AI它的运作非常简单",
+    "music": 0
+  },
+  {
+    "from": 2174.989,
+    "to": 2175.589,
+    "sid": 863,
+    "location": 2,
+    "content": "非常直觉",
+    "music": 0
+  },
+  {
+    "from": 2175.589,
+    "to": 2176.759,
+    "sid": 864,
+    "location": 2,
+    "content": "就是你给他一段文字",
+    "music": 0
+  },
+  {
+    "from": 2176.759,
+    "to": 2178.289,
+    "sid": 865,
+    "location": 2,
+    "content": "他按照文字的描述",
+    "music": 0
+  },
+  {
+    "from": 2178.289,
+    "to": 2181.96,
+    "sid": 866,
+    "location": 2,
+    "content": "把你要他画的东西给他画出来",
+    "music": 0
+  },
+  {
+    "from": 2181.96,
+    "to": 2183.97,
+    "sid": 867,
+    "location": 2,
+    "content": "那因为今天g b d four呢",
+    "music": 0
+  },
+  {
+    "from": 2183.97,
+    "to": 2186.43,
+    "sid": 868,
+    "location": 2,
+    "content": "可以调用这个文字生图的AI",
+    "music": 0
+  },
+  {
+    "from": 2186.43,
+    "to": 2189.439,
+    "sid": 869,
+    "location": 2,
+    "content": "所以大家通通都会用文字生图了",
+    "music": 0
+  },
+  {
+    "from": 2189.439,
+    "to": 2190.729,
+    "sid": 870,
+    "location": 2,
+    "content": "今年过年的时候",
+    "music": 0
+  },
+  {
+    "from": 2190.729,
+    "to": 2193.339,
+    "sid": 871,
+    "location": 2,
+    "content": "你是收到很多长辈图贺年卡呢",
+    "music": 0
+  },
+  {
+    "from": 2193.339,
+    "to": 2196.149,
+    "sid": 872,
+    "location": 2,
+    "content": "这些长辈图贺年卡可能是长这样的",
+    "music": 0
+  },
+  {
+    "from": 2196.149,
+    "to": 2197.949,
+    "sid": 873,
+    "location": 2,
+    "content": "这样的这样的",
+    "music": 0
+  },
+  {
+    "from": 2197.949,
+    "to": 2201.08,
+    "sid": 874,
+    "location": 2,
+    "content": "这些龙看起来都没有什么问题",
+    "music": 0
+  },
+  {
+    "from": 2201.08,
+    "to": 2201.98,
+    "sid": 875,
+    "location": 2,
+    "content": "虽然这个龙呢",
+    "music": 0
+  },
+  {
+    "from": 2201.98,
+    "to": 2204.56,
+    "sid": 876,
+    "location": 2,
+    "content": "它喷出来的火有点像是仙女棒喷出来的火",
+    "music": 0
+  },
+  {
+    "from": 2204.56,
+    "to": 2205.52,
+    "sid": 877,
+    "location": 2,
+    "content": "觉得有点奇怪",
+    "music": 0
+  },
+  {
+    "from": 2205.52,
+    "to": 2208.29,
+    "sid": 878,
+    "location": 2,
+    "content": "但是看起来都有模有样的",
+    "music": 0
+  },
+  {
+    "from": 2208.29,
+    "to": 2209.91,
+    "sid": 879,
+    "location": 2,
+    "content": "但你仔细定睛一看",
+    "music": 0
+  },
+  {
+    "from": 2209.91,
+    "to": 2212.46,
+    "sid": 880,
+    "location": 2,
+    "content": "就发现这些龙有些怪怪的地方",
+    "music": 0
+  },
+  {
+    "from": 2212.46,
+    "to": 2213.51,
+    "sid": 881,
+    "location": 2,
+    "content": "比如这只龙",
+    "music": 0
+  },
+  {
+    "from": 2213.51,
+    "to": 2216.08,
+    "sid": 882,
+    "location": 2,
+    "content": "它有一个呆毛长在头上",
+    "music": 0
+  },
+  {
+    "from": 2216.08,
+    "to": 2219.08,
+    "sid": 883,
+    "location": 2,
+    "content": "这个龙不知道为什么他的胡须呢长一根",
+    "music": 0
+  },
+  {
+    "from": 2219.08,
+    "to": 2221.93,
+    "sid": 884,
+    "location": 2,
+    "content": "在头上长个非常长的毛出来",
+    "music": 0
+  },
+  {
+    "from": 2221.93,
+    "to": 2224.51,
+    "sid": 885,
+    "location": 2,
+    "content": "这些龙呢都是用搭理",
+    "music": 0
+  },
+  {
+    "from": 2224.51,
+    "to": 2228.35,
+    "sid": 886,
+    "location": 2,
+    "content": "也就是通过GPT four去呼叫DI生成的",
+    "music": 0
+  },
+  {
+    "from": 2228.35,
+    "to": 2233.13,
+    "sid": 887,
+    "location": 2,
+    "content": "你要怎么用g p t for产生这个龙年的贺年卡呢",
+    "music": 0
+  },
+  {
+    "from": 2233.13,
+    "to": 2234.06,
+    "sid": 888,
+    "location": 2,
+    "content": "你就跟他讲",
+    "music": 0
+  },
+  {
+    "from": 2234.06,
+    "to": 2235.89,
+    "sid": 889,
+    "location": 2,
+    "content": "产生龙年贺年卡",
+    "music": 0
+  },
+  {
+    "from": 2235.89,
+    "to": 2237.96,
+    "sid": 890,
+    "location": 2,
+    "content": "图上不要出现文字",
+    "music": 0
+  },
+  {
+    "from": 2237.96,
+    "to": 2240.66,
+    "sid": 891,
+    "location": 2,
+    "content": "然后他就会产生creating image",
+    "music": 0
+  },
+  {
+    "from": 2240.66,
+    "to": 2243.81,
+    "sid": 892,
+    "location": 2,
+    "content": "这段文字就代表说他去呼叫DI",
+    "music": 0
+  },
+  {
+    "from": 2243.81,
+    "to": 2246.41,
+    "sid": 893,
+    "location": 2,
+    "content": "然后呢达理就会把图画出来",
+    "music": 0
+  },
+  {
+    "from": 2246.41,
+    "to": 2249.56,
+    "sid": 894,
+    "location": 2,
+    "content": "那为什么上面要特别强调不要出现文字呢",
+    "music": 0
+  },
+  {
+    "from": 2249.56,
+    "to": 2251.42,
+    "sid": 895,
+    "location": 2,
+    "content": "因为如果你不加这句话的话",
+    "music": 0
+  },
+  {
+    "from": 2251.42,
+    "to": 2254.64,
+    "sid": 896,
+    "location": 2,
+    "content": "他就很喜欢在图上面加一些happy new year啊",
+    "music": 0
+  },
+  {
+    "from": 2254.64,
+    "to": 2256.08,
+    "sid": 897,
+    "location": 2,
+    "content": "或者加一些中文啊",
+    "music": 0
+  },
+  {
+    "from": 2256.08,
+    "to": 2257.94,
+    "sid": 898,
+    "location": 2,
+    "content": "而且这边这段文字是对的哦",
+    "music": 0
+  },
+  {
+    "from": 2257.94,
+    "to": 2259.74,
+    "sid": 899,
+    "location": 2,
+    "content": "Happy year of the dragon",
+    "music": 0
+  },
+  {
+    "from": 2259.74,
+    "to": 2260.58,
+    "sid": 900,
+    "location": 2,
+    "content": "感觉还可以",
+    "music": 0
+  },
+  {
+    "from": 2260.58,
+    "to": 2263.16,
+    "sid": 901,
+    "location": 2,
+    "content": "但这边这个year显然拼错了",
+    "music": 0
+  },
+  {
+    "from": 2263.16,
+    "to": 2265.47,
+    "sid": 902,
+    "location": 2,
+    "content": "那因为这边他想要产生一些中文",
+    "music": 0
+  },
+  {
+    "from": 2265.47,
+    "to": 2267.69,
+    "sid": 903,
+    "location": 2,
+    "content": "但是显然都不知道在写些什么",
+    "music": 0
+  },
+  {
+    "from": 2267.69,
+    "to": 2269.32,
+    "sid": 904,
+    "location": 2,
+    "content": "所以避免它产生文字",
+    "music": 0
+  },
+  {
+    "from": 2269.32,
+    "to": 2270.82,
+    "sid": 905,
+    "location": 2,
+    "content": "以免自曝其短",
+    "music": 0
+  },
+  {
+    "from": 2270.82,
+    "to": 2272.59,
+    "sid": 906,
+    "location": 2,
+    "content": "但如果它不产生文字的话",
+    "music": 0
+  },
+  {
+    "from": 2272.59,
+    "to": 2274.84,
+    "sid": 907,
+    "location": 2,
+    "content": "结果往往画的都还是不错的",
+    "music": 0
+  },
+  {
+    "from": 2274.84,
+    "to": 2275.68,
+    "sid": 908,
+    "location": 2,
+    "content": "你不定惊叹",
+    "music": 0
+  },
+  {
+    "from": 2275.68,
+    "to": 2278.73,
+    "sid": 909,
+    "location": 2,
+    "content": "你是看不出来这是AI画的",
+    "music": 0
+  },
+  {
+    "from": 2279.85,
+    "to": 2281.7,
+    "sid": 910,
+    "location": 2,
+    "content": "那你可能会想说",
+    "music": 0
+  },
+  {
+    "from": 2281.7,
+    "to": 2285.35,
+    "sid": 911,
+    "location": 2,
+    "content": "把文字生图接到g p t for里面",
+    "music": 0
+  },
+  {
+    "from": 2285.35,
+    "to": 2287.9,
+    "sid": 912,
+    "location": 2,
+    "content": "让大起源模型可以自己去抠",
+    "music": 0
+  },
+  {
+    "from": 2287.9,
+    "to": 2290.54,
+    "sid": 913,
+    "location": 2,
+    "content": "一个生图的软体有什么样的作用呢",
+    "music": 0
+  },
+  {
+    "from": 2290.54,
+    "to": 2293.06,
+    "sid": 914,
+    "location": 2,
+    "content": "这个生图的软体比如有很多啊",
+    "music": 0
+  },
+  {
+    "from": 2293.06,
+    "to": 2294.38,
+    "sid": 915,
+    "location": 2,
+    "content": "我自己打开那些软体",
+    "music": 0
+  },
+  {
+    "from": 2294.38,
+    "to": 2295.28,
+    "sid": 916,
+    "location": 2,
+    "content": "比如说me journey",
+    "music": 0
+  },
+  {
+    "from": 2295.28,
+    "to": 2296.689,
+    "sid": 917,
+    "location": 2,
+    "content": "我也可以画图啊",
+    "music": 0
+  },
+  {
+    "from": 2296.689,
+    "to": 2300.499,
+    "sid": 918,
+    "location": 2,
+    "content": "那把语言模型跟申屠的软体结合起来",
+    "music": 0
+  },
+  {
+    "from": 2300.499,
+    "to": 2302.329,
+    "sid": 919,
+    "location": 2,
+    "content": "有什么样的妙用呢",
+    "music": 0
+  },
+  {
+    "from": 2302.329,
+    "to": 2304.12,
+    "sid": 920,
+    "location": 2,
+    "content": "这边举一个例子",
+    "music": 0
+  },
+  {
+    "from": 2304.12,
+    "to": 2305.53,
+    "sid": 921,
+    "location": 2,
+    "content": "在一年前呢",
+    "music": 0
+  },
+  {
+    "from": 2305.53,
+    "to": 2306.76,
+    "sid": 922,
+    "location": 2,
+    "content": "我曾经示范了",
+    "music": 0
+  },
+  {
+    "from": 2306.76,
+    "to": 2311.869,
+    "sid": 923,
+    "location": 2,
+    "content": "怎么用这个语言模型玩文字冒险游戏啊",
+    "music": 0
+  },
+  {
+    "from": 2311.869,
+    "to": 2313.489,
+    "sid": 924,
+    "location": 2,
+    "content": "这个玩法是这个样子的啊",
+    "music": 0
+  },
+  {
+    "from": 2313.489,
+    "to": 2315.5,
+    "sid": 925,
+    "location": 2,
+    "content": "一年之前的玩法是这个样子",
+    "music": 0
+  },
+  {
+    "from": 2315.5,
+    "to": 2317.3,
+    "sid": 926,
+    "location": 2,
+    "content": "你就输入一段文字",
+    "music": 0
+  },
+  {
+    "from": 2317.3,
+    "to": 2321.21,
+    "sid": 927,
+    "location": 2,
+    "content": "告诉他说我们要来开始一个文字冒险游戏",
+    "music": 0
+  },
+  {
+    "from": 2321.21,
+    "to": 2325.109,
+    "sid": 928,
+    "location": 2,
+    "content": "然后呢由玩家来决定要采取的动作",
+    "music": 0
+  },
+  {
+    "from": 2325.109,
+    "to": 2328.469,
+    "sid": 929,
+    "location": 2,
+    "content": "然后游戏开始的时候请详述故事背景",
+    "music": 0
+  },
+  {
+    "from": 2328.469,
+    "to": 2330.239,
+    "sid": 930,
+    "location": 2,
+    "content": "游戏游戏开始",
+    "music": 0
+  },
+  {
+    "from": 2330.239,
+    "to": 2331.889,
+    "sid": 931,
+    "location": 2,
+    "content": "你只要输入这些文字",
+    "music": 0
+  },
+  {
+    "from": 2331.889,
+    "to": 2333.8,
+    "sid": 932,
+    "location": 2,
+    "content": "那个确GPT呢",
+    "music": 0
+  },
+  {
+    "from": 2333.8,
+    "to": 2336.68,
+    "sid": 933,
+    "location": 2,
+    "content": "它就可以主持一个文字冒险游戏",
+    "music": 0
+  },
+  {
+    "from": 2336.68,
+    "to": 2338.5,
+    "sid": 934,
+    "location": 2,
+    "content": "它会提供选项让你选",
+    "music": 0
+  },
+  {
+    "from": 2338.5,
+    "to": 2339.7,
+    "sid": 935,
+    "location": 2,
+    "content": "根据你的选项",
+    "music": 0
+  },
+  {
+    "from": 2339.7,
+    "to": 2342.76,
+    "sid": 936,
+    "location": 2,
+    "content": "它就会有不同的剧情展开哦",
+    "music": 0
+  },
+  {
+    "from": 2342.76,
+    "to": 2343.9,
+    "sid": 937,
+    "location": 2,
+    "content": "所以他可能会这样回答",
+    "music": 0
+  },
+  {
+    "from": 2343.9,
+    "to": 2345.64,
+    "sid": 938,
+    "location": 2,
+    "content": "你就说你是一个探险家",
+    "music": 0
+  },
+  {
+    "from": 2345.64,
+    "to": 2348.22,
+    "sid": 939,
+    "location": 2,
+    "content": "然后你听说一个古代宝藏的传说",
+    "music": 0
+  },
+  {
+    "from": 2348.22,
+    "to": 2350.68,
+    "sid": 940,
+    "location": 2,
+    "content": "你要踏入这个踏上这个旅程",
+    "music": 0
+  },
+  {
+    "from": 2350.68,
+    "to": 2352.12,
+    "sid": 941,
+    "location": 2,
+    "content": "寻找古代的宝藏",
+    "music": 0
+  },
+  {
+    "from": 2352.12,
+    "to": 2353.5,
+    "sid": 942,
+    "location": 2,
+    "content": "给你三个选项来选",
+    "music": 0
+  },
+  {
+    "from": 2353.5,
+    "to": 2354.22,
+    "sid": 943,
+    "location": 2,
+    "content": "不同的选项",
+    "music": 0
+  },
+  {
+    "from": 2354.22,
+    "to": 2356.529,
+    "sid": 944,
+    "location": 2,
+    "content": "会有不同的结局",
+    "music": 0
+  },
+  {
+    "from": 2356.529,
+    "to": 2359.48,
+    "sid": 945,
+    "location": 2,
+    "content": "因为玩这个文字冒险游戏呢",
+    "music": 0
+  },
+  {
+    "from": 2359.48,
+    "to": 2362.06,
+    "sid": 946,
+    "location": 2,
+    "content": "呃只有文字实在是太干了",
+    "music": 0
+  },
+  {
+    "from": 2362.06,
+    "to": 2363.29,
+    "sid": 947,
+    "location": 2,
+    "content": "所以在一年之前",
+    "music": 0
+  },
+  {
+    "from": 2363.29,
+    "to": 2365.72,
+    "sid": 948,
+    "location": 2,
+    "content": "为了让为了让整个游戏不那么干",
+    "music": 0
+  },
+  {
+    "from": 2365.72,
+    "to": 2368.08,
+    "sid": 949,
+    "location": 2,
+    "content": "我把文字冒险游戏的叙述",
+    "music": 0
+  },
+  {
+    "from": 2368.08,
+    "to": 2371.08,
+    "sid": 950,
+    "location": 2,
+    "content": "丢到一个文字生图的AI啊",
+    "music": 0
+  },
+  {
+    "from": 2371.08,
+    "to": 2372.76,
+    "sid": 951,
+    "location": 2,
+    "content": "当时用的是me journey",
+    "music": 0
+  },
+  {
+    "from": 2372.76,
+    "to": 2375.3,
+    "sid": 952,
+    "location": 2,
+    "content": "让他产生游戏的插图",
+    "music": 0
+  },
+  {
+    "from": 2375.3,
+    "to": 2377.94,
+    "sid": 953,
+    "location": 2,
+    "content": "如果你想知道玩起来感觉怎么样的话",
+    "music": 0
+  },
+  {
+    "from": 2377.94,
+    "to": 2379.83,
+    "sid": 954,
+    "location": 2,
+    "content": "你可以看这段录音",
+    "music": 0
+  },
+  {
+    "from": 2379.83,
+    "to": 2384.09,
+    "sid": 955,
+    "location": 2,
+    "content": "但今天你其实是可以有不一样的玩法",
+    "music": 0
+  },
+  {
+    "from": 2384.09,
+    "to": 2385.29,
+    "sid": 956,
+    "location": 2,
+    "content": "怎么玩呢",
+    "music": 0
+  },
+  {
+    "from": 2385.29,
+    "to": 2387.12,
+    "sid": 957,
+    "location": 2,
+    "content": "今天你可以多加一句",
+    "music": 0
+  },
+  {
+    "from": 2387.12,
+    "to": 2389.37,
+    "sid": 958,
+    "location": 2,
+    "content": "每次你描述完场景之后",
+    "music": 0
+  },
+  {
+    "from": 2389.37,
+    "to": 2392.45,
+    "sid": 959,
+    "location": 2,
+    "content": "请根据你的描述产生一张图",
+    "music": 0
+  },
+  {
+    "from": 2392.45,
+    "to": 2396.26,
+    "sid": 960,
+    "location": 2,
+    "content": "那他一样会开始架构一个文字冒险游戏的场景",
+    "music": 0
+  },
+  {
+    "from": 2396.26,
+    "to": 2399.37,
+    "sid": 961,
+    "location": 2,
+    "content": "他说你醒来在一个阴暗的森林中啊",
+    "music": 0
+  },
+  {
+    "from": 2399.37,
+    "to": 2402.46,
+    "sid": 962,
+    "location": 2,
+    "content": "你的背包背包里面有的地图",
+    "music": 0
+  },
+  {
+    "from": 2402.46,
+    "to": 2404.98,
+    "sid": 963,
+    "location": 2,
+    "content": "然后看起来像是这个森林的地图",
+    "music": 0
+  },
+  {
+    "from": 2404.98,
+    "to": 2406.51,
+    "sid": 964,
+    "location": 2,
+    "content": "你还有小手电筒",
+    "music": 0
+  },
+  {
+    "from": 2406.51,
+    "to": 2407.92,
+    "sid": 965,
+    "location": 2,
+    "content": "你还有旧的日记",
+    "music": 0
+  },
+  {
+    "from": 2407.92,
+    "to": 2411.2,
+    "sid": 966,
+    "location": 2,
+    "content": "上面写着寻找遗失之城等等",
+    "music": 0
+  },
+  {
+    "from": 2411.2,
+    "to": 2413.06,
+    "sid": 967,
+    "location": 2,
+    "content": "那讲完这些描述之后",
+    "music": 0
+  },
+  {
+    "from": 2413.06,
+    "to": 2414.32,
+    "sid": 968,
+    "location": 2,
+    "content": "后面还有很长的描述了",
+    "music": 0
+  },
+  {
+    "from": 2414.32,
+    "to": 2415.96,
+    "sid": 969,
+    "location": 2,
+    "content": "这边就不秀出来给大家看",
+    "music": 0
+  },
+  {
+    "from": 2415.96,
+    "to": 2417.7,
+    "sid": 970,
+    "location": 2,
+    "content": "讲完这些描述以后呢",
+    "music": 0
+  },
+  {
+    "from": 2417.7,
+    "to": 2422.17,
+    "sid": 971,
+    "location": 2,
+    "content": "却GBT就去呼叫搭理生一个跟场景有关的图",
+    "music": 0
+  },
+  {
+    "from": 2422.17,
+    "to": 2423.76,
+    "sid": 972,
+    "location": 2,
+    "content": "看起来真的有个森林",
+    "music": 0
+  },
+  {
+    "from": 2423.76,
+    "to": 2424.69,
+    "sid": 973,
+    "location": 2,
+    "content": "有个背包",
+    "music": 0
+  },
+  {
+    "from": 2424.69,
+    "to": 2425.74,
+    "sid": 974,
+    "location": 2,
+    "content": "有手电筒",
+    "music": 0
+  },
+  {
+    "from": 2425.74,
+    "to": 2426.76,
+    "sid": 975,
+    "location": 2,
+    "content": "还有地图",
+    "music": 0
+  },
+  {
+    "from": 2426.76,
+    "to": 2429.22,
+    "sid": 976,
+    "location": 2,
+    "content": "跟他刚才的描述呢是蛮一致的",
+    "music": 0
+  },
+  {
+    "from": 2429.22,
+    "to": 2431.32,
+    "sid": 977,
+    "location": 2,
+    "content": "那接下来他一样会给你几个选项",
+    "music": 0
+  },
+  {
+    "from": 2431.32,
+    "to": 2433.189,
+    "sid": 978,
+    "location": 2,
+    "content": "问你要走左边的小径",
+    "music": 0
+  },
+  {
+    "from": 2433.189,
+    "to": 2434.749,
+    "sid": 979,
+    "location": 2,
+    "content": "还是继续往前走",
+    "music": 0
+  },
+  {
+    "from": 2434.749,
+    "to": 2436.999,
+    "sid": 980,
+    "location": 2,
+    "content": "还是走右侧的小径",
+    "music": 0
+  },
+  {
+    "from": 2436.999,
+    "to": 2439.309,
+    "sid": 981,
+    "location": 2,
+    "content": "那这样有这个文字冒险游戏呢",
+    "music": 0
+  },
+  {
+    "from": 2439.309,
+    "to": 2442.09,
+    "sid": 982,
+    "location": 2,
+    "content": "玩起来就更带感了",
+    "music": 0
+  },
+  {
+    "from": 2442.55,
+    "to": 2445.03,
+    "sid": 983,
+    "location": 2,
+    "content": "那其实这个g p t four呢",
+    "music": 0
+  },
+  {
+    "from": 2445.03,
+    "to": 2447.43,
+    "sid": 984,
+    "location": 2,
+    "content": "还有很多其他可以使用的工具啦",
+    "music": 0
+  },
+  {
+    "from": 2447.43,
+    "to": 2448.99,
+    "sid": 985,
+    "location": 2,
+    "content": "那我刚才讲的几个呃",
+    "music": 0
+  },
+  {
+    "from": 2448.99,
+    "to": 2451.999,
+    "sid": 986,
+    "location": 2,
+    "content": "比如说这个呼叫搜寻引擎",
+    "music": 0
+  },
+  {
+    "from": 2451.999,
+    "to": 2455.32,
+    "sid": 987,
+    "location": 2,
+    "content": "呼叫这个文字生图的AI等等",
+    "music": 0
+  },
+  {
+    "from": 2455.32,
+    "to": 2458.87,
+    "sid": 988,
+    "location": 2,
+    "content": "是它内建本来就可以呼叫的工具",
+    "music": 0
+  },
+  {
+    "from": 2458.87,
+    "to": 2461.39,
+    "sid": 989,
+    "location": 2,
+    "content": "那如果你想要呼叫更多工具的话",
+    "music": 0
+  },
+  {
+    "from": 2461.39,
+    "to": 2464.6,
+    "sid": 990,
+    "location": 2,
+    "content": "有一个东西叫做GPT的PLIN",
+    "music": 0
+  },
+  {
+    "from": 2464.6,
+    "to": 2469.62,
+    "sid": 991,
+    "location": 2,
+    "content": "这个pin里面现在有收集了超过上千个工具",
+    "music": 0
+  },
+  {
+    "from": 2469.62,
+    "to": 2471.54,
+    "sid": 992,
+    "location": 2,
+    "content": "那你要用这些工具的时候呢",
+    "music": 0
+  },
+  {
+    "from": 2471.54,
+    "to": 2474.8,
+    "sid": 993,
+    "location": 2,
+    "content": "你就要进入一个叫做plug in的模式",
+    "music": 0
+  },
+  {
+    "from": 2474.8,
+    "to": 2476.36,
+    "sid": 994,
+    "location": 2,
+    "content": "然后在那个模式里面呢",
+    "music": 0
+  },
+  {
+    "from": 2476.36,
+    "to": 2479.51,
+    "sid": 995,
+    "location": 2,
+    "content": "你可以从那上上千个工具里面选三个工具",
+    "music": 0
+  },
+  {
+    "from": 2479.51,
+    "to": 2483.6,
+    "sid": 996,
+    "location": 2,
+    "content": "在对话的时候进行使用好",
+    "music": 0
+  },
+  {
+    "from": 2483.6,
+    "to": 2484.47,
+    "sid": 997,
+    "location": 2,
+    "content": "那讲到这边",
+    "music": 0
+  },
+  {
+    "from": 2484.47,
+    "to": 2485.4,
+    "sid": 998,
+    "location": 2,
+    "content": "我就想要回答",
+    "music": 0
+  },
+  {
+    "from": 2485.4,
+    "to": 2486.76,
+    "sid": 999,
+    "location": 2,
+    "content": "我刚才讲的问题",
+    "music": 0
+  },
+  {
+    "from": 2486.76,
+    "to": 2491.35,
+    "sid": 1000,
+    "location": 2,
+    "content": "语言模型是怎么使用这些工具的呢",
+    "music": 0
+  },
+  {
+    "from": 2491.35,
+    "to": 2494.52,
+    "sid": 1001,
+    "location": 2,
+    "content": "不要忘了语言模型只会做一件事",
+    "music": 0
+  },
+  {
+    "from": 2494.52,
+    "to": 2496.63,
+    "sid": 1002,
+    "location": 2,
+    "content": "就是文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2496.63,
+    "to": 2498.7,
+    "sid": 1003,
+    "location": 2,
+    "content": "所以当他使用工具的时候",
+    "music": 0
+  },
+  {
+    "from": 2498.7,
+    "to": 2503.87,
+    "sid": 1004,
+    "location": 2,
+    "content": "他也是用文字接龙的方式在使用工具的",
+    "music": 0
+  },
+  {
+    "from": 2503.87,
+    "to": 2506.84,
+    "sid": 1005,
+    "location": 2,
+    "content": "怎么用文字接龙的方式来使用工具呢",
+    "music": 0
+  },
+  {
+    "from": 2506.84,
+    "to": 2509.27,
+    "sid": 1006,
+    "location": 2,
+    "content": "以下就举一个具体的例子",
+    "music": 0
+  },
+  {
+    "from": 2509.27,
+    "to": 2513.61,
+    "sid": 1007,
+    "location": 2,
+    "content": "告诉你说怎么用文字接龙的方式使用工具啊",
+    "music": 0
+  },
+  {
+    "from": 2513.61,
+    "to": 2515.23,
+    "sid": 1008,
+    "location": 2,
+    "content": "假设你现在想问语言模型",
+    "music": 0
+  },
+  {
+    "from": 2515.23,
+    "to": 2517.03,
+    "sid": 1009,
+    "location": 2,
+    "content": "说我用五美金啊",
+    "music": 0
+  },
+  {
+    "from": 2517.03,
+    "to": 2519.15,
+    "sid": 1010,
+    "location": 2,
+    "content": "可以换多少新台币",
+    "music": 0
+  },
+  {
+    "from": 2519.15,
+    "to": 2521.61,
+    "sid": 1011,
+    "location": 2,
+    "content": "然后呢语言模型呢想要回答你这个问题",
+    "music": 0
+  },
+  {
+    "from": 2521.61,
+    "to": 2523.05,
+    "sid": 1012,
+    "location": 2,
+    "content": "所以开始做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2523.05,
+    "to": 2524.37,
+    "sid": 1013,
+    "location": 2,
+    "content": "五美金可以换",
+    "music": 0
+  },
+  {
+    "from": 2524.37,
+    "to": 2527.34,
+    "sid": 1014,
+    "location": 2,
+    "content": "还记得这几个字以后觉得资讯量不太够",
+    "music": 0
+  },
+  {
+    "from": 2527.34,
+    "to": 2531.06,
+    "sid": 1015,
+    "location": 2,
+    "content": "因为到底美金跟台币兑换的汇率应该是多少呢",
+    "music": 0
+  },
+  {
+    "from": 2531.06,
+    "to": 2534.3,
+    "sid": 1016,
+    "location": 2,
+    "content": "这个兑换的汇率啊应该是随时间变动的",
+    "music": 0
+  },
+  {
+    "from": 2534.3,
+    "to": 2539.24,
+    "sid": 1017,
+    "location": 2,
+    "content": "所以应该去网络上查一下最新的兑换的比例哦",
+    "music": 0
+  },
+  {
+    "from": 2539.24,
+    "to": 2541.43,
+    "sid": 1018,
+    "location": 2,
+    "content": "所以它就会产生一个特殊的符号",
+    "music": 0
+  },
+  {
+    "from": 2541.43,
+    "to": 2544.68,
+    "sid": 1019,
+    "location": 2,
+    "content": "这个特殊的符号代表呼叫工具",
+    "music": 0
+  },
+  {
+    "from": 2544.68,
+    "to": 2547.35,
+    "sid": 1020,
+    "location": 2,
+    "content": "你可以想象说他先定义好一个符号",
+    "music": 0
+  },
+  {
+    "from": 2547.35,
+    "to": 2549.8,
+    "sid": 1021,
+    "location": 2,
+    "content": "比如说一个你平常在对话的时候",
+    "music": 0
+  },
+  {
+    "from": 2549.8,
+    "to": 2551.42,
+    "sid": 1022,
+    "location": 2,
+    "content": "绝对不会用到的符号啊",
+    "music": 0
+  },
+  {
+    "from": 2551.42,
+    "to": 2555.46,
+    "sid": 1023,
+    "location": 2,
+    "content": "那个符号呢只要一出现就代表呼叫工具",
+    "music": 0
+  },
+  {
+    "from": 2555.46,
+    "to": 2558.72,
+    "sid": 1024,
+    "location": 2,
+    "content": "那接下来呢他会继续去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2558.72,
+    "to": 2561.54,
+    "sid": 1025,
+    "location": 2,
+    "content": "直到它产生另外一个特殊符号",
+    "music": 0
+  },
+  {
+    "from": 2561.54,
+    "to": 2564.1,
+    "sid": 1026,
+    "location": 2,
+    "content": "代表结束使用工具为止",
+    "music": 0
+  },
+  {
+    "from": 2564.1,
+    "to": 2566.56,
+    "sid": 1027,
+    "location": 2,
+    "content": "在呼叫工具到结束使用工具",
+    "music": 0
+  },
+  {
+    "from": 2566.56,
+    "to": 2571.34,
+    "sid": 1028,
+    "location": 2,
+    "content": "这两个符号之间的文字就是操作工具的指令",
+    "music": 0
+  },
+  {
+    "from": 2571.34,
+    "to": 2574.07,
+    "sid": 1029,
+    "location": 2,
+    "content": "那至于操作工具的指令应该长什么样子",
+    "music": 0
+  },
+  {
+    "from": 2574.07,
+    "to": 2577.04,
+    "sid": 1030,
+    "location": 2,
+    "content": "这个是你要事先定好的哦",
+    "music": 0
+  },
+  {
+    "from": 2577.04,
+    "to": 2581.12,
+    "sid": 1031,
+    "location": 2,
+    "content": "那这边我是假设说在括号之前的这个东西",
+    "music": 0
+  },
+  {
+    "from": 2581.12,
+    "to": 2583.52,
+    "sid": 1032,
+    "location": 2,
+    "content": "代表说是要使用哪一个工具",
+    "music": 0
+  },
+  {
+    "from": 2583.52,
+    "to": 2584.87,
+    "sid": 1033,
+    "location": 2,
+    "content": "比如说这边写搜寻",
+    "music": 0
+  },
+  {
+    "from": 2584.87,
+    "to": 2587.2,
+    "sid": 1034,
+    "location": 2,
+    "content": "代表要使用搜寻引擎",
+    "music": 0
+  },
+  {
+    "from": 2587.2,
+    "to": 2591.25,
+    "sid": 1035,
+    "location": 2,
+    "content": "括号里面的内容代表你要给那个工具的内容",
+    "music": 0
+  },
+  {
+    "from": 2591.25,
+    "to": 2592.84,
+    "sid": 1036,
+    "location": 2,
+    "content": "如果是搜寻情况的话",
+    "music": 0
+  },
+  {
+    "from": 2592.84,
+    "to": 2596.74,
+    "sid": 1037,
+    "location": 2,
+    "content": "就是你要拿去搜寻的那个关键字啊",
+    "music": 0
+  },
+  {
+    "from": 2596.74,
+    "to": 2598.36,
+    "sid": 1038,
+    "location": 2,
+    "content": "就把台美金",
+    "music": 0
+  },
+  {
+    "from": 2598.36,
+    "to": 2601.81,
+    "sid": 1039,
+    "location": 2,
+    "content": "台币兑换这几个关键字丢到google上面",
+    "music": 0
+  },
+  {
+    "from": 2601.81,
+    "to": 2605.42,
+    "sid": 1040,
+    "location": 2,
+    "content": "那google就会回传给你一些相关的资讯",
+    "music": 0
+  },
+  {
+    "from": 2605.42,
+    "to": 2607.64,
+    "sid": 1041,
+    "location": 2,
+    "content": "比如说你马上就可以看那个网页",
+    "music": 0
+  },
+  {
+    "from": 2607.64,
+    "to": 2609.71,
+    "sid": 1042,
+    "location": 2,
+    "content": "那个网页上只写一美金",
+    "music": 0
+  },
+  {
+    "from": 2609.71,
+    "to": 2611.84,
+    "sid": 1043,
+    "location": 2,
+    "content": "等于31.5台币",
+    "music": 0
+  },
+  {
+    "from": 2611.84,
+    "to": 2614.52,
+    "sid": 1044,
+    "location": 2,
+    "content": "那把你从网页上搜寻到的结果",
+    "music": 0
+  },
+  {
+    "from": 2614.52,
+    "to": 2617.25,
+    "sid": 1045,
+    "location": 2,
+    "content": "当做是文字接龙的一部分",
+    "music": 0
+  },
+  {
+    "from": 2617.25,
+    "to": 2619.92,
+    "sid": 1046,
+    "location": 2,
+    "content": "贴到刚才已经产生的句子",
+    "music": 0
+  },
+  {
+    "from": 2619.92,
+    "to": 2620.4,
+    "sid": 1047,
+    "location": 2,
+    "content": "后面",
+    "music": 0
+  },
+  {
+    "from": 2620.4,
+    "to": 2624.82,
+    "sid": 1048,
+    "location": 2,
+    "content": "这些网络上搜寻到的内容就是当做是语言模型",
+    "music": 0
+  },
+  {
+    "from": 2624.82,
+    "to": 2627.97,
+    "sid": 1049,
+    "location": 2,
+    "content": "做文字接龙已经产生出来的结果",
+    "music": 0
+  },
+  {
+    "from": 2627.97,
+    "to": 2632.14,
+    "sid": 1050,
+    "location": 2,
+    "content": "那语言模型会根据这些网络上搜寻到的内容",
+    "music": 0
+  },
+  {
+    "from": 2632.14,
+    "to": 2634.33,
+    "sid": 1051,
+    "location": 2,
+    "content": "再继续去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2634.33,
+    "to": 2638.54,
+    "sid": 1052,
+    "location": 2,
+    "content": "比如说我已经知道一美金就是31.5台币",
+    "music": 0
+  },
+  {
+    "from": 2638.54,
+    "to": 2641.54,
+    "sid": 1053,
+    "location": 2,
+    "content": "但是五美金到底兑换多少台币呢",
+    "music": 0
+  },
+  {
+    "from": 2641.54,
+    "to": 2643.67,
+    "sid": 1054,
+    "location": 2,
+    "content": "而如果用文字接龙的方式来计算",
+    "music": 0
+  },
+  {
+    "from": 2643.67,
+    "to": 2645.11,
+    "sid": 1055,
+    "location": 2,
+    "content": "恐怕非常容易算错",
+    "music": 0
+  },
+  {
+    "from": 2645.11,
+    "to": 2647.05,
+    "sid": 1056,
+    "location": 2,
+    "content": "所以再呼叫一次工具",
+    "music": 0
+  },
+  {
+    "from": 2647.05,
+    "to": 2648.39,
+    "sid": 1057,
+    "location": 2,
+    "content": "产生一段文字",
+    "music": 0
+  },
+  {
+    "from": 2648.39,
+    "to": 2651.15,
+    "sid": 1058,
+    "location": 2,
+    "content": "直到呼叫工具结束为止啊",
+    "music": 0
+  },
+  {
+    "from": 2651.15,
+    "to": 2653.97,
+    "sid": 1059,
+    "location": 2,
+    "content": "这段文字就是操控工具的指令",
+    "music": 0
+  },
+  {
+    "from": 2653.97,
+    "to": 2657.21,
+    "sid": 1060,
+    "location": 2,
+    "content": "括号前面是计算机代表要呼叫计算机",
+    "music": 0
+  },
+  {
+    "from": 2657.21,
+    "to": 2660.48,
+    "sid": 1061,
+    "location": 2,
+    "content": "括号里面的内容就是你要输入给计算机的内容",
+    "music": 0
+  },
+  {
+    "from": 2660.48,
+    "to": 2661.86,
+    "sid": 1062,
+    "location": 2,
+    "content": "5×31.5",
+    "music": 0
+  },
+  {
+    "from": 2661.86,
+    "to": 2665.23,
+    "sid": 1063,
+    "location": 2,
+    "content": "计算机按一下以后得到157.5",
+    "music": 0
+  },
+  {
+    "from": 2665.23,
+    "to": 2669.609,
+    "sid": 1064,
+    "location": 2,
+    "content": "那把计算机的输出当作是文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2669.609,
+    "to": 2671.619,
+    "sid": 1065,
+    "location": 2,
+    "content": "已经产生出来的结果",
+    "music": 0
+  },
+  {
+    "from": 2671.619,
+    "to": 2673.719,
+    "sid": 1066,
+    "location": 2,
+    "content": "再继续去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2673.719,
+    "to": 2676.029,
+    "sid": 1067,
+    "location": 2,
+    "content": "那这个时候语言模型就不需要自己",
+    "music": 0
+  },
+  {
+    "from": 2676.029,
+    "to": 2677.689,
+    "sid": 1068,
+    "location": 2,
+    "content": "再去做任何数学了",
+    "music": 0
+  },
+  {
+    "from": 2677.689,
+    "to": 2679.549,
+    "sid": 1069,
+    "location": 2,
+    "content": "这边前面都已经接出来",
+    "music": 0
+  },
+  {
+    "from": 2679.549,
+    "to": 2680.929,
+    "sid": 1070,
+    "location": 2,
+    "content": "是157.5",
+    "music": 0
+  },
+  {
+    "from": 2680.929,
+    "to": 2683.869,
+    "sid": 1071,
+    "location": 2,
+    "content": "它根据这段文字继续去做文字接龙",
+    "music": 0
+  },
+  {
+    "from": 2683.869,
+    "to": 2684.949,
+    "sid": 1072,
+    "location": 2,
+    "content": "他只要复制就好",
+    "music": 0
+  },
+  {
+    "from": 2684.949,
+    "to": 2686.82,
+    "sid": 1073,
+    "location": 2,
+    "content": "他把157.5复制出来",
+    "music": 0
+  },
+  {
+    "from": 2686.82,
+    "to": 2689.49,
+    "sid": 1074,
+    "location": 2,
+    "content": "得到答案是157.5元新台币",
+    "music": 0
+  },
+  {
+    "from": 2689.49,
+    "to": 2692.96,
+    "sid": 1075,
+    "location": 2,
+    "content": "那输出结束的符号代表生成结束",
+    "music": 0
+  },
+  {
+    "from": 2692.96,
+    "to": 2695.12,
+    "sid": 1076,
+    "location": 2,
+    "content": "假设你想要知道语言模型",
+    "music": 0
+  },
+  {
+    "from": 2695.12,
+    "to": 2698.33,
+    "sid": 1077,
+    "location": 2,
+    "content": "实际上是怎么学会使用工具的",
+    "music": 0
+  },
+  {
+    "from": 2698.33,
+    "to": 2702.13,
+    "sid": 1078,
+    "location": 2,
+    "content": "它怎么学会在适当的时机输出",
+    "music": 0
+  },
+  {
+    "from": 2702.13,
+    "to": 2703.87,
+    "sid": 1079,
+    "location": 2,
+    "content": "使用工具那个符号",
+    "music": 0
+  },
+  {
+    "from": 2703.87,
+    "to": 2706.51,
+    "sid": 1080,
+    "location": 2,
+    "content": "如果你想知道他是怎么做到这件事情的",
+    "music": 0
+  },
+  {
+    "from": 2706.51,
+    "to": 2708.31,
+    "sid": 1081,
+    "location": 2,
+    "content": "你可以看这一段录音",
+    "music": 0
+  },
+  {
+    "from": 2708.31,
+    "to": 2709.15,
+    "sid": 1082,
+    "location": 2,
+    "content": "会告诉你说",
+    "music": 0
+  },
+  {
+    "from": 2709.15,
+    "to": 2712.72,
+    "sid": 1083,
+    "location": 2,
+    "content": "这些语言模型是怎么学会使用工具的",
+    "music": 0
+  },
+  {
+    "from": 2712.72,
+    "to": 2716.71,
+    "sid": 1084,
+    "location": 2,
+    "content": "也就是在适当的时机产生使用工具这个符号",
+    "music": 0
+  },
+  {
+    "from": 2716.71,
+    "to": 2719.16,
+    "sid": 1085,
+    "location": 2,
+    "content": "但是既然使用工具",
+    "music": 0
+  },
+  {
+    "from": 2719.16,
+    "to": 2723.96,
+    "sid": 1086,
+    "location": 2,
+    "content": "这件事情是语言模型自己学出来的",
+    "music": 0
+  },
+  {
+    "from": 2723.96,
+    "to": 2727.13,
+    "sid": 1087,
+    "location": 2,
+    "content": "那就意味着它难免会犯错",
+    "music": 0
+  },
+  {
+    "from": 2727.13,
+    "to": 2729.11,
+    "sid": 1088,
+    "location": 2,
+    "content": "那这边就是举个犯错的例子",
+    "music": 0
+  },
+  {
+    "from": 2729.11,
+    "to": 2732.119,
+    "sid": 1089,
+    "location": 2,
+    "content": "我今天叫语言模型画一个表格",
+    "music": 0
+  },
+  {
+    "from": 2732.119,
+    "to": 2735.72,
+    "sid": 1090,
+    "location": 2,
+    "content": "整理GBT1到GPT3的模型参数量",
+    "music": 0
+  },
+  {
+    "from": 2735.72,
+    "to": 2737.94,
+    "sid": 1091,
+    "location": 2,
+    "content": "那我想大家应该都听得懂我的意思吧",
+    "music": 0
+  },
+  {
+    "from": 2737.94,
+    "to": 2739.32,
+    "sid": 1092,
+    "location": 2,
+    "content": "我想要画一个表格",
+    "music": 0
+  },
+  {
+    "from": 2739.32,
+    "to": 2740.43,
+    "sid": 1093,
+    "location": 2,
+    "content": "没有人会误会吧",
+    "music": 0
+  },
+  {
+    "from": 2740.43,
+    "to": 2744.75,
+    "sid": 1094,
+    "location": 2,
+    "content": "但是GBT它就画了一个表格这样子",
+    "music": 0
+  },
+  {
+    "from": 2744.75,
+    "to": 2746.01,
+    "sid": 1095,
+    "location": 2,
+    "content": "那他就是他",
+    "music": 0
+  },
+  {
+    "from": 2746.01,
+    "to": 2749.04,
+    "sid": 1096,
+    "location": 2,
+    "content": "他就把这个指令解读成字面上的意思",
+    "music": 0
+  },
+  {
+    "from": 2749.04,
+    "to": 2751.79,
+    "sid": 1097,
+    "location": 2,
+    "content": "真的去画了一个表格",
+    "music": 0
+  },
+  {
+    "from": 2751.79,
+    "to": 2753.71,
+    "sid": 1098,
+    "location": 2,
+    "content": "他呼叫搭理这个工具",
+    "music": 0
+  },
+  {
+    "from": 2753.71,
+    "to": 2755.3,
+    "sid": 1099,
+    "location": 2,
+    "content": "画了一个表格出来",
+    "music": 0
+  },
+  {
+    "from": 2755.3,
+    "to": 2759.85,
+    "sid": 1100,
+    "location": 2,
+    "content": "然后上面呢还在某个地方写了GPT啊",
+    "music": 0
+  },
+  {
+    "from": 2759.85,
+    "to": 2762.19,
+    "sid": 1101,
+    "location": 2,
+    "content": "其实这个语言我现在这个g p t four啊",
+    "music": 0
+  },
+  {
+    "from": 2762.19,
+    "to": 2765.36,
+    "sid": 1102,
+    "location": 2,
+    "content": "我感觉他对画这个字非常的敏感啊",
+    "music": 0
+  },
+  {
+    "from": 2765.36,
+    "to": 2766.62,
+    "sid": 1103,
+    "location": 2,
+    "content": "你少跟他讲话",
+    "music": 0
+  },
+  {
+    "from": 2766.62,
+    "to": 2768.21,
+    "sid": 1104,
+    "location": 2,
+    "content": "这个字你看到画这个字",
+    "music": 0
+  },
+  {
+    "from": 2768.21,
+    "to": 2770.76,
+    "sid": 1105,
+    "location": 2,
+    "content": "他就会忍不住要把达里呼叫出来",
+    "music": 0
+  },
+  {
+    "from": 2770.76,
+    "to": 2772.69,
+    "sid": 1106,
+    "location": 2,
+    "content": "比如说我说请画一只狗",
+    "music": 0
+  },
+  {
+    "from": 2772.69,
+    "to": 2774.25,
+    "sid": 1107,
+    "location": 2,
+    "content": "把这句话翻译成英文",
+    "music": 0
+  },
+  {
+    "from": 2774.25,
+    "to": 2775.87,
+    "sid": 1108,
+    "location": 2,
+    "content": "我就是要他做翻译哦",
+    "music": 0
+  },
+  {
+    "from": 2775.87,
+    "to": 2777.85,
+    "sid": 1109,
+    "location": 2,
+    "content": "它会把请画一只狗翻译成英文",
+    "music": 0
+  },
+  {
+    "from": 2777.85,
+    "to": 2778.82,
+    "sid": 1110,
+    "location": 2,
+    "content": "Please jdg",
+    "music": 0
+  },
+  {
+    "from": 2778.82,
+    "to": 2781.73,
+    "sid": 1111,
+    "location": 2,
+    "content": "但他控制不了他本人想画一只狗的冲动",
+    "music": 0
+  },
+  {
+    "from": 2781.73,
+    "to": 2782.6,
+    "sid": 1112,
+    "location": 2,
+    "content": "看到画那个字",
+    "music": 0
+  },
+  {
+    "from": 2782.6,
+    "to": 2785.18,
+    "sid": 1113,
+    "location": 2,
+    "content": "所以他顺便把一只狗画出来哦",
+    "music": 0
+  },
+  {
+    "from": 2785.18,
+    "to": 2787.56,
+    "sid": 1114,
+    "location": 2,
+    "content": "所以这些工具要怎么使用",
+    "music": 0
+  },
+  {
+    "from": 2787.56,
+    "to": 2789.99,
+    "sid": 1115,
+    "location": 2,
+    "content": "是语言模型自己决定的",
+    "music": 0
+  },
+  {
+    "from": 2789.99,
+    "to": 2795.35,
+    "sid": 1116,
+    "location": 2,
+    "content": "所以他难免会犯一些使用工具上的错误",
+    "music": 0
+  },
+  {
+    "from": 2795.99,
+    "to": 2796.43,
+    "sid": 1117,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 2796.43,
+    "to": 2797.69,
+    "sid": 1118,
+    "location": 2,
+    "content": "那呃语",
+    "music": 0
+  },
+  {
+    "from": 2797.69,
+    "to": 2801.62,
+    "sid": 1119,
+    "location": 2,
+    "content": "要怎么在强化语言模型使用工具的能力呢",
+    "music": 0
+  },
+  {
+    "from": 2801.62,
+    "to": 2804.869,
+    "sid": 1120,
+    "location": 2,
+    "content": "有一篇paper叫做那个呃any tour啊",
+    "music": 0
+  },
+  {
+    "from": 2804.869,
+    "to": 2806.849,
+    "sid": 1121,
+    "location": 2,
+    "content": "这篇paper是一个非常新的论文",
+    "music": 0
+  },
+  {
+    "from": 2806.849,
+    "to": 2809.309,
+    "sid": 1122,
+    "location": 2,
+    "content": "而是上个月才放到archive里面",
+    "music": 0
+  },
+  {
+    "from": 2809.309,
+    "to": 2811.84,
+    "sid": 1123,
+    "location": 2,
+    "content": "就使用了各式各样的技巧",
+    "music": 0
+  },
+  {
+    "from": 2811.84,
+    "to": 2814.18,
+    "sid": 1124,
+    "location": 2,
+    "content": "希望语言模型可以把使用工具",
+    "music": 0
+  },
+  {
+    "from": 2814.18,
+    "to": 2816.07,
+    "sid": 1125,
+    "location": 2,
+    "content": "这件事情用到极致",
+    "music": 0
+  },
+  {
+    "from": 2816.07,
+    "to": 2817.749,
+    "sid": 1126,
+    "location": 2,
+    "content": "那那剩下一段呢",
+    "music": 0
+  },
+  {
+    "from": 2817.749,
+    "to": 2820.389,
+    "sid": 1127,
+    "location": 2,
+    "content": "我们请等助教讲完作业以后再继续说",
+    "music": 0
+  },
+  {
+    "from": 2820.389,
+    "to": 2823.269,
+    "sid": 1128,
+    "location": 2,
+    "content": "那我们现在就请助教呢来讲这个作业",
+    "music": 0
+  },
+  {
+    "from": 2823.269,
+    "to": 2825.6,
+    "sid": 1129,
+    "location": 2,
+    "content": "那么现在要进入作业三",
+    "music": 0
+  },
+  {
+    "from": 2825.6,
+    "to": 2829.35,
+    "sid": 1130,
+    "location": 2,
+    "content": "那作业三开始是一个比较有挑战性的作业",
+    "music": 0
+  },
+  {
+    "from": 2829.35,
+    "to": 2832.26,
+    "sid": 1131,
+    "location": 2,
+    "content": "前两个作业你没有碰到任何的城市",
+    "music": 0
+  },
+  {
+    "from": 2832.26,
+    "to": 2833.67,
+    "sid": 1132,
+    "location": 2,
+    "content": "那从作业三开始",
+    "music": 0
+  },
+  {
+    "from": 2833.67,
+    "to": 2837.21,
+    "sid": 1133,
+    "location": 2,
+    "content": "我们要真的碰到写成式的部分",
+    "music": 0
+  },
+  {
+    "from": 2837.21,
+    "to": 2839.88,
+    "sid": 1134,
+    "location": 2,
+    "content": "我就请助教来讲一下作业三",
+    "music": 0
+  }
+]

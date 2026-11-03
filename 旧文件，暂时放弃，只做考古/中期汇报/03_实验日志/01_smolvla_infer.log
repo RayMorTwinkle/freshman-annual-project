@@ -1,0 +1,31 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+============================================================
+[STEP] Imports
+[OK]
+[INFO] device: cuda, torch: 2.10.0+git8514f05
+[STEP] Load policy
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  69%|██████▊   | 335/489 [00:00<00:00, 3339.53it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 3790.47it/s]
+Reducing the number of VLM layers to 16 ...
+[OK] 450.0M params
+[STEP] Build preprocess/postprocess
+[OK]
+[STEP] Load dataset: lerobot/svla_so101_pickplace
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:00<00:01,  1.83it/s]Fetching 4 files:  50%|█████     | 2/4 [00:00<00:00,  3.37it/s]Fetching 4 files:  75%|███████▌  | 3/4 [00:01<00:00,  1.67it/s]Fetching 4 files: 100%|██████████| 4/4 [00:01<00:00,  2.46it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|█         | 1/9 [00:00<00:04,  1.84it/s]Fetching 9 files:  33%|███▎      | 3/9 [00:00<00:01,  4.01it/s]Fetching 9 files:  89%|████████▉ | 8/9 [00:01<00:00,  6.35it/s]Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  1.85it/s]Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.35it/s]
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+[OK] 11939 samples
+[INFO] frame keys: ['observation.images.up', 'observation.images.side', 'action', 'observation.state', 'timestamp', 'frame_index', 'episode_index', 'index', 'task_index', 'task']
+[OK] saved /mnt/workspace/midterm_vla/figs/sample_observation.png
+[INFO] mapped observation.images.up -> observation.images.camera1
+[INFO] mapped observation.images.side -> observation.images.camera2
+[INFO] mapped observation.images.side -> observation.images.camera3
+[STEP] Preprocess
+[OK]
+[STEP] select_action
+[OK] output type: <class 'torch.Tensor'>
+[RESULT] action shape: (1, 6), dtype: torch.float32
+[RESULT] first values: [0.8093140125274658, -0.2830653786659241, -0.4427507221698761, -0.1857687085866928, 3.3323020935058594, -0.7801622152328491]
+============================================================
+DONE - inference pipeline complete!

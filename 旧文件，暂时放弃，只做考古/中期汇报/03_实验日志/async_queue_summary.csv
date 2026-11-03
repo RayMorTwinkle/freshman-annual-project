@@ -1,0 +1,5 @@
+mode,idle_steps,total_steps,idle_pct,throughput_pct,improvement
+sync,50,300,16.7,83.3,baseline
+async_gamma_0.5,0,300,0.0,100.0,100.0% reduction
+async_gamma_0.6,0,300,0.0,100.0,100.0% reduction
+async_gamma_0.7,0,300,0.0,100.0,100.0% reduction
