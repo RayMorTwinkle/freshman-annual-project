@@ -1,0 +1,14 @@
+{
+  "clean": {
+    "attempts": 5,
+    "checked_success": 5,
+    "hdf5": 5,
+    "videos": 5
+  },
+  "randomized": {
+    "attempts": 5,
+    "checked_success": 3,
+    "hdf5": 3,
+    "videos": 3
+  }
+}

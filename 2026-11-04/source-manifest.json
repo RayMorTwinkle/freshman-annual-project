@@ -1,0 +1,122 @@
+[
+  {
+    "file": "RoboTwin/annual-robotwin-bounded.py",
+    "source_sha256": "662d3436c7f798fa2464cfaf317221e9bce74e9773013809d5bf42b367e5bbfd"
+  },
+  {
+    "file": "RoboTwin/annual-robotwin-materials.py",
+    "source_sha256": "5f2c3b757b4145bf24e12e38da9c29e658cfe4b5edd11ed6dc50bb5bd40c2c6e"
+  },
+  {
+    "file": "RoboTwin/annual-robotwin-pair.py",
+    "source_sha256": "8b26b35a2513ead8a33e0f3d39a9c823852a1b6e539bcec227858f844ba88420"
+  },
+  {
+    "file": "RoboTwin/annual_b_clean.yml",
+    "source_sha256": "5e849ea2315f9a99f0b666cf08474c6e9213d887296f121f21c35dd47e99ee01"
+  },
+  {
+    "file": "RoboTwin/annual_b_randomized.yml",
+    "source_sha256": "a0481d210339b4dd63731e9376b5f7c03d6278553b831b7691f4336a535899a7"
+  },
+  {
+    "file": "RoboTwin/environment-freeze.txt",
+    "source_sha256": "bab83a75026e81b8641af658fe6842d48269e027c466bc484a43081b73daff4f"
+  },
+  {
+    "file": "RoboTwin/export-sha256.txt",
+    "source_sha256": "14e83eded9743f9f5b5c916929d344bb91b9e905304be6a0fbf5b5f19129dfba"
+  },
+  {
+    "file": "RoboTwin/robotwin-colab-setup.sh",
+    "source_sha256": "04b7360225c12c856bb56a8b13592431bfb0dffe01957594270bef166e89c028"
+  },
+  {
+    "file": "RoboTwin/seed-attempts.csv",
+    "source_sha256": "fcc622ab7796ac8a9b63871b4adaecafb3fcd2ad1e0c0b9b552230520e13e72b"
+  },
+  {
+    "file": "RoboTwin/summary.json",
+    "source_sha256": "858b30d3f6372dd464063fb2c150caa1bebbe8d2bc055f51c8ce5e94b617b16e"
+  },
+  {
+    "file": "SmolVLA/annual-smolvla-batch.py",
+    "source_sha256": "0994cc0c53e4c0362fd84f6805fffab32cdd8f046acbedd16420fcd9f45c7b56"
+  },
+  {
+    "file": "SmolVLA/annual-smolvla-materials.py",
+    "source_sha256": "fb44d39126912cc2f9662e1b35da9fde6d393927a8349d2aab84579555583d79"
+  },
+  {
+    "file": "SmolVLA/environment-freeze.txt",
+    "source_sha256": "fb4a5e67affbfca7324c083c7906abeb55ed3cd185c80e5cbcafe5d3047e01fa"
+  },
+  {
+    "file": "SmolVLA/observations.csv",
+    "source_sha256": "1b11dec57fb931fdb166b7bab940b8dc38d8fd660a6760f7cc3cc205f6487074"
+  },
+  {
+    "file": "SmolVLA/observations.json",
+    "source_sha256": "df79c31ae58b748ea8741d4b70441c6b8265062f28a0bafe31a311e482b4e2a4"
+  },
+  {
+    "file": "SmolVLA/summary.json",
+    "source_sha256": "df5c4ac48d5e4d08f5debabab124e84e8e05fb735901297a8312e14b5d7e7097"
+  },
+  {
+    "file": "复现报告.md",
+    "source_sha256": "08026a3ab51622a205270da900d5b74a25d121a93c9490fb35d3ba93a9557fe4"
+  },
+  {
+    "file": "素材索引.md",
+    "source_sha256": "2fe32cfc25622d292e0248f358ca3b021e9b098ae868452704c7e668918b804f"
+  },
+  {
+    "file": "补充素材/R4-data-structure.csv",
+    "source_sha256": "69679ac1719d37ae3a418319bdb58385ba2e2dd7018c769fd3dd5eda3398aace"
+  },
+  {
+    "file": "补充素材/R8-clean-log-excerpt.txt",
+    "source_sha256": "1af05b6af333e07dcad7535ed5376a6c29b0e2eed9de733e526fdcb96f13eca5"
+  },
+  {
+    "file": "补充素材/R8-randomized-log-excerpt.txt",
+    "source_sha256": "34581d2922cafdd29a24fdaaff1c51a65b9f3b91b5dfecc94d0a7b1a6fa5694b"
+  },
+  {
+    "file": "补充素材/S2-latency-by-episode.csv",
+    "source_sha256": "f277ce861cb9ae4e6ba28369d4354a8c0e837063038f00d97c422f5ac6e63fd7"
+  },
+  {
+    "file": "补充素材/S4-instruction-components.csv",
+    "source_sha256": "3cced24316d32fdbe1ac9eb4b4052049aa4940654dfd4b1e17a49622bd9478cf"
+  },
+  {
+    "file": "补充素材/cpu-environment-freeze.txt",
+    "source_sha256": "5648bea299f48ddf3df7703b727c20f9b39a320dfaca0a458946bce17250c1f5"
+  },
+  {
+    "file": "补充素材/expand_materials.py",
+    "source_sha256": "b3aed45bff71be0b9d19b24d2aecf42511bd177d6782798fd7634d3b89b12ef0"
+  },
+  {
+    "file": "补充素材/manifest.json",
+    "source_sha256": "d82e0cdea0ca60345d18f7108f7b69be0cde1580d28a90c42a0d82ef24bcef2e"
+  },
+  {
+    "file": "补充素材/validate_materials.py",
+    "source_sha256": "c896c139621a73ecc5ea04c2f353a96859c3305828bd7994960d9263ea47e573"
+  },
+  {
+    "file": "补充素材/validation.json",
+    "source_sha256": "da48c5ac2ef596aeae243f3ff3406768898d2b0ffd114237c0cd7dd603e24636"
+  },
+  {
+    "file": "补充素材/使用说明.md",
+    "source_sha256": "87baec4d42b25e23d39811c3f241b5d45ae8836c031d718adc6a20161fe49da7"
+  },
+  {
+    "file": "零基础学习与答辩手册.md",
+    "source_sha256": "d5ea3bf2fced4acef87dbfdcf27b37bd601c2fdccf2e6f553dc4c2b5e052980b"
+  }
+]

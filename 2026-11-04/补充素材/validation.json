@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "files": 27,
+  "counts": {
+    ".png": 22,
+    ".csv": 3,
+    ".txt": 2
+  },
+  "sha256": {
+    "R1-storyboard-clean-seed0.png": "a7b764c64f424b08f23c2ef6dfe5c6f557e95ba0344bc396073cd0eca5c39c24",
+    "R2-action-components-clean.png": "1ada007c726dd6f353f7ac7cccbb7f28614462dc85fd419f231c6c3cb073110a",
+    "R3-three-cameras-clean.png": "59c684bb498915e9984f2ccd087da78cb405964d031aa4b98d78d1b3e70422b9",
+    "R1-storyboard-clean-seed1.png": "af4588ef96245167ff625d4953d5c6f1402646c1b10ca4c225b0b1c4b71b5601",
+    "R1-storyboard-clean-seed2.png": "47e4208b4246f7ebf4a41729cb6925b920a2667f50621fb761e90a1ddf82251a",
+    "R1-storyboard-clean-seed3.png": "daa5ae162e11dee57cd41f6b4b25984171e0c5026895f5e222dfa704c597f1cd",
+    "R1-storyboard-clean-seed4.png": "b2f4f413b62baa174d9ed777d21a8a74225b8703448a27a52570372a1f8c12ba",
+    "R1-storyboard-randomized-seed0.png": "20825e4c0f1479e489c3ba4d51a7c541b731907b60de972ccdd950c469bf7dec",
+    "R2-action-components-randomized.png": "b878fe901dead18c4614848bcb841281eeb43835738626c4ece882c431b7757a",
+    "R3-three-cameras-randomized.png": "136ab13682914f440dd0af14999c68c97ad0c73ac5774fc91936e2b9d15ec80c",
+    "R1-storyboard-randomized-seed3.png": "90443b191deff03e970df69e7257bf95d56a1dd977a9f827b3681520992e31e4",
+    "R1-storyboard-randomized-seed4.png": "9ed554f532690b9a7cfb4cba3c0ba672854fe64e26c0ff5d5080b6b8db6a9053",
+    "R4-data-structure.csv": "9c5d96436c8451f42b9abaebab22637a0c96f8fe60850698afe7f95e38f077da",
+    "R5-seed-overview.png": "eff2db1157e409dbdf833f40cb2d5ee6edb3c6d9376274f646411e4864950dc3",
+    "R6-paired-seed0.png": "f709ab4f51fce7bf32c0807059f0ec276d99a48676cfd85f9d4171b0b0a8ab39",
+    "R6-paired-seed3.png": "f51cd250ff4d81677a3c568832883e3f48f8ff0190de3677f72df4b5a4d3374b",
+    "R6-paired-seed4.png": "6a024ee41215cc8558bd5e2f7114db0e29e96a29d0cdbee38ea25438a7f490c0",
+    "R7-generation-outcomes.png": "8be9238153740726161a3f2b62a317d247f396859be22841f9fc80399562dabc",
+    "R8-clean-log-excerpt.txt": "827149a59484a811cc0fd374991499afa6a32937e760489e92996dd479fea0ef",
+    "R8-randomized-log-excerpt.txt": "b4636d4dfa994a51ce5083f640589e77eaa926fb65169f5d08add4081f8266ab",
+    "R9-duration-by-seed.png": "e918fa2a31d7649a9ccffc7d7569545ed7e55c0f69516511589b8d7566238a19",
+    "S1-input-episode0.png": "fe8f475eab4a0212f5cd129cd59a7941fa090044e009b9bb434e6754fdacdc9f",
+    "S1-input-episode1.png": "1bac7c0dcf8ed70180cfaddcc85688bafec15146c8c0092a62edb7077587408a",
+    "S1-input-episode2.png": "f3775ddb2798eb0327b09a8c46a9f02591e274d15ba1fcea745c38e38d63477b",
+    "S2-latency-by-episode.csv": "634b413fe932ccf6c61d7d33b7812a69bfb2e09a0714bfca49d3e948e70b5926",
+    "S3-latency-distribution.png": "0b0b2357bf28b11d94006935bb55ce04c72e8f9590fcadba827976417b77830e",
+    "S4-instruction-components.csv": "9905b64af49f5f0b2758587651cc83aabd024fc519851292ed9f5914676ec386"
+  }
+}

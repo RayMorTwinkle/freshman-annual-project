@@ -1,0 +1,10 @@
+condition,seed,observation_rows,action_rows,video_frames,left_arm_components,right_arm_components,camera_count,finite_joint_actions
+clean,0,288,288,289,6,6,4,True
+clean,1,279,279,280,6,6,4,True
+clean,2,287,287,288,6,6,4,True
+clean,3,278,278,279,6,6,4,True
+clean,4,289,289,290,6,6,4,True
+randomized,0,285,285,286,6,6,4,True
+randomized,3,286,286,287,6,6,4,True
+randomized,4,284,284,285,6,6,4,True
+

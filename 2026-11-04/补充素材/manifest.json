@@ -1,0 +1,164 @@
+[
+  {
+    "file": "R1-storyboard-clean-seed0.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R2-action-components-clean.png",
+    "category": "动作结构",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Raw recorded values; do not compare across different controllers before checking units."
+  },
+  {
+    "file": "R3-three-cameras-clean.png",
+    "category": "多视角",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Rows are beginning/middle/end sampled by index; columns are head/left wrist/right wrist."
+  },
+  {
+    "file": "R1-storyboard-clean-seed1.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000001.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R1-storyboard-clean-seed2.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000002.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R1-storyboard-clean-seed3.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000003.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R1-storyboard-clean-seed4.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000004.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R1-storyboard-randomized-seed0.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R2-action-components-randomized.png",
+    "category": "动作结构",
+    "source": "generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Raw recorded values; do not compare across different controllers before checking units."
+  },
+  {
+    "file": "R3-three-cameras-randomized.png",
+    "category": "多视角",
+    "source": "generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000000.hdf5",
+    "note": "Rows are beginning/middle/end sampled by index; columns are head/left wrist/right wrist."
+  },
+  {
+    "file": "R1-storyboard-randomized-seed3.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000001.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R1-storyboard-randomized-seed4.png",
+    "category": "轨迹分镜",
+    "source": "generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000002.hdf5",
+    "note": "Six equally spaced observations. Temporal positions are not hand-labelled action phases."
+  },
+  {
+    "file": "R4-data-structure.csv",
+    "category": "数据结构表",
+    "source": "Eight self-collected HDF5 files",
+    "note": "Observation/action and video counts use separate definitions."
+  },
+  {
+    "file": "R5-seed-overview.png",
+    "category": "跨种子对照",
+    "source": "seed-attempts.csv and HDF5",
+    "note": "Blank cells identify failed trials; no replacement success was sampled."
+  },
+  {
+    "file": "R6-paired-seed0.png",
+    "category": "场景对照",
+    "source": "Clean/randomized HDF5",
+    "note": "Same seed number does not guarantee identical sampled object poses when configurations draw different random variables."
+  },
+  {
+    "file": "R6-paired-seed3.png",
+    "category": "场景对照",
+    "source": "Clean/randomized HDF5",
+    "note": "Same seed number does not guarantee identical sampled object poses when configurations draw different random variables."
+  },
+  {
+    "file": "R6-paired-seed4.png",
+    "category": "场景对照",
+    "source": "Clean/randomized HDF5",
+    "note": "Same seed number does not guarantee identical sampled object poses when configurations draw different random variables."
+  },
+  {
+    "file": "R7-generation-outcomes.png",
+    "category": "结果统计",
+    "source": "seed-attempts.csv",
+    "note": "Small-sample generation outcomes; not learned-policy robustness."
+  },
+  {
+    "file": "R8-clean-log-excerpt.txt",
+    "category": "原始证据摘录",
+    "source": "RoboTwin/clean.log",
+    "note": "Exact lines with ANSI color codes removed."
+  },
+  {
+    "file": "R8-randomized-log-excerpt.txt",
+    "category": "原始证据摘录",
+    "source": "RoboTwin/randomized.log",
+    "note": "Exact lines with ANSI color codes removed."
+  },
+  {
+    "file": "R9-duration-by-seed.png",
+    "category": "轨迹时长",
+    "source": "Verified video frame counts at 30 FPS",
+    "note": "Duration variation is descriptive; only successful exports are included."
+  },
+  {
+    "file": "S1-input-episode0.png",
+    "category": "SmolVLA 输入",
+    "source": "SO-101 dataset screenshots",
+    "note": "Recorded observations; predicted actions were evaluated offline."
+  },
+  {
+    "file": "S1-input-episode1.png",
+    "category": "SmolVLA 输入",
+    "source": "SO-101 dataset screenshots",
+    "note": "Recorded observations; predicted actions were evaluated offline."
+  },
+  {
+    "file": "S1-input-episode2.png",
+    "category": "SmolVLA 输入",
+    "source": "SO-101 dataset screenshots",
+    "note": "Recorded observations; predicted actions were evaluated offline."
+  },
+  {
+    "file": "S2-latency-by-episode.csv",
+    "category": "计时表",
+    "source": "SmolVLA/observations.json",
+    "note": "Episode 0 includes the first call; other episodes do not."
+  },
+  {
+    "file": "S3-latency-distribution.png",
+    "category": "计时分布",
+    "source": "SmolVLA/observations.json",
+    "note": "Thirty calls from three recorded trajectories; temporal samples are correlated."
+  },
+  {
+    "file": "S4-instruction-components.csv",
+    "category": "指令对照表",
+    "source": "SmolVLA/observations.json",
+    "note": "Single matched observation, state and RNG seed; no action execution."
+  }
+]

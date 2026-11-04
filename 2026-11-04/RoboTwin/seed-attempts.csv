@@ -1,0 +1,12 @@
+condition,seed,planning_and_task_check,hdf5,video,frames
+clean,0,success,generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000000.hdf5,generated/annual_b_clean/handover_block/aloha_agilex/video/episode_0000000.mp4,289
+clean,1,success,generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000001.hdf5,generated/annual_b_clean/handover_block/aloha_agilex/video/episode_0000001.mp4,280
+clean,2,success,generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000002.hdf5,generated/annual_b_clean/handover_block/aloha_agilex/video/episode_0000002.mp4,288
+clean,3,success,generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000003.hdf5,generated/annual_b_clean/handover_block/aloha_agilex/video/episode_0000003.mp4,279
+clean,4,success,generated/annual_b_clean/handover_block/aloha_agilex/data/episode_0000004.hdf5,generated/annual_b_clean/handover_block/aloha_agilex/video/episode_0000004.mp4,290
+randomized,0,success,generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000000.hdf5,generated/annual_b_randomized/handover_block/aloha_agilex/video/episode_0000000.mp4,286
+randomized,1,fail,,,
+randomized,2,fail,,,
+randomized,3,success,generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000001.hdf5,generated/annual_b_randomized/handover_block/aloha_agilex/video/episode_0000001.mp4,287
+randomized,4,success,generated/annual_b_randomized/handover_block/aloha_agilex/data/episode_0000002.hdf5,generated/annual_b_randomized/handover_block/aloha_agilex/video/episode_0000002.mp4,285
+

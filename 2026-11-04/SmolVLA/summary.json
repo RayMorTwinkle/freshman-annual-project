@@ -1,0 +1,8 @@
+{
+  "observations": 30,
+  "first_seconds": 1.95375369400017,
+  "post_first_median_seconds": 0.9108869869999126,
+  "post_first_p90_seconds": 1.1399165283999537,
+  "action_units_validation": "Unverified equivalence between checkpoint and recorded controller; descriptive overlay only.",
+  "paired_instruction_delta_l2": 0.6228808739889724
+}

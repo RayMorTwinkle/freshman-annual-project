@@ -1,0 +1,8 @@
+simulate data episode 0 success! (seed = 0)
+simulate data episode 1 success! (seed = 1)
+simulate data episode 2 success! (seed = 2)
+simulate data episode 3 success! (seed = 3)
+simulate data episode 4 success! (seed = 4)
+Complete simulation, failed 0 times / 5 tries 
+clean exit code 0
+
