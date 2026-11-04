@@ -1,0 +1,16 @@
+['uv', 'pip', 'install', '--python', '/content/robotwin-probe/bin/python', 'setuptools<81'] 0  Using Python 3.10.22 environment at: robotwin-probe
+Resolved 1 package in 179ms
+Downloading setuptools (1.0MiB)
+ Downloaded setuptools
+Prepared 1 package in 246ms
+Installed 1 package in 8ms
+ + setuptools==80.10.2
+
+['/content/robotwin-probe/bin/python', '-c', 'import sapien; s=sapien.Scene(); c=s.add_camera("probe",64,64,1.0,0.1,10); s.update_render(); c.take_picture(); print(c.get_picture("Color").shape)'] 0 (64, 64, 4)
+ /content/robotwin-probe/lib/python3.10/site-packages/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/content/robotwin-probe/lib/python3.10/site-packages/sapien/_vulkan_tricks.py:37: UserWarning: Failed to find Vulkan ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+/content/robotwin-probe/lib/python3.10/site-packages/sapien/_vulkan_tricks.py:59: UserWarning: Failed to find glvnd ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+

@@ -1,0 +1,8 @@
+# Local system files and Python environments
+.DS_Store
+._*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/

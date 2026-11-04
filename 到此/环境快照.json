@@ -1,0 +1,227 @@
+{
+  "recorded_at": "2026-11-03T21:40:24+08:00",
+  "timezone": "Asia/Shanghai",
+  "cli_version": "0.7.5",
+  "python": "Python 3.12.13",
+  "installation_command": "uv tool install --python 3.12 google-colab-cli",
+  "tool_directory": "/Users/ray/.local/share/uv/tools/google-colab-cli",
+  "executable": "/Users/ray/.local/bin/colab",
+  "packages": [
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2"
+    },
+    {
+      "name": "fastjsonschema",
+      "version": "2.22.3"
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.7"
+    },
+    {
+      "name": "google-auth",
+      "version": "2.62.1"
+    },
+    {
+      "name": "google-auth-oauthlib",
+      "version": "1.5.0"
+    },
+    {
+      "name": "google-colab-cli",
+      "version": "0.7.5"
+    },
+    {
+      "name": "html2text",
+      "version": "2025.4.15"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1"
+    },
+    {
+      "name": "jupyter-client",
+      "version": "8.10.0"
+    },
+    {
+      "name": "jupyter-core",
+      "version": "5.9.1"
+    },
+    {
+      "name": "jupyter-kernel-client",
+      "version": "0.9.0"
+    },
+    {
+      "name": "jupyter-mimetypes",
+      "version": "0.2.0"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "nbformat",
+      "version": "5.11.1"
+    },
+    {
+      "name": "oauthlib",
+      "version": "4.0.1"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.14.3"
+    },
+    {
+      "name": "prompt-toolkit",
+      "version": "3.0.53"
+    },
+    {
+      "name": "pyarrow",
+      "version": "26.0.1"
+    },
+    {
+      "name": "pyasn1",
+      "version": "0.6.5"
+    },
+    {
+      "name": "pyasn1-modules",
+      "version": "0.4.2"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.12"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.2"
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.50.2"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0"
+    },
+    {
+      "name": "pyzmq",
+      "version": "27.2.0"
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "name": "requests-oauthlib",
+      "version": "2.0.0"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1"
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4"
+    },
+    {
+      "name": "tornado",
+      "version": "6.6"
+    },
+    {
+      "name": "traitlets",
+      "version": "5.16.1"
+    },
+    {
+      "name": "typer",
+      "version": "0.27.3"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4"
+    },
+    {
+      "name": "websocket-client",
+      "version": "1.9.2"
+    }
+  ],
+  "cloud_tested": true,
+  "cloud_tested_at": "2026-11-03T21:47:33+08:00",
+  "cloud_test_summary": {
+    "cpu": true,
+    "gpu": "Tesla T4, 15360 MiB",
+    "cuda": true,
+    "final_active_sessions": 0
+  }
+}

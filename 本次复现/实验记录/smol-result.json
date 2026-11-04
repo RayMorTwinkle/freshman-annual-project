@@ -1,0 +1,37 @@
+{
+  "model": "lerobot/smolvla_base",
+  "model_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "dataset": "lerobot/svla_so101_pickplace",
+  "dataset_revision": "f641879e22172be7e8161d5e6c1503c2d2feb657",
+  "frame_index": 0,
+  "frames": 11939,
+  "mapping": {
+    "observation.images.camera1": "observation.images.side",
+    "observation.images.camera2": "observation.images.up",
+    "observation.images.camera3": "observation.images.up"
+  },
+  "task": "pink lego brick into the transparent box",
+  "shape": [
+    1,
+    6
+  ],
+  "action": [
+    [
+      0.4352908134460449,
+      -0.2852395474910736,
+      -0.6140724420547485,
+      0.6140569448471069,
+      1.2732990980148315,
+      -0.8516286611557007
+    ]
+  ],
+  "finite": true,
+  "first_action_seconds": 1.7560525579999648,
+  "parameters": 450046176,
+  "gpu": "Tesla T4",
+  "versions": {
+    "lerobot": "0.6.1",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.5.4"
+  }
+}

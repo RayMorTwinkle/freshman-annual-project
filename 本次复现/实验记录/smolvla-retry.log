@@ -1,0 +1,26 @@
+[0;31m---------------------------------------------------------------------------[0m[0;31mImportError[0m                               Traceback (most recent call last)[0;32m/tmp/ipykernel_1754/3018060994.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m      3[0m [0;32mfrom[0m [0mPIL[0m [0;32mimport[0m [0mImage[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;32mfrom[0m [0mhuggingface_hub[0m [0;32mimport[0m [0mHfApi[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 5[0;31m [0;32mfrom[0m [0mlerobot[0m[0;34m.[0m[0mdatasets[0m[0;34m.[0m[0mlerobot_dataset[0m [0;32mimport[0m [0mLeRobotDataset[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      6[0m [0;32mfrom[0m [0mlerobot[0m[0;34m.[0m[0mpolicies[0m[0;34m.[0m[0mfactory[0m [0;32mimport[0m [0mmake_pre_post_processors[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m [0;32mfrom[0m [0mlerobot[0m[0;34m.[0m[0mpolicies[0m[0;34m.[0m[0msmolvla[0m[0;34m.[0m[0mmodeling_smolvla[0m [0;32mimport[0m [0mSmolVLAPolicy[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/lerobot/datasets/__init__.py[0m in [0;36m<module>[0;34m[0m
+[1;32m     19[0m [0;34m[0m[0m
+[1;32m     20[0m [0mrequire_package[0m[0;34m([0m[0;34m"datasets"[0m[0;34m,[0m [0mextra[0m[0;34m=[0m[0;34m"dataset"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 21[0;31m [0mrequire_package[0m[0;34m([0m[0;34m"av"[0m[0;34m,[0m [0mextra[0m[0;34m=[0m[0;34m"dataset"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     22[0m [0;34m[0m[0m
+[1;32m     23[0m [0;32mfrom[0m [0;34m.[0m[0maggregate[0m [0;32mimport[0m [0maggregate_datasets[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/lerobot/utils/import_utils.py[0m in [0;36mrequire_package[0;34m(pkg_name, extra, import_name)[0m
+[1;32m     99[0m         [0m_require_package_cache[0m[0;34m[[0m[0mcache_key[0m[0;34m][0m [0;34m=[0m [0mis_package_available[0m[0;34m([0m[0mpkg_name[0m[0;34m,[0m [0mimport_name[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    100[0m     [0;32mif[0m [0;32mnot[0m [0m_require_package_cache[0m[0;34m[[0m[0mcache_key[0m[0;34m][0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m         raise ImportError(
+[0m[1;32m    102[0m             [0;34mf"'{pkg_name}' is required but not installed. Install it with: "[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    103[0m             [0;34mf"pip install 'lerobot[{extra}]' (or uv pip install 'lerobot[{extra}]')"[0m[0;34m[0m[0;34m[0m[0m
+[0;31mImportError[0m: 'av' is required but not installed. Install it with: pip install 'lerobot[dataset]' (or uv pip install 'lerobot[dataset]')[0;31m---------------------------------------------------------------------------[0;32m
+NOTE: If your import is failing due to a missing package, you can
+manually install dependencies using either !pip or !apt.
+
+To view examples of installing some common dependencies, click the
+"Open Examples" button below.
+[0;31m---------------------------------------------------------------------------[0m
+

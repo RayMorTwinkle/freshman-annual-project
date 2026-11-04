@@ -1,0 +1,55 @@
+COMMAND ('nvidia-smi', '--query-gpu=name,memory.total,driver_version', '--format=csv,noheader') EXIT 0
+Tesla T4, 15360 MiB, 580.82.07
+
+COMMAND ('git', '-C', '/content/robotwin', 'rev-parse', 'HEAD') EXIT 0
+ea8b21121ebb3cd201ff5b3fe361944ac94eda3f
+
+COMMAND ('/usr/bin/python3', '-m', 'pip', 'install', '--no-deps', 'sapien==3.0.0b1') EXIT 1
+ERROR: Could not find a version that satisfies the requirement sapien==3.0.0b1 (from versions: 3.0.0, 3.0.1, 3.0.2, 3.0.3)
+ERROR: No matching distribution found for sapien==3.0.0b1
+
+COMMAND ('uv', 'venv', '--python', '3.10', '/content/robotwin-probe') EXIT 0
+warning: The `--system` flag has no effect, `uv venv` always ignores virtual environments when finding a Python interpreter; did you mean `--no-managed-python`?
+Downloading cpython-3.10.22-linux-x86_64-gnu (download) (28.0MiB)
+ Downloaded cpython-3.10.22-linux-x86_64-gnu (download)
+Using CPython 3.10.22
+Creating virtual environment at: robotwin-probe
+Activate with: source robotwin-probe/bin/activate
+
+COMMAND ('uv', 'pip', 'install', '--python', '/content/robotwin-probe/bin/python', 'numpy==1.26.4', 'sapien==3.0.0b1') EXIT 0
+Using Python 3.10.22 environment at: robotwin-probe
+Resolved 12 packages in 421ms
+Downloading opencv-python (60.1MiB)
+Downloading networkx (1.6MiB)
+Downloading numpy (17.4MiB)
+Downloading sapien (47.3MiB)
+Downloading lxml (5.1MiB)
+Downloading transforms3d (1.3MiB)
+ Downloaded transforms3d
+ Downloaded networkx
+ Downloaded lxml
+ Downloaded numpy
+ Downloaded sapien
+ Downloaded opencv-python
+Prepared 12 packages in 2.32s
+Installed 12 packages in 55ms
+ + certifi==2026.10.23
+ + charset-normalizer==3.5.2
+ + idna==3.20
+ + lxml==6.1.3
+ + networkx==3.4.2
+ + numpy==1.26.4
+ + opencv-python==4.11.0.86
+ + pyperclip==1.11.0
+ + requests==2.34.2
+ + sapien==3.0.0b1
+ + transforms3d==0.4.2
+ + urllib3==2.8.0
+
+COMMAND ('/content/robotwin-probe/bin/python', '-c', 'import sapien; print(sapien.__file__,flush=True); s=sapien.Scene(); c=s.add_camera("probe",64,64,1.0,0.1,10); s.update_render(); c.take_picture(); print(c.get_picture("Color").shape)') EXIT 1
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/content/robotwin-probe/lib/python3.10/site-packages/sapien/__init__.py", line 2, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+

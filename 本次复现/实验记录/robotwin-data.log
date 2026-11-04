@@ -1,0 +1,45 @@
+{
+  "revision": "1287871839fae2296bc27b88a5457c3e1eba8e1f",
+  "episodes": 27500,
+  "frames": 6075103,
+  "fps": 30,
+  "action_dimensions": [
+    14
+  ],
+  "state_dimensions": [
+    14
+  ],
+  "camera_keys": [
+    "observation.images.cam_high",
+    "observation.images.cam_left_wrist",
+    "observation.images.cam_right_wrist"
+  ],
+  "episode_length_frames": {
+    "min": 74,
+    "median": 165.0,
+    "max": 1084
+  },
+  "first_three_episodes": [
+    {
+      "episode_index": 0,
+      "length": 139,
+      "tasks": [
+        "Lift the bottle with narrow top head-up from the table"
+      ]
+    },
+    {
+      "episode_index": 1,
+      "length": 143,
+      "tasks": [
+        "Pick the dark drink bottle with logo and keep it upright"
+      ]
+    },
+    {
+      "episode_index": 2,
+      "length": 135,
+      "tasks": [
+        "Raise the bottle with ridges near base in a head-up position"
+      ]
+    }
+  ]
+}
